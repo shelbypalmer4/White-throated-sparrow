@@ -1,7 +1,7 @@
 #### Step 1: visual quality-check of timer() output using spectrograms ####
 
-#setwd("C:/Users/Shelby Palmer/Desktop/WTSP")
-setwd("/Users/Shared/WTSP/")
+setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow")
+#setwd("/Users/Shared/WTSP/")
 
 #source("timer_hack.R")
 
@@ -95,6 +95,7 @@ lapply(list.files(pattern = ".wav"), timespec)
 #
 #
 ### messing around with just 1 recording
+setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/terminal strophe recordings")
 hm <- readWave("WTSP13.wav")
 #hm <- readWave("ML34904071_terminal_strophes.wav")
 #hm <- readWave("XC147689_terminal_strophes.wav")
@@ -143,12 +144,15 @@ min(amps_at_minima)
 #### looping over a working directory to find local minima ####
 
 # writing new Waves of the first note only
-setwd("/Users/Shared/WTSP")
+# setwd("/Users/Shared/WTSP")
+setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow")
 specs<-read.csv("WTSP spectrogram usability.csv") # Caleb's scoring sheet
 usables <- specs$file.name[which(specs$good. == "yes")]
 #dir.create("firstnote")
-setwd("/Users/Shared/WTSP/recordings")
+#setwd("/Users/Shared/WTSP/recordings")
+setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/terminal strophe recordings")
 
+# getting first notes only
 for (i in 1:length(usables)) {
   a<-readWave(usables[i])
   if (a@samp.rate!=48000) {
@@ -177,7 +181,8 @@ for (i in 1:length(usables)) {
           to=b$s.end[1],
           output="Wave")
   e <- paste(usables[i], "firstnote.wav", sep="_") 
-  writeWave(d, filename=paste("/Users/Shared/WTSP/firstnote/", e, sep=""))
+  #writeWave(d, filename=paste("/Users/Shared/WTSP/firstnote/", e, sep=""))
+  writeWave(d, filename=paste("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/first_note", e, sep=""))
 }
 
 ###################
