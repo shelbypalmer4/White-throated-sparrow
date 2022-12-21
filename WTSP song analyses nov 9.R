@@ -282,7 +282,7 @@ for(i in 1:length(max_mean_dur)){
   min_mean_dur[i] <- min(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))
 }
 
-# seeing if our use/trim cases work
+# seeing if our use/trim cases work (20 Dec. 2022)
 setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow")
 adjust<-read.csv("WTSP_spectrogram_usability_adjusted.csv")
 View(adjust)
@@ -290,7 +290,7 @@ colnames(adjust)[2:4]<-c("threshold_30",
                          "threshold_25", 
                          "salvageable_30")
 
-#### USE ####
+#### USE (change threshold) ####
 # adjusting the thresholds and looking at amplitude envelopes
 setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/terminal strophe recordings")
 for (i in 1:length(adjust$file.name)) {
@@ -368,3 +368,55 @@ for (i in 1:length(adjust$file.name)) {
   }
 }
 
+#### YES, USE, and TRIM ####
+remix<-adjust[-c(which(adjust$threshold_25=="no")),]
+View(remix)
+
+# making amp env figures with everything usable--to review together
+for (i in 1:length(remix$file.name)) {
+   a<-readWave(remix$file.name[i])
+   if (a@samp.rate!=48000) {
+     a<-resamp(a,
+               g=48000,
+               output="Wave")
+   }
+   a1<-fir(a,
+           from=2000,
+           to=6000,
+           bandpass=T,
+           output="Wave") 
+   b<-fir(a1,
+          from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,
+          to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,
+          bandpass=T,
+          output="Wave")
+   if(remix$threshold_25[i]=="yes") {
+     timer(b,
+           dmin = 0.02,
+           envt = "hil",
+           msmooth=c(512, 90),
+           threshold = 25,
+           main=usables[i])
+   }
+   if(remix$threshold_25[i]=="use"){
+     try(timer(b,
+               dmin = 0.02,
+               envt = "hil",
+               msmooth=c(512, 90),
+               threshold = as.numeric(remix$new_threshold[i]),
+               main=remix$file.name[i]))
+   }
+   if(remix$threshold_25[i]=="trim"|remix$threshold_25[i]=="Trim"){
+     b1<-cutw(b,
+              from=remix$trim_before[i],
+              to=remix$trim_after[i],
+              output="Wave")
+     timer(b1,
+           dmin = 0.02,
+           envt = "hil",
+           msmooth=c(512, 90),
+           threshold=30,
+           main=remix$file.name[i])
+   }
+   
+ }
