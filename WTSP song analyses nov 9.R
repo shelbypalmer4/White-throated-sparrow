@@ -281,3 +281,90 @@ for(i in 1:length(max_mean_dur)){
   max_mean_dur[i] <- max(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))
   min_mean_dur[i] <- min(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))
 }
+
+# seeing if our use/trim cases work
+setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow")
+adjust<-read.csv("WTSP_spectrogram_usability_adjusted.csv")
+View(adjust)
+colnames(adjust)[2:4]<-c("threshold_30", 
+                         "threshold_25", 
+                         "salvageable_30")
+
+#### USE ####
+# adjusting the thresholds and looking at amplitude envelopes
+setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/terminal strophe recordings")
+for (i in 1:length(adjust$file.name)) {
+  a<-readWave(adjust$file.name[i])
+  # if sampling rate is not 48000, resample to 48000
+  if (a@samp.rate!=48000) {
+    a<-resamp(a,
+              g=48000,
+              output="Wave")
+  }
+  a1<-fir(a,
+          from=2000,
+          to=6000,
+          bandpass=T,
+          output="Wave") # initial filter
+  b<-fir(a1,
+         from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,
+         to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,
+         bandpass=T,
+         output="Wave")
+  if(adjust$threshold_25[i]=="use"){
+    try(timer(b,
+          dmin = 0.02,
+          envt = "hil",
+          msmooth=c(512, 90),
+          threshold = as.numeric(adjust$new_threshold[i]),
+          main=adjust$file.name[i]))
+  }
+
+}
+
+
+#### TRIM ####
+## cutw needs numerical values to cut from...
+adjust$trim_before[is.na(adjust$trim_before)]<-0
+
+#...and to
+for (i in 1:length(adjust$file.name)) {
+  a<-readWave(adjust$file.name[i])
+  ifelse(is.na(adjust$trim_after[i]),
+         adjust$trim_after[i]<-duration(a),
+         NA)
+}
+
+# cutting and looking at them
+for (i in 1:length(adjust$file.name)) {
+  a<-readWave(adjust$file.name[i])
+  # if sampling rate is not 48000, resample to 48000
+  if (a@samp.rate!=48000) {
+    a<-resamp(a,
+              g=48000,
+              output="Wave")
+  }
+  a1<-fir(a,
+          from=2000,
+          to=6000,
+          bandpass=T,
+          output="Wave") # initial filter
+  b<-fir(a1,
+         from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,
+         to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,
+         bandpass=T,
+         output="Wave")
+  if(adjust$threshold_25[i]=="trim"){
+    b1<-cutw(b,
+         from=adjust$trim_before[i],
+         to=adjust$trim_after[i],
+         output="Wave")
+    timer(b1,
+          dmin = 0.02,
+          envt = "hil",
+          msmooth=c(512, 90),
+          threshold=30,
+          main=adjust$file.name[i])
+  }
+}
+
