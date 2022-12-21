@@ -289,6 +289,8 @@ View(adjust)
 colnames(adjust)[2:4]<-c("threshold_30", 
                          "threshold_25", 
                          "salvageable_30")
+adjust$new_threshold[35]<-45
+adjust$new_threshold<-as.numeric(adjust$new_threshold)
 
 #### USE (change threshold) ####
 # adjusting the thresholds and looking at amplitude envelopes
@@ -316,7 +318,7 @@ for (i in 1:length(adjust$file.name)) {
           dmin = 0.02,
           envt = "hil",
           msmooth=c(512, 90),
-          threshold = as.numeric(adjust$new_threshold[i]),
+          threshold = adjust$new_threshold[i],
           main=adjust$file.name[i]))
   }
 
@@ -419,4 +421,6 @@ for (i in 1:length(remix$file.name)) {
            main=remix$file.name[i])
    }
    
- }
+}
+
+write.csv(adjust, "C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/WTSP_params_20dec22.csv")

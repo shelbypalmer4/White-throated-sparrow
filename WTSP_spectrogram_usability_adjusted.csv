@@ -33,7 +33,7 @@ ML15610_terminal_strophes.wav,yes,yes,,,,,,
 ML18735_terminal_strophes.wav,yes,yes,,,,,,
 ML26122_terminal_strophes.wav,no,yes,yes,,,,,
 ML36984_terminal_strophes.wav,yes,yes,,,,,,
-ML66742_terminal_strophes.wav,no,use,yes,triplet?,45 (check),,,ambiguous (amplitude drop between last two notes of triplet not as extreme)?
+ML66742_terminal_strophes.wav,no,use,yes,triplet?,45,,,ambiguous (amplitude drop between last two notes of triplet not as extreme)?
 ML66745_terminal_strophes.wav,yes,yes,,,,,,
 ML66752_terminal_strophes.wav,yes,yes,,,,,,
 ML66753_terminal_strophes.wav,no,yes,yes,,,,,
