@@ -206,8 +206,8 @@ View(ampmins)
 setwd("/Users/Shared/WTSP/recordings")
 
 note_starts <- list()
-#for (i in 1:1){
-for (i in 1:length(usables)) {
+#for (i in 1:length(usables)) {
+for (i in usables) {
   a<-readWave(usables[i])
   # if sampling rate is not 48000, resample to 48000
   if (a@samp.rate!=48000) {
@@ -282,6 +282,7 @@ for(i in 1:length(max_mean_dur)){
   min_mean_dur[i] <- min(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))
 }
 
+<<<<<<< Updated upstream
 # seeing if our use/trim cases work (20 Dec. 2022)
 setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow")
 adjust<-read.csv("WTSP_spectrogram_usability_adjusted.csv")
@@ -424,3 +425,11 @@ for (i in 1:length(remix$file.name)) {
 }
 
 write.csv(adjust, "C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/WTSP_params_20dec22.csv")
+=======
+setwd("/Users/Shared/WTSP/")
+m_dec14<-read.csv("WTSP_spectrogram_usability_adjusted.csv")
+table(m_dec14$X25_resamp)
+m_dec14[which(m_dec14$X25_resamp=="trim?"),]
+
+
+>>>>>>> Stashed changes
