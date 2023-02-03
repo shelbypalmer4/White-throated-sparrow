@@ -282,20 +282,24 @@ for(i in 1:length(max_mean_dur)){
   min_mean_dur[i] <- min(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))
 }
 
-<<<<<<< Updated upstream
+###<<<<<<< Updated upstream
 # seeing if our use/trim cases work (20 Dec. 2022)
-setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow")
-adjust<-read.csv("WTSP_spectrogram_usability_adjusted.csv")
-View(adjust)
-colnames(adjust)[2:4]<-c("threshold_30", 
-                         "threshold_25", 
-                         "salvageable_30")
-adjust$new_threshold[35]<-45
-adjust$new_threshold<-as.numeric(adjust$new_threshold)
+#setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow")
+setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow")
+# adjust<-read.csv("WTSP_spectrogram_usability_adjusted.csv")
+# View(adjust)
+# colnames(adjust)[2:4]<-c("threshold_30", 
+#                          "threshold_25", 
+#                          "salvageable_30")
+# adjust$new_threshold[35]<-45
+# adjust$new_threshold<-as.numeric(adjust$new_threshold)
+
+adjust<-read.csv("WTSP_params_20dec22.csv")
 
 #### USE (change threshold) ####
 # adjusting the thresholds and looking at amplitude envelopes
-setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/terminal strophe recordings")
+#setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/terminal strophe recordings")
+setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/terminal strophe recordings")
 for (i in 1:length(adjust$file.name)) {
   a<-readWave(adjust$file.name[i])
   # if sampling rate is not 48000, resample to 48000
@@ -315,17 +319,35 @@ for (i in 1:length(adjust$file.name)) {
          bandpass=T,
          output="Wave")
   if(adjust$threshold_25[i]=="use"){
+    png(filename = paste("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/try/", adjust$file.name[i], ".png", sep = ""))
     try(timer(b,
           dmin = 0.02,
           envt = "hil",
           msmooth=c(512, 90),
           threshold = adjust$new_threshold[i],
           main=adjust$file.name[i]))
+    dev.off()
   }
 
 }
 
+# 2 Feb 2023: figuring out which files were passed over by try()
+use_works <- as.character(c())
+setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/try/")
+for(i in 1:length(list.files())){
+  use_works <- append(use_works, unlist(strsplit(list.files()[i], split = ".png")))  
+}
 
+failures <- c()
+for (i in 1:length(adjust$file.name[which(adjust$threshold_25 == "use")])){
+  failures[i] <- !adjust$file.name[which(adjust$threshold_25 == "use")][i] %in% use_works
+}
+
+use_candidates <- adjust$file.name[which(adjust$threshold_25 == "use")]
+losers <- use_candidates[which(failures == TRUE)]
+
+
+# back to 20 dec 23
 #### TRIM ####
 ## cutw needs numerical values to cut from...
 adjust$trim_before[is.na(adjust$trim_before)]<-0
@@ -425,11 +447,11 @@ for (i in 1:length(remix$file.name)) {
 }
 
 write.csv(adjust, "C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/WTSP_params_20dec22.csv")
-=======
+#=======
 setwd("/Users/Shared/WTSP/")
 m_dec14<-read.csv("WTSP_spectrogram_usability_adjusted.csv")
 table(m_dec14$X25_resamp)
 m_dec14[which(m_dec14$X25_resamp=="trim?"),]
 
 
->>>>>>> Stashed changes
+#>>>>>>> Stashed changes
