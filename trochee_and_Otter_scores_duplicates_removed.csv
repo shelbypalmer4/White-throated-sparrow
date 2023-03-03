@@ -1,0 +1,386 @@
+,recording,Source,Year,Date,Subpopulation..if.specified.,Province.State,Latitude,Longitude,Introductory.Notes..if.noted.,Terminal.Strophe.type,Recordist,adjust.file.name,dists_from_line
+1,ML100883,Macaulay Library,1999,31/05/1999,,New York,43.7669,-74.8172,Descending,Triplet,Wilbur Hershberger,ML100883_terminal_strophes.wav,0.0396708356232425
+2,ML102373331,Macaulay Library,2018,5/27/18,King's,Nova Scotia,45.0794,-64.5454,Descending,Triplet,Devin Johnstone,ML102373331_terminal_strophes.wav,0.0303442549962541
+3,ML102438111,Macaulay Library,2018,5/26/18,Nipissing,Ontario,46.2242,-80.2741,Descending,Doublet,Tim Schadel,ML102438111_terminal_strophes.wav,0.0521258136098276
+4,ML103667581,Macaulay Library,2018,6/6/18,La Haute-Gaspésie,Quebec,48.9127,-66.1234,Ascending,Triplet,Raphaël Nussbaumer,ML103667581_terminal_strophes.wav,0.0225727552511957
+5,ML103786851,Macaulay Library,2018,6/9/18,,District of Columbia,38.9468,-77.0698,Descending,Triplet,Reid Rumelt,ML103786851_terminal_strophes.wav,0.0341986598911814
+6,ML103860591,Macaulay Library,2018,6/6/18,Saginaw,Michigan,43.3912,-83.9858,Ascending,Doublet,Jason Parrish,WTSP63.wav,0.00498972749823249
+7,ML104284141,Macaulay Library,2018,6/13/18,Huron,Ontario,43.3542,-81.5596,Ascending,Doublet,Ben Evans,ML104284141_terminal_strophes.wav,0.0075277569637153
+8,ML104303161,Macaulay Library,2018,6/13/18,Addison,Vermont,43.9579,-73.0113,Descending,Doublet,Roy Pilcher,ML104303161_terminal_strophes.wav,0.0581159008456119
+9,ML104526071,Macaulay Library,2018,6/15/18,Franklin,Maine,44.6503,-70.348,Descending,Triplet,Glenn Hodgkins,ML104526071_terminal_strophes.wav,0.114007056683941
+10,ML104716561,Macaulay Library,2018,6/16/18,Hancock,Maine,44.3443,-68.0561,Descending,Triplet,Phil Green,ML104716561_terminal_strophes.wav,0.0290176544325825
+11,ML104970781,Macaulay Library,2018,5/9/18,Houghton,Michigan,46.5486,-88.9321,Descending,Doublet,Damon Haan,ML104970781_terminal_strophes.wav,0.107997293556816
+12,ML105044581,Macaulay Library,2018,6/16/18,Montgomery,Pennsylvania,40.2269,-75.2669,ascending,Triplet,August Mirabella,ML105044581_terminal_strophes.wav,0.0159639562519873
+13,ML105213831,Macaulay Library,2018,5/26/18,Hamilton,New York,43.9971,-74.7386,Ascending,Triplet,Glen Chapman,ML105213831_terminal_strophes.wav,0.016325657231203
+14,ML105680731,Macaulay Library,2018,6/16/18,Essex,New York,43.8147,-73.5869,ascending,Triplet,Malinda Chapman,ML105680731_terminal_strophes.wav,0.0197312870970426
+15,ML105916381,Macaulay Library,2018,6/14/18,Hancock,Maine,44.3443,-68.0561,ascending,Triplet,Laura Gooch,ML105916381_terminal_strophes.wav,0.0225308615781481
+16,ML105954241,Macaulay Library,2018,6/29/18,Fort MacLeod,Alberta,49.4189,-114.1181,Descending,Doublet,Pat Lucas,ML105954241_terminal_strophes.wav,0.1473762295707
+17,ML105954241,Macaulay Library,2018,6/29/18,Fort MacLeod,Alberta,49.4189,-114.1181,Descending,Doublet,Pat Lucas,ML105954241_terminal_strophes.wav,0.1473762295707
+18,ML106300881,Macaulay Library,2018,6/25/18,Caribou,British Columbia,51.9814,-122.6151,Descending,Doublet,John Woods,ML106300881_terminal_strophes.wav,0.0565503215400422
+19,ML106441141,Macaulay Library,2018,6/25/18,Penobscot,Maine,44.8674,-68.727,Descending,Triplet,Louise Venne,ML106441141_terminal_strophes.wav,0.0172416756771011
+20,ML106497711,Macaulay Library,2018,7/4/18,Whitehorse,Yukon,60.7342,-135.0666,Ascending,Doublet,Cameron Eckert,ML106497711_terminal_strophes.wav,0.0226900294557501
+21,ML106877561,Macaulay Library,2018,6/28/18,Vilas,Wisconsin,45.9912,-89.4603,Ascending,Doublet,Brian Collins,ML106877561_terminal_strophes.wav,0.0181849664714876
+22,ML106877611,Macaulay Library,2018,6/28/18,Vilas,Wisconsin,45.9912,-89.4603,Descending,Doublet,Brian Collins,ML106877611_terminal_strophes.wav,0.00674695378024759
+23,ML106961551,Macaulay Library,2018,7/9/18,Middlesex,Ontario,42.972,-81.3248,Ascending,Doublet,Laure Neish,ML106961551_terminal_strophes.wav,0.104957326276387
+24,ML107292,Macaulay Library,2000,26/03/2000,,Maryland,39.1667,-77.2083,Ascending,Triplet,Wilbur Hershberger,ML107292_terminal_strophes.wav,0.0110166116093189
+25,ML107795761,Macaulay Library,2018,6/18/18,Hancock,Maine,44.3443,-68.0561,Descending,Triplet,Laura Gooch,ML107795761_terminal_strophes.wav,0.0128035276760766
+26,ML108297581,Macaulay Library,2018,6/15/18,Hancock,Maine,44.364,-68.0389,Descending,Triplet,David Kazdan,ML108297581_terminal_strophes.wav,0.0476272589404212
+27,ML117995,Macaulay Library,2004,6/6/04,,New York,44.2033,-74.6619,Ascending,Triplet,Benjamin Clock,ML117995_terminal_strophes.wav,0.00113887819352884
+28,ML120334251,Macaulay Library,2018,5/29/18,Sept-Rivières,Quebec,50.3225,-66.7726,Ascending,Triplet,Jocelyn Lauzon,WTSP68.wav,0.00622833344055641
+29,ML121581051,Macaulay Library,2018,5/27/18,La Haute-Côte-Nord,Quebec,48.158,-69.665,Descending,Doublet,Jocelyn Lauzon,WTSP64.wav,0.0239598405075693
+30,ML122289641,Macaulay Library,2018,5/3/18,Stark,Ohio,40.9834,-81.3132,Ascending,Doublet,Kent Miller,ML122289641_terminal_strophes.wav,0.0885319755246342
+31,ML122306271,Macaulay Library,2018,5/30/18,Sept-Rivières,Quebec,50.3225,-66.7726,Ascending,Triplet,Jocelyn Lauzon,WTSP69.wav,0.0012901714236639
+32,ML122576641,Macaulay Library,2018,5/27/18,La Haute-Côte-Nord,Quebec,48.158,-69.665,Ascending,Triplet,Jocelyn Lauzon,ML122576641_terminal_strophes.wav,0.0134492927867146
+33,ML124298691,Macaulay Library,2018,6/22/18,Brome-Missiquoi,Quebec,45.107,-72.6156,Descending,Triplet,Jocelyn Lauzon,ML124298691_terminal_strophes.wav,0.0202959960930038
+34,ML133972,Macaulay Library,2005,3/7/05,,New York,37.3541,-121.9552,Ascending,Triplet,Michael Andersen,ML133972_terminal_strophes.wav,0.0268272875144578
+35,ML136579,Macaulay Library,2011,2/7/11,,New York,44.4818,-74.4088,Descending,Triplet,Sean O'Brien,ML136579_terminal_strophes.wav,0.0272436753778734
+36,ML136588,Macaulay Library,2011,6/7/11,,New York,37.3541,-121.9552,Descending,Triplet,Sean O'Brien,WTSP54.wav,0.0121631260789008
+37,ML140282,Macaulay Library,2008,5/7/08,,Vermont,43.5874,-73.1307,Descending,Triplet,Hope Batcheller,ML140282_terminal_strophes.wav,0.0223870903617043
+38,ML143538121,Macaulay Library,2019,3/3/19,,South Carolina,32.8118,-79.8418,Ascending,Triplet,Takayuki Uchida,ML143538121_terminal_strophes.wav,0.0547501918490262
+39,ML146267,Macaulay Library,2005,26/06/2005,,Manitoba,51.6667,-100.9167,Descending,Doublet,Mark Robbins,ML146267_terminal_strophes.wav,0.135025046418667
+40,ML147868031,Macaulay Library,2019,3/29/19,,Massachusetts,42.6221,-70.8142,ascending,Triplet,Phil Brown,ML147868031_terminal_strophes.wav,0.0833886918032336
+41,ML148001361,Macaulay Library,2019,3/29/19,,Washington,46.6526,-122.9841,Descending,Doublet,Rachel Hudson,ML148001361_terminal_strophes.wav,0.0133877107254448
+42,ML148303661,Macaulay Library,2019,3/31/19,,New York,41.1098,-73.8352,ascending,Triplet,valerie heemstra,WTSP80.wav,0.00186369401419156
+43,ML148643661,Macaulay Library,2019,4/2/19,,North Carolina,35.8893,-78.6553,UpDown,Triplet,LynnErla Beegle,ML148643661_terminal_strophes.wav,0.0196354248772222
+44,ML149149781,Macaulay Library,2019,4/5/19,,New York,40.7662,-73.9744,Descending,Doublet,Mickey Ryan,ML149149781_terminal_strophes.wav,0.0406424152078362
+45,ML149162841,Macaulay Library,2019,4/5/19,,New Jersey,41.0365,-74.1272,Descending,Triplet,Krzysztof Bystrowski,ML149162841_terminal_strophes.wav,0.0633255525887263
+46,ML149175611,Macaulay Library,2018,4/21/18,Montgomery,Maryland,39.0878,-77.1264,Ascending,Triplet,Anne Mytych,ML149175611_terminal_strophes.wav,0.0160792914809373
+47,ML149181651,Macaulay Library,2019,4/4/19,,Ohio,40.0004,-82.0054,Ascending,Doublet,Lori McCollister,ML149181651_terminal_strophes.wav,0.124917966371196
+48,ML149539611,Macaulay Library,2019,4/7/19,,Kentucky,38.3504,-85.6149,Ascending,Doublet,Sunil Thirkannad,ML149539611_terminal_strophes.wav,0.0269837010648748
+49,ML149539621,Macaulay Library,2019,4/7/19,,Kentucky,38.3504,-85.6149,Ascending,Doublet,Sunil Thirkannad,ML149539621_terminal_strophes.wav,0.0898042931959706
+50,ML149676381,Macaulay Library,2019,4/7/19,,Missouri,39.0972,-92.3515,Descending,Doublet,Joanna Reuter,ML149676381_terminal_strophes.wav,0.00972303972477073
+51,ML149714511,Macaulay Library,2019,4/7/19,,North Carolina,35.9692,-78.6426,Descending,Triplet,LynnErla Beegle,ML149714511_terminal_strophes.wav,0.00128182635182749
+52,ML149927141,Macaulay Library,2019,4/8/19,,Kentucky,38.2818,-85.5584,Ascending,Doublet,Sunil Thirkannad,ML149927141_terminal_strophes.wav,0.0561246196658706
+53,ML150285871,Macaulay Library,2019,4/10/19,,Maryland,39.0545,-76.7229,,Triplet,Elissa Weidaw,ML150285871_terminal_strophes.wav,0.0127924280712687
+54,ML150285871,Macaulay Library,2019,4/10/19,,Maryland,39.0545,-76.7229,Descending,Triplet,Elissa Weidaw,ML150285871_terminal_strophes.wav,0.0127924280712687
+55,ML150335931,Macaulay Library,2019,4/11/19,,Massachusetts,42.6221,-70.8142,UpDown,Triplet,Phil Brown,ML150335931_terminal_strophes.wav,0.0304013392306536
+56,ML150436541,Macaulay Library,2019,4/10/19,,Virginia,38.7257,-77.5437,Ascending,Triplet,Kelly Krechmer,ML150436541_terminal_strophes.wav,0.00862294874236299
+57,ML150436551,Macaulay Library,2019,4/10/19,,Virginia,38.7257,-77.5437,Ascending,Triplet,Kelly Krechmer,ML150436551_terminal_strophes.wav,0.006134099938219
+58,ML150470201,Macaulay Library,2019,4/11/19,,Maryland,39.0545,-76.7229,Descending,Triplet,Elissa Weidaw,ML150470201_terminal_strophes.wav,0.0220859744508855
+59,ML150584681,Macaulay Library,2019,4/12/19,Rockland,New York,41.0428,-73.8975,Descending,Triplet,valerie heemstra,ML150584681_terminal_strophes.wav,0.0166153427269725
+60,ML150761041,Macaulay Library,2019,4/11/19,,Rhode Island,41.6682,-71.255,Ascending,Triplet,Luis Mendes,WTSP81.wav,0.00151827474748233
+61,ML150778241,Macaulay Library,2019,4/13/19,Botetourt,Virginia,37.4343,-79.9154,Descending,Triplet,Paul Droubay,ML150778241_terminal_strophes.wav,0.0494110846875704
+62,ML150778241,Macaulay Library,2019,4/13/19,Botetourt,Virginia,37.4343,-79.9154,Hi Descending,Triplet,Paul Droubay,ML150778241_terminal_strophes.wav,0.0494110846875704
+63,ML150795391,Macaulay Library,2019,4/13/19,Cumberland,Maine,43.6516,-70.2675,Descending,Triplet,Shelly Wa,ML150795391_terminal_strophes.wav,0.0538345598247779
+64,ML150818621,Macaulay Library,2019,4/11/19,,Pennsylvania,39.8811,-76.6873,Ascending,Triplet,Chuck Berthoud,ML150818621_terminal_strophes.wav,0.00202549549211116
+65,ML150818621,Macaulay Library,2019,4/11/19,,Pennsylvania,39.8811,-76.6873,Descending,Triplet,Chuck Berthoud,ML150818621_terminal_strophes.wav,0.00202549549211116
+66,ML150821241,Macaulay Library,2019,4/13/19,Sevier,Tennessee,35.8825,-83.5587,Ascending,Doublet,Pamela Ford,ML150821241_terminal_strophes.wav,0.0210893875033065
+67,ML150858011,Macaulay Library,2019,4/13/19,Fluvanna,Virginia,37.7406,-78.4077,Descending,Triplet,Guy Babineau,ML150858011_terminal_strophes.wav,0.00101211211327057
+68,ML150888471,Macaulay Library,2019,4/13/19,Davidson,Tennessee,36.0119,-86.6934,ascending,Triplet,Carole Swann,ML150888471_terminal_strophes.wav,0.00722712809234713
+69,ML151217251,Macaulay Library,2019,4/4/19,,Ohio,40.0004,-82.0054,Descending,Doublet,Lori McCollister,ML151217251_terminal_strophes.wav,0.0242693058087742
+70,ML151217291,Macaulay Library,2019,4/4/19,,Ohio,40.0004,-82.0054,Ascending,Doublet,Lori McCollister,ML151217291_terminal_strophes.wav,0.136576507968478
+71,ML151217311,Macaulay Library,2019,4/4/19,,Ohio,40.0004,-82.0054,Ascending,Doublet,Lori McCollister,ML151217311_terminal_strophes.wav,0.124758071095965
+72,ML151240401,Macaulay Library,2019,4/15/19,New London,Connecticut,41.3543,-71.9664,Ascending,Triplet,Will Sweet,ML151240401_terminal_strophes.wav,0.00646610444417349
+73,ML151764121,Macaulay Library,2019,4/17/19,,Michigan,42.4086,-85.382,Descending,Doublet,Thomas Koffel,WTSP73.wav,0.0110235011960035
+74,ML151846011,Macaulay Library,2019,4/18/19,,Nebraska,42.2343,-97.022,Descending,Doublet,Ed M. Brogie,WTSP74.wav,0.0060771070264376
+75,ML152040921,Macaulay Library,2019,4/19/19,,New York,40.5923,-73.8914,UpDown,Triplet,Tom Preston,ML152040921_terminal_strophes.wav,0.0273908199601507
+76,ML152069651,Macaulay Library,2019,4/19/19,,Vermont,43.5288,-73.213,descending,Doublet,Joel Tilley,ML152069651_terminal_strophes.wav,0.0350825589037046
+77,ML152125251,Macaulay Library,2019,4/19/19,,Maryland,39.1587,-76.4856,Ascending,Triplet,Jeff Shenot,ML152125251_terminal_strophes.wav,0.0671058569255849
+78,ML152125251,Macaulay Library,2019,4/19/19,,Maryland,39.1587,-76.4856,Descending,Triplet,Jeff Shenot,ML152125251_terminal_strophes.wav,0.0671058569255849
+79,ML152251971,Macaulay Library,2019,4/20/19,,New Jersey,40.8918,-74.1732,Descending,Triplet,Tom Nolan,ML152251971_terminal_strophes.wav,0.0212642473092762
+80,ML152366311,Macaulay Library,2019,4/20/19,,Vermont,43.457,-73.1619,Ascending,Triplet,G & B,ML152366311_terminal_strophes.wav,0.0195383521655326
+81,ML152381611,Macaulay Library,2019,4/20/19,,New York,42.7364,-73.6532,Ascending,Triplet,Brad Walker,ML152381611_terminal_strophes.wav,0.00177550349091884
+82,ML152426451,Macaulay Library,2019,4/18/19,,Virginia,38.4777,-77.9429,Ascending,Triplet,Kelly Krechmer,ML152426451_terminal_strophes.wav,0.0485821315410229
+83,ML152567031,Macaulay Library,2019,4/20/19,,Quebec,45.5056,-73.5882,UpDown,Triplet,Richard Littauer,ML152567031_terminal_strophes.wav,0.0112833307890583
+84,ML152587961,Macaulay Library,2019,4/21/19,,New Jersy,40.6951,-74.5215,Ascending,Triplet,Jeff Ellerbusch,ML152587961_terminal_strophes.wav,0.0273972390766605
+85,ML152655191,Macaulay Library,2019,4/21/19,,Massachusetts,42.493,-70.8402,Descending,Triplet,Jeffrey Offermann,ML152655191_terminal_strophes.wav,0.0448643124931184
+86,ML152763311,Macaulay Library,2019,4/20/19,,West Virginia,39.6362,-79.9636,Ascending,Triplet,Gordon Dimmig,ML152763311_terminal_strophes.wav,0.0355275958367639
+87,ML152895731,Macaulay Library,2019,4/22/19,,Minnesota,44.1468,-94.4681,Descending,Doublet,Sarah Taylor,ML152895731_terminal_strophes.wav,0.0344800756069723
+89,ML152956471,Macaulay Library,2019,4/19/19,,Pennsylvania,40.7494,-80.0254,Ascending,Triplet,Clark Trauterman,ML152956471_terminal_strophes_triplet.wav,0.00776068984877591
+90,ML152956471,Macaulay Library,2019,4/19/19,,Pennsylvania,40.7494,-80.0254,Descending,Doublet,Clark Trauterman,ML152956471_terminal_strophes_doublet.wav,0.100661325443296
+92,ML153008851,Macaulay Library,2019,4/23/19,,Ontario,45.5043,-77.5763,Ascending,Doublet,Brian Shulist,ML153008851_terminal_strophes.wav,0.000253269525670185
+93,ML153175621,Macaulay Library,2019,4/23/19,,New York,42.8463,-78.8595,Ascending,Doublet,Thomas Mudd,ML153175621_terminal_strophes.wav,0.107529293515502
+94,ML153443091,Macaulay Library,2019,4/24/19,,Massachusetts,42.3033,-72.3319,Ascending,Triplet,Larry Therrien,ML153443091_terminal_strophes.wav,0.0287695689743656
+95,ML153561511,Macaulay Library,2019,4/9/19,,Missouri,39.1217,-94.3485,Descending,Doublet,Mike Beck,WTSP75.wav,0.0278723604446013
+96,ML153561511,Macaulay Library,2019,4/9/19,,Missouri,39.1217,-94.3485,Descending,Doublet,Mike Beck,WTSP82.wav,0.0140950392831166
+97,ML153561511,Macaulay Library,2019,4/9/19,,Missouri,39.1217,-94.3485,Descending,Doublet,Mike Beck,ML153561511_terminal_strophes.wav,0.0196733017305543
+98,ML153561511,Macaulay Library,2019,4/9/19,,Missouri,39.1217,-94.3485,Descending,Triplet,Mike Beck,WTSP75.wav,0.0278723604446013
+99,ML153561511,Macaulay Library,2019,4/9/19,,Missouri,39.1217,-94.3485,Descending,Triplet,Mike Beck,WTSP82.wav,0.0140950392831166
+100,ML153561511,Macaulay Library,2019,4/9/19,,Missouri,39.1217,-94.3485,Descending,Triplet,Mike Beck,ML153561511_terminal_strophes.wav,0.0196733017305543
+101,ML153826801,Macaulay Library,2019,4/25/19,,Virginia,38.4021,-77.9116,Ascending,Triplet,Kelly Krechmer,ML153826801_terminal_strophes.wav,0.00126568435090309
+102,ML153826821,Macaulay Library,2019,4/25/19,,Virginia,38.4021,-77.9116,Ascending,Triplet,Kelly Krechmer,ML153826821_terminal_strophes.wav,0.0240910292010787
+103,ML153829731,Macaulay Library,2019,4/25/19,,Kansas,38.048,-97.201,Ascending,Doublet,Lisa Hoffman,ML153829731_terminal_strophes.wav,0.0117681856447085
+104,ML153920471,Macaulay Library,2019,4/25/19,,Ohio,41.4298,-81.8994,Ascending,Doublet,Chris Pierce,ML153920471_terminal_strophes.wav,0.0515794813650877
+105,ML154019221,Macaulay Library,2019,4/26/19,,Michigan,42.2821,-85.1297,Descending,Doublet,Gordon Green,ML154019221_terminal_strophes.wav,0.123614864451213
+106,ML154043581,Macaulay Library,2019,4/25/19,,Quebec,46.0736,-72.8447,Descending,Triplet,Daniel Jauvin,ML154043581_terminal_strophes.wav,0.00151950941559618
+107,ML154043581,Macaulay Library,2019,4/25/19,,Quebec,46.0736,-72.8447,Ascending,Triplet,Daniel Jauvin,ML154043581_terminal_strophes.wav,0.00151950941559618
+108,ML154118571,Macaulay Library,2019,4/27/19,,Vermont,43.4435,-72.3996,Ascending,Triplet,Amy Swarr,ML154118571_terminal_strophes.wav,0.00229993865629424
+109,ML154118571,Macaulay Library,2019,4/27/19,,Vermont,43.4435,-72.3996,Descending,Triplet,Amy Swarr,ML154118571_terminal_strophes.wav,0.00229993865629424
+110,ML154127181,Macaulay Library,2019,4/27/19,,Quebec,45.6047,-73.6769,Ascending,Triplet,Georges Lachaîne,ML154127181_terminal_strophes.wav,0.00045626651131456
+111,ML154127181,Macaulay Library,2019,4/27/19,,Quebec,45.6047,-73.6769,Descending,Triplet,Georges Lachaîne,ML154127181_terminal_strophes.wav,0.00045626651131456
+112,ML154127181,Macaulay Library,2019,4/27/19,,Quebec,45.6047,-73.6769,UpDown,Triplet,Georges Lachaîne,ML154127181_terminal_strophes.wav,0.00045626651131456
+113,ML154323861,Macaulay Library,2019,4/27/19,,Indiana,41.6735,-85.9464,Descending,Doublet,Eric Michael,ML154323861_terminal_strophes.wav,0.0511306520168104
+114,ML154719841,Macaulay Library,2019,4/25/19,,Wisconsin,44.8938,-93.3301,Descending,Doublet,Jon Blumenthal,ML154719841_terminal_strophes.wav,0.0147479038528483
+115,ML155337671,Macaulay Library,2019,4/28/19,,Vermont,44.4525,-72.9637,ascending,Triplet,Jeff Hullstrung,ML155337671_terminal_strophes.wav,0.0619554436592472
+116,ML15562,Macaulay Library,1954,6/6/54,,Manitoba,53.8255,-101.2476,Ascending,Triplet,Arthur Allen,ML15562_terminal_strophes.wav,0.0172828233812702
+117,ML15563,Macaulay Library,1954,7/6/54,,Manitoba,53.8255,-101.2476,Ascending,Triplet,Peter Kellogg,ML15563_terminal_strophes.wav,0.0300363247164019
+118,ML15564,Macaulay Library,1954,9/6/54,,Manitoba,50.8553,-100.222,Ascending,Triplet,Arthur Allen,ML15564_terminal_strophes.wav,0.0283390491631026
+119,ML15565,Macaulay Library,1953,2/6/53,,Quebec,49.2213,-68.1504,Ascending,Triplet,Arthur Allen,ML15565_terminal_strophes.wav,0.00190018579231342
+120,ML15566,Macaulay Library,1953,24/06/1953,,Quebec,48.9474,-66.1224,Ascending,Triplet,Arthur Allen,WTSP42.wav,0.0384368605178465
+121,ML15568,Macaulay Library,1953,26/06/1953,,Quebec,48.9474,-66.1224,Ascending,Triplet,Arthur Allen,ML15568_terminal_strophes.wav,0.01314570933785
+122,ML15570,Macaulay Library,1953,26/06/1953,,Quebec,48.9474,-66.1224,Ascending,Triplet,Arthur Allen,ML15570_terminal_strophes.wav,0.00779322873781319
+123,ML15571,Macaulay Library,1953,29/06/1953,,Vermont,44.5437,-72.8143,Descending,Triplet,Arthur Allen,ML15571_terminal_strophes.wav,0.0032336812260113
+124,ML15572,Macaulay Library,1952,24/04/1952,,New York,42.444,-76.5019,Ascending,Triplet,Arthur Allen,ML15572_terminal_strophes.wav,0.0085476759107248
+125,ML15573,Macaulay Library,1952,29/04/1952,,New York,42.444,-76.5019,Ascending,Triplet,Arthur Allen,ML15573_terminal_strophes.wav,0.00912030198140647
+126,ML15574,Macaulay Library,1952,16/05/1952,,New York,42.444,-76.5019,Ascending,Triplet,Arthur Allen,ML15574_terminal_strophes.wav,0.0320533734272036
+127,ML15575,Macaulay Library,1952,16/05/1952,,New York,42.444,-76.5019,Ascending,Triplet,Arthur Allen,ML15575_terminal_strophes.wav,0.0202843062504723
+128,ML15576,Macaulay Library,1952,10/6/52,,Massachusetts,42.6376,-73.1662,Ascending,Triplet,Peter Kellogg,ML15576_terminal_strophes.wav,0.035590868454112
+129,ML15577,Macaulay Library,1951,18/06/1951,,New York,43.9731,-73.8321,Ascending,Triplet,Arthur Allen,ML15577_terminal_strophes.wav,0.0469381310521348
+130,ML15578,Macaulay Library,1951,19/06/1951,,New York,43.9948,-73.8313,Ascending,Triplet,Arthur Allen,ML15578_terminal_strophes.wav,0.0345868820672904
+131,ML15580,Macaulay Library,1951,30/06/1951,,New York,44.4314,-74.4118,Ascending,Triplet,Arthur Allen,ML15580_terminal_strophes.wav,0.00114116419490489
+132,ML15581,Macaulay Library,1951,20/06/1951,,New York,44.4314,-74.4118,Descending,Triplet,Arthur Allen,ML15581_terminal_strophes.wav,0.0162797952095305
+133,ML15582,Macaulay Library,1955,27/04/1955,,New York,42.444,-76.5019,Ascending,Triplet,Peter Kellogg,ML15582_terminal_strophes.wav,0.0387299968192758
+134,ML15583,Macaulay Library,1956,1/5/56,,New York,42.9981,-78.1875,Descending,Triplet,R.O Monaghan,ML15583_terminal_strophes.wav,0.0312807272270793
+135,ML15584,Macaulay Library,1957,20/07/1957,,Quebec,48.05,-65.4833,Descending,Triplet,Robert Robinson,ML15584_terminal_strophes.wav,0.036324926558313
+136,ML15585,Macaulay Library,1957,24/07/1957,,Vermont,44.4631,-71.682,Ascending,Triplet,Robert Robinson,ML15585_terminal_strophes.wav,0.0347888697830869
+137,ML15590,Macaulay Library,1962,4/6/62,,Vermont,44.5437,-72.8143,Ascending,Triplet,Robert C Stein,ML15590_terminal_strophes.wav,0.00797587187507018
+138,ML15592,Macaulay Library,1962,4/6/62,,Vermont,44.5437,-72.8143,Ascending,Triplet,Robert C Stein,ML15592_terminal_strophes.wav,0.0259350437294728
+139,ML15593,Macaulay Library,1962,5/6/62,,New Hampshire,44.7814,-71.1379,Ascending,Triplet,Robert C Stein,ML15593_terminal_strophes.wav,0.0411940017790093
+140,ML15596,Macaulay Library,1962,12/6/62,,Maine,44.3924,-68.3021,Ascending,Triplet,Robert C Stein,WTSP48.wav,0.0305351747795438
+141,ML15598,Macaulay Library,1962,12/6/62,,Maine,44.3924,-68.3021,Descending,Triplet,Robert C Stein,WTSP49.wav,0.0237233711280118
+142,ML15599,Macaulay Library,1963,13/06/1963,,Michigan,46.6015,-85.1933,Ascending,Triplet,Robert C Stein,ML15599_terminal_strophes.wav,0.00892583477576943
+143,ML15600,Macaulay Library,1963,19/06/1963,,Minnesota,47.9032,-91.8671,Ascending,Triplet,Robert C Stein,ML15600_terminal_strophes.wav,0.0358362203642543
+144,ML15601,Macaulay Library,1963,20/06/1963,,Ontario,50.0978,-91.922,Ascending,Triplet,Robert C Stein,ML15601_terminal_strophes.wav,0.0371187434529127
+145,ML15602,Macaulay Library,1963,23/06/1963,,Ontario,47.8423,-83.4026,Ascending,Triplet,Robert C Stein,ML15602_terminal_strophes.wav,0.0142500722018452
+146,ML15606,Macaulay Library,1963,25/06/1963,,Ontario,43.7325,-79.7773,Descending,Triplet,Robert C Stein,ML15606_terminal_strophes.wav,0.0298517913259628
+147,ML15607,Macaulay Library,1963,28/06/1963,,Ontario,51.2731,-80.64,Ascending,Triplet,Robert C Stein,ML15607_terminal_strophes.wav,0.0135987030712509
+148,ML15608,Macaulay Library,1963,30/06/1963,,Quebec,47.9791,-77.423,Descending,Triplet,Robert C Stein,ML15608_terminal_strophes.wav,0.0219886864551791
+149,ML15610,Macaulay Library,1963,1/7/63,,Quebec,48.3456,-67.0539,Descending,Triplet,Robert C Stein,ML15610_terminal_strophes.wav,0.00487996598048761
+150,ML15611,Macaulay Library,1963,1/7/63,,Quebec,48.3456,-67.0539,Descending,Triplet,Robert C Stein,WTSP50.wav,0.00240629713481501
+151,ML156762331,Macaulay Library,2019,5/5/19,,Ontario,45.5043,-77.5763,Ascending,Doublet,Brian Shulist,WTSP76.wav,0.0278837770233318
+152,ML156859031,Macaulay Library,2019,5/7/19,,Quebec,45.6075,-72.9864,Descending,Triplet,François Martin,ML156859031_terminal_strophes.wav,0.0817756484422838
+153,ML157055401,Macaulay Library,2019,5/8/19,,Maine,44.3078,-69.2186,Descending,Triplet,Fyn Kynd,WTSP83.wav,0.0222534154251939
+154,ML157366601,Macaulay Library,2019,5/9/19,,Quebec,47.7612,-69.4834,Descending,Triplet,Robert Gagnon,ML157366601_terminal_strophes.wav,0.000910365084080897
+155,ML158046011,Macaulay Library,2019,5/12/19,,Quebec,45.4876,-73.8192,Descending,Triplet,Julie Tremblay,ML158046011_terminal_strophes.wav,0.00517590775984313
+156,ML158160201,Macaulay Library,2019,5/8/19,,Ontario,44.2927,-79.1966,Ascending,Doublet,Andrew Sibbald,WTSP77.wav,0.0370620219200746
+157,ML158343781,Macaulay Library,2019,5/13/19,,Quebec,45.5064,-75.8141,UpDown,Triplet,Caroline Biel,ML158343781_terminal_strophes.wav,0.0101467315629414
+158,ML160026921,Macaulay Library,2019,5/20/19,,Alberta,50.9905,-114.1464,Descending,Doublet,Mike Russum,WTSP78.wav,0.0372041646713717
+159,ML160302201,Macaulay Library,2019,5/22/19,,Yukon,60.7075,-135.0246,Ascending,Doublet,Cameron Eckert,ML160302201_terminal_strophes.wav,0.00782617767539816
+160,ML160553361,Macaulay Library,2019,5/11/19,,Alberta,53.625,-113.6573,Descending,Doublet,Scott & Jill Tansowny,ML160553361_terminal_strophes.wav,0.0217555864779838
+161,ML160870871,Macaulay Library,2019,5/4/19,,Vermont,43.4435,-72.3996,Ascending,Triplet,Amy Swarr,ML160870871_terminal_strophes.wav,0.0207979834961914
+162,ML161666051,Macaulay Library,2019,5/25/19,,Alberta,55.4122,-114.8044,Ascending,Doublet,Scott & Jill Tansowny,WTSP79.wav,0.0153918865823909
+163,ML161672591,Macaulay Library,2019,5/24/19,,Alberta,55.4806,-114.8982,Descending,Doublet,Scott & Jill Tansowny,ML161672591_terminal_strophes.wav,0.00523880566680353
+164,ML162376291,Macaulay Library,2019,6/2/19,,Quebec,46.6362,-73.7381,Descending,Doublet,Suzanne Filteau,ML162376291_terminal_strophes.wav,0.110313258520421
+165,ML163314261,Macaulay Library,2019,6/8/19,,Maine,44.9344,-70.5083,Descending,Triplet,Cheryl Ring,ML163314261_terminal_strophes.wav,0.0516448268381866
+166,ML163438911,Macaulay Library,2019,6/9/19,,Nova Scotia,45.3407,-62.6664,Descending,Triplet,Mark Brennan,ML163438911_terminal_strophes.wav,0.0227575305711837
+167,ML163588521,Macaulay Library,2019,6/8/19,,New York,44.2352,-73.7092,Descending,Triplet,Nick Tepper,ML163588521_terminal_strophes.wav,0.0233385380523041
+168,ML164722191,Macaulay Library,2019,4/11/19,,Pennsylvania,41.56,-79.4277,Descending,Triplet,K Springer,ML164722191_terminal_strophes.wav,0.030025020066862
+169,ML169021,Macaulay Library,2012,7/6/12,,New York,44.51041,-73.88525,Descending,Triplet,Matthew Medler,ML169021_terminal_strophes.wav,0.0214304519235039
+170,ML169021,Macaulay Library,2012,7/6/12,,New York,44.5104,-73.8852,Descending,Triplet,Matthew Medler,ML169021_terminal_strophes.wav,0.0214304519235039
+171,ML18735,Macaulay Library,1980,15/06/1980,,Alberta,53.5428,-113.9034,Ascending,Triplet,Oliver Hewitt,ML18735_terminal_strophes.wav,0.00930478086614066
+172,ML205318,Macaulay Library,2012,7/6/12,,Massachusetts,42.3566,-73.1796,Ascending,Triplet,David Kazdan,WTSP55.wav,0.0254939736565212
+173,ML205319,Macaulay Library,2012,7/6/12,,Massachusetts,42.3566,-73.1795,Ascending,Triplet,Laura Gooch,ML205319_terminal_strophes.wav,0.0323739357710711
+174,ML20752341,Macaulay Library,2015,3/11/15,,Georgia,32.8416,-83.6804,Ascending,Triplet,Anne Armstrong,ML20752341_terminal_strophes.wav,0.0316298460461866
+175,ML21866961,Macaulay Library,2015,12/12/15,,North Carolina,36.1735,-79.8356,Ascending,Triplet,Martin Wall,ML21866961_terminal_strophes.wav,0.028062569084119
+176,ML219779,Macaulay Library,2009,8/6/09,,New York,42.6658,-76.3468,Descending,Triplet,Bob Mcguire,WTSP52.wav,0.0191743407958796
+177,ML219798,Macaulay Library,2009,15/06/2009,,New York,44.485,-74.4034,Ascending,Triplet,Bob Mcguire,ML219798_terminal_strophes.wav,0.009305461211819
+178,ML219799,Macaulay Library,2009,15/06/2009,,New York,44.485,-74.4034,Descending,Triplet,Bob Mcguire,ML219799_terminal_strophes.wav,0.0191742319448236
+179,ML224605,Macaulay Library,2009,16/06/2009,,New York,44.4805,-74.4072,Ascending,Triplet,Bob Mcguire,ML224605_terminal_strophes.wav,0.0383196878209016
+180,ML224609,Macaulay Library,2009,16/06/2009,,New York,44.4853,-74.4022,Ascending,Triplet,Bob Mcguire,ML224609_terminal_strophes.wav,0.0211789291732207
+181,ML224610,Macaulay Library,2009,16/06/2009,,New York,44.4854,-74.4022,Descending,Triplet,Bob Mcguire,WTSP53.wav,0.0962057502731714
+182,ML26122,Macaulay Library,1980,23/03/1980,,New York,40.6057,-73.8713,Ascending,Triplet,Thomas Davis,ML26122_terminal_strophes.wav,0.0542710405013482
+183,ML26983461,Macaulay Library,2016,12/4/16,,Tennessee,35.8856,-84.1208,Descending,Doublet,Colin Sumrall,ML26983461_terminal_strophes.wav,0.00173350220738923
+184,ML27192051,Macaulay Library,2016,15/04/2016,,Tennessee,35.8856,-84.1208,Ascending,Doublet,Colin Sumrall,ML27192051_terminal_strophes.wav,0.076134817117964
+185,ML27192071,Macaulay Library,2016,15/04/2016,,Tennessee,35.8856,-84.1201,Ascending,Doublet,Colin Sumrall,ML27192071_terminal_strophes.wav,0.0802486588343212
+186,ML27522691,Macaulay Library,2016,23/04/2016,,North Carolina,36.1726,-79.5561,Ascending,Triplet,Martin Wall,ML27522691_terminal_strophes.wav,0.0322170405336783
+187,ML28196461,Macaulay Library,2016,3/5/16,,Ohia,39.8062,-82.7593,Descending,Doublet,Jeffery Roth,ML28196461_terminal_strophes.wav,0.0176883966275495
+188,ML29804391,Macaulay Library,2012,31/05/2012,,Vermont,44.6433,-72.6314,Ascending,Triplet,Paul Marvin,WTSP56.wav,0.0394964432007296
+189,ML29893601,Macaulay Library,2016,1/6/16,,British Columbia,50.9737,-118.2015,Ascending,Doublet,John Woods,ML29893601_terminal_strophes.wav,0.0116381272953553
+190,ML31406421,Macaulay Library,2016,16/07/2016,,New York,42.6564,-76.3263,Ascending,Triplet,Jay Mcgowan,ML31406421_terminal_strophes.wav,0.0106251794936509
+191,ML31612451,Macaulay Library,2016,12/7/16,,New York,44.3095,-73.9371,Descending,Triplet,Glen Chapman,ML31612451_terminal_strophes_triplet.wav,0.0173547481678959
+194,ML31612451,Macaulay Library,2016,12/7/16,,New York,44.3095,-73.9371,Descending,Doublet,Glen Chapman,ML31612451_terminal_strophes_doublet.wav,0.0256640647186988
+195,ML31716761,Macaulay Library,2016,17/04/2016,,Vermont,44.9523,-72.8753,Descending,Triplet,Craig Provost,ML31716761_terminal_strophes.wav,0.00893064559290366
+196,ML34904071,Macaulay Library,2016,25/06/2016,,Vermont,43.45,-73.0364,Descending,Doublet,Roy Pilcher,ML34904071_terminal_strophes.wav,0.0930282055697692
+197,ML36984,Macaulay Library,1986,14/06/1986,,Maine,44.6166,-66.6,Descending,Triplet,Charles Duncan,ML36984_terminal_strophes.wav,0.0100638187151881
+198,ML38458241,Macaulay Library,2016,28/10/2016,,North Carolina,36.2145,-81.6465,Ascending,Doublet,Wilcox Family,WTSP57.wav,0.0740283775161897
+199,ML38458241,Macaulay Library,2016,28/10/2016,,North Carolina,36.2145,-81.6465,Ascending,Doublet,Wilcox Family,ML38458241_terminal_strophes.wav,0.0878020573282921
+200,ML38701321,Macaulay Library,2016,31/10/2016,,Maryland,39.6433,-76.3403,Ascending,Triplet,Dominique Bayne,WTSP58.wav,0.112092997633252
+203,ML39355611,Macaulay Library,2016,8/11/16,,North Carolina,36.2144,-81.6465,Descending,Doublet,Wilcox Family,ML39355611_terminal_strophes_doublet.wav,0.126807401124019
+205,ML39355611,Macaulay Library,2016,8/11/16,,North Carolina,36.2144,-81.6465,Descending,Triplet,Wilcox Family,ML39355611_terminal_strophes_triplet.wav,0.021650744094287
+207,ML39355641,Macaulay Library,2016,8/11/16,,North Carolina,36.2144,-81.6465,Descending,Triplet,Wilcox Family,ML39355641_terminal_strophes.wav,0.0301548983056354
+208,ML39901471,Macaulay Library,2015,7/7/15,,New York,43.6843,-74.7468,Descending,Triplet,Michael Andersen,ML39901471_terminal_strophes.wav,0.0236961674864124
+209,ML39908121,Macaulay Library,2015,7/7/15,,New York,43.6733,-74.7013,Ascending,Triplet,Michael Andersen,ML39908121_terminal_strophes.wav,0.0299683861198372
+210,ML41194381,Macaulay Library,2016,28/11/2016,,North Carolina,35.0383,-80.7355,Ascending,Triplet,Peter Quadarella,ML41194381_terminal_strophes.wav,0.012814028925634
+211,ML41694471,Macaulay Library,2016,3/12/16,,Tennessee,35.9511,-84.2392,Ascending,Triplet,Colin Sumrall,ML41694471_terminal_strophes.wav,0.0241979231883286
+212,ML43015,Macaulay Library,1956,12/7/56,,Quebec,46.8027,-71.3334,Ascending,Triplet,William Gunn,WTSP44.wav,0.024260734070006
+213,ML47699151,Macaulay Library,2015,12/4/15,,Pennsylvania,40.1422,-75.3457,Ascending,Triplet,Brian Henderson,ML47699151_terminal_strophes.wav,0.00294678357756722
+214,ML47740971,Macaulay Library,2016,5/6/16,,Alberta,55.2356,-114.062,Descending,Doublet,Laura Gooch,ML47740971_terminal_strophes.wav,0.0077325974119828
+215,ML49064811,Macaulay Library,2016,12/6/16,,Alberta,55.6359,-114.5319,Ascending,Doublet,Laura Gooch,ML49064811_terminal_strophes.wav,0.0278055563973363
+216,ML51018801,Macaulay Library,2017,12/3/17,,Virginia,37.6909,-78.8823,Ascending,Triplet,Kelly Krechmer,ML51018801_terminal_strophes.wav,0.0187822758866963
+217,ML52577121,Macaulay Library,2017,25/03/2017,,North Carolina,36.21446,-81.64652,Descending,Triplet,Wilcox Family,ML52577121_terminal_strophes.wav,0.0101392558069907
+218,ML52836791,Macaulay Library,2017,30/03/2017,,South Carolina,35.10519,-81.26941,Descending,Doublet,Steven Biggers,ML52836791_terminal_strophes.wav,0.0129464695568798
+219,ML52837721,Macaulay Library,2017,30/03/2017,,Ohio,41.01807,-81.5193,Descending,Triplet,Dennis Mersky,ML52837721_terminal_strophes.wav,0.0372090391280628
+220,ML54188011,Macaulay Library,2017,11/4/17,,Washington,47.66387,-122.42153,Descending,Doublet,Kevin Kincaid,ML54188011_terminal_strophes.wav,0.00326584872618904
+221,ML54340501,Macaulay Library,2017,12/4/17,,Missouri,38.36801,-91.24716,Descending,Doublet,Jack Foreman,ML54340501_terminal_strophes.wav,0.0375561333701742
+222,ML54362381,Macaulay Library,2017,13/04/2017,,Virginia,38.58107,-77.76089,Ascending,Triplet,Kelly Krechmer,ML54362381_terminal_strophes.wav,0.054263723501663
+223,ML54398891,Macaulay Library,2017,13/04/2017,,British Columbia,53.25544,-123.07508,Ascending,Doublet,Carey Bergman,WTSP60.wav,0.105639721335923
+224,ML54492741,Macaulay Library,2017,14/04/2017,,South Carolina,35.10519,-81.26941,Ascending,Triplet,Steven Biggers,ML54492741_terminal_strophes.wav,0.00532722247592319
+225,ML54547061,Macaulay Library,2017,14/04/2017,,New York,40.77712,-73.96957,Ascending,Triplet,Alexis Lamek,ML54547061_terminal_strophes.wav,0.00465931762227203
+226,ML54554911,Macaulay Library,2017,15/04/2017,,Virginia,38.6217,-77.7228,Descending,Triplet,Kelly Krechmer,ML54554911_terminal_strophes.wav,0.072813597667946
+227,ML54610761,Macaulay Library,2017,15/04/2017,,Virginia,38.53668,-77.9358,Descending,Triplet,Kelly Krechmer,ML54610761_terminal_strophes.wav,0.0507233234752821
+228,ML54838341,Macaulay Library,2016,19/06/2016,,Alberta,56.6023,-110.2448,Descending,Doublet,Laura Gooch,ML54838341_terminal_strophes.wav,0.146532972283435
+229,ML55055931,Macaulay Library,2017,17/04/2017,,North Carolina,36.1384,-81.6723,Ascending,Triplet,Wilcox Family,ML55055931_terminal_strophes.wav,0.0295933876450024
+230,ML55350731,Macaulay Library,2017,10/4/17,,Georgia,33.9055,-84.3736,Ascending,Triplet,Eric Cormier,ML55350731_terminal_strophes.wav,0.0532421333552556
+231,ML55530421,Macaulay Library,2017,23/04/2017,,Virginia,37.6781,-77.9464,Descending,Doublet,Darrell Peterson,WTSP61.wav,0.0373184422815683
+232,ML55593151,Macaulay Library,2017,24/04/2017,,Maine,44.2261,-69.7787,Ascending,Triplet,Jeff Wella,ML55593151_terminal_strophes.wav,0.0223781315512395
+233,ML56021031,Macaulay Library,2017,29/04/2017,,New Jersey,40.5039,-74.4958,Descending,Triplet,Sam Wijeratne,ML56021031_terminal_strophes.wav,0.0396594059406243
+234,ML56104121,Macaulay Library,2017,28/04/2017,,New York,43.3201,-77.7264,Monotone,Doublet,Nick Kachala,WTSP62.wav,0.0220789220830847
+235,ML56998831,Macaulay Library,2017,6/5/17,,Minnesota,46.7393,-92.0611,Ascending,Doublet,John Richardson,ML56998831_terminal_strophes.wav,0.00183938850672578
+236,ML57168021,Macaulay Library,2017,18/04/2017,,New York,42.4749,-76.4569,Descending,Triplet,Jay Mcgowan,ML57168021_terminal_strophes.wav,0.0123388082793725
+237,ML66742,Macaulay Library,1951,30/05/1951,,Ontario,45.8372,-78.3791,Ascending,Triplet,William Gunn,ML66742_terminal_strophes.wav,0.0303916075586468
+238,ML66743,Macaulay Library,1951,18/06/1951,,Ontario,45.8372,-78.3791,Ascending,Triplet,William Gunn,WTSP41.wav,0.0271005837601041
+239,ML66744,Macaulay Library,1953,18/06/1953,,Ontario,46.3679,-79.9247,Descending,Triplet,William Gunn,WTSP43.wav,0.0237374743251923
+240,ML66745,Macaulay Library,1954,19/06/1954,,Ontario,45.8372,-78.3791,Descending,Triplet,William Gunn,ML66745_terminal_strophes.wav,0.00399156399852825
+241,ML66751,Macaulay Library,1956,10/7/56,,Quebec,46.8027,-71.3334,Ascending,Triplet,William Gunn,WTSP45.wav,0.0258915361798104
+242,ML66752,Macaulay Library,1957,18/06/1957,,Quebec,48.181,-65.8874,Ascending,Triplet,William Gunn,ML66752_terminal_strophes.wav,0.0228803436543171
+243,ML66753,Macaulay Library,1957,4/7/57,,Ontario,47.8493,-81.3561,Descending,Triplet,William Gunn,ML66753_terminal_strophes.wav,0.00234345928008564
+244,ML66754,Macaulay Library,1957,5/7/57,,Ontario,47.8493,-81.3561,Descending,Triplet,William Gunn,ML66754_terminal_strophes.wav,0.00159615324930085
+245,ML66755,Macaulay Library,1957,5/7/57,,Ontario,47.8493,-81.3561,Ascending,Triplet,William Gunn,WTSP46.wav,0.00520576490883343
+246,ML66756,Macaulay Library,1957,8/7/57,,Ontario,47.8493,-81.3561,Descending,Triplet,William Gunn,ML66756_terminal_strophes.wav,0.0141828315719148
+247,ML66757,Macaulay Library,1958,8/5/58,,Ontario,45.8372,-78.3791,Descending,Triplet,William Gunn,ML66757_terminal_strophes.wav,0.00569908354473444
+248,ML66758,Macaulay Library,1958,11/5/58,,Ontario,45.8372,-78.3791,Descending,Triplet,William Gunn,ML66758_terminal_strophes.wav,0.0472851067868613
+249,ML66759,Macaulay Library,1958,22/05/1958,,Ontario,51.2731,-80.64,Ascending,Triplet,William Gunn,ML66759_terminal_strophes.wav,0.00151890734036384
+250,ML66760,Macaulay Library,1958,26/05/1958,,Ontario,51.2731,-80.64,Ascending,Triplet,William Gunn,ML66760_terminal_strophes.wav,0.00532088666229169
+251,ML66761,Macaulay Library,1958,27/05/1958,,Ontario,51.2731,-80.64,Descending,Triplet,William Gunn,ML66761_terminal_strophes.wav,0.00748407069063242
+252,ML66764,Macaulay Library,1958,7/7/58,,Ontario,47.8493,-81.3561,Ascending,Triplet,William Gunn,ML66764_terminal_strophes.wav,0.0108271476429399
+253,ML66765,Macaulay Library,1960,2/6/60,,Ontario,47.8493,-81.3561,Descending,Triplet,William Gunn,ML66765_terminal_strophes.wav,0.00189919662830857
+254,ML66768,Macaulay Library,1960,28/06/1960,,Ontario,50.0978,-91.922,Descending,Triplet,William Gunn,ML66768_terminal_strophes.wav,0.0100033109219472
+255,ML66769,Macaulay Library,1960,30/06/1960,,Ontario,50.0978,-91.922,Descending,Triplet,William Gunn,ML66769_terminal_strophes.wav,0.0155020234227705
+256,ML66770,Macaulay Library,1960,5/7/60,,Ontario,53.7586,-90.0764,Ascending,Triplet,William Gunn,ML66770_terminal_strophes.wav,0.0290835608255646
+257,ML66771,Macaulay Library,1960,5/7/60,,Ontario,53.7586,-90.0764,Ascending,Triplet,William Gunn,ML66771_terminal_strophes.wav,0.0199378851500945
+258,ML66772,Macaulay Library,1960,6/7/60,,Ontario,50.0978,-91.922,Ascending,Triplet,William Gunn,ML66772_terminal_strophes.wav,0.0422875490440717
+259,ML66773,Macaulay Library,1960,6/7/60,,Ontario,50.0978,-91.922,Descending,Triplet,William Gunn,WTSP47.wav,0.0218109499814998
+260,ML66774,Macaulay Library,1960,6/7/60,,Ontario,49.4333,-94.0138,Ascending,Triplet,William Gunn,ML66774_terminal_strophes.wav,0.0374558103321794
+261,ML66776,Macaulay Library,1960,13/07/1960,,New York,44.3659,-73.9026,Ascending,Triplet,William Gunn,ML66776_terminal_strophes.wav,0.0056989538369306
+262,ML66777,Macaulay Library,1960,13/07/1960,,New York,44.3659,-73.9026,Ascending,Triplet,William Gunn,ML66777_terminal_strophes.wav,0.0430721129144318
+263,ML66778,Macaulay Library,1960,14/07/1960,,New York,44.3659,-73.9026,Ascending,Triplet,William Gunn,ML66778_terminal_strophes.wav,0.0352136201152433
+264,ML66779,Macaulay Library,1960,14/07/1960,,New York,44.3659,-73.9026,Ascending,Triplet,William Gunn,ML66779_terminal_strophes.wav,0.0330562872080736
+265,ML66780,Macaulay Library,1960,14/07/1960,,New York,44.3659,-73.9026,Ascending,Triplet,William Gunn,ML66780_terminal_strophes.wav,0.00531777345546217
+266,ML66781,Macaulay Library,1960,17/07/1960,,Vermont,44.5437,-72.8143,Ascending,Triplet,William Gunn,ML66781_terminal_strophes.wav,0.00915015918271201
+267,ML66783,Macaulay Library,1962,10/6/62,,British Columbia,53.9171,-122.7497,Ascending,Triplet,William Gunn,ML66783_terminal_strophes.wav,0.00953934847579762
+268,ML66784,Macaulay Library,1962,10/6/62,,Alberta,55.1699,-118.7986,Ascending,Triplet,William Gunn,ML66784_terminal_strophes.wav,0.0367629052741153
+269,ML66786,Macaulay Library,1962,10/6/62,,Alberta,55.1699,-118.7986,Ascending,Triplet,William Gunn,ML66786_terminal_strophes.wav,0.0316615353474509
+270,ML66788,Macaulay Library,1963,22/06/1963,,Ontario,45.8372,-78.3791,Descending,Triplet,William Gunn,ML66788_terminal_strophes.wav,0.00208847674568457
+271,ML66789,Macaulay Library,1963,23/06/1963,,Ontario,45.8372,-78.3791,Ascending,Triplet,William Gunn,ML66789_terminal_strophes.wav,0.0321384804836491
+272,ML66791,Macaulay Library,1971,15/06/1971,,Ontario,45.8372,-78.3791,Ascending,Triplet,William Gunn,ML66791_terminal_strophes.wav,0.0261749072536069
+273,ML66792,Macaulay Library,1971,16/06/1971,,Ontario,45.8372,-78.3791,Descending,Triplet,Christopher Gunn,ML66792_terminal_strophes.wav,0.00238025997962103
+274,ML66793,Macaulay Library,1977,21/05/1977,,Alberta,50.2227,-111.7687,Ascending,Triplet,William Gunn,ML66793_terminal_strophes.wav,0.013108099979388
+275,ML73982,Macaulay Library,1992,3/6/92,,Michigan,46.6274,-85.0374,Ascending,Triplet,Geoffrey Keller,ML73982_terminal_strophes.wav,0.0346766702041401
+276,ML73984,Macaulay Library,1992,3/6/92,,Michigan,46.6274,-85.0374,Ascending,Triplet,Geoffrey Keller,ML73984_terminal_strophes.wav,0.0414440540638318
+277,ML73990,Macaulay Library,1992,4/6/92,,Michigan,46.6274,-85.0374,Descending,Triplet,Geoffrey Keller,ML73990_terminal_strophes.wav,0.0182201718579967
+278,ML77095,Macaulay Library,1996,11/6/96,,New York,43.7897,-74.2128,Ascending,Triplet,Curtis Marantz,ML77095_terminal_strophes.wav,0.0203020126069863
+279,ML84752,Macaulay Library,1997,3/4/97,,Maryland,39.4166,-77.2083,Ascending,Triplet,Wilbur Hershberger,ML84752_terminal_strophes.wav,0.0201802415621744
+280,ML93491201,Macaulay Library,2018,4/8/18,Westchester,New York,41.1751,-73.8719,UpDown,Triplet,valerie heemstra,ML93491201_terminal_strophes.wav,0.00165028830938119
+281,ML93553411,Macaulay Library,2018,4/8/18,Milwaukee,Wisconsin,43.1306,-87.9347,Descending,Doublet,Gustav Holtz,ML93553411_terminal_strophes.wav,0.00166972185383796
+282,ML93819141,Macaulay Library,2018,4/10/18,Hampshire,Massachusetts,42.3174,-72.6503,Ascending,Triplet,Mary McKitrick,WTSP70.wav,0.0159082380479329
+283,ML93822501,Macaulay Library,2018,4/8/18,Spencer,Indiana,37.8472,-87.1508,Ascending,Doublet,John Meredig,WTSP65.wav,0.0340135798324772
+284,ML93834681,Macaulay Library,2018,4/10/18,York,South Carolina,35.1052,-81.2694,Ascending,Triplet,Steven Biggers,ML93834681_terminal_strophes.wav,0.0191428873552403
+285,ML94043581,Macaulay Library,2018,4/10/18,San Bernardino,California,34.0537,-117.268,Ascending,Doublet,Michael Woodruff,ML94043581_terminal_strophes.wav,0.0478483805315162
+286,ML94120091,Macaulay Library,2018,4/12/18,Benton,Oregon,44.5832,-123.299,Ascending,Doublet,Hendrik Herlyn,ML94120091_terminal_strophes.wav,0.028677293434832
+287,ML94146141,Macaulay Library,2018,4/12/18,Shelburne,Nova Scotia,43.4955,-65.5771,Descending,Triplet,Mark Dennis ,ML94146141_terminal_strophes.wav,0.0578031281249793
+288,ML94146141,Macaulay Library,2018,4/12/18,Shelburne,Nova Scotia,43.4955,-65.5771,Ascending,Triplet,Mark Dennis,ML94146141_terminal_strophes.wav,0.0578031281249793
+289,ML94149261,Macaulay Library,2018,4/12/18,Westchester,New York,41.1098,-73.8352,Descending,Triplet,valerie heemstra,ML94149261_terminal_strophes.wav,0.123009551330944
+290,ML94149261,Macaulay Library,2018,4/12/18,Westchester,New York,41.1098,-73.8352,Ascending,Triplet,valerie heemstra,ML94149261_terminal_strophes.wav,0.123009551330944
+291,ML94266321,Macaulay Library,2018,4/13/18,Kendall,Illinois,41.6685,-88.5256,Ascending,Doublet,Charles Shields,WTSP66.wav,0.0402498758749484
+292,ML94266321,Macaulay Library,2018,4/13/18,Kendall,Illinois,41.6685,-88.5256,Descending,Doublet,Charles Shields,WTSP66.wav,0.0402498758749484
+293,ML94685391,Macaulay Library,2018,4/15/18,Buncombe,North Carolina,35.565,-82.6191,UpDown,Triplet,Miles Buddy,ML94685391_terminal_strophes.wav,0.0281237777830024
+294,ML94746021,Macaulay Library,2018,4/12/18,North Chagrin Reservation,Ohio,41.5804,-81.4158,Descending,Doublet,Gustino Lanese,ML94746021_terminal_strophes.wav,0.00393802740618478
+295,ML95228051,Macaulay Library,2018,4/18/18,Cape May,New Jersey,38.9623,-74.9395,Descending,Triplet,Tom Johnson,WTSP71.wav,0.00154284626078314
+296,ML95228051,Macaulay Library,2018,4/18/18,Cape May,New Jersey,38.9623,-74.9395,Descending,Triplet,Tom Johnson,WTSP72.wav,0.0183383904772974
+297,ML95228051,Macaulay Library,2018,4/18/18,Cape May,New Jersey,38.9623,-74.9395,Ascending,Triplet,Tom Johnson,WTSP71.wav,0.00154284626078314
+298,ML95228051,Macaulay Library,2018,4/18/18,Cape May,New Jersey,38.9623,-74.9395,Ascending,Triplet,Tom Johnson,WTSP72.wav,0.0183383904772974
+299,ML95630741,Macaulay Library,2018,4/12/18,Williamson,Tennessee,35.9206,-86.8627,Descending,Doublet,Carole Swann,WTSP67.wav,0.0748267292821155
+300,ML95743871,Macaulay Library,2018,4/21/18,Allegheny,Pennsylvania,40.5435,-79.9062,Ascending,Triplet,Oliver Lindhiem,ML95743871_terminal_strophes.wav,0.0123675028958351
+301,ML95939711,Macaulay Library,2018,4/22/18,Benton,Oregon,44.5454,-123.2581,Descending,Doublet,Kai Frueh,ML95939711_terminal_strophes.wav,0.0379862969125309
+302,ML95963851,Macaulay Library,2018,4/22/18,Delaware,Pennsylvania,39.9592,-75.4506,Descending,Triplet,David Eberly,ML95963851_terminal_strophes.wav,0.0298006160787807
+303,ML96083341,Macaulay Library,2018,4/23/18,Newport,Rhode Island,41.4994,-71.2529,Ascending,Triplet,Matthew Schenck,ML96083341_terminal_strophes.wav,0.00907405387348789
+304,ML96722551,Macaulay Library,2018,4/27/18,Hamilton,Ohio,39.1485,-84.5146,Ascending,Doublet,William Hull,ML96722551_terminal_strophes.wav,0.0413220940268022
+305,ML96749011,Macaulay Library,2018,4/27/18,Middlesex,New Jersey,40.4919,-74.4348,Ascending,Triplet,John Beetham,ML96749011_terminal_strophes.wav,0.00984770970770236
+306,ML96789591,Macaulay Library,2018,4/27/18,Kennebec,Maine,44.3593,-70.0087,Ascending,Triplet,Glenn Hodgkins,ML96789591_terminal_strophes.wav,0.0165528108320123
+307,ML97130171,Macaulay Library,2018,4/29/18,King's,Nova Scotia,44.7139,-64.74,Descending,Triplet,nancy/mike dowd,ML97130171_terminal_strophes.wav,0.027194227757069
+308,ML97718781,Macaulay Library,2018,5/2/18,Québec City,Quebec,46.8377,-71.2122,Ascending,Triplet,Guillaume Charette,ML97718781_terminal_strophes.wav,0.0597039367063138
+309,ML97782401,Macaulay Library,2018,4/30/18,Ottawa,Michigan,42.9459,-85.8806,Descending,Doublet,Lisa Casler,ML97782401_terminal_strophes.wav,0.113226866277072
+310,ML98806,Macaulay Library,1992,1/6/92,,Michigan,46.6274,-85.0374,Ascending,Triplet,Geoffrey Keller,ML98806_terminal_strophes.wav,0.0326588263989187
+311,ML98808,Macaulay Library,1992,1/6/92,,Michigan,46.6274,-85.0374,Descending,Triplet,Geoffrey Keller,WTSP51.wav,0.109445824240993
+312,ML98816,Macaulay Library,1992,1/6/92,,Michigan,46.6274,-85.0374,Ascending,Triplet,Geoffrey Keller,ML98816_terminal_strophes.wav,0.0284272132634437
+313,XC137567,Xeno Canto,2013,1/6/13,,Quebec,47.8534,-70.42,,Triplet,Martin St-Michel,XC137567_terminal_strophes.wav,0.00986140237864546
+314,XC137568,Xeno Canto,2013,2/6/13,,Quebec,47.8534,-70.42,,Triplet,Martin St-Michel,WTSP89.wav,0.0383498338892591
+315,XC139053,Xeno Canto,2013,15/06/2013,,Quebec,47.8043,-70.7847,,Triplet,Martin St-Michel,WTSP90.wav,0.0221283691364348
+316,XC141294,Xeno Canto,2013,2/7/13,,Illinois,41.8859,-87.6176,,Doublet,C Lubecke,XC141294_terminal_strophes.wav,0.0198174527628824
+317,XC141419,Xeno Canto,2013,3/7/13,,Illinois,41.8859,-87.6176,,Doublet,C Lubecke,XC141419_terminal_strophes.wav,0.0739386860354787
+318,XC142150,Xeno Canto,2013,10/7/13,,Georgia,34.9478,-85.0346,,Triplet,David Hollie,XC142150_terminal_strophes.wav,0.0392758938225763
+319,XC14296,Xeno Canto,2007,11/6/07,,Minnesota,47.5456,-91.4614,,Doublet,Andrew Spencer,WTSP84.wav,0.0226530474558797
+320,XC14297,Xeno Canto,2007,12/6/07,,Minnesota,48.056,-90.5243,,Doublet,Andrew Spencer,XC14297_terminal_strophes.wav,0.11303609439732
+321,XC14298,Xeno Canto,2007,12/6/07,,Minnesota,48.056,-90.5243,,Doublet,Andrew Spencer,XC14298_terminal_strophes.wav,0.125265866251343
+322,XC144431,Xeno Canto,2013,30/07/2013,,British Columbia,53.8832,-122.793,,Doublet,Patches Flores,WTSP88.wav,0.00774023884193303
+323,XC147689,Xeno Canto,2013,1/6/13,,Alberta,56.7264,-111.3803,,Doublet,Dugan Maynard,XC147689_terminal_strophes.wav,0.091151368823006
+324,XC147925,Xeno Canto,2013,1/6/13,,Alberta,56.7264,-111.3803,,Doublet,Dugan Maynard,XC147925_terminal_strophes.wav,0.0176975362124434
+325,XC153309,Xeno Canto,2012,18/07/2012,,New York,44.4461,-74.1155,,Triplet,Meena Haribal,XC153309_terminal_strophes.wav,0.00569113479409667
+326,XC154441,Xeno Canto,2013,17/06/2013,,Alberta,56.7264,-111.3803,,Doublet,Dugan Maynard,XC154441_terminal_strophes.wav,0.127945431293614
+327,XC16937,Xeno Canto,2007,24/04/2007,,Michigan,42.0778,-83.1995,,Doublet,Allen Chartier,XC16937_terminal_strophes.wav,0.0355515652310573
+328,XC185150,Xeno Canto,2014,8/6/14,,Quebec,47.677,-70.8267,,Triplet,Martin St-Michel,XC185150_terminal_strophes.wav,0.0239477056557067
+329,XC188416,Xeno Canto,2014,13/06/2014,,British Columbia,55.5267,-120.0314,,Doublet,Richard Webster,WTSP91.wav,0.00189928235952321
+330,XC188417,Xeno Canto,2014,13/06/2014,,British Columbia,55.5267,-120.0314,,Doublet,Richard Webster,XC188417_terminal_strophes.wav,0.00140658085439465
+331,XC188449,Xeno Canto,2014,14/06/2014,,British Columbia,55.5267,-120.0314,,Doublet,Richard Webster,XC188449_terminal_strophes.wav,0.122204339080063
+332,XC188748,Xeno Canto,2014,20/07/2014,,Quebec,46.1936,-73.65,,Triplet,Daniel,XC188748_terminal_strophes.wav,0.00253741058201575
+333,XC188828,Xeno Canto,2014,15/06/2014,,British Columbia,58.9758,-123.1714,,Doublet,Richard Webster,XC188828_terminal_strophes.wav,0.024368348204808
+334,XC189064,Xeno Canto,2014,15/06/2014,,British Columbia,59.0988,-123.4621,,Doublet,Richard Webster,XC189064_terminal_strophes.wav,0.136168896835972
+335,XC189065,Xeno Canto,2014,15/06/2014,,British Columbia,59.0988,-123.4621,,Doublet,Richard Webster,XC189065_terminal_strophes.wav,0.130981615645292
+336,XC189293,Xeno Canto,2014,16/06/2014,,British Columbia,59.0988,-123.4621,,Doublet,Richard Webster,XC189293_terminal_strophes.wav,0.017529648736337
+337,XC189812,Xeno Canto,2014,17/06/2014,,British Columbia,56.327,-120.9521,,Doublet,Richard Webster,XC189812_terminal_strophes.wav,0.12853059863717
+338,XC190047,Xeno Canto,2014,18/06/2014,,British Columbia,56.327,-120.9521,,Doublet,Richard Webster,XC190047_terminal_strophes.wav,0.0623441968954281
+339,XC190052,Xeno Canto,2014,18/06/2014,,British Columbia,56.327,-120.9521,,Doublet,Richard Webster,XC190052_terminal_strophes.wav,0.000762832624739761
+340,XC191897,Xeno Canto,2014,13/07/2014,,Quebec,47.677,-70.8267,,Triplet,Martin St-Michel,XC191897_terminal_strophes.wav,0.0302867496870063
+341,XC192191,Xeno Canto,2014,10/5/14,,Ontario,46.9441,-84.5511,,Doublet,Patrick Turgeon,XC192191_terminal_strophes.wav,0.0312720622122706
+342,XC210426,Xeno Canto,2015,16/01/2015,,California,37.4049,-121.9192,,Doublet,Pete Denten,XC210426_terminal_strophes.wav,0.108190164618268
+343,XC234159,Xeno Canto,2015,4/4/15,,New York,40.678,-73.9815,,Triplet,David DeLauro,XC234159_terminal_strophes.wav,0.0220860588162672
+344,XC236559,Xeno Canto,2015,18/04/2015,,Ontario,44.3211,-78.3264,,Doublet,Iain,XC236559_terminal_strophes.wav,0.0322678436175728
+345,XC237030,Xeno Canto,2015,21/04/2015,,Ontario,44.3211,-78.3264,,Triplet,Iain,XC237030_terminal_strophes.wav,0.109908678271703
+346,XC237649,Xeno Canto,2015,25/04/2014,,British Columbia,49.2958,-123.1414,,Doublet,Gavin Anstee,XC237649_terminal_strophes.wav,0.0426079613955665
+347,XC247314,Xeno Canto,2015,30/05/2015,,Ontario,45.3058,-78.8087,,Triplet,Iain,XC247314_terminal_strophes.wav,0.0522430030254562
+348,XC248010,Xeno Canto,2015,31/05/2015,,New York,43.6735,-74.6933,,Triplet,Dan Lane,XC248010_terminal_strophes.wav,0.0231881861133703
+349,XC248011,Xeno Canto,2015,31/05/2015,,New York,43.6735,-74.6933,,Triplet,Dan Lane,XC248011_terminal_strophes.wav,0.0256245855136807
+350,XC248012,Xeno Canto,2015,31/05/2015,,New York,43.6735,-74.6933,,Triplet,Dan Lane,XC248012_terminal_strophes.wav,0.0206735569676632
+351,XC255486,Xeno Canto,2015,5/7/15,,Nova Scotia,44.2544,-66.3683,,Triplet,Daniel Parker,XC255486_terminal_strophes.wav,0.019206434084421
+352,XC265364,Xeno Canto,2015,12/4/15,,Pennsylvania,40.1434,-75.3477,,Triplet,Braian Henderson,XC265364_terminal_strophes.wav,0.00849261411554149
+353,XC296901,Xeno Canto,2011,24/05/2011,,Wisconsin,45.8321,-88.9155,,Doublet,Paul Marvin,XC296901_terminal_strophes.wav,0.0299673327005985
+354,XC296909,Xeno Canto,2012,22/02/2012,,Maine,44.8501,-67.1944,,Triplet,Paul Marvin,XC296909_terminal_strophes.wav,0.00976932690517926
+355,XC296910,Xeno Canto,2012,24/05/2012,,Maine,44.4729,-67.5789,,Triplet,Paul Marvin,XC296910_terminal_strophes.wav,0.0281685517914539
+356,XC297384,Xeno Canto,2012,31/05/2012,,Vermont,44.5412,-72.8089,,Triplet,Paul Marvin,XC297384_terminal_strophes.wav,0.0177591028432346
+357,XC297603,Xeno Canto,2011,27/05/2011,,Minnesota,47.1675,-92.7162,,Doublet,Paul Marvin,XC297603_terminal_strophes.wav,0.125991953834611
+358,XC297606,Xeno Canto,2012,29/05/2012,,New York,44.3659,-73.9026,,Triplet,Paul Marvin,XC297606_terminal_strophes.wav,0.0105999041788668
+359,XC298776,Xeno Canto,2015,11/6/15,,Newfoundland,48.1788,-57.7439,,Triplet,Matthew Halley,XC298776_terminal_strophes.wav,0.0227650636925186
+360,XC310232,Xeno Canto,2016,31/03/2016,,Georgia,31.9237,-81.0559,,Triplet,Russ Wigh,XC310232_terminal_strophes.wav,0.0369986837887758
+361,XC312168,Xeno Canto,2016,13/04/2016,,Delaware,39.1742,-75.5424,,Triplet,Jerald R,XC312168_terminal_strophes.wav,0.0227554310248682
+362,XC312259,Xeno Canto,2016,14/04/2016,,Georgia,31.9237,-81.0559,,Triplet,Russ Wigh,XC312259_terminal_strophes.wav,0.00539778215330626
+363,XC312855,Xeno Canto,2016,13/04/2016,,Delaware,39.1742,-75.5424,,Triplet,Jerald R,XC312855_terminal_strophes.wav,0.0140392170855201
+364,XC319515,Xeno Canto,2016,22/05/2016,,Quebec,48.9272,-66.113,,Triplet,Martin St-Michel,XC319515_terminal_strophes.wav,0.024137283780418
+365,XC322417,Xeno Canto,2016,18/06/2016,,British Columbia,52.1563,-122.1969,,Doublet,Phil Ranson,XC322417_terminal_strophes.wav,0.0396913136325943
+366,XC322428,Xeno Canto,2016,18/06/2016,,British Columbia,52.1563,-122.1969,,Doublet,Phil Ranson,XC322428_terminal_strophes.wav,0.00875651548888471
+367,XC329802,Xeno Canto,2016,28/06/2016,,Saskatchewan,52.9333,-107.0927,,Doublet,John Patterson,XC329802_terminal_strophes.wav,0.0430707500236534
+368,XC329803,Xeno Canto,2016,28/06/2016,,Saskatchewan,52.9366,-107.093,,Doublet,John Patterson,XC329803_terminal_strophes.wav,0.0102820369783372
+369,XC329805,Xeno Canto,2016,28/06/2016,,Saskatchewan,52.9534,-107.0932,,Doublet,John Patterson,XC329805_terminal_strophes.wav,0.00904025540195906
+370,XC329835,Xeno Canto,2016,25/07/2016,,Saskatchewan,52.9296,-107.1103,,Doublet,John Patterson,XC329835_terminal_strophes.wav,0.107248432860914
+371,XC329836,Xeno Canto,2016,25/07/2016,,Saskatchewan,52.929,-107.1378,,Doublet,John Patterson,XC329836_terminal_strophes.wav,0.106565993393305
+372,XC329869,Xeno Canto,2016,28/06/2016,,Saskatchewan,52.9538,-107.0929,,Doublet,John Patterson,XC329869_terminal_strophes.wav,0.0942098619497816
+373,XC329880,Xeno Canto,2016,25/07/2016,,Saskatchewan,52.9295,-107.1798,,Doublet,John Patterson,XC329880_terminal_strophes.wav,0.0162399231435139
+374,XC329881,Xeno Canto,2016,25/07/2016,,Saskatchewan,53.5743,-105.7646,,Doublet,John Patterson,XC329881_terminal_strophes.wav,0.0748691943913841
+375,XC33226,Xeno Canto,2009,19/04/2009,,Washington,48.3787,-122.4487,,Doublet,Tayler Brooks,XC33226_terminal_strophes.wav,0.0103961731798846
+376,XC342661,Xeno Canto,2016,12/7/16,,British Columbia,53.9588,-122.8276,,Doublet,Doug Wilson,XC342661_terminal_strophes.wav,0.00912801529130187
+377,XC342662,Xeno Canto,2016,13/07/2016,,British Columbia,53.9588,-122.8276,,Doublet,Doug Wilson,XC342662_terminal_strophes.wav,0.0428481669659325
+378,XC342663,Xeno Canto,2016,18/07/2016,,British Columbia,53.9588,-122.8276,,Doublet,Doug Wilson,XC342663_terminal_strophes.wav,0.0251397902172989
+379,XC342664,Xeno Canto,2016,10/7/16,,British Columbia,53.9171,-122.7497,,Doublet,Mari Wood,XC342664_terminal_strophes.wav,0.00171074221254803
+380,XC363526,Xeno Canto,2017,4/8/17,,Wake County,35.9235,-78.5993,Ascending,Triplet,Brian Murphy,XC363526_terminal_strophes.wav,0.0157450414501461
+381,XC373459,Xeno Canto,2017,13/04/2017,,Iowa,40.8918,-91.0756,,Doublet,Bobby Wilcox,XC373459_terminal_strophes.wav,0.0111211657336343
+382,XC373510,Xeno Canto,2017,4/5/17,,Iowa,40.8918,-91.0756,,Doublet,Bobby Wilcox,XC373510_terminal_strophes.wav,0.00493451303140175
+383,XC373803,Xeno Canto,2017,31/05/2017,,Alberta,54.6628,-110.9826,Descending,Doublet,Patrick Turgeon,XC373803_terminal_strophes.wav,0.0293482014750871
+384,XC424319,Xeno Canto,2018,7/2/18,Penobscot County,Maine,45.8629,-68.6745,Ascending,Triplet,Lance A.M. Benner,XC424319_terminal_strophes.wav,0.0212329595478506
+385,XC467600,Xeno Canto,2019,4/9/19,,New York,40.7824,-73.963,,Triplet,Giuseppe Speranza,XC467600_terminal_strophes.wav,0.0292848144308644
+386,XC480251,Xeno Canto,2019,4/6/19,Rahway,New Jersey,40.6083,-74.2776,Ascending,Triplet,William Whitehead,XC480251_terminal_strophes.wav,0.0124282076603218
+387,XC52450,Xeno Canto,2010,25/05/2010,,New Hampshire,44.367,-71.527,,Triplet,Andrew Spencer,XC52450_terminal_strophes.wav,0.0159674295317741
+388,XC54762,Xeno Canto,2008,2/5/08,,Tennessee,35.8589,-84.0948,,Triplet,Mike Nelson,WTSP85.wav,0.0243317256500602
+389,XC59166,Xeno Canto,2010,10/5/10,,Maine,46.7678,-68.6009,,Triplet,Tayler Brooks,WTSP86.wav,0.0209922325664755
+390,XC77875,Xeno Canto,2011,14/05/2011,,Minnesota,47.795,-92.079,,Doublet,Jonathon Jongsma,XC77875_terminl_strophes.wav,0.13720788948193
+391,XC83546,Xeno Canto,2008,26/05/2008,,Ontario,45.919,-77.583,,Triplet,Jelmer Poelstra,XC83546_terminal_strophes.wav,0.0278944246022402
+392,XC89189,Xeno Canto,2011,26/10/2011,,Tennessee,35.9439,-83.6889,,Triplet,Mike Nelson,XC89189_terminal_strophes.wav,0.0266225863240554
+393,XC89683,Xeno Canto,2011,2/11/11,,Tennessee,35.6028,-84.1228,,Triplet,Mike Nelson,WTSP87.wav,0.00939577081106518

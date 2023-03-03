@@ -1,0 +1,1784 @@
+Source,Recording ID (if noted),Year,Date,Subpopulation (if specified),Province/State,Latitude,Longitude,Introductory Notes (if noted),Terminal Strophe type,Recordist
+ARU,BONAMI_20090719_070400,2009,19/07/2009,,Ontario,48.04504,-85.92995,Ascending,Doublet,Jenn Foote
+ARU,CASCADE_20090601_071700,2009,1/6/09,,Ontario,48.12117,-86.03338,Ascending,Doublet,Jenn Foote
+ARU,HATCOVE_20090709_065400,2009,9/7/09,,Ontario,48.59406,-86.28141,Ascending,Doublet,Jenn Foote
+ARU,HATTIE_20090602_064700,2009,2/6/09,,Ontario,48.57343,-86.27346,Ascending,Doublet,Jenn Foote
+ARU,IMOGENE_20090614_064300,2009,14/06/2009,,Ontario,48.0236,-85.90396,Descending,Doublet,Jenn Foote
+ARU,IMOGENE_20090615_064300,2009,15/06/2009,,Ontario,48.0236,-85.90396,Ascending,Doublet,Jenn Foote
+ARU,NORTHSWALLOW_20090531_071800,2009,31/05/2009,,Ontario,48.22146,-86.11483,Ascending,Doublet,Jenn Foote
+ARU,NORTHSWALLOW_20090601_071700,2009,1/6/09,,Ontario,48.22146,-86.11483,Descending,Doublet,Jenn Foote
+ARU,OISEAU_20090602_071700,2009,2/6/09,,Ontario,48.38376,-86.1858,Ascending,Doublet,Jenn Foote
+ARU,PLAYTER_20090603_071600,2009,3/6/09,,Ontario,48.57326,-86.24559,Descending,Doublet,Jenn Foote
+ARU,PLAYTER_20090604_071600,2009,4/6/09,,Ontario,48.57326,-86.24559,Ascending,Doublet,Jenn Foote
+ARU,PUKONT_20090708_065300,2009,8/7/09,,Ontario,47.99474,-85.88275,Ascending,Doublet,Jenn Foote
+ARU,SWALLOW_20090527_065100,2009,27/05/2009,,Ontario,48.15306,-86.06153,Ascending,Doublet,Jenn Foote
+ARU,W-GRAVEL_20090605_064500,2009,5/6/09,,Ontario,48.30508,-86.1554,Descending,Doublet,Jenn Foote
+ARU,WILLOW_20090531_064800,2009,31/05/2009,,Ontario,48.50408,-86.24315,Descending,Doublet,Jenn Foote
+ARU,BONAMI_20090714_065800,2009,14/07/2009,,Ontario,48.04504,-85.92995,Ascending,Triplet,Jenn Foote
+ARU,CASCADE_20090602_071700,2009,2/6/09,,Ontario,48.12117,-86.03338,Ascending,Triplet,Jenn Foote
+ARU,IMOGENE_20090704_065007,2009,4/7/09,,Ontario,48.0236,-85.90396,Ascending,Triplet,Jenn Foote
+ARU,CASCADE_20100604_064600,2010,4/6/10,,Ontario,48.12117,-86.03338,Ascending,Doublet,Jenn Foote
+ARU,NSWALLOW_20100523_065500,2010,23/05/2010,,Ontario,48.22146,-86.11483,Ascending,Doublet,Jenn Foote
+ARU,PLA-HBR22_20100605_064500,2010,5/6/10,,Ontario,48.58184,-86.26102,Descending,Doublet,Jenn Foote
+ARU,SWALLOW_20100530_071900,2010,30/05/2010,,Ontario,48.15306,-86.06153,Descending,Doublet,Jenn Foote
+ARU,WGRAVEL_20100523_072500,2010,23/05/2010,,Ontario,48.30508,-86.1554,Ascending,Triplet,Jenn Foote
+ARU,IMOGENE_20110702_064812,2011,2/7/11,,Ontario,48.0236,-85.90396,Descending,Doublet,Jenn Foote
+ARU,NSWALLOW_20110702_071800,2011,2/7/11,,Ontario,48.22146,-86.11483,Descending,Doublet,Jenn Foote
+ARU,PLA-HBR2_20110522_065700,2011,22/05/2011,,Ontario,48.58184,-86.26102,Ascending,Doublet,Jenn Foote
+ARU,SM23_20110519_032000,2011,19/05/2011,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SM23_20110530_032000,2011,30/05/2011,,Ontario,46.5219,-84.3461,Descending,Doublet,Jenn Foote
+ARU,SM24_20110506_034500,2011,6/5/11,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SM24_20110506_034500,2011,6/5/11,,Ontario,46.5219,-84.3461,Descending,Doublet,Jenn Foote
+ARU,SM24_20110513_034500,2011,13/05/2011,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SM24_20110520_032000,2011,20/05/2011,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SM24_20110520_032000,2011,20/05/2011,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SM24_20110527_032000,2011,27/05/2011,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SWALLOW_20110704_064901,2011,4/7/11,,Ontario,48.15306,-86.06153,Monotone,Doublet,Jenn Foote
+ARU,SM21_20110625_031000,2011,25/06/2011,,Ontario,46.5219,-84.3461,Descending,Triplet,Jenn Foote
+ARU,SM24_20110520_032000,2011,20/05/2011,,Ontario,46.5219,-84.3461,Monotone,Triplet,Jenn Foote
+ARU,WGRAVEL_20110527_072200,2011,27/05/2011,,Ontario,48.30508,-86.1554,Ascending,Triplet,Jenn Foote
+ARU,CASCADE_20120530_054900,2012,30/05/2012,,Ontario,48.12117,-86.03338,Descending,Doublet,Jenn Foote
+ARU,HATTIE_20120603_054600,2012,3/6/12,,Ontario,48.57343,-86.27346,Ascending,Doublet,Jenn Foote
+ARU,IMOGENE_20120530_054900,2012,30/05/2012,,Ontario,48.0236,-85.90396,Ascending,Doublet,Jenn Foote
+ARU,NSWALLOW_20120529_054900,2012,29/05/2012,,Ontario,48.22146,-86.11483,Ascending,Doublet,Jenn Foote
+ARU,PLA-HBR2_20120605_054500,2012,5/6/12,,Ontario,48.58184,-86.26102,Ascending,Doublet,Jenn Foote
+ARU,SSM1_20120523_032400,2012,23/05/2012,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SSM1_20120523_032400,2012,23/05/2012,,Ontario,46.5219,-84.3461,Descending,Doublet,Jenn Foote
+ARU,SSM2_20120504_034500,2012,4/5/12,,Ontario,46.5219,-84.3461,Descending,Doublet,Jenn Foote
+ARU,SSM2_20120513_034500,2012,13/05/2012,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SSM3_20120507_034500,2012,7/5/12,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SSM3_20120507_034500,2012,7/5/12,,Ontario,46.5219,-84.3461,Descending,Doublet,Jenn Foote
+ARU,SSM3_20120526_032400,2012,26/05/2012,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SSM4_20120511_034500,2012,11/5/12,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SSM6_20120517_032400,2012,17/05/2012,,Ontario,46.5219,-84.3461,Ascending,Doublet,Jenn Foote
+ARU,SWALLOW_20120529_054900,2012,29/05/2012,,Ontario,48.15306,-86.06153,Descending,Doublet,Jenn Foote
+ARU,WGRAVEL_20120523_055500,2012,23/05/2012,,Ontario,48.30508,-86.1554,Descending,Doublet,Jenn Foote
+ARU,SSM6_20120504_034500,2012,4/5/12,,Ontario,46.5219,-84.3461,Ascending,Triplet,Jenn Foote
+ARU,HATCS1_20130606_211100,2013,6/6/13,,Ontario,48.59406,-86.28141,Descending,Doublet,Jenn Foote
+ARU,IMOGENE_20130524_055400,2013,24/05/2013,,Ontario,48.0236,-85.90396,Ascending,Doublet,Jenn Foote
+ARU,METER0026_20130614_062700,2013,14/06/2013,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER0100_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER0936_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER11127_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER11128_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER11129_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER11135-20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER11149_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER11157_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER11158_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER11168_20130614_062700,2013,14/06/2013,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER11169_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER11170_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER11180_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER11196_20130702_063200,2013,2/7/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER11628_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER11715_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER11838_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER12566_20130614_062700,2013,14/06/2013,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER12587_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER12642_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER12644_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER12671_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER12730_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER13179_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER13215_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER2679_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER2679_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER2686_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER2688_20130605_062900,2013,5/6/15,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER4741_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER4926_20130614_062700,2013,14/06/2013,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER4932_20130624_062800,2013,24/06/2013,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER4933_20130702_063200,2013,2/7/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER4951_20130702_063200,2013,2/7/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER4953_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER5019_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER6170_20130614_062700,2013,14/06/2013,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER8349_20130614_062700,2013,14/06/2013,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER8397_20130614_062700,2013,14/06/2013,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,NSWALLOW_20130608_054400,2013,8/6/13,,Ontario,48.22146,-86.11483,Ascending,Doublet,Jenn Foote
+ARU,SM2661_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,SM2665_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,SM2671_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,SM4940_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,SM4943_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,SWALLOW_20130628_054606,2013,28/06/2013,,Ontario,48.15306,-86.06153,Descending,Doublet,Jenn Foote
+ARU,METER11628_20130605_062900,2013,5/6/13,,Ontario,49.688,-83.667,Ascending,Triplet,Jenn Foote
+ARU,METER12725_20130614_062700,2013,14/06/2013,,Ontario,49.688,-83.667,Descending,Triplet,Jenn Foote
+ARU,WGRAVEL_20130524_062400,2013,24/05/2013,,Ontario,48.30508,-86.1554,Descending,Triplet,Jenn Foote
+ARU,20140611_062700,2014,11/6/14,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,20140612_062700,2014,12/6/14,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,20140613_062700,2014,13/06/2014,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,20140618_062700,2014,18/06/2014,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,20140625_062800,2014,25/06/2014,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,20140702_063200,2014,2/7/14,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,20140703_063300,2014,3/7/14,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,CASCADE_20140606_051500,2014,6/6/14,,Ontario,48.12117,-86.03338,Ascending,Doublet,Jenn Foote
+ARU,HATCS1_20140608_051400,2014,8/6/14,,Ontario,48.59406,-86.28141,Descending,Doublet,Jenn Foote
+ARU,HATCS2_20150526_052300,2014,26/05/2015,,Ontario,48.59406,-86.28141,Descending,Doublet,Jenn Foote
+ARU,METER2662_20140613_062700,2014,13/06/2014,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER2667_20140611_062700,2014,11/6/14,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER2686_20140703_063300,2014,3/7/14,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER2688_20140611_062700,2014,11/6/14,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,METER4927_20140703_063300,2014,3/7/14,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER4933_20140612_062700,2014,12/6/14,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,METER5019_20130625_062800,2014,25/06/2014,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,PLA-HBR2_20140529_052000,2014,29/05/2014,,Ontario,48.58184,-86.26102,Descending,Doublet,Jenn Foote
+ARU,SM2661_20140612_062700,2014,12/6/14,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,SM2671_20140611_062700,2014,11/6/14,,Ontario,49.688,-83.667,Descending,Doublet,Jenn Foote
+ARU,SM4940_20140612_062700,2014,12/6/14,,Ontario,49.688,-83.667,Ascending,Doublet,Jenn Foote
+ARU,SWALLOW_20140615_051300,2014,15/06/2014,,Ontario,48.15306,-86.06153,Descending,Doublet,Jenn Foote
+ARU,IMOGENE_20150617_064300,2015,17/06/2015,,Ontario,48.0236,-85.90396,Descending,Doublet,Jenn Foote
+ARU,NSW_20150526_062300,2015,26/05/2015,,Ontario,48.22146,-86.11483,Descending,Doublet,Jenn Foote
+ARU,OIS_20150606_055500,2015,6/6/15,,Ontario,48.38376,-86.1858,Ascending,Doublet,Jenn Foote
+ARU,PLA-HBR2_20150525_075400,2015,25/05/2015,,Ontario,48.58184,-86.26102,Ascending,Doublet,Jenn Foote
+ARU,SWALLOW_20150608_211200,2015,8/6/15,,Ontario,48.15306,-86.06153,Ascending,Doublet,Jenn Foote
+Authors,wtsp3,1999,,"Aras, BC",British Columbia,55.7541,-120.5244,Ascending,Doublet,Mark Phinney
+Authors,wtsp5,1999,,"Aras, BC",British Columbia,55.7541,-120.5244,Descending,Doublet,Mark Phinney
+Authors,wtsp8,1999,,"Aras, BC",British Columbia,55.7541,-120.5244,Ascending,Doublet,Mark Phinney
+Authors,wtsp1,1999,,"Aras, BC",British Columbia,55.7541,-120.5244,Descending,Triplet,Mark Phinney
+Authors,wtsp2,1999,,"Aras, BC",British Columbia,55.7541,-120.5244,Ascending,Triplet,Mark Phinney
+Authors,wtsp4,1999,,"Aras, BC",British Columbia,55.7541,-120.5244,Ascending,Triplet,Mark Phinney
+Authors,wtsp6,1999,,"Aras, BC",British Columbia,55.7541,-120.5244,Ascending,Triplet,Mark Phinney
+Authors,wtsp7,1999,,"Aras, BC",British Columbia,55.7541,-120.5244,Descending,Triplet,Mark Phinney
+Authors,wtsp9,1999,,"Aras, BC",British Columbia,55.7541,-120.5244,Descending,Triplet,Mark Phinney
+Authors,,2002,24/06/1905,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,24/06/1905,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,24/05/2002,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,24/05/2002,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,24/05/2002,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2002,24/05/2002,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,24/05/2002,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,24/05/2002,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2002,24/05/2002,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,25/05/2002,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2002,25/05/2002,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,25/05/2002,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2002,29/05/2002,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2002,29/05/2002,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,3/6/02,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,4/6/02,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2002,4/6/02,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2002,8/6/02,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,8/6/02,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,8/6/02,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2002,8/6/02,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2002,9/6/02,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2002,9/6/02,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,ELK I GATE (1),2004,24/05/2004,,Alberta,53.58521,-112.83766,,Doublet,Chantell Grafton
+Authors,ELK I GATE (2),2004,24/05/2004,,Alberta,53.58521,-112.83766,,Doublet,Chantell Grafton
+Authors,HINTON E,2004,23/05/2004,,Alberta,53.43277,-117.49823,,Doublet,Chantell Grafton
+Authors,HINTON GUN,2004,23/05/2004,,Alberta,53.44888,-117.45874,,Doublet,Chantell Grafton
+Authors,HWY 631 2 (1),2004,24/05/2004,,Alberta,53.54141,-111.75205,,Doublet,Chantell Grafton
+Authors,HWY 631 3 (1),2004,24/05/2004,,Alberta,53.54143,-111.74213,,Doublet,Chantell Grafton
+Authors,RGE 195A,2004,23/05/2004,,Alberta,53.54645,-116.792,,Doublet,Chantell Grafton
+Authors,RGE 195B,2004,23/05/2004,,Alberta,53.54282,-116.78973,,Doublet,Chantell Grafton
+Authors,RGE 195B 2,2004,23/05/2004,,Alberta,53.54091,-116.79025,,Doublet,Chantell Grafton
+Authors,RGE 195B 3,2004,24/05/2004,,Alberta,53.5378,-116.79073,,Doublet,Chantell Grafton
+Authors,RGE 195B 3 (1),2004,23/05/2004,,Alberta,53.5378,-116.79073,,Doublet,Chantell Grafton
+Authors,RGE 195B 4,2004,23/05/2004,,Alberta,53.53435,-116.79129,,Doublet,Chantell Grafton
+Authors,RGE 195B 4 (1),2004,23/05/2004,,Alberta,53.53435,-116.79129,,Doublet,Chantell Grafton
+Authors,RGE 195B 4 (2),2004,23/05/2004,,Alberta,53.53435,-116.79129,,Doublet,Chantell Grafton
+Authors,RGE 242 RY,2004,24/05/2004,,Alberta,53.46766,-117.4436,,Doublet,Chantell Grafton
+Authors,RGE 242 RY (1),2004,23/05/2004,,Alberta,53.46766,-117.4436,,Doublet,Chantell Grafton
+Authors,RGE 270 1,2004,23/05/2004,,Alberta,53.56682,-113.83637,,Doublet,Chantell Grafton
+Authors,RGE 270 1 (1),2004,23/05/2004,,Alberta,53.56682,-113.83637,,Doublet,Chantell Grafton
+Authors,RGE 270 N2 (1),2004,23/05/2004,,Alberta,53.5799,-113.83612,,Doublet,Chantell Grafton
+Authors,RGE 43 2,2004,23/05/2004,,Alberta,53.56488,-114.51763,,Doublet,Chantell Grafton
+Authors,RGE 43 2 (1),2004,23/05/2004,,Alberta,53.56488,-114.51763,,Doublet,Chantell Grafton
+Authors,RGE 43 3,2004,23/05/2004,,Alberta,53.5603,-114.5176,,Doublet,Chantell Grafton
+Authors,RGE 43 4 (1),2004,23/05/2004,,Alberta,53.55708,-114.51759,,Doublet,Chantell Grafton
+Authors,RGE 43 4 (2),2004,23/05/2004,,Alberta,53.55708,-114.51759,,Doublet,Chantell Grafton
+Authors,RGE 43 4 (3),2004,23/05/2004,,Alberta,53.55708,-114.51759,,Doublet,Chantell Grafton
+Authors,RGE 43 5 (1),2004,23/05/2004,,Alberta,53.5533,-114.51765,,Doublet,Chantell Grafton
+Authors,RGE 43 5 (2),2004,23/05/2004,,Alberta,53.5533,-114.51765,,Doublet,Chantell Grafton
+Authors,RGE 43 5 (3),2004,23/05/2004,,Alberta,53.5533,-114.51765,,Doublet,Chantell Grafton
+Authors,RGE 95 1,2004,23/05/2004,,Alberta,53.60783,-115.30243,,Doublet,Chantell Grafton
+Authors,RGE 95 1 (1),2004,23/05/2004,,Alberta,53.60783,-115.30243,,Doublet,Chantell Grafton
+Authors,RGE 95 1 (2),2004,23/05/2004,,Alberta,53.60783,-115.30243,,Doublet,Chantell Grafton
+Authors,RGE 95 1 (3),2004,23/05/2004,,Alberta,53.60783,-115.30243,,Doublet,Chantell Grafton
+Authors,RGE 95 S2 (1),2004,23/05/2004,,Alberta,53.58774,-115.30362,,Doublet,Chantell Grafton
+Authors,RGE 95 S3,2004,23/05/2004,,Alberta,53.57885,-115.30364,,Doublet,Chantell Grafton
+Authors,RGE 95 S3 (1),2004,23/05/2004,,Alberta,53.57885,-115.30364,,Doublet,Chantell Grafton
+Authors,RGE195 10,2004,24/05/2004,,Alberta,53.5746,-112.77921,,Doublet,Chantell Grafton
+Authors,RGE195W4 1,2004,24/05/2004,,Alberta,53.71379,-112.77969,,Doublet,Chantell Grafton
+Authors,RGE195W4 1 (1),2004,24/05/2004,,Alberta,53.71379,-112.77969,,Doublet,Chantell Grafton
+Authors,RGE195W4 3,2004,24/05/2004,,Alberta,53.69334,-112.77969,,Doublet,Chantell Grafton
+Authors,RGE195W4 5,2004,24/05/2004,,Alberta,53.67183,-112.77969,,Doublet,Chantell Grafton
+Authors,RGE195W4 5 (1),2004,24/05/2004,,Alberta,53.67183,-112.77969,,Doublet,Chantell Grafton
+Authors,RGE195W4 6 (1),2004,24/05/2004,,Alberta,53.6556,-112.77945,,Doublet,Chantell Grafton
+Authors,RGE195W4 6 (2),2004,24/05/2004,,Alberta,53.6556,-112.77945,,Doublet,Chantell Grafton
+Authors,RGE195W4 8,2004,24/05/2004,,Alberta,53.62017,-112.7792,,Doublet,Chantell Grafton
+Authors,TWP 532 2,2004,24/05/2004,,Alberta,53.57049,-111.75719,,Doublet,Chantell Grafton
+Authors,TWP 532 3,2004,24/05/2004,,Alberta,53.57047,-111.76509,,Doublet,Chantell Grafton
+Authors,TWP 541 1,2004,23/05/2004,,Alberta,53.64464,-115.99111,,Doublet,Chantell Grafton
+Authors,TWP 541 1 (1),2004,23/05/2004,,Alberta,53.64464,-115.99111,,Doublet,Chantell Grafton
+Authors,TWP 541 2,2004,23/05/2004,,Alberta,53.64674,-115.99843,,Doublet,Chantell Grafton
+Authors,TWP 541 4 (1),2004,23/05/2004,,Alberta,53.64888,-116.00994,,Doublet,Chantell Grafton
+Authors,TWP 541 5 (1),2004,23/05/2004,,Alberta,53.64341,-116.01886,,Doublet,Chantell Grafton
+Authors,TWP 541 5 (2),2004,23/05/2004,,Alberta,53.64341,-116.01886,,Doublet,Chantell Grafton
+Authors,TWP 541 5 (3),2004,23/05/2004,,Alberta,53.64341,-116.01886,,Doublet,Chantell Grafton
+Authors,,2004,10/6/04,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2004,12/6/04,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2004,12/6/04,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2004,12/6/04,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2004,12/6/04,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2004,12/6/04,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2004,12/6/04,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2004,14/06/2004,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2004,14/06/2004,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2004,15/06/2004,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2004,15/06/2004,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2004,17/06/2004,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2004,18/06/2004,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2004,18/06/2004,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2004,22/06/2004,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,,2004,22/06/2004,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2004,22/06/2004,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Ken Otter
+Authors,ELK I GATE,2004,24/05/2004,,Alberta,53.58521,-112.83766,,Triplet,Chantell Grafton
+Authors,ELK I GATE (3),2004,24/05/2004,,Alberta,53.58521,-112.83766,,Triplet,Chantell Grafton
+Authors,HWY 631 1,2004,24/05/2004,,Alberta,53.54142,-111.76227,,Triplet,Chantell Grafton
+Authors,HWY 631 1 (1),2004,24/05/2004,,Alberta,53.54142,-111.76227,,Triplet,Chantell Grafton
+Authors,HWY 631 1 (2),2004,24/05/2004,,Alberta,53.54142,-111.76227,,Triplet,Chantell Grafton
+Authors,HWY 631 2,2004,24/05/2004,,Alberta,53.54141,-111.75205,,Triplet,Chantell Grafton
+Authors,HWY 631 3,2004,24/05/2004,,Alberta,53.54143,-111.74213,,Triplet,Chantell Grafton
+Authors,RGE 125 1,2004,24/05/2004,,Alberta,53.56207,-111.74683,,Triplet,Chantell Grafton
+Authors,RGE 270 2,2004,23/05/2004,,Alberta,53.56282,-113.83631,,Triplet,Chantell Grafton
+Authors,RGE 270 4,2004,23/05/2004,,Alberta,53.55135,-113.83634,,Triplet,Chantell Grafton
+Authors,RGE 270 N2,2004,23/05/2004,,Alberta,53.5799,-113.83612,,Triplet,Chantell Grafton
+Authors,RGE 43 4,2004,23/05/2004,,Alberta,53.55708,-114.51759,,Triplet,Chantell Grafton
+Authors,RGE 43 5,2004,23/05/2004,,Alberta,53.5533,-114.51765,,Triplet,Chantell Grafton
+Authors,RGE 95 S1,2004,23/05/2004,,Alberta,53.5974,-115.30363,,Triplet,Chantell Grafton
+Authors,RGE 95 S1 (1),2004,23/05/2004,,Alberta,53.5974,-115.30363,,Triplet,Chantell Grafton
+Authors,RGE 95 S2,2004,23/05/2004,,Alberta,53.58774,-115.30362,,Triplet,Chantell Grafton
+Authors,RGE195W4 6,2004,24/05/2004,,Alberta,53.6556,-112.77945,,Triplet,Chantell Grafton
+Authors,TWP 541 4,2004,23/05/2004,,Alberta,53.64888,-116.00994,,Triplet,Chantell Grafton
+Authors,TWP 541 4 (2),2004,23/05/2004,,Alberta,53.64888,-116.00994,,Triplet,Chantell Grafton
+Authors,TWP 541 5,2004,23/05/2004,,Alberta,53.64341,-116.01886,,Triplet,Chantell Grafton
+Authors,,2004,26/06/1905,,Alberta,53.583,-112.8365,Descendingesc,Triplet,Ken Otter
+Authors,,2004,26/06/1905,,Alberta,53.583,-112.8365,Ascendingsc,Triplet,Ken Otter
+Authors,AS08,2007,9/5/07,Algonquin,Ontario,45.57445,-78.49815,Descending,Doublet,SMR
+Authors,SR07,2007,10/5/07,Algonquin,Ontario,45.58767,-78.51577,Ascending,Doublet,SMR
+Authors,,2007,29/06/1905,Prince George,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Ken Otter
+Authors,,2007,29/06/1905,Prince George,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Ken Otter
+Authors,,2007,29/06/1905,Prince George,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Ken Otter
+Authors,,2007,29/06/1905,Prince George,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Ken Otter
+Authors,,2007,29/06/1905,Prince George,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Ken Otter
+Authors,,2007,29/06/1905,Prince George,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Ken Otter
+Authors,AN01,2007,29/04/2007,Algonquin,Ontario,45.57487,-78.51277,UpDown,Triplet,SMR
+Authors,AN02,2007,29/04/2007,Algonquin,Ontario,45.57476,-78.51002,Ascending,Triplet,"Noted, not recorded"
+Authors,AN03,2007,29/04/2007,Algonquin,Ontario,45.57513,-78.50892,Ascending,Triplet,SMR
+Authors,AN04,2007,28/04/2007,Algonquin,Ontario,45.5749,-78.50664,Ascending,Triplet,SMR
+Authors,AN05,2007,5/5/07,Algonquin,Ontario,45.57507,-78.50546,Descending,Triplet,SMR
+Authors,AN06,2007,5/5/07,Algonquin,Ontario,45.57516,-78.50379,2-Song: Ascending & Descending,Triplet,SMR
+Authors,AN07,2007,28/04/2007,Algonquin,Ontario,45.57519,-78.50306,Descending,Triplet,SMR
+Authors,AN08,2007,28/04/2007,Algonquin,Ontario,45.57512,-78.50239,Ascending,Triplet,SMR
+Authors,AN09,2007,7/5/07,Algonquin,Ontario,45.57562,-78.50073,Ascending,Triplet,SMR
+Authors,AN10,2007,8/5/07,Algonquin,Ontario,45.57541,-78.50335,Ascending,Triplet,"Noted, not recorded"
+Authors,AN11,2007,8/5/07,Algonquin,Ontario,45.57541,-78.50335,Ascending,Triplet,"Noted, not recorded"
+Authors,AN12,2007,7/5/07,Algonquin,Ontario,45.57495,-78.50791,Descending,Triplet,"Noted, not recorded"
+Authors,AN13,2007,6/5/07,Algonquin,Ontario,45.57507,-78.50629,Ascending,Triplet,SMR: DC
+Authors,AN14,2007,10/5/07,Algonquin,Ontario,45.57409,-78.50339,Ascending,Triplet,Recorded in 2006 as AN14
+Authors,AS01,2007,15/05/2007,Algonquin,Ontario,45.5721,-78.50976,2-Song: Descending & Ascending,Triplet,SMR
+Authors,AS03,2007,30/04/2007,Algonquin,Ontario,45.5714,-78.50591,Ascending,Triplet,SMR
+Authors,AS04,2007,30/04/2007,Algonquin,Ontario,45.57167,-78.50349,Descending,Triplet,SMR
+Authors,AS05,2007,28/04/2007,Algonquin,Ontario,45.57227,-78.50185,Ascending,Triplet,SMR
+Authors,AS06,2007,28/04/2007,Algonquin,Ontario,45.57324,-78.50124,Ascending,Triplet,SMR
+Authors,AS07,2007,28/04/2007,Algonquin,Ontario,45.57445,-78.49815,Ascending,Triplet,SMR
+Authors,AS10,2007,9/5/07,Algonquin,Ontario,45.57189,-78.50508,Descending,Triplet,"Noted, not recorded"
+Authors,AS11,2007,10/5/07,Algonquin,Ontario,45.5712,-78.50755,Ascending,Triplet,"Noted, not recorded"
+Authors,AW01,2007,3/5/07,Algonquin,Ontario,45.57404,-78.51446,Ascending,Triplet,SMR
+Authors,AW02,2007,4/5/07,Algonquin,Ontario,45.57417,-78.50614,Descending,Triplet,SMR: DC
+Authors,AW03,2007,4/5/07,Algonquin,Ontario,45.57332,-78.51052,2-Song: Ascending & Descending,Triplet,SMR
+Authors,AW04,2007,4/5/07,Algonquin,Ontario,45.57395,-78.51307,2-Song,Triplet,SMR
+Authors,AW05,2007,29/04/2007,Algonquin,Ontario,45.57357,-78.51315,Ascending,Triplet,SMR
+Authors,AW06,2007,29/04/2007,Algonquin,Ontario,45.57301,-78.51125,Ascending,Triplet,SMR
+Authors,AW07,2007,29/04/2007,Algonquin,Ontario,45.57214,-78.50912,2-Song,Triplet,SMR
+Authors,AW08,2007,1/5/07,Algonquin,Ontario,45.5735,-78.50678,Ascending,Triplet,SMR
+Authors,AW10,2007,9/5/07,Algonquin,Ontario,45.57241,-78.50773,Descending,Triplet,SMR
+Authors,AW11,2007,8/5/07,Algonquin,Ontario,45.57189,-78.5072,Ascending,Triplet,SMR: DC
+Authors,AW12,2007,10/5/07,Algonquin,Ontario,45.57333,-78.50423,Descending,Triplet,SMR
+Authors,AW13,2007,10/5/07,Algonquin,Ontario,45.57313,-78.50451,,Triplet,SMR
+Authors,SR01,2007,4/5/07,Algonquin,Ontario,45.59079,-78.5217,Descending,Triplet,SMR
+Authors,SR03,2007,26/04/2007,Algonquin,Ontario,45.59073,-78.5176,Ascending,Triplet,Recorded in 2005 as CAM08
+Authors,SR04,2007,26/04/2007,Algonquin,Ontario,45.58946,-78.51672,Ascending,Triplet,Recorded in 2006 as SR17 DC
+Authors,SR05,2007,26/04/2007,Algonquin,Ontario,45.58561,-78.52951,Ascending,Triplet,"Noted, not recorded"
+Authors,SR06,2007,26/04/2007,Algonquin,Ontario,45.58971,-78.51906,Ascending,Triplet,"Noted, not recorded"
+Authors,SR09,2007,4/5/07,Algonquin,Ontario,45.58313,-78.51567,Ascending,Triplet,SMR
+Authors,SR10,2007,4/5/07,Algonquin,Ontario,45.58219,-78.51669,Ascending,Triplet,"Noted, not recorded"
+Authors,SR11,2007,9/5/07,Algonquin,Ontario,45.58023,-78.51654,2-Song: Descending & Ascending,Triplet,Recorded in 2008 as SR08
+Authors,SR13,2007,9/5/07,Algonquin,Ontario,45.58091,-78.51686,Ascending,Triplet,SMR
+Authors,SR14,2007,26/04/2007,Algonquin,Ontario,45.5863,-78.5155,Ascending,Triplet,Recorded in 2006 as SR09
+Authors,SR18,2007,14/05/2007,Algonquin,Ontario,45.5876,-78.51446,Ascending,Triplet,"Noted, not recorded"
+Authors,SR19,2007,19/05/2007,Algonquin,Ontario,45.58983,-78.51836,Ascending,Triplet,Recorded in 2008 as SR06
+Authors,AW01,2009,22/05/2009,Algonquin,Ontario,45.57402,-78.51439,Ascending,Doublet,SMR
+Authors,KL16,2009,3/5/09,Algonquin,Ontario,45.57681,-78.4432,Descending,Doublet,SMR
+Authors,RW05,2009,29/04/2009,Algonquin,Ontario,45.57169,-78.49306,Ascending,Doublet,SMR
+Authors,,2009,6/6/09,,British Columbia,56.2524,-120.8464,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,6/6/09,,British Columbia,56.2524,-120.8464,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,7/6/09,,British Columbia,56.2524,-120.8464,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,7/6/09,,British Columbia,56.2524,-120.8464,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,8/6/09,,British Columbia,56.2524,-120.8464,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,8/6/09,,British Columbia,56.2524,-120.8464,Ascendingsc ,Doublet,Veronica Mesias
+Authors,,2009,8/6/09,,British Columbia,56.2524,-120.8464,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,9/6/09,,British Columbia,56.2524,-120.8464,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,9/6/09,,British Columbia,56.2524,-120.8464,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,2/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,2/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,2/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,2/6/09,,British Columbia,55.7596,-120.2377,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,2/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,2/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,3/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,3/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,3/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,3/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,3/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,3/6/09,,British Columbia,55.7596,-120.2377,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,4/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,4/6/09,,British Columbia,55.7596,-120.2377,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,4/6/09,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,4/6/09,,British Columbia,55.7596,-120.2377,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,30/05/2009,,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,30/05/2009,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,30/05/2009,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,30/05/2009,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,30/05/2009,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,30/05/2009,,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,30/05/2009,,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,30/05/2009,,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,30/05/2009,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,30/05/2009,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,31/05/2009,,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,31/05/2009,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,31/05/2009,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,31/05/2009,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,31/05/2009,,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,31/05/2009,,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,31/05/2009,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,31/05/2009,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,1/6/09,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,1/6/09,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,1/6/09,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,26/06/2009,,British Columbia,55.3384,-123.0949,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,26/06/2009,,British Columbia,55.3384,-123.0949,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,27/06/2009,,British Columbia,55.3384,-123.0949,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,27/06/2009,,British Columbia,55.3384,-123.0949,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,27/06/2009,,British Columbia,55.3384,-123.0949,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,27/06/2009,,British Columbia,55.3384,-123.0949,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,29/06/2009,,British Columbia,55.3384,-123.0949,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,29/06/2009,,British Columbia,55.3384,-123.0949,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,29/06/2009,,British Columbia,55.3384,-123.0949,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,29/06/2009,,British Columbia,55.3384,-123.0949,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,11/6/09,,British Columbia,55.1258,-120.9932,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,11/6/09,,British Columbia,55.1258,-120.9932,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,11/6/09,,British Columbia,55.1258,-120.9932,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,11/6/09,,British Columbia,55.1258,-120.9932,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,12/6/09,,British Columbia,55.1258,-120.9932,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,12/6/09,,British Columbia,55.1258,-120.9932,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,12/6/09,,British Columbia,55.1258,-120.9932,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,12/6/09,,British Columbia,55.1258,-120.9932,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,13/06/2009,,British Columbia,55.1258,-120.9932,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,13/06/2009,,British Columbia,55.1258,-120.9932,Descending,Doublet,Veronica Mesias
+Authors,,2009,13/06/2009,,British Columbia,55.1258,-120.9932,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,13/06/2009,,British Columbia,55.1258,-120.9932,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,13/06/2009,,British Columbia,55.1258,-120.9932,Ascendingsc ,Doublet,Veronica Mesias
+Authors,,2009,14/06/2009,,British Columbia,55.1258,-120.9932,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,14/06/2009,,British Columbia,55.1258,-120.9932,Monotone,Doublet,Veronica Mesias
+Authors,,2009,14/06/2009,,British Columbia,55.1258,-120.9932,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,14/06/2009,,British Columbia,55.1258,-120.9932,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,14/06/2009,,British Columbia,55.1258,-120.9932,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,14/06/2009,,British Columbia,55.1258,-120.9932,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,14/06/2009,,British Columbia,55.1258,-120.9932,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,14/06/2009,,British Columbia,55.1258,-120.9932,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,17/06/2009,,British Columbia,54.4425,-124.2509,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,18/06/2009,,British Columbia,54.4425,-124.2509,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,19/06/2009,,British Columbia,54.4425,-124.2509,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,19/06/2009,,British Columbia,54.4425,-124.2509,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,19/06/2009,,British Columbia,54.4425,-124.2509,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,20/06/2009,,British Columbia,54.4425,-124.2509,Ascendingsc,Doublet,Veronica Mesias
+Authors,,2009,20/06/2009,,British Columbia,54.4425,-124.2509,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,21/06/2009,,British Columbia,54.4425,-124.2509,Descendingesc,Doublet,Veronica Mesias
+Authors,,2009,21/06/2009,,British Columbia,54.4425,-124.2509,Descendingesc,Doublet,Veronica Mesias
+Authors,AN01,2009,20/05/2009,Algonquin,Ontario,45.57565,-78.50826,Ascending,Triplet,Scott Ramsay
+Authors,AN03,2009,20/05/2009,Algonquin,Ontario,45.57567,-78.50594,Ascending,Triplet,Scott Ramsay
+Authors,AN04,2009,20/05/2009,Algonquin,Ontario,45.57532,-78.50508,Descending,Triplet,Scott Ramsay
+Authors,AN05,2009,20/05/2009,Algonquin,Ontario,45.57528,-78.5038,Ascending,Triplet,Scott Ramsay
+Authors,AN06,2009,20/05/2009,Algonquin,Ontario,45.57516,-78.50293,Descending,Triplet,Scott Ramsay
+Authors,AN07,2009,20/05/2009,Algonquin,Ontario,45.57413,-78.50338,Ascending,Triplet,Scott Ramsay
+Authors,AN08,2009,20/05/2009,Algonquin,Ontario,45.57486,-78.50767,Descending,Triplet,Scott Ramsay
+Authors,AN09,2009,20/05/2009,Algonquin,Ontario,45.57508,-78.50648,Ascending,Triplet,Scott Ramsay
+Authors,AN10,2009,20/05/2009,Algonquin,Ontario,45.57449,-78.50733,Ascending,Triplet,Scott Ramsay
+Authors,AN11,2009,20/05/2009,Algonquin,Ontario,45.57472,-78.50619,Ascending,Triplet,Scott Ramsay
+Authors,AN12,2009,20/05/2009,Algonquin,Ontario,45.57426,-78.50556,Descending,Triplet,Scott Ramsay
+Authors,AN13,2009,20/05/2009,Algonquin,Ontario,45.57414,-78.50609,Ascending,Triplet,Scott Ramsay
+Authors,AN15,2009,21/05/2009,Algonquin,Ontario,45.57443,-78.50792,Ascending,Triplet,Scott Ramsay
+Authors,AN16,2009,21/05/2009,Algonquin,Ontario,45.57414,-78.5075,Ascending,Triplet,Scott Ramsay
+Authors,AN19,2009,21/05/2009,Algonquin,Ontario,45.57426,-78.50861,Ascending,Triplet,Scott Ramsay
+Authors,AN20,2009,21/05/2009,Algonquin,Ontario,45.57443,-78.50907,Ascending,Triplet,Scott Ramsay
+Authors,AN23,2009,21/05/2009,Algonquin,Ontario,45.57444,-78.51035,UpDown,Triplet,Scott Ramsay
+Authors,AS01,2009,20/05/2009,Algonquin,Ontario,45.57274,-78.50062,Ascending,Triplet,Scott Ramsay
+Authors,AS02,2009,20/05/2009,Algonquin,Ontario,45.57353,-78.49881,Ascending,Triplet,Scott Ramsay
+Authors,AW02,2009,22/05/2009,Algonquin,Ontario,45.57445,-78.5139,Descending,Triplet,Scott Ramsay
+Authors,AW03,2009,22/05/2009,Algonquin,Ontario,45.57495,-78.51349,Ascending,Triplet,Scott Ramsay
+Authors,AW04,2009,22/05/2009,Algonquin,Ontario,45.57527,-78.51324,Descending,Triplet,Scott Ramsay
+Authors,AW05,2009,22/05/2009,Algonquin,Ontario,45.57453,-78.51261,Ascending,Triplet,Scott Ramsay
+Authors,AW06,2009,22/05/2009,Algonquin,Ontario,45.57378,-78.51297,UpDown,Triplet,Scott Ramsay
+Authors,AW08,2009,22/05/2009,Algonquin,Ontario,45.57338,-78.51376,Ascending,Triplet,Scott Ramsay
+Authors,AW09,2009,22/05/2009,Algonquin,Ontario,45.57249,-78.5127,Descending,Triplet,Scott Ramsay
+Authors,AW11 (Song 1),2009,22/05/2009,Algonquin,Ontario,45.57273,-78.51529,Ascending,Triplet,Scott Ramsay
+Authors,AW11 (Song 2),2009,22/05/2009,Algonquin,Ontario,45.57273,-78.51529,Ascending,Triplet,Scott Ramsay
+Authors,AW11 (Song 3),2009,22/05/2009,Algonquin,Ontario,45.57273,-78.51529,Descending,Triplet,Scott Ramsay
+Authors,AW12,2009,22/05/2009,Algonquin,Ontario,45.57196,-78.51231,UpDown,Triplet,Scott Ramsay
+Authors,AW13,2009,22/05/2009,Algonquin,Ontario,45.5713,-78.51229,UpDown,Triplet,Scott Ramsay
+Authors,AW14,2009,22/05/2009,Algonquin,Ontario,45.57136,-78.51185,Ascending,Triplet,Scott Ramsay
+Authors,AW15,2009,22/05/2009,Algonquin,Ontario,45.57304,-78.5112,Descending,Triplet,Scott Ramsay
+Authors,AW16,2009,22/05/2009,Algonquin,Ontario,45.57303,-78.51001,Ascending,Triplet,Scott Ramsay
+Authors,AW17,2009,22/05/2009,Algonquin,Ontario,45.57254,-78.50995,Ascending,Triplet,Scott Ramsay
+Authors,AW19,2009,22/05/2009,Algonquin,Ontario,45.57171,-78.50933,Ascending,Triplet,Scott Ramsay
+Authors,AW20,2009,22/05/2009,Algonquin,Ontario,45.57114,-78.50909,Ascending,Triplet,Scott Ramsay
+Authors,AW21,2009,22/05/2009,Algonquin,Ontario,45.57205,-78.50873,Ascending,Triplet,Scott Ramsay
+Authors,AW22,2009,22/05/2009,Algonquin,Ontario,45.5726,-78.5089,2 Songs: Ascending & Descending,Triplet,Scott Ramsay
+Authors,AW23,2009,22/05/2009,Algonquin,Ontario,45.57242,-78.50762,2 Songs: Ascending & UpDown,Triplet,Scott Ramsay
+Authors,AW25,2009,22/05/2009,Algonquin,Ontario,45.57196,-78.50871,Ascending,Triplet,Scott Ramsay
+Authors,CR01,2009,1/5/09,Algonquin,Ontario,45.55978,-78.42521,Descending,Triplet,Scott Ramsay
+Authors,CR02,2009,1/5/09,Algonquin,Ontario,45.55933,-78.42581,2 Songs: Ascending & Ascending,Triplet,Scott Ramsay
+Authors,CR03,2009,4/5/09,Algonquin,Ontario,45.56957,-78.42752,Descending,Triplet,Scott Ramsay
+Authors,KL01,2009,2/5/09,Algonquin,Ontario,45.5748,-78.44041,Descending,Triplet,Scott Ramsay
+Authors,KL02,2009,2/5/09,Algonquin,Ontario,45.57532,-78.44057,Descending,Triplet,Scott Ramsay
+Authors,KL04,2009,2/5/09,Algonquin,Ontario,45.57593,-78.44075,2 Songs: Descending & Descending,Triplet,Scott Ramsay
+Authors,KL06,2009,2/5/09,Algonquin,Ontario,45.57686,-78.44073,Ascending,Triplet,Scott Ramsay
+Authors,KL06B,2009,3/5/09,Algonquin,Ontario,45.57686,-78.44073,Ascending,Triplet,Scott Ramsay
+Authors,KL10,2009,3/5/09,Algonquin,Ontario,45.57627,-78.43938,Descending,Triplet,Scott Ramsay
+Authors,KL11,2009,3/5/09,Algonquin,Ontario,45.57627,-78.43938,Ascending,Triplet,Scott Ramsay
+Authors,KL13,2009,3/5/09,Algonquin,Ontario,45.57834,-78.44156,2 Songs: Ascending & Descending,Triplet,Scott Ramsay
+Authors,KL14,2009,3/5/09,Algonquin,Ontario,45.57824,-78.44145,Descending,Triplet,Scott Ramsay
+Authors,KL17,2009,3/5/09,Algonquin,Ontario,45.5767,-78.44238,Monotone,Triplet,Scott Ramsay
+Authors,KL17B,2009,3/5/09,Algonquin,Ontario,45.5767,-78.44238,Descending,Triplet,Scott Ramsay
+Authors,KL22,2009,7/5/09,Algonquin,Ontario,45.57555,-78.43993,Ascending,Triplet,Scott Ramsay
+Authors,RW01,2009,29/04/2009,Algonquin,Ontario,45.5721,-78.49785,Ascending,Triplet,Scott Ramsay
+Authors,RW02,2009,29/04/2009,Algonquin,Ontario,45.57122,-78.49747,Descending,Triplet,Scott Ramsay
+Authors,RW03,2009,4/5/09,Algonquin,Ontario,45.57181,-78.49685,Descending,Triplet,Scott Ramsay
+Authors,RW06,2009,4/5/09,Algonquin,Ontario,45.5717,-78.49232,Ascending,Triplet,Scott Ramsay
+Authors,RW10,2009,4/5/09,Algonquin,Ontario,45.57126,-78.48316,Ascending,Triplet,Scott Ramsay
+Authors,SR03,2009,26/05/2009,Algonquin,Ontario,45.59095,-78.51932,Descending,Triplet,Scott Ramsay
+Authors,SR04,2009,26/05/2009,Algonquin,Ontario,45.58966,-78.51826,Descending,Triplet,Scott Ramsay
+Authors,SR05,2009,26/05/2009,Algonquin,Ontario,45.58713,-78.51745,Ascending,Triplet,Scott Ramsay
+Authors,SR06,2009,26/05/2009,Algonquin,Ontario,45.58653,-78.51615,UpDown,Triplet,Scott Ramsay
+Authors,SR11,2009,26/05/2009,Algonquin,Ontario,45.58579,-78.51549,Ascending,Triplet,Scott Ramsay
+Authors,SR20,2009,2/6/09,Algonquin,Ontario,45.59205,-78.51738,UpDown,Triplet,Scott Ramsay
+Authors,AS07,2010,4/5/10,Algonquin,Ontario,45.57221,-78.50601,Descending,Doublet,Scott Ramsay
+Authors,CR12,2010,23/06/2010,Algonquin,Ontario,45.55046,-78.41802,Ascending,Doublet,Scott Ramsay
+Authors,RY05,2010,18/06/2010,Algonquin,Ontario,45.57097,-78.49536,Descending,Doublet,Scott Ramsay
+Authors,AN01,2010,1/5/10,Algonquin,Ontario,45.57521,-78.50699,Ascending,Triplet,Scott Ramsay
+Authors,AN02,2010,1/5/10,Algonquin,Ontario,45.57455,-78.5061,Ascending,Triplet,Scott Ramsay
+Authors,AN03,2010,1/5/10,Algonquin,Ontario,45.57536,-78.50524,Descending,Triplet,Scott Ramsay
+Authors,AN04,2010,1/5/10,Algonquin,Ontario,45.57529,-78.50452,Ascending,Triplet,Scott Ramsay
+Authors,AN05,2010,1/5/10,Algonquin,Ontario,45.57412,-78.50342,Descending,Triplet,Scott Ramsay
+Authors,AN06,2010,1/5/10,Algonquin,Ontario,45.57417,-78.50622,Ascending,Triplet,Scott Ramsay
+Authors,AN07,2010,1/5/10,Algonquin,Ontario,45.57407,-78.50728,Ascending,Triplet,Scott Ramsay
+Authors,AN08,2010,1/5/10,Algonquin,Ontario,45.57355,-78.5068,Ascending,Triplet,Scott Ramsay
+Authors,AN09,2010,1/5/10,Algonquin,Ontario,45.57365,-78.50636,2 Songs: Ascending & 2-Hi D,Triplet,Scott Ramsay
+Authors,AN10,2010,5/5/10,Algonquin,Ontario,45.57352,-78.50537,Ascending,Triplet,Scott Ramsay
+Authors,AN11,2010,2/5/10,Algonquin,Ontario,45.57432,-78.51241,UpDown,Triplet,Scott Ramsay
+Authors,AN12,2010,2/5/10,Algonquin,Ontario,45.57447,-78.51221,Ascending,Triplet,Scott Ramsay
+Authors,AN13,2010,2/5/10,Algonquin,Ontario,45.57439,-78.51011,Ascending,Triplet,Scott Ramsay
+Authors,AN14,2010,2/5/10,Algonquin,Ontario,45.57419,-78.51,Descending,Triplet,Scott Ramsay
+Authors,AN15,2010,2/5/10,Algonquin,Ontario,45.5745,-78.50964,Ascending,Triplet,Scott Ramsay
+Authors,AN17,2010,2/5/10,Algonquin,Ontario,45.57438,-78.50911,Ascending,Triplet,Scott Ramsay
+Authors,AN18,2010,10/5/10,Algonquin,Ontario,45.5749,-78.50701,Descending,Triplet,Scott Ramsay
+Authors,AN20,2010,18/05/2010,Algonquin,Ontario,45.57593,-78.50653,Ascending,Triplet,Scott Ramsay
+Authors,AN21,2010,18/05/2010,Algonquin,Ontario,45.57476,-78.50825,Ascending,Triplet,Scott Ramsay
+Authors,AN25,2010,7/6/10,Algonquin,Ontario,45.57445,-78.50252,Descending,Triplet,Scott Ramsay
+Authors,AN26,2010,15/06/2010,Algonquin,Ontario,45.57521,-78.50239,Descending,Triplet,Scott Ramsay
+Authors,AN27,2010,22/06/2010,Algonquin,Ontario,45.57493,-78.50855,Descending,Triplet,Scott Ramsay
+Authors,AS01,2010,4/5/10,Algonquin,Ontario,45.57313,-78.50077,Ascending,Triplet,Scott Ramsay
+Authors,AS02,2010,4/5/10,Algonquin,Ontario,45.57295,-78.50147,2 Songs: Descending & Ascending,Triplet,Scott Ramsay
+Authors,AS03,2010,4/5/10,Algonquin,Ontario,45.57268,-78.50178,Ascending,Triplet,Scott Ramsay
+Authors,AS04,2010,4/5/10,Algonquin,Ontario,45.57375,-78.50051,UpDown,Triplet,Scott Ramsay
+Authors,AS06,2010,4/5/10,Algonquin,Ontario,45.57163,-78.5038,Descending,Triplet,Scott Ramsay
+Authors,AW01,2010,29/04/2010,Algonquin,Ontario,45.57234,-78.50785,Ascending,Triplet,Scott Ramsay
+Authors,AW02,2010,29/04/2010,Algonquin,Ontario,45.57201,-78.50748,2 Songs: Ascending & Descending,Triplet,Scott Ramsay
+Authors,AW03,2010,29/04/2010,Algonquin,Ontario,45.57272,-78.51025,Ascending,Triplet,Scott Ramsay
+Authors,AW04,2010,29/04/2010,Algonquin,Ontario,45.57268,-78.51138,UpDown,Triplet,Scott Ramsay
+Authors,AW05,2010,29/04/2010,Algonquin,Ontario,45.57314,-78.51124,UpDown,Triplet,Scott Ramsay
+Authors,AW06,2010,2/5/10,Algonquin,Ontario,45.57219,-78.50922,Ascending,Triplet,Scott Ramsay
+Authors,AW07,2010,2/5/10,Algonquin,Ontario,45.57132,-78.51138,Ascending,Triplet,Scott Ramsay
+Authors,AW08,2010,2/5/10,Algonquin,Ontario,45.57401,-78.51322,UpDown,Triplet,Scott Ramsay
+Authors,AW09,2010,2/5/10,Algonquin,Ontario,45.57405,-78.51359,Ascending,Triplet,Scott Ramsay
+Authors,AW10,2010,2/5/10,Algonquin,Ontario,45.57454,-78.51361,Descending,Triplet,Scott Ramsay
+Authors,AW11,2010,5/5/10,Algonquin,Ontario,45.57338,-78.51385,Ascending,Triplet,Scott Ramsay
+Authors,AW12,2010,5/5/10,Algonquin,Ontario,45.57331,-78.51111,2 Songs: Ascending & Descending,Triplet,Scott Ramsay
+Authors,AW15,2010,16/05/2010,Algonquin,Ontario,45.57185,-78.50868,Ascending,Triplet,Scott Ramsay
+Authors,AW16,2010,29/05/2010,Algonquin,Ontario,45.57256,-78.50743,Ascending,Triplet,Scott Ramsay
+Authors,CR01,2010,23/06/2010,Algonquin,Ontario,45.57053,-78.42726,Ascending,Triplet,Scott Ramsay
+Authors,CR02,2010,23/06/2010,Algonquin,Ontario,45.56907,-78.42724,Ascending,Triplet,Scott Ramsay
+Authors,CR03,2010,23/06/2010,Algonquin,Ontario,45.57117,-78.42831,Ascending,Triplet,Scott Ramsay
+Authors,CR04,2010,23/06/2010,Algonquin,Ontario,45.56474,-78.42608,Descending,Triplet,Scott Ramsay
+Authors,CR05,2010,23/06/2010,Algonquin,Ontario,45.56348,-78.42618,UpDown,Triplet,Scott Ramsay
+Authors,CR06,2010,23/06/2010,Algonquin,Ontario,45.56302,-78.42548,Ascending,Triplet,Scott Ramsay
+Authors,CR07,2010,23/06/2010,Algonquin,Ontario,45.55946,-78.42497,Descending,Triplet,Scott Ramsay
+Authors,CR08,2010,23/06/2010,Algonquin,Ontario,45.55889,-78.42489,Ascending,Triplet,Scott Ramsay
+Authors,CR09,2010,23/06/2010,Algonquin,Ontario,45.55644,-78.42129,Descending,Triplet,Scott Ramsay
+Authors,CR10,2010,23/06/2010,Algonquin,Ontario,45.56189,-78.42494,Ascending,Triplet,Scott Ramsay
+Authors,CR11,2010,23/06/2010,Algonquin,Ontario,45.55504,-78.41899,Ascending,Triplet,Scott Ramsay
+Authors,CR13,2010,23/06/2010,Algonquin,Ontario,45.55078,-78.41733,Ascending,Triplet,Scott Ramsay
+Authors,KL01,2010,25/06/2010,Algonquin,Ontario,45.57478,-78.44034,Descending,Triplet,Scott Ramsay
+Authors,KL02,2010,25/06/2010,Algonquin,Ontario,45.57573,-78.44065,2 Songs: Ascending & Descending,Triplet,Scott Ramsay
+Authors,KL03,2010,25/06/2010,Algonquin,Ontario,45.57565,-78.43994,Ascending,Triplet,Scott Ramsay
+Authors,KL04,2010,25/06/2010,Algonquin,Ontario,45.57658,-78.4403,Descending,Triplet,Scott Ramsay
+Authors,KL05,2010,25/06/2010,Algonquin,Ontario,45.57689,-78.44065,Descending,Triplet,Scott Ramsay
+Authors,KL06,2010,25/06/2010,Algonquin,Ontario,45.57681,-78.44032,Ascending,Triplet,Scott Ramsay
+Authors,KL07,2010,25/06/2010,Algonquin,Ontario,45.57717,-78.44055,Descending,Triplet,Scott Ramsay
+Authors,KL08,2010,25/06/2010,Algonquin,Ontario,45.57745,-78.43929,Ascending,Triplet,Scott Ramsay
+Authors,KL09,2010,25/06/2010,Algonquin,Ontario,45.57771,-78.43905,UpDown,Triplet,Scott Ramsay
+Authors,KL10,2010,25/06/2010,Algonquin,Ontario,45.57807,-78.43988,2-HiD,Triplet,Scott Ramsay
+Authors,KL11,2010,25/06/2010,Algonquin,Ontario,45.57727,-78.44122,Descending,Triplet,Scott Ramsay
+Authors,KL12,2010,25/06/2010,Algonquin,Ontario,45.5775,-78.44205,Descending,Triplet,Scott Ramsay
+Authors,RY01,2010,18/06/2010,Algonquin,Ontario,45.57155,-78.49842,Ascending,Triplet,Scott Ramsay
+Authors,RY02,2010,18/06/2010,Algonquin,Ontario,45.57151,-78.49791,Descending,Triplet,Scott Ramsay
+Authors,RY03,2010,18/06/2010,Algonquin,Ontario,45.57141,-78.49719,Ascending,Triplet,Scott Ramsay
+Authors,RY04,2010,18/06/2010,Algonquin,Ontario,45.57148,-78.49541,Ascending,Triplet,Scott Ramsay
+Authors,RY06,2010,18/06/2010,Algonquin,Ontario,45.5717,-78.49379,Ascending,Triplet,Scott Ramsay
+Authors,RY07,2010,18/06/2010,Algonquin,Ontario,45.57159,-78.49405,Ascending,Triplet,Scott Ramsay
+Authors,RY08,2010,18/06/2010,Algonquin,Ontario,45.57166,-78.49272,Descending,Triplet,Scott Ramsay
+Authors,RY09,2010,25/06/2010,Algonquin,Ontario,45.57187,-78.49039,Descending,Triplet,Scott Ramsay
+Authors,RY10,2010,25/06/2010,Algonquin,Ontario,45.57189,-78.48948,Ascending,Triplet,Scott Ramsay
+Authors,RY11,2010,25/06/2010,Algonquin,Ontario,45.57206,-78.48726,Ascending,Triplet,Scott Ramsay
+Authors,RY12,2010,25/06/2010,Algonquin,Ontario,45.5721,-78.48571,Ascending,Triplet,Scott Ramsay
+Authors,RY13,2010,25/06/2010,Algonquin,Ontario,45.57168,-78.48413,2 Songs: Ascending & Ascending,Triplet,Scott Ramsay
+Authors,SR01,2010,30/04/2010,Algonquin,Ontario,45.59184,-78.52154,Ascending,Triplet,Scott Ramsay
+Authors,SR03,2010,30/04/2010,Algonquin,Ontario,45.59122,-78.5173,Ascending,Triplet,Scott Ramsay
+Authors,SR04,2010,30/04/2010,Algonquin,Ontario,45.58816,-78.51451,Ascending,Triplet,Scott Ramsay
+Authors,SR05,2010,30/04/2010,Algonquin,Ontario,45.58717,-78.51698,Ascending,Triplet,Scott Ramsay
+Authors,SR06,2010,30/04/2010,Algonquin,Ontario,45.5852,-78.5158,Ascending,Triplet,Scott Ramsay
+Authors,SR07,2010,28/05/2010,Algonquin,Ontario,45.58257,-78.51621,Ascending,Triplet,Scott Ramsay
+Authors,SR09,2010,3/5/10,Algonquin,Ontario,45.59197,-78.52106,Descending,Triplet,Scott Ramsay
+Authors,SR10,2010,3/5/10,Algonquin,Ontario,45.59061,-78.5214,Ascending,Triplet,Scott Ramsay
+Authors,SR11,2010,3/5/10,Algonquin,Ontario,45.59131,-78.52081,Ascending,Triplet,Scott Ramsay
+Authors,SR12,2010,3/5/10,Algonquin,Ontario,45.59235,-78.51919,Ascending,Triplet,Scott Ramsay
+Authors,SR13,2010,3/5/10,Algonquin,Ontario,45.59188,-78.51866,Descending,Triplet,Scott Ramsay
+Authors,SR14,2010,3/5/10,Algonquin,Ontario,45.5895,-78.5166,2 Songs: Ascending & Descending,Triplet,Scott Ramsay
+Authors,SR15,2010,3/5/10,Algonquin,Ontario,45.58907,-78.51687,Descending,Triplet,Scott Ramsay
+Authors,SR16,2010,3/5/10,Algonquin,Ontario,45.58837,-78.51674,Ascending,Triplet,Scott Ramsay
+Authors,SR17,2010,3/5/10,Algonquin,Ontario,45.58679,-78.51549,Ascending,Triplet,Scott Ramsay
+Authors,SR18,2010,3/5/10,Algonquin,Ontario,45.58579,-78.51529,Ascending,Triplet,Scott Ramsay
+Authors,SR20,2010,25/05/2010,Algonquin,Ontario,45.5804,-78.5157,Ascending,Triplet,Scott Ramsay
+Authors,SR22,2010,21/05/2010,Algonquin,Ontario,45.59087,-78.51889,Ascending,Triplet,Scott Ramsay
+Authors,SR23,2010,25/05/2010,Algonquin,Ontario,45.58112,-78.51621,Descending,Triplet,Scott Ramsay
+Authors,WF01,2010,21/06/2010,Algonquin,Ontario,45.53362,-78.41945,Ascending,Triplet,Scott Ramsay
+Authors,WF02,2010,21/06/2010,Algonquin,Ontario,45.53435,-78.42022,Ascending,Triplet,Scott Ramsay
+Authors,WF03,2010,21/06/2010,Algonquin,Ontario,45.53609,-78.42102,Descending,Triplet,Scott Ramsay
+Authors,WF04,2010,21/06/2010,Algonquin,Ontario,45.53553,-78.41956,Descending,Triplet,Scott Ramsay
+Authors,WF05,2010,21/06/2010,Algonquin,Ontario,45.53609,-78.41831,Ascending,Triplet,Scott Ramsay
+Authors,WF06,2010,21/06/2010,Algonquin,Ontario,45.5347,-78.41879,Ascending,Triplet,Scott Ramsay
+Authors,WF07,2010,21/06/2010,Algonquin,Ontario,45.53465,-78.41842,Descending,Triplet,Scott Ramsay
+Authors,AW04,2012,4/18/12,Algonquin,Ontario,45.57334,-78.50779,Ascending,Doublet,Scott Ramsay
+Authors,AW14,2012,4/18/12,Algonquin,Ontario,45.57251,-78.50982,Descending,Doublet,Scott Ramsay
+Authors,RW04,2012,4/19/12,Algonquin,Ontario,45.57182,-78.49676,Ascending,Doublet,Scott Ramsay
+Authors,RW05,2012,4/19/12,Algonquin,Ontario,45.57198,-78.49312,Ascending,Doublet,Scott Ramsay
+Authors,SR02,2012,4/19/12,Algonquin,Ontario,45.59091,-78.52036,Ascending,Doublet,Scott Ramsay
+Authors,SR06,2012,4/19/12,Algonquin,Ontario,45.58677,-78.51565,Descending,Doublet,Scott Ramsay
+Authors,SR07,2012,4/19/12,Algonquin,Ontario,45.5864,-78.51574,Ascending,Doublet,Scott Ramsay
+Authors,AN01,2012,4/18/12,Algonquin,Ontario,45.57555,-78.50375,Ascending,Triplet,Scott Ramsay
+Authors,AN02,2012,4/19/12,Algonquin,Ontario,45.57441,-78.506,Descending,Triplet,Scott Ramsay
+Authors,AN03,2012,4/18/12,Algonquin,Ontario,45.57439,-78.51087,Ascending,Triplet,Scott Ramsay
+Authors,AN04,2012,4/19/12,Algonquin,Ontario,45.57441,-78.506,Ascending,Triplet,Scott Ramsay
+Authors,AN05,2012,4/19/12,Algonquin,Ontario,45.57441,-78.506,Ascending,Triplet,Scott Ramsay
+Authors,AN06,2012,4/19/12,Algonquin,Ontario,45.57486,-78.51049,Ascending,Triplet,Scott Ramsay
+Authors,AN07,2012,4/19/12,Algonquin,Ontario,45.57334,-78.50779,Ascending,Triplet,Scott Ramsay
+Authors,AN10,2012,4/18/12,Algonquin,Ontario,45.57343,-78.50797,Descending,Triplet,Scott Ramsay
+Authors,AW01,2012,4/18/12,Algonquin,Ontario,45.57481,-78.50747,Descending,Triplet,Scott Ramsay
+Authors,AW02,2012,4/18/12,Algonquin,Ontario,45.57441,-78.506,Ascending,Triplet,Scott Ramsay
+Authors,AW03,2012,4/18/12,Algonquin,Ontario,45.57402,-78.50909,Ascending,Triplet,Scott Ramsay
+Authors,AW05,2012,4/18/12,Algonquin,Ontario,45.57401,-78.50907,Ascending,Triplet,Scott Ramsay
+Authors,AW09,2012,4/18/12,Algonquin,Ontario,45.57105,-78.50901,Ascending,Triplet,Scott Ramsay
+Authors,AW12,2012,4/18/12,Algonquin,Ontario,45.57306,-78.51005,Ascending,Triplet,Scott Ramsay
+Authors,AW13,2012,4/18/12,Algonquin,Ontario,45.57148,-78.50698,Ascending,Triplet,Scott Ramsay
+Authors,AW15,2012,4/19/12,Algonquin,Ontario,45.57334,-78.50779,Ascending,Triplet,Scott Ramsay
+Authors,RW01,2012,4/19/12,Algonquin,Ontario,45.55061,-78.41933,Ascending,Triplet,Scott Ramsay
+Authors,RW02,2012,4/19/12,Algonquin,Ontario,45.57182,-78.49676,Ascending,Triplet,Scott Ramsay
+Authors,RW03,2012,4/19/12,Algonquin,Ontario,45.57198,-78.49312,Descending,Triplet,Scott Ramsay
+Authors,RW06,2012,4/19/12,Algonquin,Ontario,45.57198,-78.49312,Descending,Triplet,Scott Ramsay
+Authors,RW07,2012,4/19/12,Algonquin,Ontario,45.57198,-78.49312,Ascending,Triplet,Scott Ramsay
+Authors,RW08,2012,4/19/12,Algonquin,Ontario,45.57201,-78.49258,Ascending,Triplet,Scott Ramsay
+Authors,RW09,2012,4/19/12,Algonquin,Ontario,45.57203,-78.4873,Ascending,Triplet,Scott Ramsay
+Authors,SR03,2012,4/19/12,Algonquin,Ontario,45.59091,-78.52036,Descending,Triplet,Scott Ramsay
+Authors,SR04,2012,4/19/12,Algonquin,Ontario,45.59091,-78.52036,Ascending,Triplet,Scott Ramsay
+Authors,SR05,2012,4/19/12,Algonquin,Ontario,45.58927,-78.51768,Ascending,Triplet,Scott Ramsay
+Authors,SR08,2012,4/19/12,Algonquin,Ontario,45.58618,-78.51576,Ascending,Triplet,Scott Ramsay
+Authors,SR09,2012,4/19/12,Algonquin,Ontario,45.58456,-78.51519,Ascending,Triplet,Scott Ramsay
+Authors,SR10,2012,4/19/12,Algonquin,Ontario,45.59068,-78.51909,Ascending,Triplet,Scott Ramsay
+Authors,SR11,2012,4/19/12,Algonquin,Ontario,45.58262,-78.51476,Ascending,Triplet,Scott Ramsay
+Authors,SR13,2012,4/19/12,Algonquin,Ontario,45.58248,-78.51465,Ascending,Triplet,Scott Ramsay
+Authors,AS01,2013,5/15/13,Algonquin,Ontario,45.57387,-78.50873,Descending,Doublet,Scott Ramsay
+Authors,AW06,2013,5/8/13,Algonquin,Ontario,45.57387,-78.50873,Ascending,Doublet,Scott Ramsay
+Authors,CR07,2013,5/15/13,Algonquin,Ontario,45.56334,-78.42638,Ascending,Doublet,Scott Ramsay
+Authors,SR11,2013,5/15/13,Algonquin,Ontario,45.58032,-78.51609,Descending,Doublet,Scott Ramsay
+Authors,,2013,21/05/2013,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Alice Lee
+Authors,,2013,23/05/2013,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Ken Otter
+Authors,,2013,24/05/2013,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc/Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2013,24/05/2013,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2013,24/05/2013,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2013,24/05/2013,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2013,24/05/2013,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2013,24/05/2013,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2013,24/05/2013,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2013,24/05/2013,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2013,28/05/2013,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc/Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2013,28/05/2013,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2013,28/05/2013,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2013,28/05/2013,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2013,28/05/2013,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2013,29/05/2013,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2013,30/05/2013,Prince George,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2013,30/05/2013,Prince George,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,AN01,2013,5/1/13,Algonquin,Ontario,45.57381,-78.50821,Ascending,Triplet,Scott Ramsay
+Authors,AN02,2013,5/1/13,Algonquin,Ontario,45.57381,-78.50821,Ascending/Descending (2 songs),Triplet,Scott Ramsay
+Authors,AN03,2013,5/8/13,Algonquin,Ontario,45.57381,-78.50821,Ascending/Descending (2 songs),Triplet,Scott Ramsay
+Authors,AN05,2013,7/6/13,Algonquin,Ontario,45.57381,-78.50821,Ascending,Triplet,Scott Ramsay
+Authors,AN08,2013,5/8/13,Algonquin,Ontario,45.57381,-78.50799,Ascending,Triplet,Scott Ramsay
+Authors,AN09,2013,5/31/13,Algonquin,Ontario,45.57381,-78.50799,Descending,Triplet,Scott Ramsay
+Authors,AN12,2013,5/14/13,Algonquin,Ontario,45.57394,-78.50846,Descending,Triplet,Scott Ramsay
+Authors,AN13,2013,5/31/13,Algonquin,Ontario,45.57394,-78.50846,Ascending,Triplet,Scott Ramsay
+Authors,AS02,2013,5/15/13,Algonquin,Ontario,45.57387,-78.50873,Ascending,Triplet,Scott Ramsay
+Authors,AW01,2013,5/1/13,Algonquin,Ontario,45.57394,-78.50846,Descending,Triplet,Scott Ramsay
+Authors,AW02,2013,5/15/13,Algonquin,Ontario,45.57394,-78.50846,Ascending,Triplet,Scott Ramsay
+Authors,AW04,2013,5/15/13,Algonquin,Ontario,45.57394,-78.50846,Ascending,Triplet,Scott Ramsay
+Authors,AW05,2013,5/30/13,Algonquin,Ontario,45.57394,-78.50846,Ascending,Triplet,Scott Ramsay
+Authors,CR03,2013,5/15/13,Algonquin,Ontario,45.46981,-78.42731,Ascending,Triplet,Scott Ramsay
+Authors,CR04,2013,5/15/13,Algonquin,Ontario,45.56797,-78.42697,Ascending,Triplet,Scott Ramsay
+Authors,CR06,2013,5/15/13,Algonquin,Ontario,45.56452,-78.42615,Ascending,Triplet,Scott Ramsay
+Authors,CR08,2013,5/15/13,Algonquin,Ontario,45.55912,-78.42496,Ascending,Triplet,Scott Ramsay
+Authors,CR09,2013,5/15/13,Algonquin,Ontario,45.55144,-78.41798,Descending,Triplet,Scott Ramsay
+Authors,CR12,2013,5/15/13,Algonquin,Ontario,45.54982,-78.4187,Ascending,Triplet,Scott Ramsay
+Authors,RW07,2013,5/15/13,Algonquin,Ontario,45.5716,-78.49462,Ascending,Triplet,Scott Ramsay
+Authors,SR03,2013,5/15/13,Algonquin,Ontario,45.59055,-78.51858,Descending,Triplet,Scott Ramsay
+Authors,SR04,2013,5/15/13,Algonquin,Ontario,45.59042,-78.51748,Ascending,Triplet,Scott Ramsay
+Authors,SR05,2013,5/15/13,Algonquin,Ontario,45.58965,-78.51677,Descending,Triplet,Scott Ramsay
+Authors,SR06,2013,5/15/13,Algonquin,Ontario,45.588,-78.51584,Descending,Triplet,Scott Ramsay
+Authors,SR07,2013,5/15/13,Algonquin,Ontario,45.58506,-78.51822,Ascending,Triplet,Scott Ramsay
+Authors,SR09,2013,5/15/13,Algonquin,Ontario,45.58246,-78.5165,Descending,Triplet,Scott Ramsay
+Authors,SR12,2013,5/15/13,Algonquin,Ontario,45.5799,-78.51617,Ascending,Triplet,Scott Ramsay
+Authors,AN12,2014,5/8/14,Algonquin,Ontario,45.57492,-78.5063,Descending,Doublet,Scott Ramsay
+Authors,AN13,2014,5/7/14,Algonquin,Ontario,45.57511,-78.50639,Descending,Doublet,Scott Ramsay
+Authors,AN23,2014,6/6/14,Algonquin,Ontario,45.57442,-78.50974,Descending,Doublet,Scott Ramsay
+Authors,AS03,2014,5/13/14,Algonquin,Ontario,45.57197,-78.50509,Ascending,Doublet,Scott Ramsay
+Authors,AW03,2014,5/8/14,Algonquin,Ontario,45.5719,-78.50872,Ascending,Doublet,Scott Ramsay
+Authors,AW04,2014,2/7/14,Algonquin,Ontario,45.57133,-78.50931,Descending,Doublet,Scott Ramsay
+Authors,AW08,2014,5/8/14,Algonquin,Ontario,45.57238,-78.5068,Descending,Doublet,Scott Ramsay
+Authors,AW12,2014,5/8/14,Algonquin,Ontario,45.57211,-78.50621,Descending,Doublet,Scott Ramsay
+Authors,AW19,2014,6/12/14,Algonquin,Ontario,45.57135,-78.50642,Ascending,Doublet,Scott Ramsay
+Authors,AW20,2014,6/12/14,Algonquin,Ontario,45.57334,-78.50779,Ascending/Descending (2 songs),Doublet,Scott Ramsay
+Authors,CR06,2014,7/10/14,Algonquin,Ontario,45.55777,-78.42425,Ascending,Doublet,Scott Ramsay
+Authors,CR09,2014,7/10/14,Algonquin,Ontario,45.56319,-78.42597,Ascending,Doublet,Scott Ramsay
+Authors,KL04,2014,7/17/14,Algonquin,Ontario,45.57735,-78.43992,Ascending,Doublet,Scott Ramsay
+Authors,KL11,2014,7/17/14,Algonquin,Ontario,45.57567,-78.44225,Descending,Doublet,Scott Ramsay
+Authors,RW05,2014,7/10/14,Algonquin,Ontario,45.57153,-78.49547,Ascending,Doublet,Scott Ramsay
+Authors,RW09,2014,7/10/14,Algonquin,Ontario,45.57152,-78.49512,Ascending,Doublet,Scott Ramsay
+Authors,SR02,2014,5/9/14,Algonquin,Ontario,45.59053,-78.52084,Descending,Doublet,Scott Ramsay
+Authors,SR05,2014,5/25/14,Algonquin,Ontario,45.58964,-78.51687,Descending,Doublet,Scott Ramsay
+Authors,SR11,2014,5/30/14,Algonquin,Ontario,45.58202,-78.51645,Descending,Doublet,Scott Ramsay
+Authors,SR15,2014,5/30/14,Algonquin,Ontario,45.58075,-78.51579,Descending,Doublet,Scott Ramsay
+Authors,WM03,2014,7/18/14,Algonquin,Ontario,45.53504,-78.41839,Descending,Doublet,Scott Ramsay
+Authors,WM05,2014,7/18/14,Algonquin,Ontario,45.53094,-78.42232,Ascending,Doublet,Scott Ramsay
+Authors,,2014,5/6/14,,British Columbia,55.7596,-120.2377,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,British Columbia,55.7596,-120.2377,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,6/6/14,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,6/6/14,,British Columbia,55.7596,-120.2377,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,6/6/14,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,6/6/14,,British Columbia,55.7596,-120.2377,LDesc/Ascendingsc ,Doublet,Robin Sommerfeld
+Authors,,2014,6/6/14,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,6/6/14,,British Columbia,55.7596,-120.2377,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,6/6/14,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,6/6/14,,British Columbia,55.7596,-120.2377,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,6/6/14,,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,6/6/14,,British Columbia,55.6977,-121.6297,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,6/6/14,,British Columbia,55.6977,-121.6297,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,2/6/14,,Alberta,55.2867,-114.7711,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,2/6/14,,Alberta,55.2867,-114.7711,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,2/6/14,,Alberta,55.2867,-114.7711,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,3/6/14,,Alberta,55.2867,-114.7711,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,3/6/14,,Alberta,55.2867,-114.7711,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,3/6/14,,Alberta,55.2867,-114.7711,Ascendingsc/Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,3/6/14,,Alberta,55.2867,-114.7711,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,3/6/14,,Alberta,55.2867,-114.7711,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,3/6/14,,Alberta,55.2867,-114.7711,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,3/6/14,,Alberta,55.2867,-114.7711,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,3/6/14,,Alberta,55.2867,-114.7711,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,Alberta,54.1424,-115.685,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,Alberta,54.1424,-115.685,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,Alberta,54.1424,-115.685,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,Alberta,54.1424,-115.685,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,Alberta,54.1424,-115.685,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,Alberta,54.1424,-115.685,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,Alberta,54.1424,-115.685,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,Alberta,54.1424,-115.685,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,Alberta,54.1424,-115.685,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,Alberta,54.1424,-115.685,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,5/6/14,,Alberta,54.1424,-115.685,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,13/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,13/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,15/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,16/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,16/05/2014,,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,16/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,16/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,16/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,20/05/2014,,British Columbia,53.9171,-122.7497,Ascending,Doublet,Robin Sommerfeld
+Authors,,2014,20/05/2014,,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,20/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,20/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,20/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,20/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,20/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,20/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,20/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,20/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,20/05/2014,,British Columbia,53.9171,-122.7497,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,28/05/2014,,British Columbia,53.9171,-122.7497,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,4/6/14,,Alberta,53.5052,-112.0621,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,4/6/14,,Alberta,53.5052,-112.0621,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,1/6/14,,Alberta,53.4037,-117.5718,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,1/6/14,,Alberta,53.4037,-117.5718,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,2/6/14,,Alberta,53.4037,-117.5718,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,2/6/14,,Alberta,53.4037,-117.5718,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,2/6/14,,Alberta,53.4037,-117.5718,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,2/6/14,,Alberta,53.4037,-117.5718,Descendingesc,Doublet,Robin Sommerfeld
+Authors,,2014,2/6/14,,Alberta,53.4037,-117.5718,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,,2014,2/6/14,,Alberta,53.4037,-117.5718,Ascendingsc,Doublet,Robin Sommerfeld
+Authors,AN01,2014,5/7/14,Algonquin,Ontario,45.57411,-78.50874,Descending,Triplet,Scott Ramsay
+Authors,AN02,2014,5/7/14,Algonquin,Ontario,45.57517,-78.50476,Ascending,Triplet,Scott Ramsay
+Authors,AN03,2014,5/7/14,Algonquin,Ontario,45.57334,-78.50779,Ascending,Triplet,Scott Ramsay
+Authors,AN04,2014,5/8/14,Algonquin,Ontario,45.57397,-78.50401,Ascending,Triplet,Scott Ramsay
+Authors,AN05,2014,5/7/14,Algonquin,Ontario,45.57334,-78.50779,Ascending,Triplet,Scott Ramsay
+Authors,AN06,2014,5/8/14,Algonquin,Ontario,45.57438,-78.50689,Ascending,Triplet,Scott Ramsay
+Authors,AN07,2014,5/7/14,Algonquin,Ontario,45.57305,-78.50596,Descending,Triplet,Scott Ramsay
+Authors,AN08,2014,5/7/14,Algonquin,Ontario,45.57409,-78.50584,Descending,Triplet,Scott Ramsay
+Authors,AN09,2014,5/15/14,Algonquin,Ontario,45.57503,-78.50704,Ascending,Triplet,Scott Ramsay
+Authors,AN10,2014,5/8/14,Algonquin,Ontario,45.57298,-78.51343,Ascending,Triplet,Scott Ramsay
+Authors,AN11,2014,5/7/14,Algonquin,Ontario,45.57476,-78.50685,Descending,Triplet,Scott Ramsay
+Authors,AN14,2014,5/7/14,Algonquin,Ontario,45.57366,-78.50885,Descending,Triplet,Scott Ramsay
+Authors,AN15,2014,5/7/14,Algonquin,Ontario,45.57443,-78.50915,Ascending/Descending (2 songs),Triplet,Scott Ramsay
+Authors,AN16,2014,5/8/14,Algonquin,Ontario,45.57507,-78.50763,Descending,Triplet,Scott Ramsay
+Authors,AN17,2014,5/8/14,Algonquin,Ontario,45.57372,-78.51495,Ascending,Triplet,Scott Ramsay
+Authors,AN18,2014,5/9/14,Algonquin,Ontario,45.57443,-78.51186,Ascending,Triplet,Scott Ramsay
+Authors,AN19,2014,5/22/14,Algonquin,Ontario,45.5745,-78.51342,Descending,Triplet,Scott Ramsay
+Authors,AN20,2014,5/22/14,Algonquin,Ontario,45.57523,-78.50871,Descending,Triplet,Scott Ramsay
+Authors,AN21,2014,5/20/14,Algonquin,Ontario,45.57422,-78.50555,Ascending,Triplet,Scott Ramsay
+Authors,AN22,2014,5/22/14,Algonquin,Ontario,45.57357,-78.51314,Ascending,Triplet,Scott Ramsay
+Authors,AN24,2014,6/6/14,Algonquin,Ontario,45.57425,-78.50995,Descending,Triplet,Scott Ramsay
+Authors,AN25,2014,2/7/14,Algonquin,Ontario,45.57428,-78.51006,Descending,Triplet,Scott Ramsay
+Authors,AS01,2014,5/8/14,Algonquin,Ontario,45.57383,-78.50569,Ascending,Triplet,Scott Ramsay
+Authors,AS02,2014,5/12/14,Algonquin,Ontario,45.57207,-78.50513,Ascending,Triplet,Scott Ramsay
+Authors,AW01,2014,5/8/14,Algonquin,Ontario,45.57169,-78.50802,Ascending,Triplet,Scott Ramsay
+Authors,AW02,2014,5/7/14,Algonquin,Ontario,45.57282,-78.50908,Ascending,Triplet,Scott Ramsay
+Authors,AW05,2014,5/7/14,Algonquin,Ontario,45.57384,-78.50948,Ascending,Triplet,Scott Ramsay
+Authors,AW06,2014,5/8/14,Algonquin,Ontario,45.57223,-78.50876,Ascending,Triplet,Scott Ramsay
+Authors,AW07,2014,5/8/14,Algonquin,Ontario,45.57293,-78.51123,Ascending,Triplet,Scott Ramsay
+Authors,AW09,2014,5/7/14,Algonquin,Ontario,45.57264,-78.51256,Ascending,Triplet,Scott Ramsay
+Authors,AW10,2014,5/9/14,Algonquin,Ontario,45.57165,-78.50617,Ascending,Triplet,Scott Ramsay
+Authors,AW11,2014,5/7/14,Algonquin,Ontario,45.5742,-78.51086,Ascending,Triplet,Scott Ramsay
+Authors,AW13,2014,5/9/14,Algonquin,Ontario,45.57282,-78.51109,Ascending,Triplet,Scott Ramsay
+Authors,AW14,2014,6/12/14,Algonquin,Ontario,45.57241,-78.50919,Ascending/Descending (2 songs),Triplet,Scott Ramsay
+Authors,AW15,2014,6/12/14,Algonquin,Ontario,45.57228,-78.50796,Ascending,Triplet,Scott Ramsay
+Authors,AW16,2014,6/12/14,Algonquin,Ontario,45.57262,-78.5075,Descending,Triplet,Scott Ramsay
+Authors,AW17,2014,6/12/14,Algonquin,Ontario,45.57107,-78.50821,Ascending,Triplet,Scott Ramsay
+Authors,AW18,2014,6/12/14,Algonquin,Ontario,45.57173,-78.50572,Ascending,Triplet,Scott Ramsay
+Authors,CR01,2014,7/10/14,Algonquin,Ontario,45.54883,-78.41981,Descending,Triplet,Scott Ramsay
+Authors,CR02,2014,7/10/14,Algonquin,Ontario,45.55046,-78.41805,Ascending,Triplet,Scott Ramsay
+Authors,CR03,2014,7/10/14,Algonquin,Ontario,45.55034,-78.41804,Ascending,Triplet,Scott Ramsay
+Authors,CR04,2014,7/10/14,Algonquin,Ontario,45.55086,-78.41791,Ascending,Triplet,Scott Ramsay
+Authors,CR05,2014,7/10/14,Algonquin,Ontario,45.55407,-78.41918,Descending,Triplet,Scott Ramsay
+Authors,CR07,2014,7/10/14,Algonquin,Ontario,45.55848,-78.42465,Descending,Triplet,Scott Ramsay
+Authors,CR08,2014,7/10/14,Algonquin,Ontario,45.56014,-78.42577,Ascending,Triplet,Scott Ramsay
+Authors,CR10,2014,7/10/14,Algonquin,Ontario,45.5661,-78.4264,Descending,Triplet,Scott Ramsay
+Authors,KL02,2014,7/17/14,Algonquin,Ontario,45.57581,-78.44081,Ascending,Triplet,Scott Ramsay
+Authors,KL03,2014,7/17/14,Algonquin,Ontario,45.57678,-78.44042,Descending,Triplet,Scott Ramsay
+Authors,KL05,2014,7/17/14,Algonquin,Ontario,45.57648,-78.44083,Ascending,Triplet,Scott Ramsay
+Authors,KL06,2014,7/17/14,Algonquin,Ontario,45.57645,-78.44093,Descending,Triplet,Scott Ramsay
+Authors,KL07,2014,7/17/14,Algonquin,Ontario,45.57734,-78.442,Ascending,Triplet,Scott Ramsay
+Authors,KL08,2014,7/17/14,Algonquin,Ontario,45.577,-78.44317,Ascending,Triplet,Scott Ramsay
+Authors,KL09,2014,7/17/14,Algonquin,Ontario,45.57819,-78.44379,Descending,Triplet,Scott Ramsay
+Authors,KL10,2014,7/17/14,Algonquin,Ontario,45.57684,-78.44331,Ascending,Triplet,Scott Ramsay
+Authors,RW01,2014,7/10/14,Algonquin,Ontario,45.57199,-78.50082,Ascending,Triplet,Scott Ramsay
+Authors,RW02,2014,7/10/14,Algonquin,Ontario,45.5717,-78.50005,Ascending,Triplet,Scott Ramsay
+Authors,RW03,2014,7/10/14,Algonquin,Ontario,45.57147,-78.49847,Ascending,Triplet,Scott Ramsay
+Authors,RW04,2014,7/10/14,Algonquin,Ontario,45.57133,-78.49726,Ascending,Triplet,Scott Ramsay
+Authors,RW06,2014,7/10/14,Algonquin,Ontario,45.57165,-78.49335,Ascending,Triplet,Scott Ramsay
+Authors,RW07,2014,7/10/14,Algonquin,Ontario,45.57185,-78.49125,Ascending,Triplet,Scott Ramsay
+Authors,RW08,2014,7/10/14,Algonquin,Ontario,45.57194,-78.48865,Ascending,Triplet,Scott Ramsay
+Authors,RW10,2014,7/10/14,Algonquin,Ontario,45.57162,-78.49382,Ascending,Triplet,Scott Ramsay
+Authors,SR01,2014,5/30/14,Algonquin,Ontario,45.591,-78.52197,Ascending,Triplet,Scott Ramsay
+Authors,SR03,2014,5/25/14,Algonquin,Ontario,45.59064,-78.52003,Descending,Triplet,Scott Ramsay
+Authors,SR04,2014,5/25/14,Algonquin,Ontario,45.58988,-78.518,Ascending,Triplet,Scott Ramsay
+Authors,SR06,2014,5/25/14,Algonquin,Ontario,45.58827,-78.51644,Descending,Triplet,Scott Ramsay
+Authors,SR07,2014,5/25/14,Algonquin,Ontario,45.58767,-78.51559,Descending,Triplet,Scott Ramsay
+Authors,SR09,2014,5/10/14,Algonquin,Ontario,45.58523,-78.51521,Ascending,Triplet,Scott Ramsay
+Authors,SR10,2014,5/25/14,Algonquin,Ontario,45.58308,-78.51582,Ascending,Triplet,Scott Ramsay
+Authors,SR12,2014,5/30/14,Algonquin,Ontario,45.58183,-78.51666,Descending,Triplet,Scott Ramsay
+Authors,SR13,2014,5/30/14,Algonquin,Ontario,45.58108,-78.51592,Descending,Triplet,Scott Ramsay
+Authors,SR14,2014,5/30/14,Algonquin,Ontario,45.5808,-78.51561,Descending,Triplet,Scott Ramsay
+Authors,WM01,2014,7/18/14,Algonquin,Ontario,45.53702,-78.42079,Ascending,Triplet,Scott Ramsay
+Authors,WM02,2014,7/18/14,Algonquin,Ontario,45.53448,-78.42121,Ascending,Triplet,Scott Ramsay
+Authors,WM04,2014,7/18/14,Algonquin,Ontario,45.5315,-78.42246,Descending,Triplet,Scott Ramsay
+Authors,WM06,2014,7/18/14,Algonquin,Ontario,45.53089,-78.41913,Ascending,Triplet,Scott Ramsay
+Authors,WM07,2014,7/18/14,Algonquin,Ontario,45.52942,-78.41759,Ascending,Triplet,Scott Ramsay
+Authors,WM08,2014,7/18/14,Algonquin,Ontario,45.53506,-78.42015,Descending,Triplet,Scott Ramsay
+Authors,WM09,2014,7/18/14,Algonquin,Ontario,45.53577,-78.41869,Descending,Triplet,Scott Ramsay
+Authors,CHBS2016_001,2016,16/05/2016,Prince George,British Columbia,53.84208,-122.76925,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2016_003,2016,16/05/2016,Prince George,British Columbia,53.84198,-122.76651,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_004,2016,16/05/2016,Prince George,British Columbia,53.84169,-122.76214,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_005,2016,16/05/2016,Prince George,British Columbia,53.84159,-122.7617,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_006,2016,17/05/2016,Prince George,British Columbia,53.84154,-122.76147,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_007,2016,17/05/2016,Prince George,British Columbia,53.84093,-122.76089,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_008,2016,17/05/2016,Prince George,British Columbia,53.84038,-122.75991,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2016_009,2016,17/05/2016,Prince George,British Columbia,53.84099,-122.75919,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2016_010,2016,17/05/2016,Prince George,British Columbia,53.84099,-122.75919,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2016_011,2016,18/05/2016,Prince George,British Columbia,53.84276,-122.76492,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_012,2016,18/05/2016,Prince George,British Columbia,53.84311,-122.76418,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_013,2016,18/05/2016,Prince George,British Columbia,53.84334,-122.76244,Ascending,Doublet,Ken Otter
+Authors,CHBS2016_014,2016,20/05/2016,Prince George,British Columbia,53.8395,-122.75899,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2016_015,2016,20/05/2016,Prince George,British Columbia,53.83775,-122.76019,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_016,2016,20/05/2016,Prince George,British Columbia,53.83756,-122.75811,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_017,2016,20/05/2016,Prince George,British Columbia,53.83778,-122.75787,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_018,2016,24/05/2016,Prince George,British Columbia,53.8457,-122.76823,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2016_019,2016,24/05/2016,Prince George,British Columbia,53.84529,-122.76421,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_020,2016,24/05/2016,Prince George,British Columbia,53.84571,-122.76187,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_021,2016,24/05/2016,Prince George,British Columbia,53.8448,-122.75693,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_022,2016,25/05/2016,Prince George,British Columbia,53.84113,-122.76187,Descending,Doublet,Alex Mckenna
+Authors,CHBS2016_023,2016,25/05/2016,Prince George,British Columbia,53.84044,-122.76305,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2016_024,2016,31/05/2016,Prince George,British Columbia,53.84075,-122.76365,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2016_025,2016,31/05/2016,Prince George,British Columbia,53.84075,-122.76365,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2016_026,2016,1/6/16,Prince George,British Columbia,53.84587,-122.77084,Descending,Doublet,Ken Otter
+Authors,CHBS2016_027,2016,1/6/16,Prince George,British Columbia,53.84291,-122.76974,Ascending,Doublet,Ken Otter
+Authors,CHBS2016_028,2016,1/6/16,Prince George,British Columbia,53.84291,-122.7697,Descending,Doublet,Ken Otter
+Authors,ACH02,2017,30/05/2017,Achray Lake,Ontario,45.86534,-77.75317,Descending,Doublet,Ken Otter
+Authors,AN02,2017,26/05/2017,Algonquin,Ontario,45.57541,-78.50633,Ascending,Doublet,Ken Otter
+Authors,AN05,2017,26/05/2017,Algonquin,Ontario,45.57526,-78.50225,Descending,Doublet,Ken Otter
+Authors,AN06,2017,26/05/2017,Algonquin,Ontario,45.57516,-78.50113,Ascending,Doublet,Ken Otter
+Authors,AN07,2017,26/05/2017,Algonquin,Ontario,45.57578,-78.50025,Descending,Doublet,Ken Otter
+Authors,AN08,2017,26/05/2017,Algonquin,Ontario,45.5764,-78.49951,Ascending,Doublet,Ken Otter
+Authors,AN09,2017,26/05/2017,Algonquin,Ontario,45.57407,-78.50352,Ascending,Doublet,Ken Otter
+Authors,AN10,2017,26/05/2017,Algonquin,Ontario,45.57433,-78.50412,Ascending,Doublet,Ken Otter
+Authors,AN15,2017,26/05/2017,Algonquin,Ontario,45.57444,-78.51087,Descending,Doublet,Ken Otter
+Authors,AN21,2017,26/05/2017,Algonquin,Ontario,45.57349,-78.50678,Ascending,Doublet,Ken Otter
+Authors,AN22,2017,26/05/2017,Algonquin,Ontario,45.57293,-78.50488,Ascending,Doublet,Ken Otter
+Authors,AS01,2017,26/05/2017,Algonquin,Ontario,45.57368,-78.50068,Ascending,Doublet,Ken Otter
+Authors,AS02,2017,26/05/2017,Algonquin,Ontario,45.57362,-78.49918,Ascending,Doublet,Ken Otter
+Authors,AS04,2017,26/05/2017,Algonquin,Ontario,45.5711,-78.50429,Descending,Doublet,Ken Otter
+Authors,AS05,2017,26/05/2017,Algonquin,Ontario,45.57132,-78.50485,Descending,Doublet,Ken Otter
+Authors,AS07,2017,26/05/2017,Algonquin,Ontario,45.57193,-78.50609,Ascending,Doublet,Ken Otter
+Authors,AW01,2017,27/05/2017,Algonquin,Ontario,45.57445,-78.51395,Descending,Doublet,Ken Otter
+Authors,AW05,2017,27/05/2017,Algonquin,Ontario,45.57343,-78.51295,Descending,Doublet,Ken Otter
+Authors,AW09,2017,27/05/2017,Algonquin,Ontario,45.5721,-78.51279,Ascending,Doublet,Ken Otter
+Authors,AW12,2017,28/05/2017,Algonquin,Ontario,45.57409,-78.50919,Descending,Doublet,Ken Otter
+Authors,AW14,2017,28/05/2017,Algonquin,Ontario,45.57215,-78.50764,Ascending,Doublet,Ken Otter
+Authors,AW16,2017,28/05/2017,Algonquin,Ontario,45.57252,-78.50922,Descending,Doublet,Ken Otter
+Authors,AW17,2017,28/05/2017,Algonquin,Ontario,45.57285,-78.50948,Descending,Doublet,Ken Otter
+Authors,CHBS2017_1000,2017,30/05/2017,Prince George,British Columbia,53.84266,-122.76544,Descending,Doublet,Alex Mckenna
+Authors,CHBS2017_1001,2017,30/05/2017,Prince George,British Columbia,53.84307,-122.76465,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2017_1002,2017,30/05/2017,Prince George,British Columbia,53.84268,-122.76082,Bilingual,Doublet,Alex Mckenna
+Authors,CHBS2017_1003,2017,30/05/2017,Prince George,British Columbia,53.84259,-122.75952,Descending,Doublet,Alex Mckenna
+Authors,CHBS2017_1004,2017,30/05/2017,Prince George,British Columbia,53.8426,-122.7594,Bilingual,Doublet,Alex Mckenna
+Authors,CHBS2017_1005,2017,1/6/17,Prince George,British Columbia,53.84124,-122.75874,Descending,Doublet,Alex Mckenna
+Authors,CHBS2017_1006,2017,1/6/17,Prince George,British Columbia,53.83961,-122.759,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2017_1007,2017,29/05/2017,Prince George,British Columbia,53.83984,-122.76155,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2017_1008,2017,29/05/2017,Prince George,British Columbia,53.83929,-122.76172,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2017_1009,2017,29/05/2017,Prince George,British Columbia,53.83936,-122.7597,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2017_1011,2017,29/05/2017,Prince George,British Columbia,53.84053,-122.7589,Descending,Doublet,Alex Mckenna
+Authors,CHBS2017_1013,2017,30/05/2017,Prince George,British Columbia,53.8446,-122.76999,Descending,Doublet,Alex Mckenna
+Authors,CHBS2017_1015,2017,30/05/2017,Prince George,British Columbia,53.84267,-122.76955,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2017_1016,2017,31/05/2017,Prince George,British Columbia,53.84604,-122.76939,Descending,Doublet,Alex Mckenna
+Authors,CHBS2017_1018,2017,31/05/2017,Prince George,British Columbia,53.84536,-122.76407,Descending,Doublet,Alex Mckenna
+Authors,CHBS2017_1019,2017,31/05/2017,Prince George,British Columbia,53.84473,-122.75562,Ascending,Doublet,Alex Mckenna
+Authors,CHBS2017_1020,2017,31/05/2017,Prince George,British Columbia,53.84509,-122.75915,Descending,Doublet,Alex Mckenna
+Authors,CHBS2017_1100,2017,1/6/17,Prince George,British Columbia,53.83748,-122.75926,Descending,Doublet,Alex Mckenna
+Authors,CR01,2017,29/05/2017,Algonquin,Ontario,45.56973,-78.42733,Descending,Doublet,Ken Otter
+Authors,CR02,2017,29/05/2017,Algonquin,Ontario,45.57087,-78.42775,Descending,Doublet,Ken Otter
+Authors,CR04,2017,29/05/2017,Algonquin,Ontario,45.56454,-78.42638,Descending,Doublet,Ken Otter
+Authors,CR05,2017,29/05/2017,Algonquin,Ontario,45.56256,-78.42542,Ascending,Doublet,Ken Otter
+Authors,CR07,2017,29/05/2017,Algonquin,Ontario,45.55543,-78.41869,Ascending,Doublet,Ken Otter
+Authors,CR08,2017,29/05/2017,Algonquin,Ontario,45.55191,-78.41808,Descending,Doublet,Ken Otter
+Authors,CR10,2017,29/05/2017,Algonquin,Ontario,45.54963,-78.41866,Descending,Doublet,Ken Otter
+Authors,CSC01,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.67564,-80.73119,Ascending,Doublet,Ken Otter
+Authors,CSC02,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.67592,-80.73013,UpDown,Doublet,Ken Otter
+Authors,CSC03,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.67296,-80.73016,,Doublet,Ken Otter
+Authors,CSC04,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.6737,-80.73151,Descending,Doublet,Ken Otter
+Authors,CSC05,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.67543,-80.73331,Descending,Doublet,Ken Otter
+Authors,CSC06,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.67657,-80.73338,Descending,Doublet,Ken Otter
+Authors,CSC07,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.67736,-80.73387,Ascending,Doublet,Ken Otter
+Authors,CSC08,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.67909,-80.73409,Descending,Doublet,Ken Otter
+Authors,CSC09,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.68176,-80.71391,Ascending,Doublet,Ken Otter
+Authors,CSC10,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.6817,-80.71522,Ascending,Doublet,Ken Otter
+Authors,CSC11,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.68221,-80.71659,Descending,Doublet,Ken Otter
+Authors,CSC12,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.68218,-80.7177,Ascending,Doublet,Ken Otter
+Authors,CSC13,2017,23/05/2017,"Conestoga Lake, Waterloo",Ontario,43.68254,-80.71424,Ascending,Doublet,Ken Otter
+Authors,GAT05,2017,31/05/2017,Otter Lake,Quebec,45.82919,-76.45573,Descending,Doublet,Ken Otter
+Authors,GAT07,2017,31/05/2017,Otter Lake,Quebec,45.85593,-76.41179,Ascending,Doublet,Ken Otter
+Authors,GAT12,2017,31/05/2017,Danford Lake,Quebec,45.94888,-76.11387,Descending,Doublet,Ken Otter
+Authors,HAL01,2017,24/05/2017,Minden/Haliburton/Dorset,Ontario,44.95232,-78.69015,Ascending,Doublet,Ken Otter
+Authors,HAL02,2017,24/05/2017,Minden/Haliburton/Dorset,Ontario,44.97945,-78.63016,Ascending,Doublet,Ken Otter
+Authors,HAL03,2017,24/05/2017,Minden/Haliburton/Dorset,Ontario,44.97879,-78.62788,Ascending,Doublet,Ken Otter
+Authors,HAL04,2017,24/05/2017,Minden/Haliburton/Dorset,Ontario,45.13308,-78.79298,Ascending,Doublet,Ken Otter
+Authors,KL01,2017,28/05/2017,Algonquin,Ontario,45.57018,-78.44042,Ascending,Doublet,Ken Otter
+Authors,KL02,2017,28/05/2017,Algonquin,Ontario,45.5747,-78.4401,Descending,Doublet,Ken Otter
+Authors,KL03,2017,28/05/2017,Algonquin,Ontario,45.57481,-78.44076,UpDown,Doublet,Ken Otter
+Authors,PEM01,2017,31/05/2017,Pembroke,Ontario,45.76669,-77.12832,Ascending,Doublet,Ken Otter
+Authors,REN06,2017,30/05/2017,Renfrew County,Ontario,45.6601,-77.58612,Ascending,Doublet,Ken Otter
+Authors,REN07,2017,30/05/2017,Renfrew County,Ontario,45.66005,-77.58578,Descending,Doublet,Ken Otter
+Authors,REN10,2017,30/05/2017,Renfrew County,Ontario,45.6605,-77.59321,Ascending,Doublet,Ken Otter
+Authors,REN11,2017,30/05/2017,Renfrew County,Ontario,45.66015,-77.59447,Descending,Doublet,Ken Otter
+Authors,RW02,2017,25/05/2017,Algonquin,Ontario,45.57151,-78.49516,Ascending,Doublet,Ken Otter
+Authors,RW03,2017,25/05/2017,Algonquin,Ontario,45.57156,-78.49425,Descending,Doublet,Ken Otter
+Authors,SR01,2017,25/05/2017,Algonquin,Ontario,45.59168,-78.52219,Ascending,Doublet,Ken Otter
+Authors,SR04,2017,25/05/2017,Algonquin,Ontario,45.58877,-78.51971,Descending,Doublet,Ken Otter
+Authors,SR08,2017,25/05/2017,Algonquin,Ontario,45.58526,-78.51802,Ascending,Doublet,Ken Otter
+Authors,SR13,2017,25/05/2017,Algonquin,Ontario,45.58238,-78.51669,Descending,Doublet,Ken Otter
+Authors,SR16,2017,25/05/2017,Algonquin,Ontario,45.57883,-78.51602,Ascending,Doublet,Ken Otter
+Authors,TRA06,2017,30/05/2017,Lake Travers,Ontario,45.94582,-78.05877,Descending,Doublet,Ken Otter
+Authors,TRA08,2017,30/05/2017,Lake Travers,Ontario,45.94418,-78.07733,Ascending,Doublet,Ken Otter
+Authors,TRA09,2017,30/05/2017,Lake Travers,Ontario,45.94522,-78.07847,Ascending,Doublet,Ken Otter
+Authors,TRA10,2017,30/05/2017,Lake Travers,Ontario,45.94631,-78.08118,Ascending,Doublet,Ken Otter
+Authors,WM03,2017,27/05/2017,Algonquin,Ontario,45.53609,-78.42005,Ascending,Doublet,Ken Otter
+Authors,WM05,2017,27/05/2017,Algonquin,Ontario,45.53512,-78.41904,Descending,Doublet,Ken Otter
+Authors,WM06,2017,27/05/2017,Algonquin,Ontario,45.53607,-78.41817,Ascending,Doublet,Ken Otter
+Authors,WM08,2017,27/05/2017,Algonquin,Ontario,45.53255,-78.41994,Ascending,Doublet,Ken Otter
+Authors,WM09,2017,27/05/2017,Algonquin,Ontario,45.53116,-78.41937,Ascending,Doublet,Ken Otter
+Authors,ACH01,2017,30/05/2017,Achray Lake,Ontario,45.86573,-77.75386,Ascending,Triplet,Ken Otter
+Authors,AN01,2017,26/05/2017,Algonquin,Ontario,45.5752,-78.50698,Ascending,Triplet,Ken Otter
+Authors,AN03,2017,26/05/2017,Algonquin,Ontario,45.57529,-78.50481,Descending,Triplet,Ken Otter
+Authors,AN12,2017,26/05/2017,Algonquin,Ontario,45.57522,-78.50787,Ascending,Triplet,Ken Otter
+Authors,AN13,2017,26/05/2017,Algonquin,Ontario,45.57482,-78.50887,Descending,Triplet,Ken Otter
+Authors,AN14,2017,26/05/2017,Algonquin,Ontario,45.57465,-78.51015,Ascending,Triplet,Ken Otter
+Authors,AN17,2017,26/05/2017,Algonquin,Ontario,45.57307,-78.50995,Ascending,Triplet,Ken Otter
+Authors,AN18,2017,26/05/2017,Algonquin,Ontario,45.57391,-78.5097,Ascending,Triplet,Ken Otter
+Authors,AN19,2017,26/05/2017,Algonquin,Ontario,45.57409,-78.50907,UpDown,Triplet,Ken Otter
+Authors,AN20,2017,26/05/2017,Algonquin,Ontario,45.57376,-78.5081,Ascending,Triplet,Ken Otter
+Authors,AS03,2017,26/05/2017,Algonquin,Ontario,45.5711,-78.50429,Descending,Triplet,Ken Otter
+Authors,AS06,2017,26/05/2017,Algonquin,Ontario,45.57151,-78.50593,Ascending,Triplet,Ken Otter
+Authors,AS08,2017,26/05/2017,Algonquin,Ontario,45.57169,-78.50681,Descending,Triplet,Ken Otter
+Authors,AS09,2017,26/05/2017,Algonquin,Ontario,45.57207,-78.50674,Ascending,Triplet,Ken Otter
+Authors,AW02,2017,27/05/2017,Algonquin,Ontario,45.5749,-78.51328,Ascending,Triplet,Ken Otter
+Authors,AW03,2017,27/05/2017,Algonquin,Ontario,45.5745,-78.51267,Descending,Triplet,Ken Otter
+Authors,AW04,2017,27/05/2017,Algonquin,Ontario,45.57368,-78.5127,Ascending,Triplet,Ken Otter
+Authors,AW06,2017,27/05/2017,Algonquin,Ontario,45.57357,-78.51337,Descending,Triplet,Ken Otter
+Authors,AW07,2017,27/05/2017,Algonquin,Ontario,45.57359,-78.51413,Descending,Triplet,Ken Otter
+Authors,AW08,2017,27/05/2017,Algonquin,Ontario,45.57266,-78.51311,Ascending,Triplet,Ken Otter
+Authors,AW10,2017,27/05/2017,Algonquin,Ontario,45.57298,-78.51112,Ascending,Triplet,Ken Otter
+Authors,AW11,2017,28/05/2017,Algonquin,Ontario,45.57118,-78.51011,Descending,Triplet,Ken Otter
+Authors,AW13,2017,28/05/2017,Algonquin,Ontario,45.57146,-78.50777,Descending,Triplet,Ken Otter
+Authors,AW15,2017,28/05/2017,Algonquin,Ontario,45.57237,-78.50865,Ascending,Triplet,Ken Otter
+Authors,AW18,2017,28/05/2017,Algonquin,Ontario,45.57212,-78.50909,Ascending,Triplet,Ken Otter
+Authors,CR06,2017,29/05/2017,Algonquin,Ontario,45.56064,-78.42526,Descending,Triplet,Ken Otter
+Authors,CR09,2017,29/05/2017,Algonquin,Ontario,45.55077,-78.41751,Descending,Triplet,Ken Otter
+Authors,GAT01,2017,31/05/2017,Otter Lake,Quebec,45.83506,-76.45858,Descending,Triplet,Ken Otter
+Authors,GAT02,2017,31/05/2017,Otter Lake,Quebec,45.8345,-76.45816,Ascending,Triplet,Ken Otter
+Authors,GAT03,2017,31/05/2017,Otter Lake,Quebec,45.83099,-76.45589,Ascending,Triplet,Ken Otter
+Authors,GAT04,2017,31/05/2017,Otter Lake,Quebec,45.82949,-76.45583,Descending,Triplet,Ken Otter
+Authors,GAT06,2017,31/05/2017,Otter Lake,Quebec,45.82869,-76.45591,Ascending,Triplet,Ken Otter
+Authors,GAT08,2017,31/05/2017,Otter Lake,Quebec,45.85912,-76.41209,Ascending,Triplet,Ken Otter
+Authors,GAT09,2017,31/05/2017,Otter Lake,Quebec,45.85909,-76.41344,Ascending,Triplet,Ken Otter
+Authors,GAT10,2017,31/05/2017,Otter Lake,Quebec,45.85973,-76.41646,Descending,Triplet,Ken Otter
+Authors,GAT13,2017,31/05/2017,Danford Lake,Quebec,45.94822,-76.11307,Ascending,Triplet,Ken Otter
+Authors,GAT15,2017,31/05/2017,Danford Lake,Quebec,45.95288,-76.11741,Descending,Triplet,Ken Otter
+Authors,GAT16,2017,31/05/2017,Danford Lake,Quebec,45.9515,-76.1164,Descending,Triplet,Ken Otter
+Authors,GAT17,2017,31/05/2017,Danford Lake,Quebec,45.95151,-76.11581,Descending,Triplet,Ken Otter
+Authors,GAT18,2017,31/05/2017,Danford Lake,Quebec,45.95209,-76.11494,Descending,Triplet,Ken Otter
+Authors,GAT19,2017,31/05/2017,Danford Lake,Quebec,45.95123,-76.11375,Descending,Triplet,Ken Otter
+Authors,GAT20,2017,31/05/2017,Danford Lake,Quebec,45.95168,-76.11262,Ascending,Triplet,Ken Otter
+Authors,GAT21,2017,31/05/2017,Danford Lake,Quebec,45.95018,-76.1122,Ascending,Triplet,Ken Otter
+Authors,KL04,2017,28/05/2017,Algonquin,Ontario,45.57613,-78.44059,Ascending,Triplet,Ken Otter
+Authors,KL05,2017,28/05/2017,Algonquin,Ontario,45.57726,-78.44059,Descending,Triplet,Ken Otter
+Authors,KL06,2017,28/05/2017,Algonquin,Ontario,45.57759,-78.44327,Descending,Triplet,Ken Otter
+Authors,KL07,2017,28/05/2017,Algonquin,Ontario,45.57641,-78.44433,Descending,Triplet,Ken Otter
+Authors,KL08,2017,28/05/2017,Algonquin,Ontario,45.57655,-78.44344,Ascending,Triplet,Ken Otter
+Authors,PEM02,2017,31/05/2017,Pembroke,Ontario,45.74612,-77.14384,Descending,Triplet,Ken Otter
+Authors,PEM04,2017,31/05/2017,Pembroke,Ontario,45.74578,-77.14496,Ascending,Triplet,Ken Otter
+Authors,PEM05,2017,31/05/2017,Pembroke,Ontario,45.73244,-77.15794,Descending,Triplet,Ken Otter
+Authors,PEM06,2017,31/05/2017,Pembroke,Ontario,45.7299,-77.15653,Descending,Triplet,Ken Otter
+Authors,REN01,2017,30/05/2017,Renfrew County,Ontario,45.60564,-77.52647,Ascending,Triplet,Ken Otter
+Authors,REN02,2017,30/05/2017,Renfrew County,Ontario,45.60558,-77.52518,Ascending,Triplet,Ken Otter
+Authors,REN03,2017,30/05/2017,Renfrew County,Ontario,45.60489,-77.52596,,Triplet,Ken Otter
+Authors,REN04,2017,30/05/2017,Renfrew County,Ontario,45.65953,-77.58208,Descending,Triplet,Ken Otter
+Authors,REN05,2017,30/05/2017,Renfrew County,Ontario,45.65969,-77.58336,Ascending,Triplet,Ken Otter
+Authors,REN08,2017,30/05/2017,Renfrew County,Ontario,45.66058,-77.58573,Descending,Triplet,Ken Otter
+Authors,REN09,2017,30/05/2017,Renfrew County,Ontario,45.65987,-77.58629,Ascending,Triplet,Ken Otter
+Authors,REN12,2017,30/05/2017,Renfrew County,Ontario,45.6599,-77.59584,Ascending,Triplet,Ken Otter
+Authors,RW01,2017,25/05/2017,Algonquin,Ontario,45.57127,-78.49724,Ascending,Triplet,Ken Otter
+Authors,SR02,2017,25/05/2017,Algonquin,Ontario,45.59082,-78.52947,Descending,Triplet,Ken Otter
+Authors,SR05,2017,25/05/2017,Algonquin,Ontario,45.58971,-78.51675,Descending,Triplet,Ken Otter
+Authors,SR06,2017,25/05/2017,Algonquin,Ontario,45.58877,-78.51698,Descending,Triplet,Ken Otter
+Authors,SR07,2017,25/05/2017,Algonquin,Ontario,45.58523,-78.51805,Ascending,Triplet,Ken Otter
+Authors,SR09,2017,25/05/2017,Algonquin,Ontario,45.5854,-78.51681,UpDown,Triplet,Ken Otter
+Authors,SR10,2017,25/05/2017,Algonquin,Ontario,45.58774,-78.51454,Ascending,Triplet,Ken Otter
+Authors,SR11,2017,25/05/2017,Algonquin,Ontario,45.58538,-78.51155,Descending,Triplet,Ken Otter
+Authors,SR12,2017,25/05/2017,Algonquin,Ontario,45.58275,-78.51625,Ascending,Triplet,Ken Otter
+Authors,SR14,2017,25/05/2017,Algonquin,Ontario,45.58034,-78.51608,Descending,Triplet,Ken Otter
+Authors,TRA01,2017,30/05/2017,Lake Travers,Ontario,45.95871,-78.06373,Ascending,Triplet,Ken Otter
+Authors,TRA02,2017,30/05/2017,Lake Travers,Ontario,45.94581,-78.05279,Descending,Triplet,Ken Otter
+Authors,TRA03,2017,30/05/2017,Lake Travers,Ontario,45.94593,-78.05227,Descending,Triplet,Ken Otter
+Authors,TRA04,2017,30/05/2017,Lake Travers,Ontario,45.94656,-78.05678,Ascending,Triplet,Ken Otter
+Authors,TRA05,2017,30/05/2017,Lake Travers,Ontario,45.94592,-78.05741,Ascending,Triplet,Ken Otter
+Authors,TRA11,2017,30/05/2017,Lake Travers,Ontario,45.9441,-78.07149,Ascending,Triplet,Ken Otter
+Authors,WM01,2017,27/05/2017,Algonquin,Ontario,45.53341,-78.41964,Descending,Triplet,Ken Otter
+Authors,WM04,2017,27/05/2017,Algonquin,Ontario,45.53555,-78.41958,Ascending,Triplet,Ken Otter
+Authors,WM07,2017,27/05/2017,Algonquin,Ontario,45.53358,-78.41809,Descending,Triplet,Ken Otter
+Authors,WM10,2017,27/05/2017,Algonquin,Ontario,45.52934,-78.41721,Ascending,Triplet,Ken Otter
+Authors,WM11,2017,27/05/2017,Algonquin,Ontario,45.52977,-78.41698,Ascending,Triplet,Ken Otter
+Authors,WM12,2017,27/05/2017,Algonquin,Ontario,45.53098,-78.42079,Ascending,Triplet,Ken Otter
+Authors,WM13,2017,27/05/2017,Algonquin,Ontario,45.53058,-78.42173,Descending,Triplet,Ken Otter
+Avichorus,3837,2004,16/06/2004,,Ontario,45.5022,-77.7469,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3839,2004,16/06/2004,,Ontario,45.5008,-77.7265,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3847,2004,16/06/2004,,Ontario,45.5103,-77.6774,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3851,2004,16/06/2004,,Ontario,45.5367,-77.6713,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3851,2004,16/06/2004,,Ontario,45.5367,-77.6713,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3859,2004,16/06/2004,,Ontario,45.581,-77.647,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3874,2004,16/06/2004,,Ontario,45.6602,-77.6441,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3884,2004,16/06/2004,,Ontario,45.6831,-77.7095,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1628,2010,14/06/2010,,Ontario,48.7039,-91.4708,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1631,2010,14/06/2010,,Ontario,48.7204,-91.4811,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1831,2010,16/06/2010,,Ontario,50.7594,-94.3456,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1833,2010,16/06/2010,,Ontario,50.7786,-94.3539,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1833,2010,16/06/2010,,Ontario,50.7786,-94.3539,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1835,2010,16/06/2010,,Ontario,50.7849,-94.3742,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1838,2010,16/06/2010,,Ontario,50.8056,-94.3689,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1845,2010,16/06/2010,,Ontario,50.8375,-94.3934,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1850,2010,16/06/2010,,Ontario,50.8635,-94.3601,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1856,2010,16/06/2010,,Ontario,50.8883,-94.3197,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1856,2010,16/06/2010,,Ontario,50.8883,-94.3197,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1861,2010,16/06/2010,,Ontario,50.9124,-94.2812,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1896,2010,15/06/2010,,Ontario,50.037,-92.6586,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1896,2010,15/06/2010,,Ontario,50.037,-92.6586,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1901,2010,15/06/2010,,Ontario,50.0737,-92.6961,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1904,2010,15/06/2010,,Ontario,50.0901,-92.7178,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1997,2010,17/06/2010,,Ontario,51.6722,-93.7352,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1997,2010,17/06/2010,,Ontario,51.6722,-93.7352,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1999,2010,17/06/2010,,Ontario,51.6737,-93.7592,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2012,2010,17/06/2010,,Ontario,51.6053,-93.8207,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2026,2010,12/6/10,,Ontario,49.5012,-86.1711,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2029,2010,12/6/10,,Ontario,49.5224,-86.1758,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2029,2010,12/6/10,,Ontario,49.5224,-86.1758,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2035,2010,12/6/10,,Ontario,49.5595,-86.1446,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2045,2010,12/6/10,,Ontario,49.624,-86.1431,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2050,2010,12/6/10,,Ontario,49.6427,-86.1803,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2060,2010,12/6/10,,Ontario,49.6777,-86.2691,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2064,2010,12/6/10,,Ontario,49.6944,-86.304,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2185,2010,19/06/2010,,Ontario,50.4955,-88.5844,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2187,2010,19/06/2010,,Ontario,50.49,-88.5682,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2189,2010,19/06/2010,,Ontario,50.4777,-88.5639,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2193,2010,19/06/2010,,Ontario,50.4523,-88.5755,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2196,2010,19/06/2010,,Ontario,50.4262,-88.5642,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2198,2010,19/06/2010,,Ontario,50.4139,-88.5736,Monotone,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2200,2010,19/06/2010,,Ontario,50.4026,-88.5881,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2231,2010,19/06/2010,,Ontario,50.286,-88.8706,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1573,2011,15/06/2011,,Ontario,50.2448,-92.8976,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1573,2011,15/06/2011,,Ontario,50.2448,-92.8976,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1579,2011,15/06/2011,,Ontario,50.2787,-92.886,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1640,2011,16/06/2011,,Ontario,48.7039,-91.4708,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1642,2011,16/06/2011,,Ontario,48.717,-91.4738,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1650,2011,16/06/2011,,Ontario,48.7159,-91.5546,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1652,2011,16/06/2011,,Ontario,48.7219,-91.5756,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1655,2011,16/06/2011,,Ontario,48.7358,-91.5981,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1660,2011,16/06/2011,,Ontario,48.7633,-91.5806,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1662,2011,16/06/2011,,Ontario,48.7744,-91.5619,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1666,2011,16/06/2011,,Ontario,48.7972,-91.5656,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1670,2011,16/06/2011,,Ontario,48.8159,-91.54,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1690,2011,11/6/11,,Ontario,50.7594,-94.3456,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1694,2011,11/6/11,,Ontario,50.7818,-94.3641,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1701,2011,11/6/11,,Ontario,50.8146,-94.3863,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1705,2011,11/6/11,,Ontario,50.8375,-94.3934,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1709,2011,11/6/11,,Ontario,50.857,-94.3639,Monotone,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1713,2011,11/6/11,,Ontario,50.8821,-94.3481,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1722,2011,11/6/11,,Ontario,50.9154,-94.2706,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1906,2011,15/06/2011,,Ontario,50.037,-92.6586,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1906,2011,15/06/2011,,Ontario,50.037,-92.6586,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1910,2011,15/06/2011,,Ontario,50.0623,-92.6787,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1915,2011,15/06/2011,,Ontario,50.0901,-92.7178,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1919,2011,15/06/2011,,Ontario,50.1064,-92.7516,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1926,2011,15/06/2011,,Ontario,50.1358,-92.8085,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1946,2011,13/06/2011,,Ontario,51.6722,-93.7352,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1946,2011,13/06/2011,,Ontario,51.6722,-93.7352,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1953,2011,13/06/2011,,Ontario,51.6607,-93.8059,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1959,2011,13/06/2011,,Ontario,51.6192,-93.8186,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1966,2011,13/06/2011,,Ontario,51.5724,-93.8385,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2069,2011,9/6/11,,Ontario,49.4575,-86.1745,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2081,2011,9/6/11,,Ontario,49.5358,-86.1711,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2085,2011,9/6/11,,Ontario,49.5595,-86.1446,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2087,2011,9/6/11,,Ontario,49.5733,-86.1438,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2107,2011,9/6/11,,Ontario,49.6718,-86.2375,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2235,2011,19/06/2011,,Ontario,50.49,-88.5682,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2237,2011,19/06/2011,,Ontario,50.4777,-88.5639,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2237,2011,19/06/2011,,Ontario,50.4777,-88.5639,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2241,2011,19/06/2011,,Ontario,50.4523,-88.5755,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2246,2011,19/06/2011,,Ontario,50.4195,-88.5662,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2251,2011,19/06/2011,,Ontario,50.3968,-88.6078,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2254,2011,19/06/2011,,Ontario,50.3852,-88.6344,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2257,2011,19/06/2011,,Ontario,50.3665,-88.6508,2 Songs: Ascending & Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2259,2011,19/06/2011,,Ontario,50.3565,-88.6656,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2264,2011,19/06/2011,,Ontario,50.3368,-88.7067,Monotone,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2075,2011,9/6/11,,Ontario,49.497,-86.1637,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3155,2011,20/06/2011,,Quebec,48.2242,-66.2589,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3155,2011,20/06/2011,,Quebec,48.2242,-66.2589,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3167,2011,20/06/2011,,Quebec,48.1478,-66.2479,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3167,2011,20/06/2011,,Quebec,48.1478,-66.2479,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3171,2011,20/06/2011,,Quebec,48.1249,-66.2307,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3187,2011,20/06/2011,,Quebec,48.1174,-66.3207,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3189,2011,20/06/2011,,Quebec,48.1072,-66.3385,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3198,2011,20/06/2011,,Quebec,48.1201,-66.4187,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3205,2011,21/06/2011,,Quebec,48.046,-66.8244,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3234,2011,21/06/2011,,Quebec,48.0848,-66.718,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3237,2011,21/06/2011,,Quebec,48.1038,-66.7148,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3241,2011,21/06/2011,,Quebec,48.1151,-66.6921,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3250,2011,21/06/2011,,Quebec,48.1515,-66.7233,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3252,2011,21/06/2011,,Quebec,48.1587,-66.74,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3252,2011,21/06/2011,,Quebec,48.1587,-66.74,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3252,2011,21/06/2011,,Quebec,48.1587,-66.74,2 Songs: Ascending & Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1740,2012,7/6/12,,Ontario,50.7594,-94.3456,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1742,2012,7/6/12,,Ontario,50.7741,-94.3459,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1745,2012,7/6/12,,Ontario,50.7849,-94.3742,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1751,2012,7/6/12,,Ontario,50.8146,-94.3863,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1751,2012,7/6/12,,Ontario,50.8146,-94.3863,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1754,2012,7/6/12,,Ontario,50.8305,-94.3954,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1758,2012,7/6/12,,Ontario,50.8534,-94.3741,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1760,2012,7/6/12,,Ontario,50.8635,-94.3601,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1761,2012,6/6/12,,Ontario,51.6722,-93.7352,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1767,2012,6/6/12,,Ontario,51.6658,-93.7987,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1770,2012,6/6/12,,Ontario,51.6471,-93.8123,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1770,2012,6/6/12,,Ontario,51.6471,-93.8123,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1775,2012,6/6/12,,Ontario,51.6121,-93.8171,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1798,2012,6/6/12,,Ontario,51.4855,-93.7748,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1802,2012,6/6/12,,Ontario,51.4627,-93.7472,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1807,2012,6/6/12,,Ontario,51.4342,-93.7189,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1872,2012,5/6/12,,Ontario,50.1631,-92.8361,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1872,2012,5/6/12,,Ontario,50.1631,-92.8361,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1879,2012,5/6/12,,Ontario,50.2042,-92.8755,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3255,2012,14/06/2012,,Quebec,48.046,-66.8244,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3255,2012,14/06/2012,,Quebec,48.046,-66.8244,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3257,2012,14/06/2012,,Quebec,48.0355,-66.805,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3271,2012,15/06/2012,,Quebec,48.2242,-66.2589,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3278,2012,15/06/2012,,Quebec,48.1799,-66.2613,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3300,2012,15/06/2012,,Quebec,48.1351,-66.3206,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3309,2012,15/06/2012,,Quebec,48.1115,-66.3729,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3314,2012,15/06/2012,,Quebec,48.1201,-66.4187,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3342,2012,18/06/2012,,Quebec,49.1302,-64.7394,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3344,2012,18/06/2012,,Quebec,49.1175,-64.7307,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3348,2012,18/06/2012,,Quebec,49.1095,-64.6841,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3351,2012,18/06/2012,,Quebec,49.1006,-64.6512,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3357,2012,18/06/2012,,Quebec,49.0877,-64.5808,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3364,2012,18/06/2012,,Quebec,49.0611,-64.4975,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3371,2012,19/06/2012,,Quebec,49.0226,-66.3985,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3371,2012,19/06/2012,,Quebec,49.0226,-66.3985,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3373,2012,19/06/2012,,Quebec,49.0368,-66.4094,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3385,2012,19/06/2012,,Quebec,49.1116,-66.4777,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3402,2012,19/06/2012,,Quebec,49.127,-66.3517,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3410,2012,19/06/2012,,Quebec,49.0926,-66.3041,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3412,2012,19/06/2012,,Quebec,49.0773,-66.2966,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3415,2012,19/06/2012,,Quebec,49.0565,-66.2854,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3419,2012,19/06/2012,,Quebec,49.0334,-66.2625,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1581,2013,13/06/2013,,Ontario,48.7104,-91.4739,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1586,2013,13/06/2013,,Ontario,48.7125,-91.5114,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1588,2013,13/06/2013,,Ontario,48.7141,-91.5333,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1590,2013,13/06/2013,,Ontario,48.7159,-91.5546,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1592,2013,13/06/2013,,Ontario,48.7219,-91.5756,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1596,2013,13/06/2013,,Ontario,48.7431,-91.5956,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1599,2013,13/06/2013,,Ontario,48.7608,-91.5883,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1603,2013,13/06/2013,,Ontario,48.7908,-91.5586,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1617,2013,13/06/2013,,Ontario,48.8533,-91.6037,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1627,2013,13/06/2013,,Ontario,48.8872,-91.6949,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1815,2013,13/06/2013,,Ontario,50.9124,-94.2812,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1819,2013,13/06/2013,,Ontario,50.9202,-94.2387,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1823,2013,13/06/2013,,Ontario,50.9408,-94.2181,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1827,2013,13/06/2013,,Ontario,50.9583,-94.2075,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2288,2013,5/6/13,,Ontario,49.464,-86.1704,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2291,2013,5/6/13,,Ontario,49.4838,-86.16,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2293,2013,5/6/13,,Ontario,49.497,-86.1637,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2294,2013,5/6/13,,Ontario,49.5012,-86.1711,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2296,2013,5/6/13,,Ontario,49.5164,-86.1731,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2298,2013,5/6/13,,Ontario,49.5298,-86.1754,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2305,2013,5/6/13,,Ontario,49.5733,-86.1438,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2308,2013,5/6/13,,Ontario,49.5938,-86.1445,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2310,2013,5/6/13,,Ontario,49.6068,-86.1362,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2313,2013,5/6/13,,Ontario,49.624,-86.1431,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2333,2013,6/6/13,,Ontario,50.0685,-89.1574,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2338,2013,6/6/13,,Ontario,50.0472,-89.2009,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2342,2013,6/6/13,,Ontario,50.0292,-89.2352,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2352,2013,6/6/13,,Ontario,50.039,-89.3231,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2356,2013,6/6/13,,Ontario,50.0404,-89.3661,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2358,2013,6/6/13,,Ontario,50.0375,-89.3871,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2361,2013,6/6/13,,Ontario,50.0418,-89.4198,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2363,2013,6/6/13,,Ontario,50.0426,-89.4422,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2365,2013,6/6/13,,Ontario,50.0405,-89.4641,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2371,2013,6/6/13,,Ontario,50.0561,-89.5185,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2381,2013,6/6/13,,Ontario,50.0536,-89.6191,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2381,2013,6/6/13,,Ontario,50.0536,-89.6191,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2383,2013,7/6/13,,Ontario,50.4955,-88.5844,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2385,2013,7/6/13,,Ontario,50.49,-88.5682,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2387,2013,7/6/13,,Ontario,50.4777,-88.5639,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2390,2013,7/6/13,,Ontario,50.4593,-88.5736,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2395,2013,7/6/13,,Ontario,50.4262,-88.5642,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2397,2013,7/6/13,,Ontario,50.4139,-88.5736,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2405,2013,7/6/13,,Ontario,50.3799,-88.642,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2407,2013,7/6/13,,Ontario,50.3665,-88.6508,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2410,2013,7/6/13,,Ontario,50.352,-88.674,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2412,2013,7/6/13,,Ontario,50.3414,-88.686,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2433,2013,10/6/13,,Ontario,51.6722,-93.7352,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2440,2013,10/6/13,,Ontario,51.6607,-93.8059,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2450,2013,10/6/13,,Ontario,51.5919,-93.8257,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2453,2013,10/6/13,,Ontario,51.5724,-93.8385,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3422,2013,12/6/13,,Quebec,48.6753,-67.0191,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,1567,2013,19/06/2013,,Quebec,48.2242,-66.2589,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3114,2013,9/6/13,,Ontario,45.5032,-77.6794,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3118,2013,9/6/13,,Ontario,45.5295,-77.6715,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3126,2013,9/6/13,,Ontario,45.5766,-77.6535,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3129,2013,9/6/13,,Ontario,45.5861,-77.627,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3139,2013,9/6/13,,Ontario,45.6431,-77.6402,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3151,2013,9/6/13,,Ontario,45.6829,-77.7038,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3425,2013,12/6/13,,Quebec,48.6645,-67.0481,2 Songs: Ascending & Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3430,2013,12/6/13,,Quebec,48.644,-67.1078,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3437,2013,12/6/13,,Quebec,48.634,-67.1848,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3441,2013,12/6/13,,Quebec,48.6358,-67.2221,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3444,2013,12/6/13,,Quebec,48.6466,-67.2475,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3446,2013,12/6/13,,Quebec,48.6509,-67.2682,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3453,2013,12/6/13,,Quebec,48.6444,-67.3387,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3459,2013,12/6/13,,Quebec,48.6198,-67.3909,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3468,2013,12/6/13,,Quebec,48.5759,-67.3569,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3470,2013,15/06/2013,,Quebec,49.0294,-66.404,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3472,2013,15/06/2013,,Quebec,49.0451,-66.4133,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3475,2013,15/06/2013,,Quebec,49.068,-66.4223,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3479,2013,15/06/2013,,Quebec,49.0931,-66.4437,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3481,2013,15/06/2013,,Quebec,49.1024,-66.461,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3484,2013,15/06/2013,,Quebec,49.1188,-66.4787,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3491,2013,15/06/2013,,Quebec,49.154,-66.4259,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3494,2013,15/06/2013,,Quebec,49.1397,-66.4033,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3500,2013,15/06/2013,,Quebec,49.1262,-66.3402,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3509,2013,15/06/2013,,Quebec,49.0773,-66.2966,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3518,2013,17/06/2013,,Quebec,49.012,-65.2814,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3520,2013,18/06/2013,,Quebec,49.0259,-65.2825,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3526,2013,19/06/2013,,Quebec,49.0622,-65.2735,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3539,2013,17/06/2013,,Quebec,49.1367,-65.2359,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3545,2013,17/06/2013,,Quebec,49.1519,-65.1868,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3547,2013,17/06/2013,,Quebec,49.1718,-65.1844,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3549,2013,17/06/2013,,Quebec,49.1817,-65.1799,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3551,2013,17/06/2013,,Quebec,49.1797,-65.1608,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3557,2013,17/06/2013,,Quebec,49.216,-65.134,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3576,2013,18/06/2013,,Quebec,48.8879,-65.1033,2 Songs: Ascending & Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3585,2013,18/06/2013,,Quebec,48.8896,-65.1912,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3587,2013,18/06/2013,,Quebec,48.8809,-65.21,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3589,2013,18/06/2013,,Quebec,48.8739,-65.2321,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3592,2013,18/06/2013,,Quebec,48.8694,-65.2708,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3619,2013,19/06/2013,,Quebec,48.1799,-66.2613,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3619,2013,19/06/2013,,Quebec,48.1799,-66.2613,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3621,2013,19/06/2013,,Quebec,48.1669,-66.2573,2 Songs: Ascending & Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3624,2013,19/06/2013,,Quebec,48.1478,-66.2479,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3649,2013,19/06/2013,,Quebec,48.1106,-66.3608,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3093,2014,27/06/2014,,Quebec,48.1997,-79.0169,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3093,2014,27/06/2014,,Quebec,48.1997,-79.0169,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3095,2014,27/06/2014,,Quebec,48.1977,-79.0361,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3095,2014,27/06/2014,,Quebec,48.1977,-79.0361,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3661,2014,25/06/2014,,Newfoundland,53.5419,-64.7539,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3663,2014,25/06/2014,,Newfoundland,53.5544,-64.7391,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3665,2014,25/06/2014,,Newfoundland,53.562,-64.7174,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3670,2014,25/06/2014,,Newfoundland,53.5875,-64.6749,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3675,2014,25/06/2014,,Newfoundland,53.6222,-64.6508,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3679,2014,26/06/2014,,Newfoundland,53.0466,-66.5297,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3679,2014,26/06/2014,,Newfoundland,53.0466,-66.5297,2 Songs: Ascending & Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3681,2014,26/06/2014,,Newfoundland,53.0582,-66.5216,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3685,2014,26/06/2014,,Newfoundland,53.0653,-66.4826,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3691,2014,26/06/2014,,Newfoundland,53.0588,-66.4154,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3694,2014,26/06/2014,,Newfoundland,53.0406,-66.3968,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3698,2014,26/06/2014,,Newfoundland,53.0369,-66.354,2 Songs: Ascending & Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3702,2014,26/06/2014,,Newfoundland,53.0426,-66.3073,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3705,2014,26/06/2014,,Newfoundland,53.0467,-66.2724,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3705,2014,26/06/2014,,Newfoundland,53.0467,-66.2724,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3727,2014,27/06/2014,,Newfoundland,53.4099,-65.3115,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3731,2014,27/06/2014,,Newfoundland,53.4088,-65.3598,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3736,2014,27/06/2014,,Newfoundland,53.3972,-65.4142,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3736,2014,27/06/2014,,Newfoundland,53.3972,-65.4142,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3745,2014,27/06/2014,,Newfoundland,53.37,-65.5205,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3751,2014,27/06/2014,,Newfoundland,53.3521,-65.5894,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3756,2014,27/06/2014,,Newfoundland,53.3375,-65.6507,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3760,2014,27/06/2014,,Newfoundland,53.3426,-65.6999,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3763,2014,27/06/2014,,Newfoundland,53.3359,-65.7363,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3765,2014,27/06/2014,,Newfoundland,53.3285,-65.7598,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2710,2015,24/06/2015,,Ontario,48.2573,-79.8794,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2720,2015,24/06/2015,,Ontario,48.1904,-79.86,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2728,2015,24/06/2015,,Ontario,48.1351,-79.8681,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2736,2015,24/06/2015,,Ontario,48.1075,-79.7962,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2739,2015,24/06/2015,,Ontario,48.1053,-79.7647,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2747,2015,24/06/2015,,Ontario,48.0801,-79.7104,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2753,2015,24/06/2015,,Ontario,48.0413,-79.6927,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2756,2015,21/06/2015,,Ontario,47.6347,-81.1844,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2756,2015,21/06/2015,,Ontario,47.6347,-81.1844,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2762,2015,21/06/2015,,Ontario,47.585,-81.2362,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2762,2015,21/06/2015,,Ontario,47.585,-81.2362,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2770,2015,21/06/2015,,Ontario,47.5453,-81.2827,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2774,2015,21/06/2015,,Ontario,47.5223,-81.3041,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2774,2015,21/06/2015,,Ontario,47.5223,-81.3041,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2780,2015,21/06/2015,,Ontario,47.4939,-81.3403,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2785,2015,21/06/2015,,Ontario,47.4904,-81.3903,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2791,2015,21/06/2015,,Ontario,47.4683,-81.4428,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2844,2015,19/06/2015,,Northwest Territories,61.9318,-116.497,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2847,2015,19/06/2015,,Northwest Territories,61.9122,-116.511,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2848,2015,19/06/2015,,Northwest Territories,61.9063,-116.52,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2853,2015,19/06/2015,,Northwest Territories,61.8844,-116.577,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2856,2015,19/06/2015,,Northwest Territories,61.8654,-116.598,Monotone,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2860,2015,19/06/2015,,Northwest Territories,61.845,-116.641,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2864,2015,19/06/2015,,Northwest Territories,61.8309,-116.694,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2869,2015,19/06/2015,,Northwest Territories,61.8022,-116.733,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2893,2015,19/06/2015,,Northwest Territories,61.6839,-116.985,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2893,2015,19/06/2015,,Northwest Territories,61.6839,-116.985,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2903,2015,20/06/2015,,Northwest Territories,62.5446,-116.441,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2906,2015,20/06/2015,,Northwest Territories,62.5563,-116.405,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2913,2015,20/06/2015,,Northwest Territories,62.5946,-116.338,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2918,2015,20/06/2015,,Northwest Territories,62.6228,-116.29,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2933,2015,20/06/2015,,Northwest Territories,62.7018,-116.132,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2944,2015,20/06/2015,,Northwest Territories,61.3983,-117.447,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2949,2015,20/06/2015,,Northwest Territories,61.4273,-117.401,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2954,2015,20/06/2015,,Northwest Territories,61.4537,-117.35,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2957,2015,20/06/2015,,Northwest Territories,61.4704,-117.321,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2957,2015,20/06/2015,,Northwest Territories,61.4704,-117.321,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2963,2015,20/06/2015,,Northwest Territories,61.5038,-117.263,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2967,2015,20/06/2015,,Northwest Territories,61.5259,-117.224,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2975,2015,20/06/2015,,Northwest Territories,61.5713,-117.15,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2979,2015,20/06/2015,,Northwest Territories,61.5992,-117.141,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2984,2015,20/06/2015,,Northwest Territories,61.632,-117.118,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,2998,2015,19/06/2015,,Northwest Territories,61.1922,-117.524,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3003,2015,19/06/2015,,Northwest Territories,61.1565,-117.529,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3005,2015,19/06/2015,,Northwest Territories,61.1423,-117.519,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3008,2015,19/06/2015,,Northwest Territories,61.1242,-117.5,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3013,2015,19/06/2015,,Northwest Territories,61.0878,-117.499,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3018,2015,19/06/2015,,Northwest Territories,61.0739,-117.548,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3030,2015,19/06/2015,,Northwest Territories,61.1227,-117.692,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3033,2015,19/06/2015,,Northwest Territories,61.1362,-117.729,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3035,2015,19/06/2015,,Northwest Territories,61.1413,-117.756,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3043,2015,19/06/2015,,Northwest Territories,61.1345,-117.874,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3044,2015,27/06/2015,,Northwest Territories,61.1433,-119.842,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3049,2015,27/06/2015,,Northwest Territories,61.1453,-119.775,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3051,2015,27/06/2015,,Northwest Territories,61.1511,-119.748,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3055,2015,27/06/2015,,Northwest Territories,61.1518,-119.69,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3059,2015,27/06/2015,,Northwest Territories,61.1396,-119.636,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3062,2015,27/06/2015,,Northwest Territories,61.1423,-119.596,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3074,2015,27/06/2015,,Northwest Territories,61.1458,-119.424,Ascending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3092,2015,27/06/2015,,Northwest Territories,61.1451,-119.152,Descending,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3780,2015,17/06/2015,,Quebec,47.481,-76.7652,,Doublet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3777,2015,17/06/2015,,Quebec,47.4946,-76.7426,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3783,2015,17/06/2015,,Quebec,47.4634,-76.7793,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3787,2015,17/06/2015,,Quebec,47.4362,-76.7846,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3797,2015,17/06/2015,,Quebec,47.3759,-76.8164,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3797,2015,17/06/2015,,Quebec,47.3759,-76.8164,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3807,2015,17/06/2015,,Quebec,47.0869,-76.5304,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3814,2015,17/06/2015,,Quebec,47.1068,-76.4885,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3819,2015,17/06/2015,,Quebec,47.1119,-76.4422,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3825,2015,17/06/2015,,Quebec,47.144,-76.4527,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3827,2015,10/6/15,,Quebec,46.9654,-77.0209,Descending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3829,2015,10/6/15,,Quebec,46.9652,-77.0425,Monotone,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3830,2015,10/6/15,,Quebec,46.9634,-77.0507,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3835,2015,10/6/15,,Quebec,46.9725,-77.0978,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Avichorus,3836,2015,10/6/15,,Quebec,46.9759,-77.1071,Ascending,Triplet,"AviChorus, Canadian Wildlife Service Audio Surveys"
+Macaulay Library,ML15577,1951,18/06/1951,,New York,43.9731,-73.8321,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15578,1951,19/06/1951,,New York,43.9948,-73.8313,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15579,1951,19/06/1951,,New York,43.9948,-73.8313,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15580,1951,30/06/1951,,New York,44.4314,-74.4118,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15581,1951,20/06/1951,,New York,44.4314,-74.4118,Descending,Triplet,Arthur Allen
+Macaulay Library,ML66742,1951,30/05/1951,,Ontario,45.8372,-78.3791,Ascending,Triplet,William Gunn
+Macaulay Library,ML66743,1951,18/06/1951,,Ontario,45.8372,-78.3791,Ascending,Triplet,William Gunn
+Macaulay Library,ML15572,1952,24/04/1952,,New York,42.444,-76.5019,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15573,1952,29/04/1952,,New York,42.444,-76.5019,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15574,1952,16/05/1952,,New York,42.444,-76.5019,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15575,1952,16/05/1952,,New York,42.444,-76.5019,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15576,1952,10/6/52,,Massachusetts,42.6376,-73.1662,Ascending,Triplet,Peter Kellogg
+Macaulay Library,ML15565,1953,2/6/53,,Quebec,49.2213,-68.1504,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15566,1953,24/06/1953,,Quebec,48.9474,-66.1224,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15568,1953,26/06/1953,,Quebec,48.9474,-66.1224,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15570,1953,26/06/1953,,Quebec,48.9474,-66.1224,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15571,1953,29/06/1953,,Vermont,44.5437,-72.8143,Descending,Triplet,Arthur Allen
+Macaulay Library,ML66744,1953,18/06/1953,,Ontario,46.3679,-79.9247,Descending,Triplet,William Gunn
+Macaulay Library,ML15562,1954,6/6/54,,Manitoba,53.8255,-101.2476,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML15563,1954,7/6/54,,Manitoba,53.8255,-101.2476,Ascending,Triplet,Peter Kellogg
+Macaulay Library,ML15564,1954,9/6/54,,Manitoba,50.8553,-100.222,Ascending,Triplet,Arthur Allen
+Macaulay Library,ML66745,1954,19/06/1954,,Ontario,45.8372,-78.3791,Descending,Triplet,William Gunn
+Macaulay Library,ML15582,1955,27/04/1955,,New York,42.444,-76.5019,Ascending,Triplet,Peter Kellogg
+Macaulay Library,ML15583,1956,1/5/56,,New York,42.9981,-78.1875,Descending,Triplet,R.O Monaghan
+Macaulay Library,ML43015,1956,12/7/56,,Quebec,46.8027,-71.3334,Ascending,Triplet,William Gunn
+Macaulay Library,ML66751,1956,10/7/56,,Quebec,46.8027,-71.3334,Ascending,Triplet,William Gunn
+Macaulay Library,ML15584,1957,20/07/1957,,Quebec,48.05,-65.4833,Descending,Triplet,Robert Robinson
+Macaulay Library,ML15585,1957,24/07/1957,,Vermont,44.4631,-71.682,Ascending,Triplet,Robert Robinson
+Macaulay Library,ML66752,1957,18/06/1957,,Quebec,48.181,-65.8874,Ascending,Triplet,William Gunn
+Macaulay Library,ML66753,1957,4/7/57,,Ontario,47.8493,-81.3561,Descending,Triplet,William Gunn
+Macaulay Library,ML66754,1957,5/7/57,,Ontario,47.8493,-81.3561,Descending,Triplet,William Gunn
+Macaulay Library,ML66755,1957,5/7/57,,Ontario,47.8493,-81.3561,Ascending,Triplet,William Gunn
+Macaulay Library,ML66756,1957,8/7/57,,Ontario,47.8493,-81.3561,Descending,Triplet,William Gunn
+Macaulay Library,ML66757,1958,8/5/58,,Ontario,45.8372,-78.3791,Descending,Triplet,William Gunn
+Macaulay Library,ML66758,1958,11/5/58,,Ontario,45.8372,-78.3791,Descending,Triplet,William Gunn
+Macaulay Library,ML66759,1958,22/05/1958,,Ontario,51.2731,-80.64,Ascending,Triplet,William Gunn
+Macaulay Library,ML66760,1958,26/05/1958,,Ontario,51.2731,-80.64,Ascending,Triplet,William Gunn
+Macaulay Library,ML66761,1958,27/05/1958,,Ontario,51.2731,-80.64,Descending,Triplet,William Gunn
+Macaulay Library,ML66764,1958,7/7/58,,Ontario,47.8493,-81.3561,Ascending,Triplet,William Gunn
+Macaulay Library,ML66765,1960,2/6/60,,Ontario,47.8493,-81.3561,Descending,Triplet,William Gunn
+Macaulay Library,ML66768,1960,28/06/1960,,Ontario,50.0978,-91.922,Descending,Triplet,William Gunn
+Macaulay Library,ML66769,1960,30/06/1960,,Ontario,50.0978,-91.922,Descending,Triplet,William Gunn
+Macaulay Library,ML66770,1960,5/7/60,,Ontario,53.7586,-90.0764,Ascending,Triplet,William Gunn
+Macaulay Library,ML66771,1960,5/7/60,,Ontario,53.7586,-90.0764,Ascending,Triplet,William Gunn
+Macaulay Library,ML66772,1960,6/7/60,,Ontario,50.0978,-91.922,Ascending,Triplet,William Gunn
+Macaulay Library,ML66773,1960,6/7/60,,Ontario,50.0978,-91.922,Descending,Triplet,William Gunn
+Macaulay Library,ML66774,1960,6/7/60,,Ontario,49.4333,-94.0138,Ascending,Triplet,William Gunn
+Macaulay Library,ML66776,1960,13/07/1960,,New York,44.3659,-73.9026,Ascending,Triplet,William Gunn
+Macaulay Library,ML66777,1960,13/07/1960,,New York,44.3659,-73.9026,Ascending,Triplet,William Gunn
+Macaulay Library,ML66778,1960,14/07/1960,,New York,44.3659,-73.9026,Ascending,Triplet,William Gunn
+Macaulay Library,ML66779,1960,14/07/1960,,New York,44.3659,-73.9026,Ascending,Triplet,William Gunn
+Macaulay Library,ML66780,1960,14/07/1960,,New York,44.3659,-73.9026,Ascending,Triplet,William Gunn
+Macaulay Library,ML66781,1960,17/07/1960,,Vermont,44.5437,-72.8143,Ascending,Triplet,William Gunn
+Macaulay Library,ML15590,1962,4/6/62,,Vermont,44.5437,-72.8143,Ascending,Triplet,Robert C Stein
+Macaulay Library,ML15592,1962,4/6/62,,Vermont,44.5437,-72.8143,Ascending,Triplet,Robert C Stein
+Macaulay Library,ML15593,1962,5/6/62,,New Hampshire,44.7814,-71.1379,Ascending,Triplet,Robert C Stein
+Macaulay Library,ML15596,1962,12/6/62,,Maine,44.3924,-68.3021,Ascending,Triplet,Robert C Stein
+Macaulay Library,ML15598,1962,12/6/62,,Maine,44.3924,-68.3021,Descending,Triplet,Robert C Stein
+Macaulay Library,ML66783,1962,10/6/62,,British Columbia,53.9171,-122.7497,Ascending,Triplet,William Gunn
+Macaulay Library,ML66784,1962,10/6/62,,Alberta,55.1699,-118.7986,Ascending,Triplet,William Gunn
+Macaulay Library,ML66785,1962,10/6/62,,British Columbia,53.9171,-122.7497,Ascending,Triplet,William Gunn
+Macaulay Library,ML66786,1962,10/6/62,,Alberta,55.1699,-118.7986,Ascending,Triplet,William Gunn
+Macaulay Library,ML15599,1963,13/06/1963,,Michigan,46.6015,-85.1933,Ascending,Triplet,Robert C Stein
+Macaulay Library,ML15600,1963,19/06/1963,,Minnesota,47.9032,-91.8671,Ascending,Triplet,Robert C Stein
+Macaulay Library,ML15601,1963,20/06/1963,,Ontario,50.0978,-91.922,Ascending,Triplet,Robert C Stein
+Macaulay Library,ML15602,1963,23/06/1963,,Ontario,47.8423,-83.4026,Ascending,Triplet,Robert C Stein
+Macaulay Library,ML15606,1963,25/06/1963,,Ontario,43.7325,-79.7773,Descending,Triplet,Robert C Stein
+Macaulay Library,ML15607,1963,28/06/1963,,Ontario,51.2731,-80.64,Ascending,Triplet,Robert C Stein
+Macaulay Library,ML15608,1963,30/06/1963,,Quebec,47.9791,-77.423,Descending,Triplet,Robert C Stein
+Macaulay Library,ML15610,1963,1/7/63,,Quebec,48.3456,-67.0539,Descending,Triplet,Robert C Stein
+Macaulay Library,ML15611,1963,1/7/63,,Quebec,48.3456,-67.0539,Descending,Triplet,Robert C Stein
+Macaulay Library,ML66788,1963,22/06/1963,,Ontario,45.8372,-78.3791,Descending,Triplet,William Gunn
+Macaulay Library,ML66789,1963,23/06/1963,,Ontario,45.8372,-78.3791,Ascending,Triplet,William Gunn
+Macaulay Library,ML66791,1971,15/06/1971,,Ontario,45.8372,-78.3791,Ascending,Triplet,William Gunn
+Macaulay Library,ML66792,1971,16/06/1971,,Ontario,45.8372,-78.3791,Descending,Triplet,Christopher Gunn
+Macaulay Library,ML66793,1977,21/05/1977,,Alberta,50.2227,-111.7687,Ascending,Triplet,William Gunn
+Macaulay Library,ML18735,1980,15/06/1980,,Alberta,53.5428,-113.9034,Ascending,Triplet,Oliver Hewitt
+Macaulay Library,ML26122,1980,23/03/1980,,New York,40.6057,-73.8713,Ascending,Triplet,Thomas Davis
+Macaulay Library,ML36984,1986,14/06/1986,,Maine,44.6166,-66.6,Descending,Triplet,Charles Duncan
+Macaulay Library,ML73982,1992,3/6/92,,Michigan,46.6274,-85.0374,Ascending,Triplet,Geoffrey Keller
+Macaulay Library,ML73984,1992,3/6/92,,Michigan,46.6274,-85.0374,Ascending,Triplet,Geoffrey Keller
+Macaulay Library,ML73990,1992,4/6/92,,Michigan,46.6274,-85.0374,Descending,Triplet,Geoffrey Keller
+Macaulay Library,ML98806,1992,1/6/92,,Michigan,46.6274,-85.0374,Ascending,Triplet,Geoffrey Keller
+Macaulay Library,ML98808,1992,1/6/92,,Michigan,46.6274,-85.0374,Descending,Triplet,Geoffrey Keller
+Macaulay Library,ML98816,1992,1/6/92,,Michigan,46.6274,-85.0374,Ascending,Triplet,Geoffrey Keller
+Macaulay Library,ML77095,1996,11/6/96,,New York,43.7897,-74.2128,Ascending,Triplet,Curtis Marantz
+Macaulay Library,ML84752,1997,3/4/97,,Maryland,39.4166,-77.2083,Ascending,Triplet,Wilbur Hershberger
+Macaulay Library,ML100883,1999,31/05/1999,,New York,43.7669,-74.8172,Descending,Triplet,Wilbur Hershberger
+Macaulay Library,ML107292,2000,26/03/2000,,Maryland,39.1667,-77.2083,Ascending,Triplet,Wilbur Hershberger
+Macaulay Library,ML117995,2004,6/6/04,,New York,44.2033,-74.6619,Ascending,Triplet,Benjamin Clock
+Macaulay Library,ML146267,2005,26/06/2005,,Manitoba,51.6667,-100.9167,Descending,Doublet,Mark Robbins
+Macaulay Library,ML133972,2005,3/7/05,,New York,37.3541,-121.9552,Ascending,Triplet,Michael Andersen
+Macaulay Library,ML140282,2008,5/7/08,,Vermont,43.5874,-73.1307,Descending,Triplet,Hope Batcheller
+Macaulay Library,ML219779,2009,8/6/09,,New York,42.6658,-76.3468,Descending,Triplet,Bob Mcguire
+Macaulay Library,ML219798,2009,15/06/2009,,New York,44.485,-74.4034,Ascending,Triplet,Bob Mcguire
+Macaulay Library,ML219799,2009,15/06/2009,,New York,44.485,-74.4034,Descending,Triplet,Bob Mcguire
+Macaulay Library,ML224605,2009,16/06/2009,,New York,44.4805,-74.4072,Ascending,Triplet,Bob Mcguire
+Macaulay Library,ML224609,2009,16/06/2009,,New York,44.4853,-74.4022,Ascending,Triplet,Bob Mcguire
+Macaulay Library,ML224610,2009,16/06/2009,,New York,44.4854,-74.4022,Descending,Triplet,Bob Mcguire
+Macaulay Library,ML136579,2011,2/7/11,,New York,44.4818,-74.4088,Descending,Triplet,Sean O'Brien
+Macaulay Library,ML136588,2011,6/7/11,,New York,37.3541,-121.9552,Descending,Triplet,Sean O'Brien
+Macaulay Library,ML169021,2012,7/6/12,,New York,44.51041,-73.88525,Descending,Triplet,Matthew Medler
+Macaulay Library,ML169021,2012,7/6/12,,New York,44.5104,-73.8852,Descending,Triplet,Matthew Medler
+Macaulay Library,ML205318,2012,7/6/12,,Massachusetts,42.3566,-73.1796,Ascending,Triplet,David Kazdan
+Macaulay Library,ML205319,2012,7/6/12,,Massachusetts,42.3566,-73.1795,Ascending,Triplet,Laura Gooch
+Macaulay Library,ML29804391,2012,31/05/2012,,Vermont,44.6433,-72.6314,Ascending,Triplet,Paul Marvin
+Macaulay Library,ML20752341,2015,3/11/15,,Georgia,32.8416,-83.6804,Ascending,Triplet,Anne Armstrong
+Macaulay Library,ML21866961,2015,12/12/15,,North Carolina,36.1735,-79.8356,Ascending,Triplet,Martin Wall
+Macaulay Library,ML39901471,2015,7/7/15,,New York,43.6843,-74.7468,Descending,Triplet,Michael Andersen
+Macaulay Library,ML39902541,2015,7/7/15,,New York,43.6843,-74.7468,Descending,Triplet,Michael Andersen
+Macaulay Library,ML39908121,2015,7/7/15,,New York,43.6733,-74.7013,Ascending,Triplet,Michael Andersen
+Macaulay Library,ML47699151,2015,12/4/15,,Pennsylvania,40.1422,-75.3457,Ascending,Triplet,Brian Henderson
+Macaulay Library,ML26983461,2016,12/4/16,,Tennessee,35.8856,-84.1208,Descending,Doublet,Colin Sumrall
+Macaulay Library,ML2701728,2016,13/04/2016,,California,37.4321,-122.1661,Descending,Doublet,Robert Furrow
+Macaulay Library,ML27192051,2016,15/04/2016,,Tennessee,35.8856,-84.1208,Ascending,Doublet,Colin Sumrall
+Macaulay Library,ML27192071,2016,15/04/2016,,Tennessee,35.8856,-84.1201,Ascending,Doublet,Colin Sumrall
+Macaulay Library,ML28196461,2016,3/5/16,,Ohia,39.8062,-82.7593,Descending,Doublet,Jeffery Roth
+Macaulay Library,ML29893601,2016,1/6/16,,British Columbia,50.9737,-118.2015,Ascending,Doublet,John Woods
+Macaulay Library,ML31612451,2016,12/7/16,,New York,44.3095,-73.9371,Descending,Doublet,Glen Chapman
+Macaulay Library,ML34904071,2016,25/06/2016,,Vermont,43.45,-73.0364,Descending,Doublet,Roy Pilcher
+Macaulay Library,ML38458241,2016,28/10/2016,,North Carolina,36.2145,-81.6465,Ascending,Doublet,Wilcox Family
+Macaulay Library,ML39355611,2016,8/11/16,,North Carolina,36.2144,-81.6465,Descending,Doublet,Wilcox Family
+Macaulay Library,ML47740971,2016,5/6/16,,Alberta,55.2356,-114.062,Descending,Doublet,Laura Gooch
+Macaulay Library,ML49064811,2016,12/6/16,,Alberta,55.6359,-114.5319,Ascending,Doublet,Laura Gooch
+Macaulay Library,ML54838341,2016,19/06/2016,,Alberta,56.6023,-110.2448,Descending,Doublet,Laura Gooch
+Macaulay Library,ML27522691,2016,23/04/2016,,North Carolina,36.1726,-79.5561,Ascending,Triplet,Martin Wall
+Macaulay Library,ML31406421,2016,16/07/2016,,New York,42.6564,-76.3263,Ascending,Triplet,Jay Mcgowan
+Macaulay Library,ML31612451,2016,12/7/16,,New York,44.3095,-73.9371,Descending,Triplet,Glen Chapman
+Macaulay Library,ML31716761,2016,17/04/2016,,Vermont,44.9523,-72.8753,Descending,Triplet,Craig Provost
+Macaulay Library,ML38701321,2016,31/10/2016,,Maryland,39.6433,-76.3403,Ascending,Triplet,Dominique Bayne
+Macaulay Library,ML39355611,2016,8/11/16,,North Carolina,36.2144,-81.6465,Descending,Triplet,Wilcox Family
+Macaulay Library,ML39355641,2016,8/11/16,,North Carolina,36.2144,-81.6465,Descending,Triplet,Wilcox Family
+Macaulay Library,ML41194381,2016,28/11/2016,,North Carolina,35.0383,-80.7355,Ascending,Triplet,Peter Quadarella
+Macaulay Library,ML41694471,2016,3/12/16,,Tennessee,35.9511,-84.2392,Ascending,Triplet,Colin Sumrall
+Macaulay Library,ML52836791,2017,30/03/2017,,South Carolina,35.10519,-81.26941,Descending,Doublet,Steven Biggers
+Macaulay Library,ML54188011,2017,11/4/17,,Washington,47.66387,-122.42153,Descending,Doublet,Kevin Kincaid
+Macaulay Library,ML54340501,2017,12/4/17,,Missouri,38.36801,-91.24716,Descending,Doublet,Jack Foreman
+Macaulay Library,ML54398891,2017,13/04/2017,,British Columbia,53.25544,-123.07508,Ascending,Doublet,Carey Bergman
+Macaulay Library,ML55530421,2017,23/04/2017,,Virginia,37.6781,-77.9464,Descending,Doublet,Darrell Peterson
+Macaulay Library,ML56104121,2017,28/04/2017,,New York,43.3201,-77.7264,Monotone,Doublet,Nick Kachala
+Macaulay Library,ML56998831,2017,6/5/17,,Minnesota,46.7393,-92.0611,Ascending,Doublet,John Richardson
+Macaulay Library,ML51018801,2017,12/3/17,,Virginia,37.6909,-78.8823,Ascending,Triplet,Kelly Krechmer
+Macaulay Library,ML52577121,2017,25/03/2017,,North Carolina,36.21446,-81.64652,Descending,Triplet,Wilcox Family
+Macaulay Library,ML52837721,2017,30/03/2017,,Ohio,41.01807,-81.5193,Descending,Triplet,Dennis Mersky
+Macaulay Library,ML54362381,2017,13/04/2017,,Virginia,38.58107,-77.76089,Ascending,Triplet,Kelly Krechmer
+Macaulay Library,ML54492741,2017,14/04/2017,,South Carolina,35.10519,-81.26941,Ascending,Triplet,Steven Biggers
+Macaulay Library,ML54547061,2017,14/04/2017,,New York,40.77712,-73.96957,Ascending,Triplet,Alexis Lamek
+Macaulay Library,ML54554911,2017,15/04/2017,,Virginia,38.6217,-77.7228,Descending,Triplet,Kelly Krechmer
+Macaulay Library,ML54610761,2017,15/04/2017,,Virginia,38.53668,-77.9358,Descending,Triplet,Kelly Krechmer
+Macaulay Library,ML55055931,2017,17/04/2017,,North Carolina,36.1384,-81.6723,Ascending,Triplet,Wilcox Family
+Macaulay Library,ML55350731,2017,10/4/17,,Georgia,33.9055,-84.3736,Ascending,Triplet,Eric Cormier
+Macaulay Library,ML55593151,2017,24/04/2017,,Maine,44.2261,-69.7787,Ascending,Triplet,Jeff Wella
+Macaulay Library,ML56021031,2017,29/04/2017,,New Jersey,40.5039,-74.4958,Descending,Triplet,Sam Wijeratne
+Macaulay Library,ML57168021,2017,18/04/2017,,New York,42.4749,-76.4569,Descending,Triplet,Jay Mcgowan
+Macaulay Library,ML102438111,2018,5/26/18,Nipissing,Ontario,46.2242,-80.2741,Descending,Doublet,Tim Schadel
+Macaulay Library,ML103073311,2018,6/3/18,Fort McMurray,Alberta,56.7412,-111.442,Descending,Doublet,Blaine Carnes
+Macaulay Library,ML103860591,2018,6/6/18,Saginaw,Michigan,43.3912,-83.9858,Ascending,Doublet,Jason Parrish
+Macaulay Library,ML104284141,2018,6/13/18,Huron,Ontario,43.3542,-81.5596,Ascending,Doublet,Ben Evans
+Macaulay Library,ML104303161,2018,6/13/18,Addison,Vermont,43.9579,-73.0113,Descending,Doublet,Roy Pilcher
+Macaulay Library,ML104970781,2018,5/9/18,Houghton,Michigan,46.5486,-88.9321,Descending,Doublet,Damon Haan
+Macaulay Library,ML105954241,2018,6/29/18,Fort MacLeod,Alberta,49.4189,-114.1181,Descending,Doublet,Pat Lucas
+Macaulay Library,ML105954241,2018,6/29/18,Fort MacLeod,Alberta,49.4189,-114.1181,Descending,Doublet,Pat Lucas
+Macaulay Library,ML106300881,2018,6/25/18,Caribou,British Columbia,51.9814,-122.6151,Descending,Doublet,John Woods
+Macaulay Library,ML106497711,2018,7/4/18,Whitehorse,Yukon,60.7342,-135.0666,Ascending,Doublet,Cameron Eckert
+Macaulay Library,ML106877561,2018,6/28/18,Vilas,Wisconsin,45.9912,-89.4603,Ascending,Doublet,Brian Collins
+Macaulay Library,ML106877611,2018,6/28/18,Vilas,Wisconsin,45.9912,-89.4603,Descending,Doublet,Brian Collins
+Macaulay Library,ML106961551,2018,7/9/18,Middlesex,Ontario,42.972,-81.3248,Ascending,Doublet,Laure Neish
+Macaulay Library,ML121581051,2018,5/27/18,La Haute-Côte-Nord,Quebec,48.158,-69.665,Descending,Doublet,Jocelyn Lauzon
+Macaulay Library,ML122289641,2018,5/3/18,Stark,Ohio,40.9834,-81.3132,Ascending,Doublet,Kent Miller
+Macaulay Library,ML93553411,2018,4/8/18,Milwaukee,Wisconsin,43.1306,-87.9347,Descending,Doublet,Gustav Holtz
+Macaulay Library,ML93822501,2018,4/8/18,Spencer,Indiana,37.8472,-87.1508,Ascending,Doublet,John Meredig
+Macaulay Library,ML94043581,2018,4/10/18,San Bernardino,California,34.0537,-117.268,Ascending,Doublet,Michael Woodruff
+Macaulay Library,ML94120091,2018,4/12/18,Benton,Oregon,44.5832,-123.299,Ascending,Doublet,Hendrik Herlyn
+Macaulay Library,ML94266321,2018,4/13/18,Kendall,Illinois,41.6685,-88.5256,Ascending,Doublet,Charles Shields
+Macaulay Library,ML94266321,2018,4/13/18,Kendall,Illinois,41.6685,-88.5256,Descending,Doublet,Charles Shields
+Macaulay Library,ML94746021,2018,4/12/18,North Chagrin Reservation,Ohio,41.5804,-81.4158,Descending,Doublet,Gustino Lanese
+Macaulay Library,ML95630741,2018,4/12/18,Williamson,Tennessee,35.9206,-86.8627,Descending,Doublet,Carole Swann
+Macaulay Library,ML95939711,2018,4/22/18,Benton,Oregon,44.5454,-123.2581,Descending,Doublet,Kai Frueh
+Macaulay Library,ML96722551,2018,4/27/18,Hamilton,Ohio,39.1485,-84.5146,Ascending,Doublet,William Hull
+Macaulay Library,ML97782401,2018,4/30/18,Ottawa,Michigan,42.9459,-85.8806,Descending,Doublet,Lisa Casler
+Macaulay Library,ML102373331,2018,5/27/18,King's,Nova Scotia,45.0794,-64.5454,Descending,Triplet,Devin Johnstone
+Macaulay Library,ML103667581,2018,6/6/18,La Haute-Gaspésie,Quebec,48.9127,-66.1234,Ascending,Triplet,Raphaël Nussbaumer
+Macaulay Library,ML103786851,2018,6/9/18,,District of Columbia,38.9468,-77.0698,Descending,Triplet,Reid Rumelt
+Macaulay Library,ML104526071,2018,6/15/18,Franklin,Maine,44.6503,-70.348,Descending,Triplet,Glenn Hodgkins
+Macaulay Library,ML104716561,2018,6/16/18,Hancock,Maine,44.3443,-68.0561,Descending,Triplet,Phil Green
+Macaulay Library,ML105044581,2018,6/16/18,Montgomery,Pennsylvania,40.2269,-75.2669,ascending,Triplet,August Mirabella
+Macaulay Library,ML105213831,2018,5/26/18,Hamilton,New York,43.9971,-74.7386,Ascending,Triplet,Glen Chapman
+Macaulay Library,ML105680731,2018,6/16/18,Essex,New York,43.8147,-73.5869,ascending,Triplet,Malinda Chapman
+Macaulay Library,ML105916381,2018,6/14/18,Hancock,Maine,44.3443,-68.0561,ascending,Triplet,Laura Gooch
+Macaulay Library,ML106441141,2018,6/25/18,Penobscot,Maine,44.8674,-68.727,Descending,Triplet,Louise Venne
+Macaulay Library,ML107795761,2018,6/18/18,Hancock,Maine,44.3443,-68.0561,Descending,Triplet,Laura Gooch
+Macaulay Library,ML108297581,2018,6/15/18,Hancock,Maine,44.364,-68.0389,Descending,Triplet,David Kazdan
+Macaulay Library,ML120334251,2018,5/29/18,Sept-Rivières,Quebec,50.3225,-66.7726,Ascending,Triplet,Jocelyn Lauzon
+Macaulay Library,ML122306271,2018,5/30/18,Sept-Rivières,Quebec,50.3225,-66.7726,Ascending,Triplet,Jocelyn Lauzon
+Macaulay Library,ML122576641,2018,5/27/18,La Haute-Côte-Nord,Quebec,48.158,-69.665,Ascending,Triplet,Jocelyn Lauzon
+Macaulay Library,ML124298691,2018,6/22/18,Brome-Missiquoi,Quebec,45.107,-72.6156,Descending,Triplet,Jocelyn Lauzon
+Macaulay Library,ML149175611,2018,4/21/18,Montgomery,Maryland,39.0878,-77.1264,Ascending,Triplet,Anne Mytych
+Macaulay Library,ML93491201,2018,4/8/18,Westchester,New York,41.1751,-73.8719,UpDown,Triplet,valerie heemstra
+Macaulay Library,ML93819141,2018,4/10/18,Hampshire,Massachusetts,42.3174,-72.6503,Ascending,Triplet,Mary McKitrick
+Macaulay Library,ML93834681,2018,4/10/18,York,South Carolina,35.1052,-81.2694,Ascending,Triplet,Steven Biggers
+Macaulay Library,ML94146141,2018,4/12/18,Shelburne,Nova Scotia,43.4955,-65.5771,Ascending,Triplet,Mark Dennis
+Macaulay Library,ML94146141,2018,4/12/18,Shelburne,Nova Scotia,43.4955,-65.5771,Descending,Triplet,Mark Dennis 
+Macaulay Library,ML94149261,2018,4/12/18,Westchester,New York,41.1098,-73.8352,Descending,Triplet,valerie heemstra
+Macaulay Library,ML94149261,2018,4/12/18,Westchester,New York,41.1098,-73.8352,Ascending,Triplet,valerie heemstra
+Macaulay Library,ML94685391,2018,4/15/18,Buncombe,North Carolina,35.565,-82.6191,UpDown,Triplet,Miles Buddy
+Macaulay Library,ML95228051,2018,4/18/18,Cape May,New Jersey,38.9623,-74.9395,Descending,Triplet,Tom Johnson
+Macaulay Library,ML95228051,2018,4/18/18,Cape May,New Jersey,38.9623,-74.9395,Ascending,Triplet,Tom Johnson
+Macaulay Library,ML95743871,2018,4/21/18,Allegheny,Pennsylvania,40.5435,-79.9062,Ascending,Triplet,Oliver Lindhiem
+Macaulay Library,ML95963851,2018,4/22/18,Delaware,Pennsylvania,39.9592,-75.4506,Descending,Triplet,David Eberly
+Macaulay Library,ML96083341,2018,4/23/18,Newport,Rhode Island,41.4994,-71.2529,Ascending,Triplet,Matthew Schenck
+Macaulay Library,ML96749011,2018,4/27/18,Middlesex,New Jersey,40.4919,-74.4348,Ascending,Triplet,John Beetham
+Macaulay Library,ML96789591,2018,4/27/18,Kennebec,Maine,44.3593,-70.0087,Ascending,Triplet,Glenn Hodgkins
+Macaulay Library,ML97130171,2018,4/29/18,King's,Nova Scotia,44.7139,-64.74,Descending,Triplet,nancy/mike dowd
+Macaulay Library,ML97718781,2018,5/2/18,Québec City,Quebec,46.8377,-71.2122,Ascending,Triplet,Guillaume Charette
+Macaulay Library,ML148001361,2019,3/29/19,,Washington,46.6526,-122.9841,Descending,Doublet,Rachel Hudson
+Macaulay Library,ML149149781,2019,4/5/19,,New York,40.7662,-73.9744,Descending,Doublet,Mickey Ryan
+Macaulay Library,ML149181651,2019,4/4/19,,Ohio,40.0004,-82.0054,Ascending,Doublet,Lori McCollister
+Macaulay Library,ML149181731 ,2019,4/4/19,,Ohio,40.0004,-82.0054,Ascending,Doublet,Lori McCollister
+Macaulay Library,ML149539611,2019,4/7/19,,Kentucky,38.3504,-85.6149,Ascending,Doublet,Sunil Thirkannad
+Macaulay Library,ML149539621,2019,4/7/19,,Kentucky,38.3504,-85.6149,Ascending,Doublet,Sunil Thirkannad
+Macaulay Library,ML149676381,2019,4/7/19,,Missouri,39.0972,-92.3515,Descending,Doublet,Joanna Reuter
+Macaulay Library,ML149927141,2019,4/8/19,,Kentucky,38.2818,-85.5584,Ascending,Doublet,Sunil Thirkannad
+Macaulay Library,ML150821241,2019,4/13/19,Sevier,Tennessee,35.8825,-83.5587,Ascending,Doublet,Pamela Ford
+Macaulay Library,ML151217251,2019,4/4/19,,Ohio,40.0004,-82.0054,Descending,Doublet,Lori McCollister
+Macaulay Library,ML151217291,2019,4/4/19,,Ohio,40.0004,-82.0054,Ascending,Doublet,Lori McCollister
+Macaulay Library,ML151217311,2019,4/4/19,,Ohio,40.0004,-82.0054,Ascending,Doublet,Lori McCollister
+Macaulay Library,ML151764121,2019,4/17/19,,Michigan,42.4086,-85.382,Descending,Doublet,Thomas Koffel
+Macaulay Library,ML151846011,2019,4/18/19,,Nebraska,42.2343,-97.022,Descending,Doublet,Ed M. Brogie
+Macaulay Library,ML152069651,2019,4/19/19,,Vermont,43.5288,-73.213,descending,Doublet,Joel Tilley
+Macaulay Library,ML152895731,2019,4/22/19,,Minnesota,44.1468,-94.4681,Descending,Doublet,Sarah Taylor
+Macaulay Library,ML152956471,2019,4/19/19,,Pennsylvania,40.7494,-80.0254,Descending,Doublet,Clark Trauterman
+Macaulay Library,ML153008851,2019,4/23/19,,Ontario,45.5043,-77.5763,Ascending,Doublet,Brian Shulist
+Macaulay Library,ML153175621,2019,4/23/19,,New York,42.8463,-78.8595,Ascending,Doublet,Thomas Mudd
+Macaulay Library,ML153561511,2019,4/9/19,,Missouri,39.1217,-94.3485,Descending,Doublet,Mike Beck
+Macaulay Library,ML153829731,2019,4/25/19,,Kansas,38.048,-97.201,Ascending,Doublet,Lisa Hoffman
+Macaulay Library,ML153920471,2019,4/25/19,,Ohio,41.4298,-81.8994,Ascending,Doublet,Chris Pierce
+Macaulay Library,ML154019221,2019,4/26/19,,Michigan,42.2821,-85.1297,Descending,Doublet,Gordon Green
+Macaulay Library,ML154323861,2019,4/27/19,,Indiana,41.6735,-85.9464,Descending,Doublet,Eric Michael
+Macaulay Library,ML154719841,2019,4/25/19,,Wisconsin,44.8938,-93.3301,Descending,Doublet,Jon Blumenthal
+Macaulay Library,ML156762331,2019,5/5/19,,Ontario,45.5043,-77.5763,Ascending,Doublet,Brian Shulist
+Macaulay Library,ML158160201,2019,5/8/19,,Ontario,44.2927,-79.1966,Ascending,Doublet,Andrew Sibbald
+Macaulay Library,ML160026921,2019,5/20/19,,Alberta,50.9905,-114.1464,Descending,Doublet,Mike Russum
+Macaulay Library,ML160302201,2019,5/22/19,,Yukon,60.7075,-135.0246,Ascending,Doublet,Cameron Eckert
+Macaulay Library,ML160553361,2019,5/11/19,,Alberta,53.625,-113.6573,Descending,Doublet,Scott & Jill Tansowny
+Macaulay Library,ML161666051,2019,5/25/19,,Alberta,55.4122,-114.8044,Ascending,Doublet,Scott & Jill Tansowny
+Macaulay Library,ML161672591,2019,5/24/19,,Alberta,55.4806,-114.8982,Descending,Doublet,Scott & Jill Tansowny
+Macaulay Library,ML162376291,2019,6/2/19,,Quebec,46.6362,-73.7381,Descending,Doublet,Suzanne Filteau
+Macaulay Library,ML143538121,2019,3/3/19,,South Carolina,32.8118,-79.8418,Ascending,Triplet,Takayuki Uchida
+Macaulay Library,ML147868031,2019,3/29/19,,Massachusetts,42.6221,-70.8142,ascending,Triplet,Phil Brown
+Macaulay Library,ML148303661,2019,3/31/19,,New York,41.1098,-73.8352,ascending,Triplet,valerie heemstra
+Macaulay Library,ML148643661,2019,4/2/19,,North Carolina,35.8893,-78.6553,UpDown,Triplet,LynnErla Beegle
+Macaulay Library,ML149162841,2019,4/5/19,,New Jersey,41.0365,-74.1272,Descending,Triplet,Krzysztof Bystrowski
+Macaulay Library,ML149714511,2019,4/7/19,,North Carolina,35.9692,-78.6426,Descending,Triplet,LynnErla Beegle
+Macaulay Library,ML150285871,2019,4/10/19,,Maryland,39.0545,-76.7229,Descending,Triplet,Elissa Weidaw
+Macaulay Library,ML150285871,2019,4/10/19,,Maryland,39.0545,-76.7229,,Triplet,Elissa Weidaw
+Macaulay Library,ML150335931,2019,4/11/19,,Massachusetts,42.6221,-70.8142,UpDown,Triplet,Phil Brown
+Macaulay Library,ML150436541,2019,4/10/19,,Virginia,38.7257,-77.5437,Ascending,Triplet,Kelly Krechmer
+Macaulay Library,ML150436551,2019,4/10/19,,Virginia,38.7257,-77.5437,Ascending,Triplet,Kelly Krechmer
+Macaulay Library,ML150470201,2019,4/11/19,,Maryland,39.0545,-76.7229,Descending,Triplet,Elissa Weidaw
+Macaulay Library,ML150584681,2019,4/12/19,Rockland,New York,41.0428,-73.8975,Descending,Triplet,valerie heemstra
+Macaulay Library,ML150761041,2019,4/11/19,,Rhode Island,41.6682,-71.255,Ascending,Triplet,Luis Mendes
+Macaulay Library,ML150778241,2019,4/13/19,Botetourt,Virginia,37.4343,-79.9154,Hi Descending,Triplet,Paul Droubay
+Macaulay Library,ML150778241,2019,4/13/19,Botetourt,Virginia,37.4343,-79.9154,Descending,Triplet,Paul Droubay
+Macaulay Library,ML150795391,2019,4/13/19,Cumberland,Maine,43.6516,-70.2675,Descending,Triplet,Shelly Wa
+Macaulay Library,ML150818621,2019,4/11/19,,Pennsylvania,39.8811,-76.6873,Descending,Triplet,Chuck Berthoud
+Macaulay Library,ML150818621,2019,4/11/19,,Pennsylvania,39.8811,-76.6873,Ascending,Triplet,Chuck Berthoud
+Macaulay Library,ML150858011,2019,4/13/19,Fluvanna,Virginia,37.7406,-78.4077,Descending,Triplet,Guy Babineau
+Macaulay Library,ML150888471,2019,4/13/19,Davidson,Tennessee,36.0119,-86.6934,ascending,Triplet,Carole Swann
+Macaulay Library,ML151173721,2019,4/15/19,Essex,Massachusetts,42.6221,-70.8142,UpDown,Triplet,Phil Brown
+Macaulay Library,ML151240401,2019,4/15/19,New London,Connecticut,41.3543,-71.9664,Ascending,Triplet,Will Sweet
+Macaulay Library,ML152040921,2019,4/19/19,,New York,40.5923,-73.8914,UpDown,Triplet,Tom Preston
+Macaulay Library,ML152125251,2019,4/19/19,,Maryland,39.1587,-76.4856,Ascending,Triplet,Jeff Shenot
+Macaulay Library,ML152125251,2019,4/19/19,,Maryland,39.1587,-76.4856,Descending,Triplet,Jeff Shenot
+Macaulay Library,ML152251971,2019,4/20/19,,New Jersey,40.8918,-74.1732,Descending,Triplet,Tom Nolan
+Macaulay Library,ML152366311,2019,4/20/19,,Vermont,43.457,-73.1619,Ascending,Triplet,G & B
+Macaulay Library,ML152381611,2019,4/20/19,,New York,42.7364,-73.6532,Ascending,Triplet,Brad Walker
+Macaulay Library,ML152426451,2019,4/18/19,,Virginia,38.4777,-77.9429,Ascending,Triplet,Kelly Krechmer
+Macaulay Library,ML152567031,2019,4/20/19,,Quebec,45.5056,-73.5882,UpDown,Triplet,Richard Littauer
+Macaulay Library,ML152587961,2019,4/21/19,,New Jersy,40.6951,-74.5215,Ascending,Triplet,Jeff Ellerbusch
+Macaulay Library,ML152655191,2019,4/21/19,,Massachusetts,42.493,-70.8402,Descending,Triplet,Jeffrey Offermann
+Macaulay Library,ML152763311,2019,4/20/19,,West Virginia,39.6362,-79.9636,Ascending,Triplet,Gordon Dimmig
+Macaulay Library,ML152956471,2019,4/19/19,,Pennsylvania,40.7494,-80.0254,Ascending,Triplet,Clark Trauterman
+Macaulay Library,ML153443091,2019,4/24/19,,Massachusetts,42.3033,-72.3319,Ascending,Triplet,Larry Therrien
+Macaulay Library,ML153561511,2019,4/9/19,,Missouri,39.1217,-94.3485,Descending,Triplet,Mike Beck
+Macaulay Library,ML153826801,2019,4/25/19,,Virginia,38.4021,-77.9116,Ascending,Triplet,Kelly Krechmer
+Macaulay Library,ML153826821,2019,4/25/19,,Virginia,38.4021,-77.9116,Ascending,Triplet,Kelly Krechmer
+Macaulay Library,ML153947281,2019,4/25/19,,Vermont,44.4967,-73.1523,Ascending,Triplet,Richard Littauer
+Macaulay Library,ML154043581,2019,4/25/19,,Quebec,46.0736,-72.8447,Ascending,Triplet,Daniel Jauvin
+Macaulay Library,ML154043581,2019,4/25/19,,Quebec,46.0736,-72.8447,Descending,Triplet,Daniel Jauvin
+Macaulay Library,ML154118571,2019,4/27/19,,Vermont,43.4435,-72.3996,Ascending,Triplet,Amy Swarr
+Macaulay Library,ML154118571,2019,4/27/19,,Vermont,43.4435,-72.3996,Descending,Triplet,Amy Swarr
+Macaulay Library,ML154127181,2019,4/27/19,,Quebec,45.6047,-73.6769,Ascending,Triplet,Georges Lachaîne
+Macaulay Library,ML154127181,2019,4/27/19,,Quebec,45.6047,-73.6769,UpDown,Triplet,Georges Lachaîne
+Macaulay Library,ML154127181,2019,4/27/19,,Quebec,45.6047,-73.6769,Descending,Triplet,Georges Lachaîne
+Macaulay Library,ML155337671,2019,4/28/19,,Vermont,44.4525,-72.9637,ascending,Triplet,Jeff Hullstrung
+Macaulay Library,ML156859031,2019,5/7/19,,Quebec,45.6075,-72.9864,Descending,Triplet,François Martin
+Macaulay Library,ML157055401,2019,5/8/19,,Maine,44.3078,-69.2186,Descending,Triplet,Fyn Kynd
+Macaulay Library,ML157366601,2019,5/9/19,,Quebec,47.7612,-69.4834,Descending,Triplet,Robert Gagnon
+Macaulay Library,ML158046011,2019,5/12/19,,Quebec,45.4876,-73.8192,Descending,Triplet,Julie Tremblay
+Macaulay Library,ML158343781,2019,5/13/19,,Quebec,45.5064,-75.8141,UpDown,Triplet,Caroline Biel
+Macaulay Library,ML160870871,2019,5/4/19,,Vermont,43.4435,-72.3996,Ascending,Triplet,Amy Swarr
+Macaulay Library,ML163314261,2019,6/8/19,,Maine,44.9344,-70.5083,Descending,Triplet,Cheryl Ring
+Macaulay Library,ML163438911,2019,6/9/19,,Nova Scotia,45.3407,-62.6664,Descending,Triplet,Mark Brennan
+Macaulay Library,ML163588521,2019,6/8/19,,New York,44.2352,-73.7092,Descending,Triplet,Nick Tepper
+Macaulay Library,ML163885511 ,2019,,,Nova Scotia,44.6448,-63.4524,Ascending,Triplet,Aaron Marshall
+Macaulay Library,ML164722191,2019,4/11/19,,Pennsylvania,41.56,-79.4277,Descending,Triplet,K Springer
+Xeno Canto,XC14296,2007,11/6/07,,Minnesota,47.5456,-91.4614,,Doublet,Andrew Spencer
+Xeno Canto,XC14297,2007,12/6/07,,Minnesota,48.056,-90.5243,,Doublet,Andrew Spencer
+Xeno Canto,XC14298,2007,12/6/07,,Minnesota,48.056,-90.5243,,Doublet,Andrew Spencer
+Xeno Canto,XC16937,2007,24/04/2007,,Michigan,42.0778,-83.1995,,Doublet,Allen Chartier
+Xeno Canto,XC13627,2007,24/05/2007,,Quebec,48.2539,-69.9584,,Triplet,Chris Parrish
+Xeno Canto,XC54762,2008,2/5/08,,Tennessee,35.8589,-84.0948,,Triplet,Mike Nelson
+Xeno Canto,XC83546,2008,26/05/2008,,Ontario,45.919,-77.583,,Triplet,Jelmer Poelstra
+Xeno Canto,XC33226,2009,19/04/2009,,Washington,48.3787,-122.4487,,Doublet,Tayler Brooks
+Xeno Canto,XC52450,2010,25/05/2010,,New Hampshire,44.367,-71.527,,Triplet,Andrew Spencer
+Xeno Canto,XC59166,2010,10/5/10,,Maine,46.7678,-68.6009,,Triplet,Tayler Brooks
+Xeno Canto,XC296901,2011,24/05/2011,,Wisconsin,45.8321,-88.9155,,Doublet,Paul Marvin
+Xeno Canto,XC297603,2011,27/05/2011,,Minnesota,47.1675,-92.7162,,Doublet,Paul Marvin
+Xeno Canto,XC77875,2011,14/05/2011,,Minnesota,47.795,-92.079,,Doublet,Jonathon Jongsma
+Xeno Canto,XC89189,2011,26/10/2011,,Tennessee,35.9439,-83.6889,,Triplet,Mike Nelson
+Xeno Canto,XC89683,2011,2/11/11,,Tennessee,35.6028,-84.1228,,Triplet,Mike Nelson
+Xeno Canto,XC153309,2012,18/07/2012,,New York,44.4461,-74.1155,,Triplet,Meena Haribal
+Xeno Canto,XC296909,2012,22/02/2012,,Maine,44.8501,-67.1944,,Triplet,Paul Marvin
+Xeno Canto,XC296910,2012,24/05/2012,,Maine,44.4729,-67.5789,,Triplet,Paul Marvin
+Xeno Canto,XC297384,2012,31/05/2012,,Vermont,44.5412,-72.8089,,Triplet,Paul Marvin
+Xeno Canto,XC297606,2012,29/05/2012,,New York,44.3659,-73.9026,,Triplet,Paul Marvin
+Xeno Canto,XC141294,2013,2/7/13,,Illinois,41.8859,-87.6176,,Doublet,C Lubecke
+Xeno Canto,XC141419,2013,3/7/13,,Illinois,41.8859,-87.6176,,Doublet,C Lubecke
+Xeno Canto,XC144431,2013,30/07/2013,,British Columbia,53.8832,-122.793,,Doublet,Patches Flores
+Xeno Canto,XC147689,2013,1/6/13,,Alberta,56.7264,-111.3803,,Doublet,Dugan Maynard
+Xeno Canto,XC147925,2013,1/6/13,,Alberta,56.7264,-111.3803,,Doublet,Dugan Maynard
+Xeno Canto,XC154441,2013,17/06/2013,,Alberta,56.7264,-111.3803,,Doublet,Dugan Maynard
+Xeno Canto,XC137567,2013,1/6/13,,Quebec,47.8534,-70.42,,Triplet,Martin St-Michel
+Xeno Canto,XC137568,2013,2/6/13,,Quebec,47.8534,-70.42,,Triplet,Martin St-Michel
+Xeno Canto,XC139053,2013,15/06/2013,,Quebec,47.8043,-70.7847,,Triplet,Martin St-Michel
+Xeno Canto,XC142150,2013,10/7/13,,Georgia,34.9478,-85.0346,,Triplet,David Hollie
+Xeno Canto,XC188416,2014,13/06/2014,,British Columbia,55.5267,-120.0314,,Doublet,Richard Webster
+Xeno Canto,XC188417,2014,13/06/2014,,British Columbia,55.5267,-120.0314,,Doublet,Richard Webster
+Xeno Canto,XC188449,2014,14/06/2014,,British Columbia,55.5267,-120.0314,,Doublet,Richard Webster
+Xeno Canto,XC188828,2014,15/06/2014,,British Columbia,58.9758,-123.1714,,Doublet,Richard Webster
+Xeno Canto,XC189064,2014,15/06/2014,,British Columbia,59.0988,-123.4621,,Doublet,Richard Webster
+Xeno Canto,XC189065,2014,15/06/2014,,British Columbia,59.0988,-123.4621,,Doublet,Richard Webster
+Xeno Canto,XC189293,2014,16/06/2014,,British Columbia,59.0988,-123.4621,,Doublet,Richard Webster
+Xeno Canto,XC189812,2014,17/06/2014,,British Columbia,56.327,-120.9521,,Doublet,Richard Webster
+Xeno Canto,XC190047,2014,18/06/2014,,British Columbia,56.327,-120.9521,,Doublet,Richard Webster
+Xeno Canto,XC190049,2014,18/06/2014,,British Columbia,56.327,-120.9521,,Doublet,Richard Webster
+Xeno Canto,XC190052,2014,18/06/2014,,British Columbia,56.327,-120.9521,,Doublet,Richard Webster
+Xeno Canto,XC192191,2014,10/5/14,,Ontario,46.9441,-84.5511,,Doublet,Patrick Turgeon
+Xeno Canto,XC182709,2014,31/05/2014,,Quebec,45.0063,-74.1797,,Triplet,Martin St-Michel
+Xeno Canto,XC185150,2014,8/6/14,,Quebec,47.677,-70.8267,,Triplet,Martin St-Michel
+Xeno Canto,XC187557,2014,11/7/14,,Maine,44.228,-68.312,,Triplet,Paul Driver
+Xeno Canto,XC188748,2014,20/07/2014,,Quebec,46.1936,-73.65,,Triplet,Daniel
+Xeno Canto,XC191897,2014,13/07/2014,,Quebec,47.677,-70.8267,,Triplet,Martin St-Michel
+Xeno Canto,XC246633,2014,17/05/2014,,Nova Scotia,46.5959,-60.3842,,Triplet,Jeffrey MacLeod
+Xeno Canto,XC210426,2015,16/01/2015,,California,37.4049,-121.9192,,Doublet,Pete Denten
+Xeno Canto,XC236559,2015,18/04/2015,,Ontario,44.3211,-78.3264,,Doublet,Iain
+Xeno Canto,XC237649,2015,25/04/2014,,British Columbia,49.2958,-123.1414,,Doublet,Gavin Anstee
+Xeno Canto,XC234159,2015,4/4/15,,New York,40.678,-73.9815,,Triplet,David DeLauro
+Xeno Canto,XC236497,2015,18/04/2015,,New York,41.2042,-73.8862,,Triplet,Daniel Parker
+Xeno Canto,XC237030,2015,21/04/2015,,Ontario,44.3211,-78.3264,,Triplet,Iain
+Xeno Canto,XC244590,2015,20/05/2015,,Quebec,45.3596,-73.7473,,Triplet,Maxime Aubert
+Xeno Canto,XC247314,2015,30/05/2015,,Ontario,45.3058,-78.8087,,Triplet,Iain
+Xeno Canto,XC248004,2015,31/05/2015,,New York,43.6829,-74.7324,,Triplet,Dan Lane
+Xeno Canto,XC248010,2015,31/05/2015,,New York,43.6735,-74.6933,,Triplet,Dan Lane
+Xeno Canto,XC248011,2015,31/05/2015,,New York,43.6735,-74.6933,,Triplet,Dan Lane
+Xeno Canto,XC248012,2015,31/05/2015,,New York,43.6735,-74.6933,,Triplet,Dan Lane
+Xeno Canto,XC255486,2015,5/7/15,,Nova Scotia,44.2544,-66.3683,,Triplet,Daniel Parker
+Xeno Canto,XC265364,2015,12/4/15,,Pennsylvania,40.1434,-75.3477,,Triplet,Braian Henderson
+Xeno Canto,XC294259,2015,25/07/2015,,Quebec,47.0655,-71.4145,,Triplet,Martin St-Michel
+Xeno Canto,XC298776,2015,11/6/15,,Newfoundland,48.1788,-57.7439,,Triplet,Matthew Halley
+Xeno Canto,XC315745,2016,7/5/16,,Colorado,39.1647,-108.7473,,Doublet,Meredith Swett Walker
+Xeno Canto,XC319748,2016,2/6/16,,British Columbia,52.6146,-121.5135,,Doublet,Phil Ranson
+Xeno Canto,XC322417,2016,18/06/2016,,British Columbia,52.1563,-122.1969,,Doublet,Phil Ranson
+Xeno Canto,XC322428,2016,18/06/2016,,British Columbia,52.1563,-122.1969,,Doublet,Phil Ranson
+Xeno Canto,XC329802,2016,28/06/2016,,Saskatchewan,52.9333,-107.0927,,Doublet,John Patterson
+Xeno Canto,XC329803,2016,28/06/2016,,Saskatchewan,52.9366,-107.093,,Doublet,John Patterson
+Xeno Canto,XC329805,2016,28/06/2016,,Saskatchewan,52.9534,-107.0932,,Doublet,John Patterson
+Xeno Canto,XC329835,2016,25/07/2016,,Saskatchewan,52.9296,-107.1103,,Doublet,John Patterson
+Xeno Canto,XC329836,2016,25/07/2016,,Saskatchewan,52.929,-107.1378,,Doublet,John Patterson
+Xeno Canto,XC329869,2016,28/06/2016,,Saskatchewan,52.9538,-107.0929,,Doublet,John Patterson
+Xeno Canto,XC329879,2016,28/06/2016,,Saskatchewan,52.9551,-107.0927,,Doublet,John Patterson
+Xeno Canto,XC329880,2016,25/07/2016,,Saskatchewan,52.9295,-107.1798,,Doublet,John Patterson
+Xeno Canto,XC329881,2016,25/07/2016,,Saskatchewan,53.5743,-105.7646,,Doublet,John Patterson
+Xeno Canto,XC342661,2016,12/7/16,,British Columbia,53.9588,-122.8276,,Doublet,Doug Wilson
+Xeno Canto,XC342662,2016,13/07/2016,,British Columbia,53.9588,-122.8276,,Doublet,Doug Wilson
+Xeno Canto,XC342663,2016,18/07/2016,,British Columbia,53.9588,-122.8276,,Doublet,Doug Wilson
+Xeno Canto,XC342664,2016,10/7/16,,British Columbia,53.9171,-122.7497,,Doublet,Mari Wood
+Xeno Canto,XC210235,2016,2/4/16,,Georgia,31.9237,-81.0559,,Triplet,Russ Wigh
+Xeno Canto,XC310232,2016,31/03/2016,,Georgia,31.9237,-81.0559,,Triplet,Russ Wigh
+Xeno Canto,XC312168,2016,13/04/2016,,Delaware,39.1742,-75.5424,,Triplet,Jerald R
+Xeno Canto,XC312259,2016,14/04/2016,,Georgia,31.9237,-81.0559,,Triplet,Russ Wigh
+Xeno Canto,XC312855,2016,13/04/2016,,Delaware,39.1742,-75.5424,,Triplet,Jerald R
+Xeno Canto,XC319515,2016,22/05/2016,,Quebec,48.9272,-66.113,,Triplet,Martin St-Michel
+Xeno Canto,XC36562,2017,4/7/17,,New Mexico,35.2233,-106.6003,Ascending,Doublet,Rick Koehler
+Xeno Canto,XC373459,2017,13/04/2017,,Iowa,40.8918,-91.0756,,Doublet,Bobby Wilcox
+Xeno Canto,XC373510,2017,4/5/17,,Iowa,40.8918,-91.0756,,Doublet,Bobby Wilcox
+Xeno Canto,XC373803,2017,31/05/2017,,Alberta,54.6628,-110.9826,Descending,Doublet,Patrick Turgeon
+Xeno Canto,XC362964,2017,4/2/17,,Delaware County,39.9566,-75.45553,Ascending,Triplet,David Eberly
+Xeno Canto,XC362964,2017,4/2/17,,Delaware County,39.9566,-75.45553,Ascending,Triplet,David Eberly
+Xeno Canto,XC363526,2017,4/8/17,,Wake County,35.9235,-78.5993,Ascending,Triplet,Brian Murphy
+Xeno Canto,XC382121,2017,6/8/17,,Washington County,44.507,-67.8612,UpDown,Triplet,Sue Riffe
+Xeno Canto,XC429253,2018,7/24/18,Buffalo Point,Manitoba,49.0322,-95.2309,Descending,Doublet,Greg Irving
+Xeno Canto,XC424319,2018,7/2/18,Penobscot County,Maine,45.8629,-68.6745,Ascending,Triplet,Lance A.M. Benner
+Xeno Canto,XC467708,2018,6/26/18,Parc national de las Gaspesie,Quebec,48.8964,-66.6321,Ascending,Triplet,Martin St-Michel
+Xeno Canto,XC467600,2019,4/9/19,,New York,40.7824,-73.963,,Triplet,Giuseppe Speranza
+Xeno Canto,XC480251,2019,4/6/19,Rahway,New Jersey,40.6083,-74.2776,Ascending,Triplet,William Whitehead

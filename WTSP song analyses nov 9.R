@@ -49,45 +49,45 @@ library(tuneR)
 # write a function that resamples all files to 48000 Hz, bandpass filters each file, and makes a spectrogram with timer() intervals overlaid. lapply applies the function over all wav files in the working directory
 
 # make a new folder in the working directory named "figures2"
-timespec<-function(x) {
-  a<-readWave(x)
-  # if sampling rate is not 48000, resample to 48000
-  if (a@samp.rate!=48000) {
-    a<-resamp(a,
-              g=48000,
-              output="Wave")
-  }
-  a1<-fir(a,
-          from=2000,
-          to=6000,
-          bandpass=T,
-          output="Wave") # initial filter
-  b<-fir(a1,
-         from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,
-         to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,
-         bandpass=T,
-         output="Wave") # customized filter
-  png(filename = paste("/Users/Shared/WTSP/resamp_25_specs/", x, ".png", sep = ""))
-  c<-spectro(b,
-             wl = 512,
-             ovlp = 95,
-             collevels = seq(-42,0,6),
-             flim = c(0, 7),
-             osc = F,
-             scale = F,
-             colgrid = "gray",
-             cexlab = 0.8,
-             cexaxis = 0.7)
-  par(new = T)
-  try(expr=timer(b,
-                 dmin = 0.02,
-                 envt = "hil",
-                 msmooth=c(512, 90),
-                 threshold = 25), 
-      silent=F)
-  dev.off()
-}
-lapply(list.files(pattern = ".wav"), timespec)
+# timespec<-function(x) {
+#   a<-readWave(x)
+#   # if sampling rate is not 48000, resample to 48000
+#   if (a@samp.rate!=48000) {
+#     a<-resamp(a,
+#               g=48000,
+#               output="Wave")
+#   }
+#   a1<-fir(a,
+#           from=2000,
+#           to=6000,
+#           bandpass=T,
+#           output="Wave") # initial filter
+#   b<-fir(a1,
+#          from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,
+#          to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,
+#          bandpass=T,
+#          output="Wave") # customized filter
+#   png(filename = paste("/Users/Shared/WTSP/resamp_25_specs/", x, ".png", sep = ""))
+#   c<-spectro(b,
+#              wl = 512,
+#              ovlp = 95,
+#              collevels = seq(-42,0,6),
+#              flim = c(0, 7),
+#              osc = F,
+#              scale = F,
+#              colgrid = "gray",
+#              cexlab = 0.8,
+#              cexaxis = 0.7)
+#   par(new = T)
+#   try(expr=timer(b,
+#                  dmin = 0.02,
+#                  envt = "hil",
+#                  msmooth=c(512, 90),
+#                  threshold = 25), 
+#       silent=F)
+#   dev.off()
+# }
+# lapply(list.files(pattern = ".wav"), timespec)
 
 
 #
@@ -122,9 +122,9 @@ lapply(list.files(pattern = ".wav"), timespec)
 #            msmooth=c(512, 90),
 #            threshold = 10) # can add plot = FALSE when done checking
 
-l <- cutw(wave = hm2, from = k$s.start[1], to = k$s.end[1], output = "Wave")
-wave1 <- env(wave = l, msmooth = c(1024,90), envt = "hil", norm = TRUE, 
-             plot = TRUE)
+# l <- cutw(wave = hm2, from = k$s.start[1], to = k$s.end[1], output = "Wave")
+# wave1 <- env(wave = l, msmooth = c(1024,90), envt = "hil", norm = TRUE, 
+#              plot = TRUE)
 
 localMinima <- function(x) {
   # Use -Inf instead if x is numeric (non-integer)
@@ -203,11 +203,14 @@ for (i in 1:length(list.files())) {
 }
 View(ampmins)
 
-setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/terminal strophe recordings")
 
-adjust<-read.csv("WTSP_params_16feb23.csv")
+
+############## Scoring rhythms #################
+adjust<-read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/WTSP_params_16feb23.csv")
 adjust$new_threshold[which(is.na(adjust$new_threshold))] <- 25
 
+
+setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/terminal strophe recordings/")
 note_starts <- list()
 #for (i in 1:length(usables)) {
 for (i in 1:length(adjust$file.name)) {
@@ -305,4 +308,45 @@ for (i in 1:length(max_mean_dur)){
   pt <- c(max_mean_dur[i], min_mean_dur[i])
   dists_from_line <- append(dists_from_line, dist_point_line(pt, 1, 0))
 }
-hist(dists_from_line)
+hist(dists_from_line, breaks = 15)
+
+trochee_scores <- data.frame(adjust$file.name, dists_from_line)
+#write.csv(trochee_scores, "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_scores.csv")
+
+otters <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/Otter_et_al_list_of_all_recordings.csv")
+colnames(otters)[2] <- "recording"
+
+trochee_scores$recording.name <- rep(NA)
+for (i in 1:length(trochee_scores$recording.name)){ 
+  trochee_scores$recording.name[i] <- unlist(strsplit(trochee_scores$adjust.file.name[i], split = "_"))[1]
+}
+for (i in 1:length(trochee_scores$recording.name)){ 
+  trochee_scores$recording.name[i] <- unlist(strsplit(trochee_scores$recording.name[i], split = "[.]"))[1]
+}
+
+lab_scores <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/lab_rhythm_scores.csv")
+
+for (i in 1:length(trochee_scores$recording.name)){
+  if(trochee_scores$recording.name[i] %in% lab_scores$Name_for_scoring){
+    trochee_scores$recording.name[i] <- lab_scores$Recording.ID..if.noted.[which(lab_scores$Name_for_scoring == trochee_scores$recording.name[i])]
+  }
+}
+##Need to check for duplicate names for birds with both score types
+## ML152956471, ML39355611, ML31612451 were all scored both doublet and triplet by Otter et al, and are represented 
+## by multiple scores in our data set. Taylor deliberately pulled two songs from each recording, one that seemed
+## doublety and one triplety
+
+#the_truth <- merge(otters, trochee_scores, by.x = "recording", by.y = "recording.name", all.x = FALSE)
+#write.csv(the_truth, "trochee_and_Otter_scores_need_remove_duplicates.csv")
+
+##Manual removal of problematic duplicates created by merge function
+the_truth <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_and_Otter_scores_duplicates_removed.csv")
+
+the_truth <- the_truth[-which(duplicated(the_truth$recording)),]
+
+library(ggplot2)
+library(cowplot)
+ggplot(the_truth, aes(x=Terminal.Strophe.type, y=dists_from_line)) + 
+  geom_jitter(position=position_jitter(0.1)) +
+  theme_cowplot()
+
