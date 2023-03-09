@@ -240,6 +240,11 @@ for (i in 1:length(adjust$file.name)) {
   note_starts[[i]] <- k$s.start
 }
 
+note_number <- rep(NA, length.out = length(note_starts))
+for(i in 1:length(note_number)){
+  note_number[i] <- length(note_starts[[i]])
+}
+
 odd_intervals <- list()
 for (i in 1:length(note_starts)){
   if(length(note_starts[[i]]) %% 2 == 0){
@@ -294,24 +299,26 @@ min_mean_dur
 plot(max_mean_dur, min_mean_dur)
 abline(a = 0, b = 1)
 
-dist_point_line <- function(a, slope, intercept) {
-  b = c(1, intercept+slope)
-  c = c(-intercept/slope,0)       
-  v1 <- b - c
-  v2 <- a - b
-  m <- cbind(v1,v2)
-  return(abs(det(m))/sqrt(sum(v1*v1)))
-}
+# dist_point_line <- function(a, slope, intercept) {
+#   b = c(1, intercept+slope)
+#   c = c(-intercept/slope,0)       
+#   v1 <- b - c
+#   v2 <- a - b
+#   m <- cbind(v1,v2)
+#   return(abs(det(m))/sqrt(sum(v1*v1)))
+# }
+# 
+# dists_from_line <- as.numeric(c())
+# for (i in 1:length(max_mean_dur)){
+#   pt <- c(max_mean_dur[i], min_mean_dur[i])
+#   dists_from_line <- append(dists_from_line, dist_point_line(pt, 1, 0))
+# }
+# hist(dists_from_line, breaks = 15)
 
-dists_from_line <- as.numeric(c())
-for (i in 1:length(max_mean_dur)){
-  pt <- c(max_mean_dur[i], min_mean_dur[i])
-  dists_from_line <- append(dists_from_line, dist_point_line(pt, 1, 0))
-}
-hist(dists_from_line, breaks = 15)
-
-trochee_scores <- data.frame(adjust$file.name, dists_from_line)
-#write.csv(trochee_scores, "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_scores.csv")
+max_min_ratio <- max_mean_dur/min_mean_dur
+log_max_min_ratio <- log(max_min_ratio)
+trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio)
+write.csv(trochee_scores, "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_scores.csv")
 
 otters <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/Otter_et_al_list_of_all_recordings.csv")
 colnames(otters)[2] <- "recording"
@@ -343,10 +350,15 @@ for (i in 1:length(trochee_scores$recording.name)){
 the_truth <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_and_Otter_scores_duplicates_removed.csv")
 
 the_truth <- the_truth[-which(duplicated(the_truth$recording)),]
+hist(the_truth$log_max_min_ratio, breaks = 15)
+hist(the_truth$max_min_ratio, breaks = 15)
 
 library(ggplot2)
 library(cowplot)
-ggplot(the_truth, aes(x=Terminal.Strophe.type, y=dists_from_line)) + 
+ggplot(the_truth, aes(x=Terminal.Strophe.type, y=max_min_ratio)) + 
   geom_jitter(position=position_jitter(0.1)) +
   theme_cowplot()
 
+ggplot(the_truth, aes(x=Terminal.Strophe.type, y=log_max_min_ratio)) + 
+  geom_jitter(position=position_jitter(0.1)) +
+  theme_cowplot()

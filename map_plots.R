@@ -45,19 +45,20 @@ plot(mapExtentPr, pch=NA)
 plot(can1Pr, border="black", col="white", add=TRUE)
 plot(us1Pr, border="black", col="white", add=TRUE)
 
-#coordinates(the_truth) <- ~Longitude+Latitude
+coordinates(the_truth) <- ~Longitude+Latitude
 crs(the_truth) <- CRS("+proj=longlat +datum=WGS84")
-
 the_truth.projected <- spTransform(the_truth, newProj)
+
 
 the_truth.projected_2015on <- the_truth.projected[which(the_truth.projected$Year > 2014),]
 #pal = colorRampPalette(c("blue", "red"))
 
-points(the_truth.projected_2015on, pch = 16, cex = 2, col = rgb(red = 1- the_truth.projected_2015on$dists_from_line/max(the_truth.projected_2015on$dists_from_line), green = 0, blue = the_truth.projected_2015on$dists_from_line/max(the_truth.projected_2015on$dists_from_line)))
+points(the_truth.projected_2015on, pch = 16, cex = 2, col = rgb(red = 1- the_truth.projected_2015on$log_max_min_ratio/max(the_truth.projected_2015on$log_max_min_ratio), green = 0, blue = the_truth.projected_2015on$log_max_min_ratio/max(the_truth.projected_2015on$log_max_min_ratio)))
 
 plot(mapExtentPr, pch=NA)
 plot(can1Pr, border="black", col="white", add=TRUE)
 plot(us1Pr, border="black", col="white", add=TRUE)
 the_truth.projected_2014_and_earlier <- the_truth.projected[which(the_truth.projected$Year <= 2014),]
   
+points(the_truth.projected_2014_and_earlier, pch = 16, cex = 2, col = rgb(red = 1- the_truth.projected_2014_and_earlier$log_max_min_ratio/max(the_truth.projected_2014_and_earlier$log_max_min_ratio), green = 0, blue = the_truth.projected_2014_and_earlier$log_max_min_ratio/max(the_truth.projected_2014_and_earlier$log_max_min_ratio)))
 
