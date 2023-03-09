@@ -317,7 +317,7 @@ abline(a = 0, b = 1)
 
 max_min_ratio <- max_mean_dur/min_mean_dur
 log_max_min_ratio <- log(max_min_ratio)
-trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio)
+trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio, note_number)
 write.csv(trochee_scores, "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_scores.csv")
 
 otters <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/Otter_et_al_list_of_all_recordings.csv")
@@ -350,14 +350,28 @@ for (i in 1:length(trochee_scores$recording.name)){
 the_truth <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_and_Otter_scores_duplicates_removed.csv")
 
 the_truth <- the_truth[-which(duplicated(the_truth$recording)),]
+the_truth <- the_truth[-which(the_truth$note_number < 5),]
+
+the_truth$remainder <- the_truth$note_number %% 3
+
+
 hist(the_truth$log_max_min_ratio, breaks = 15)
 hist(the_truth$max_min_ratio, breaks = 15)
 
 library(ggplot2)
 library(cowplot)
 ggplot(the_truth, aes(x=Terminal.Strophe.type, y=max_min_ratio)) + 
-  geom_jitter(position=position_jitter(0.1)) +
+  geom_jitter(position=position_jitter(0.1), aes(color = Longitude)) +
   theme_cowplot()
+
+ggplot(the_truth, aes(x=Terminal.Strophe.type, y=max_min_ratio)) + 
+  geom_jitter(position=position_jitter(0.1), aes(color = Year)) +
+  theme_cowplot()
+
+ggplot(the_truth, aes(x=Terminal.Strophe.type, y=max_min_ratio)) + 
+  geom_jitter(position=position_jitter(0.1), aes(color = remainder)) +
+  theme_cowplot()
+
 
 ggplot(the_truth, aes(x=Terminal.Strophe.type, y=log_max_min_ratio)) + 
   geom_jitter(position=position_jitter(0.1)) +
