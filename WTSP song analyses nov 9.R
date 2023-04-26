@@ -146,8 +146,8 @@ localMinima <- function(x) {
 # writing new Waves of the first note only
 setwd("/Users/Shared/WTSP")
 #setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow")
-specs<-read.csv("WTSP_spectrogram_usability_25.csv") # Caleb's scoring sheet
-usables <- specs$file.name[which(specs$X25_resamp == "yes")]
+#specs<-read.csv("WTSP_spectrogram_usability_25.csv") # Caleb's scoring sheet
+#usables <- specs$file.name[which(specs$X25_resamp == "yes")]
 #dir.create("firstnote")
 setwd("/Users/Shared/WTSP/recordings")
 #setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/terminal strophe recordings")
@@ -209,9 +209,11 @@ View(ampmins)
 adjust<-read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/WTSP_params_16feb23.csv")
 adjust$new_threshold[which(is.na(adjust$new_threshold))] <- 25
 
+adjust <- adjust[which(adjust$threshold_25!="no"),]
 
 setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/terminal strophe recordings/")
 note_starts <- list()
+note_durations <- list()
 #for (i in 1:length(usables)) {
 for (i in 1:length(adjust$file.name)) {
   a<-readWave(adjust$file.name[i])
@@ -238,6 +240,10 @@ for (i in 1:length(adjust$file.name)) {
              threshold = as.numeric(adjust$new_threshold[i]),
              plot=F)
   note_starts[[i]] <- k$s.start
+  note_durations[[i]] <- k$s
+  if(k$first == "signal"){
+    print(paste("uh oh", adjust$file.name[i]))
+  }
 }
 
 note_number <- rep(NA, length.out = length(note_starts))
@@ -285,20 +291,50 @@ for (i in 1:length(note_starts)){
   }
 }
 
+three_set_note_durations_1 <- list()
+three_set_note_durations_2 <- list()
+three_set_note_durations_3 <- list()
+for(i in 1:length(note_durations)){
+  first_positions <- seq(from = 1, to = length(note_durations[[i]]), by = 3)
+  second_positions <- seq(from = 2, to = length(note_durations[[i]]), by = 3)
+  third_positions <- seq(from = 3, to = length(note_durations[[i]]), by = 3)
+  three_set_note_durations_1[[i]] <- note_durations[[i]][first_positions]
+  three_set_note_durations_2[[i]] <- note_durations[[i]][second_positions]
+  three_set_note_durations_3[[i]] <- note_durations[[i]][third_positions]
+}
+
+
+##max_mean_dur and min_mean_dur are labeled dur but they are onset interval durations, not note durations
 max_mean_dur <- rep(NA, length.out = length(odd_intervals))
 min_mean_dur <- rep(NA, length.out = length(odd_intervals))
+long_note_durs <-  rep(NA, length.out = length(odd_intervals))
+med_note_durs <-  rep(NA, length.out = length(odd_intervals))
+short_note_durs <- rep(NA, length.out = length(odd_intervals))
+##To add in: maximum note duration, maximum onset interval duration
+max_note_dur <- rep(NA, length.out = length(odd_intervals))
+max_onset_interval_dur <- rep(NA, length.out = length(odd_intervals))
 
 for(i in 1:length(max_mean_dur)){
   max_mean_dur[i] <- max(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))
   min_mean_dur[i] <- min(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))
+  long_note_durs[i] <-  max(mean(three_set_note_durations_1[[i]]), mean(three_set_note_durations_2[[i]]), mean(three_set_note_durations_3[[i]]))
+  med_note_durs[i] <- sort(c(mean(three_set_note_durations_1[[i]]), mean(three_set_note_durations_2[[i]]), mean(three_set_note_durations_3[[i]])))[2]
+  short_note_durs[i] <-  min(mean(three_set_note_durations_1[[i]]), mean(three_set_note_durations_2[[i]]), mean(three_set_note_durations_3[[i]]))
+  max_note_dur[i] <- max(note_durations[[i]])
+  max_onset_interval_dur[i] <- max(max(odd_intervals[[i]], max(even_intervals[[i]])))
 }
 
-max_mean_dur
-min_mean_dur
+durs <- data.frame(max_mean_dur, min_mean_dur, long_note_durs, med_note_durs, short_note_durs, max_note_dur, max_onset_interval_dur)
 
-plot(max_mean_dur, min_mean_dur)
-abline(a = 0, b = 1)
-
+library(ggplot2)
+library(cowplot)
+png(filename = "min duration by max duration.png", )
+ggplot(durs, aes(x=max_mean_dur, y=min_mean_dur)) + 
+  geom_point(size = 2) +
+  theme_cowplot() +
+  xlab("Greater onset interval mean") +
+  ylab("Lesser onset interval mean")
+dev.off()
 # dist_point_line <- function(a, slope, intercept) {
 #   b = c(1, intercept+slope)
 #   c = c(-intercept/slope,0)       
@@ -315,9 +351,28 @@ abline(a = 0, b = 1)
 # }
 # hist(dists_from_line, breaks = 15)
 
+setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/")
+trochee_scores<-read.csv("trochee_scores.csv")
+
 max_min_ratio <- max_mean_dur/min_mean_dur
 log_max_min_ratio <- log(max_min_ratio)
-trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio, note_number)
+min_max_ratio <- min_mean_dur/max_mean_dur
+
+mid_to_long_ratio <- med_note_durs/long_note_durs
+plot(min_max_ratio, mid_to_long_ratio)
+
+durs <- data.frame(durs, min_max_ratio, mid_to_long_ratio)
+
+pca_measures <- data.frame(scale(durs$max_note_dur), scale(durs$max_onset_interval_dur), scale(durs$min_max_ratio), scale(durs$mid_to_long_ratio))
+rhythm_pca <- prcomp(pca_measures)
+
+
+# trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio, min_max_ratio, note_number, mid_to_long_ratio, rhythm_pca$x[,1], rhythm_pca$x[,2], rhythm_pca$x[,3], rhythm_pca$x[,4])
+# colnames(trochee_scores) <- c("file.name", "max_min_ratio", "log_max_min_ratio", "min_max_ratio", "note_number", "mid_to_long_ratio", "PC1", "PC2", "PC3", "PC4")
+
+trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio, min_max_ratio, note_number, mid_to_long_ratio, max_mean_dur, min_mean_dur, med_note_durs, long_note_durs, short_note_durs, max_note_dur, max_onset_interval_dur, rhythm_pca$x[,1], rhythm_pca$x[,2], rhythm_pca$x[,3], rhythm_pca$x[,4])
+colnames(trochee_scores) <- c("file.name", "max_min_ratio", "log_max_min_ratio", "min_max_ratio", "note_number", "mid_to_long_ratio", "max_mean_dur", "min_mean_dur", "med_note_durs", "long_note_durs", "short_note_durs", "max_note_dur", "max_onset_interval_dur", "PC1", "PC2", "PC3", "PC4")
+
 write.csv(trochee_scores, "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_scores.csv")
 
 otters <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/Otter_et_al_list_of_all_recordings.csv")
@@ -325,7 +380,7 @@ colnames(otters)[2] <- "recording"
 
 trochee_scores$recording.name <- rep(NA)
 for (i in 1:length(trochee_scores$recording.name)){ 
-  trochee_scores$recording.name[i] <- unlist(strsplit(trochee_scores$adjust.file.name[i], split = "_"))[1]
+  trochee_scores$recording.name[i] <- unlist(strsplit(trochee_scores$file.name[i], split = "_"))[1]
 }
 for (i in 1:length(trochee_scores$recording.name)){ 
   trochee_scores$recording.name[i] <- unlist(strsplit(trochee_scores$recording.name[i], split = "[.]"))[1]
@@ -343,20 +398,30 @@ for (i in 1:length(trochee_scores$recording.name)){
 ## by multiple scores in our data set. Taylor deliberately pulled two songs from each recording, one that seemed
 ## doublety and one triplety
 
-#the_truth <- merge(otters, trochee_scores, by.x = "recording", by.y = "recording.name", all.x = FALSE)
-#write.csv(the_truth, "trochee_and_Otter_scores_need_remove_duplicates.csv")
-
-##Manual removal of problematic duplicates created by merge function
-the_truth <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_and_Otter_scores_duplicates_removed.csv")
-
-the_truth <- the_truth[-which(duplicated(the_truth$recording)),]
-the_truth <- the_truth[-which(the_truth$note_number < 5),]
+the_truth <- merge(otters, trochee_scores, by.x = "recording", by.y = "recording.name", all.x = FALSE)
+##Remove problematic duplicates
+the_truth <- the_truth[-which(the_truth$file.name == "WTSP82.wav" & the_truth$Terminal.Strophe.type == "Doublet"),]
+the_truth <- the_truth[-which(the_truth$file.name == "WTSP75.wav" & the_truth$Terminal.Strophe.type == "Triplet"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML31612451_terminal_strophes_triplet.wav" & the_truth$Terminal.Strophe.type == "Doublet"),]
+the_truth <- the_truth[-which(the_truth$file.name == "WTSP59.wav" & the_truth$Terminal.Strophe.type == "Doublet"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML39355611_terminal_strophes_doublet.wav" & the_truth$Terminal.Strophe.type == "Triplet"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML94149261_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "WTSP66.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "WTSP71.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]
+fucking_duplicated_rows <- the_truth[which(the_truth$recording =="ML105954241"),]
+the_truth <- the_truth[-which(the_truth$recording =="ML105954241"),]
+the_truth <- rbind(the_truth, fucking_duplicated_rows[1,])
+the_truth <- the_truth[-which(the_truth$file.name == "ML150818621_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML154043581_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML169021_terminal_strophes.wav" & the_truth$Longitude == -73.88525),]
 
 the_truth$remainder <- the_truth$note_number %% 3
 
 
 hist(the_truth$log_max_min_ratio, breaks = 15)
 hist(the_truth$max_min_ratio, breaks = 15)
+
+####Testing hypotheses for score discrepancies
 
 library(ggplot2)
 library(cowplot)
@@ -372,7 +437,75 @@ ggplot(the_truth, aes(x=Terminal.Strophe.type, y=max_min_ratio)) +
   geom_jitter(position=position_jitter(0.1), aes(color = remainder)) +
   theme_cowplot()
 
-
-ggplot(the_truth, aes(x=Terminal.Strophe.type, y=log_max_min_ratio)) + 
-  geom_jitter(position=position_jitter(0.1)) +
+ggplot(the_truth, aes(x=Terminal.Strophe.type, y=max_min_ratio)) + 
+  geom_jitter(position=position_jitter(0.1), aes(color = Longitude)) +
   theme_cowplot()
+
+ggplot(the_truth,  aes(x=Terminal.Strophe.type, y=min_max_ratio)) +
+  geom_jitter(position=position_jitter(0.1), aes(color = mid_to_long_ratio)) +
+  theme_cowplot()
+
+png(filename = "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/the_truth_and_nothing_but_the_truth.png", width = 7, height = 7, units = "in", res = 300)
+ggplot(the_truth, aes(x=Terminal.Strophe.type, y=max_min_ratio)) + 
+  geom_jitter(position=position_jitter(0.1)) +
+  xlab("Published observer score") +
+  ylab("Onset interval ratio") +
+  theme_cowplot() 
+dev.off()
+
+###PC plots
+ggplot(the_truth, aes(x=PC1, y=PC2, color = Terminal.Strophe.type)) + 
+  geom_point() +
+  theme_cowplot() 
+
+ggplot(the_truth, aes(x=PC1, y=PC3, color = Terminal.Strophe.type)) + 
+  geom_point() +
+  theme_cowplot() 
+
+ggplot(the_truth, aes(x=PC2, y=PC3, color = Terminal.Strophe.type)) + 
+  geom_point() +
+  theme_cowplot() 
+
+
+
+##Check very low scoring doublets
+low_doublets <- the_truth[which(the_truth$Terminal.Strophe.type == "Doublet" & the_truth$max_min_ratio < 1.2),]
+write.csv(low_doublets, file = "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/doublet_problems.csv")
+
+# 20 April 2023: PCA with only triplety-scoring recordings to check for clustering
+# which(durs$min_max_ratio>0.70)
+# durs_triplety <- durs[which(durs$min_max_ratio>0.70),]
+# 
+# pca_measures_triplety <- data.frame(scale(durs_triplety$max_note_dur), scale(durs_triplety$max_onset_interval_dur), scale(durs_triplety$min_max_ratio), scale(durs_triplety$mid_to_long_ratio))
+# rhythm_pca_triplety <- prcomp(pca_measures_triplety)
+
+the_truth_triplety <- the_truth[which(the_truth$min_max_ratio>0.70),]
+
+pca_measures_triplety <- data.frame(scale(the_truth_triplety$max_note_dur), scale(the_truth_triplety$max_onset_interval_dur), scale(the_truth_triplety$min_max_ratio), scale(the_truth_triplety$mid_to_long_ratio))
+rhythm_pca_triplety <- prcomp(pca_measures_triplety)
+
+pca_scores_triplety <- cbind(rhythm_pca_triplety$x[,1],
+                            rhythm_pca_triplety$x[,2],
+                            rhythm_pca_triplety$x[,3],
+                            rhythm_pca_triplety$x[,4])
+colnames(pca_scores_triplety) <- c("PC1_trip", "PC2_trip", "PC3_trip", "PC4_trip")
+
+the_truth_triplety <- cbind(the_truth_triplety,
+                            pca_scores_triplety)
+
+ggplot(the_truth_triplety, aes(x=PC1_trip, y=PC2_trip, color = Terminal.Strophe.type)) + 
+  geom_point() +
+  theme_cowplot() 
+
+ggplot(the_truth_triplety, aes(x=PC2_trip, y=PC3_trip, color = Terminal.Strophe.type)) + 
+  geom_point() +
+  theme_cowplot() 
+
+ggplot(the_truth_triplety, aes(x=PC1_trip, y=PC3_trip, color = Terminal.Strophe.type)) + 
+  geom_point() +
+  theme_cowplot()
+
+rhythm_pca_triplety
+
+the_truth_triplety[which(the_truth_triplety$PC2_trip< -3),]
+hist(the_truth_triplety$mid_to_long_ratio)
