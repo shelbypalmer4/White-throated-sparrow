@@ -351,8 +351,6 @@ dev.off()
 # }
 # hist(dists_from_line, breaks = 15)
 
-setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/")
-trochee_scores<-read.csv("trochee_scores.csv")
 
 max_min_ratio <- max_mean_dur/min_mean_dur
 log_max_min_ratio <- log(max_min_ratio)
@@ -363,15 +361,10 @@ plot(min_max_ratio, mid_to_long_ratio)
 
 durs <- data.frame(durs, min_max_ratio, mid_to_long_ratio)
 
-pca_measures <- data.frame(scale(durs$max_note_dur), scale(durs$max_onset_interval_dur), scale(durs$min_max_ratio), scale(durs$mid_to_long_ratio))
-rhythm_pca <- prcomp(pca_measures)
 
 
-# trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio, min_max_ratio, note_number, mid_to_long_ratio, rhythm_pca$x[,1], rhythm_pca$x[,2], rhythm_pca$x[,3], rhythm_pca$x[,4])
-# colnames(trochee_scores) <- c("file.name", "max_min_ratio", "log_max_min_ratio", "min_max_ratio", "note_number", "mid_to_long_ratio", "PC1", "PC2", "PC3", "PC4")
-
-trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio, min_max_ratio, note_number, mid_to_long_ratio, max_mean_dur, min_mean_dur, med_note_durs, long_note_durs, short_note_durs, max_note_dur, max_onset_interval_dur, rhythm_pca$x[,1], rhythm_pca$x[,2], rhythm_pca$x[,3], rhythm_pca$x[,4])
-colnames(trochee_scores) <- c("file.name", "max_min_ratio", "log_max_min_ratio", "min_max_ratio", "note_number", "mid_to_long_ratio", "max_mean_dur", "min_mean_dur", "med_note_durs", "long_note_durs", "short_note_durs", "max_note_dur", "max_onset_interval_dur", "PC1", "PC2", "PC3", "PC4")
+trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio, min_max_ratio, note_number, mid_to_long_ratio, max_mean_dur, min_mean_dur, med_note_durs, long_note_durs, short_note_durs, max_note_dur, max_onset_interval_dur)
+colnames(trochee_scores) <- c("file.name", "max_min_ratio", "log_max_min_ratio", "min_max_ratio", "note_number", "mid_to_long_ratio", "max_mean_dur", "min_mean_dur", "med_note_durs", "long_note_durs", "short_note_durs", "max_note_dur", "max_onset_interval_dur")
 
 write.csv(trochee_scores, "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_scores.csv")
 
@@ -421,6 +414,17 @@ the_truth$remainder <- the_truth$note_number %% 3
 hist(the_truth$log_max_min_ratio, breaks = 15)
 hist(the_truth$max_min_ratio, breaks = 15)
 
+# remove what turned out to be outliers in rhythm PCAs
+the_truth <- the_truth[-which(the_truth$file.name %in% c("XC141294_terminal_strophes.wav", "XC33226_terminal_strophes.wav")),]
+
+pca_measures <- data.frame(scale(the_truth$max_note_dur), scale(the_truth$max_onset_interval_dur), scale(the_truth$min_max_ratio), scale(the_truth$mid_to_long_ratio))
+rhythm_pca <- prcomp(pca_measures)
+
+the_truth$PC1 <- rhythm_pca$x[,1]
+the_truth$PC2 <- rhythm_pca$x[,2]
+the_truth$PC3 <- rhythm_pca$x[,3]
+the_truth$PC4 <- rhythm_pca$x[,4]
+
 ####Testing hypotheses for score discrepancies
 
 library(ggplot2)
@@ -466,7 +470,24 @@ ggplot(the_truth, aes(x=PC2, y=PC3, color = Terminal.Strophe.type)) +
   geom_point() +
   theme_cowplot() 
 
+ggbiplot(rhythm_pca,
+         groups = the_truth$Terminal.Strophe.type,
+         varname.size = 3,
+         varname.adjust = 1)
 
+ggbiplot(rhythm_pca,
+         groups = the_truth$Terminal.Strophe.type,
+         choices = 2:3,
+         varname.size = 3,
+         varname.adjust = 1)
+
+ggbiplot(rhythm_pca,
+         groups = the_truth$Terminal.Strophe.type,
+         choices = c(1,3),
+         varname.size = 3,
+         varname.adjust = 1)
+
+the_truth[which(the_truth$PC2< -2.9),]
 
 ##Check very low scoring doublets
 low_doublets <- the_truth[which(the_truth$Terminal.Strophe.type == "Doublet" & the_truth$max_min_ratio < 1.2),]
@@ -509,3 +530,23 @@ rhythm_pca_triplety
 
 the_truth_triplety[which(the_truth_triplety$PC2_trip< -3),]
 hist(the_truth_triplety$mid_to_long_ratio)
+
+library(ggbiplot)
+ggbiplot(rhythm_pca_triplety,
+         groups = the_truth_triplety$Terminal.Strophe.type,
+         varname.size = 3,
+         varname.adjust = 1)
+
+ggbiplot(rhythm_pca_triplety,
+         choices = 2:3,
+         groups = the_truth_triplety$Terminal.Strophe.type,
+         varname.size = 3,
+         varname.adjust = 1)
+
+ggbiplot(rhythm_pca_triplety,
+         choices = c(1,3),
+         groups = the_truth_triplety$Terminal.Strophe.type,
+         varname.size = 3,
+         varname.adjust = 1)
+
+the_truth[which(the_truth$PC2< -1 & the_truth$PC1< -1),]
