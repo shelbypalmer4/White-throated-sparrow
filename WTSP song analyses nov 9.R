@@ -1,228 +1,50 @@
-#### Step 1: visual quality-check of timer() output using spectrograms ####
+#### Phase 1: Visual quality-check of timer() output using spectrograms ####
 
 #setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow")
 setwd("/Users/Shared/WTSP/")
-
+ 
 source("timer_hack.R")
 
 library(seewave)
 library(tuneR)
-
-# First, we need to remove the recordings that obviously have undetectable signal periods
-
-# make a new folder in the working directory named "figures"
-
-# onespec<-function(x) {
-#   a<-readWave(x)
-#   # if sampling rate is not 48000, resample to 48000
-#   if (a@samp.rate!=48000) {
-#     resamp(a,
-#            g=48000,
-#            output="Wave")
-#   }
-#   b<-fir(a,
-#          from=2000,
-#          to=6000,
-#          bandpass=T,
-#          output="Wave")
-#   png(filename = paste("figures/", x, ".png", sep = ""))
-#   c<-spectro(b,
-#              wl = 512,
-#              ovlp = 95,
-#              collevels = seq(-42,0,6),
-#              #flim = c(0, 10),
-#              osc = F,
-#              scale = F,
-#              colgrid = "gray",
-#              cexlab = 0.8,
-#              cexaxis = 0.7)
-#   dev.off()
-# }
-# 
-# lapply(list.files(pattern = ".wav"), onespec)
+library(boot)
 
 
-
-
-##########
-
-# write a function that resamples all files to 48000 Hz, bandpass filters each file, and makes a spectrogram with timer() intervals overlaid. lapply applies the function over all wav files in the working directory
-
-# make a new folder in the working directory named "figures2"
-# timespec<-function(x) {
-#   a<-readWave(x)
-#   # if sampling rate is not 48000, resample to 48000
-#   if (a@samp.rate!=48000) {
-#     a<-resamp(a,
-#               g=48000,
-#               output="Wave")
-#   }
-#   a1<-fir(a,
-#           from=2000,
-#           to=6000,
-#           bandpass=T,
-#           output="Wave") # initial filter
-#   b<-fir(a1,
-#          from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,
-#          to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,
-#          bandpass=T,
-#          output="Wave") # customized filter
-#   png(filename = paste("/Users/Shared/WTSP/resamp_25_specs/", x, ".png", sep = ""))
-#   c<-spectro(b,
-#              wl = 512,
-#              ovlp = 95,
-#              collevels = seq(-42,0,6),
-#              flim = c(0, 7),
-#              osc = F,
-#              scale = F,
-#              colgrid = "gray",
-#              cexlab = 0.8,
-#              cexaxis = 0.7)
-#   par(new = T)
-#   try(expr=timer(b,
-#                  dmin = 0.02,
-#                  envt = "hil",
-#                  msmooth=c(512, 90),
-#                  threshold = 25), 
-#       silent=F)
-#   dev.off()
-# }
-# lapply(list.files(pattern = ".wav"), timespec)
-
-
-#
-#
-#
-#
-### messing around with just 1 recording
-# setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/terminal strophe recordings")
-# hm <- readWave("WTSP13.wav")
-# #hm <- readWave("ML34904071_terminal_strophes.wav")
-# #hm <- readWave("XC147689_terminal_strophes.wav")
-# hm2<-fir(hm,
-#          from=(mean(dfreq(hm, plot=F)[,2])*1000)-500,
-#          to=(mean(dfreq(hm, plot=F)[,2])*1000)+500,
-#          bandpass=T,
-#          output="Wave")
-# j <- spectro(hm2,
-#              wl = 512,
-#              ovlp = 95,
-#              collevels = seq(-42,0,6),
-#              #flim = c(0, 10),
-#              osc = F,
-#              scale = F,
-#              colgrid = "gray",
-#              cexlab = 0.8,
-#              cexaxis = 0.7,
-#              flim = c(0,7))
-# par(new=T)
-# k <- timer(hm2,
-#            #dmin = 0.02,
-#            envt = "hil",
-#            msmooth=c(512, 90),
-#            threshold = 10) # can add plot = FALSE when done checking
-
-# l <- cutw(wave = hm2, from = k$s.start[1], to = k$s.end[1], output = "Wave")
-# wave1 <- env(wave = l, msmooth = c(1024,90), envt = "hil", norm = TRUE, 
-#              plot = TRUE)
-
-localMinima <- function(x) {
-  # Use -Inf instead if x is numeric (non-integer)
-  y <- diff(c(Inf, x)) > 0L
-  rle(y)$lengths
-  y <- cumsum(rle(y)$lengths)
-  y <- y[seq.int(1L, length(y), 2L)]
-  if (x[[1]] == x[[2]]) {
-    y <- y[-1]
-  }
-  y
-}
-# times_at_minima <- localMinima(wave1)
-# amps_at_minima <- c(wave1[times_at_minima[2:(length(times_at_minima)-1)]])
-# min(amps_at_minima)
-
-#### looping over a working directory to find local minima ####
-
-# writing new Waves of the first note only
-setwd("/Users/Shared/WTSP")
-#setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow")
-#specs<-read.csv("WTSP_spectrogram_usability_25.csv") # Caleb's scoring sheet
-#usables <- specs$file.name[which(specs$X25_resamp == "yes")]
-#dir.create("firstnote")
-setwd("/Users/Shared/WTSP/recordings")
-#setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/terminal strophe recordings")
-
-# getting first notes only
-for (i in 1:length(usables)) {
-  a<-readWave(usables[i])
-  if (a@samp.rate!=48000) {
-    a<-resamp(a,
-              g=48000,
-              output="Wave")
-  }
-  a1<-fir(a,
-          from=2000,
-          to=6000,
-          bandpass=T,
-          output="Wave") # initial filter
-  a2<-fir(a1,
-          from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,
-          to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,
-          bandpass=T,
-          output="Wave")
-  a3<-normalize(a2,
-                unit=c("16"))
-  b<-timer(a3,
-           envt="hil",
-           msmooth=c(512,90),
-           threshold=25)
-  d<-cutw(a3,
-          from=b$s.start[1],
-          to=b$s.end[1],
-          output="Wave")
-  e <- paste(usables[i], "firstnote.wav", sep="_") 
-  writeWave(d, filename=paste("/Users/Shared/WTSP/firstnote/", e, sep=""))
-  #writeWave(d, filename=paste("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/first_note", e, sep=""))
-}
-
-###################
-setwd("/Users/Shared/WTSP/firstnote/")
-
-ampmins<-as.numeric(rep(NA, length=length(list.files())))
-names(ampmins) <- list.files()
-
-for (i in 1:length(list.files())) {
-  hm2 <- readWave(list.files()[i])
-  #png(filename = paste("/Users/Shared/WTSP/firstnote_env/", list.files()[i], ".png", sep = ""))
-  wave1 <- env(wave = hm2, msmooth = c(1024,90), envt = "hil", norm = TRUE, 
-               plot = FALSE)
-  #dev.off()
-  times_at_minima <- localMinima(wave1)
-  amps_at_minima <- c(wave1[times_at_minima[2:(length(times_at_minima)-1)]])
-  ampmins[i] <- min(amps_at_minima)
-}
-View(ampmins)
-
-
-
-############## Scoring rhythms #################
+############## Phase 3: Extracting data and scoring rhythms ##############
 adjust<-read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/WTSP_params_16feb23.csv")
-adjust$new_threshold[which(is.na(adjust$new_threshold))] <- 25
+#n = 412 (3/2/24)
+adjust$resamp_new_threshold[which(is.na(adjust$resamp_new_threshold))] <- 35
+setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/terminal_strophe_recordings_16bit/")
+for (i in 1:length(adjust$file.name)) {
+  a<-readWave(adjust$file.name[i])
+  ifelse(is.na(adjust$resamp_trim_after[i]),
+         adjust$resamp_trim_after[i]<-duration(a),
+         NA)
+}
+## fills empty "resamp_trim_after" cells with the length of the recording
 
-adjust <- adjust[which(adjust$threshold_25!="no"),]
+adjust <- adjust[which(adjust$resamp_useable != "no"),]
+#n = 268 (11/8)
+## n = 312 (3/2/24) (after resampling)
+## n = 35 songs were trimmed in total
+## n = 141 songs had their thresholds adjusted
+## 
 
-setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/terminal strophe recordings/")
 note_starts <- list()
 note_durations <- list()
 #for (i in 1:length(usables)) {
 for (i in 1:length(adjust$file.name)) {
   a<-readWave(adjust$file.name[i])
-  # if sampling rate is not 48000, resample to 48000
-  if (a@samp.rate!=48000) {
+  # if sampling rate is not 16000, resample to 16000
+  if (a@samp.rate!=16000) {
     a<-resamp(a,
-              g=48000,
+              g=16000,
               output="Wave")
   }
+  a <- cutw(a,
+            from = adjust$resamp_trim_before[i],
+            to = adjust$resamp_trim_after[i],
+            output = "Wave")
   a1<-fir(a,
           from=2000,
           to=6000,
@@ -233,18 +55,25 @@ for (i in 1:length(adjust$file.name)) {
          to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,
          bandpass=T,
          output="Wave")
+  png(filename = paste("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/amplitude_profile_pics_16bit_35_threshold/", adjust$file.name[i], ".png", sep = ""))
   k <- timer(b,
              dmin = 0.02,
              envt = "hil",
-             msmooth=c(512, 90),
-             threshold = as.numeric(adjust$new_threshold[i]),
-             plot=F)
+             msmooth=c(256, 90),
+             threshold = as.numeric(adjust$resamp_new_threshold[i]),
+             plot=T)
+  dev.off()
   note_starts[[i]] <- k$s.start
   note_durations[[i]] <- k$s
   if(k$first == "signal"){
     print(paste("uh oh", adjust$file.name[i]))
   }
 }
+
+# (hopefully) final look at amplitude profiles 11/8:
+# dactyl: ML54188011, ML93553411, WTSP23, WTSP66 (pretty clean, but is the gap between the strophes typical?), WTSP87 (also pretty clean), XC190052 (probably the cleanest, dactyly-est one yet, only problem is there's not a complete amplitude drop between 1 and 2), XC329880 (pretty good. pretty good.)
+# i chose XC190052 for the example dactyl
+# all the amplitude profiles look good as of 11/8!! good job team.
 
 note_number <- rep(NA, length.out = length(note_starts))
 for(i in 1:length(note_number)){
@@ -303,68 +132,73 @@ for(i in 1:length(note_durations)){
   three_set_note_durations_3[[i]] <- note_durations[[i]][third_positions]
 }
 
+#trochee duration ratio
+two_set_note_durations_1 <- list()
+two_set_note_durations_2 <- list()
+for(i in 1:length(note_durations)){
+  first_positions <- seq(from = 1, to = length(note_durations[[i]]), by = 2)
+  second_positions <- seq(from = 2, to = length(note_durations[[i]]), by = 2)
+  two_set_note_durations_1[[i]] <- note_durations[[i]][first_positions]
+  two_set_note_durations_2[[i]] <- note_durations[[i]][second_positions]
+}
 
-##max_mean_dur and min_mean_dur are labeled dur but they are onset interval durations, not note durations
-max_mean_dur <- rep(NA, length.out = length(odd_intervals))
-min_mean_dur <- rep(NA, length.out = length(odd_intervals))
+
+##the following variables include both onset intervals and durations.length(odd_intervals) is equal to the number of analyzed songs
+max_mean_int <- rep(NA, length.out = length(odd_intervals))
+min_mean_int <- rep(NA, length.out = length(odd_intervals))
 long_note_durs <-  rep(NA, length.out = length(odd_intervals))
 med_note_durs <-  rep(NA, length.out = length(odd_intervals))
 short_note_durs <- rep(NA, length.out = length(odd_intervals))
 ##To add in: maximum note duration, maximum onset interval duration
 max_note_dur <- rep(NA, length.out = length(odd_intervals))
 max_onset_interval_dur <- rep(NA, length.out = length(odd_intervals))
+##adding 2-set durations for scoring trochaicness
+max_mean_dur <- rep(NA, length.out = length(odd_intervals))
+min_mean_dur <- rep(NA, length.out = length(odd_intervals))
 
-for(i in 1:length(max_mean_dur)){
-  max_mean_dur[i] <- max(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))
-  min_mean_dur[i] <- min(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))
+for(i in 1:length(max_mean_int)){
+  max_mean_int[i] <- max(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))
+  min_mean_int[i] <- min(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))
   long_note_durs[i] <-  max(mean(three_set_note_durations_1[[i]]), mean(three_set_note_durations_2[[i]]), mean(three_set_note_durations_3[[i]]))
   med_note_durs[i] <- sort(c(mean(three_set_note_durations_1[[i]]), mean(three_set_note_durations_2[[i]]), mean(three_set_note_durations_3[[i]])))[2]
   short_note_durs[i] <-  min(mean(three_set_note_durations_1[[i]]), mean(three_set_note_durations_2[[i]]), mean(three_set_note_durations_3[[i]]))
   max_note_dur[i] <- max(note_durations[[i]])
   max_onset_interval_dur[i] <- max(max(odd_intervals[[i]], max(even_intervals[[i]])))
+  max_mean_dur[i] <- max(mean(two_set_note_durations_1[[i]]), mean(two_set_note_durations_2[[i]]))
+  min_mean_dur[i] <- min(mean(two_set_note_durations_1[[i]]), mean(two_set_note_durations_2[[i]]))
 }
 
-durs <- data.frame(max_mean_dur, min_mean_dur, long_note_durs, med_note_durs, short_note_durs, max_note_dur, max_onset_interval_dur)
+durs <- data.frame(max_mean_int, min_mean_int, long_note_durs, med_note_durs, short_note_durs, max_note_dur, max_onset_interval_dur, max_mean_dur, min_mean_dur)
 
+
+#### Phase 4: Graphs and stuff ####
 library(ggplot2)
 library(cowplot)
-png(filename = "min duration by max duration.png", )
-ggplot(durs, aes(x=max_mean_dur, y=min_mean_dur)) + 
+png(filename = "min interval by max interval.png", )
+ggplot(durs, aes(x=max_mean_int, y=min_mean_int)) + 
   geom_point(size = 2) +
   theme_cowplot() +
   xlab("Greater onset interval mean") +
   ylab("Lesser onset interval mean")
 dev.off()
-# dist_point_line <- function(a, slope, intercept) {
-#   b = c(1, intercept+slope)
-#   c = c(-intercept/slope,0)       
-#   v1 <- b - c
-#   v2 <- a - b
-#   m <- cbind(v1,v2)
-#   return(abs(det(m))/sqrt(sum(v1*v1)))
-# }
-# 
-# dists_from_line <- as.numeric(c())
-# for (i in 1:length(max_mean_dur)){
-#   pt <- c(max_mean_dur[i], min_mean_dur[i])
-#   dists_from_line <- append(dists_from_line, dist_point_line(pt, 1, 0))
-# }
-# hist(dists_from_line, breaks = 15)
 
-
-max_min_ratio <- max_mean_dur/min_mean_dur
+max_min_ratio <- max_mean_int/min_mean_int
 log_max_min_ratio <- log(max_min_ratio)
-min_max_ratio <- min_mean_dur/max_mean_dur
+min_max_ratio <- min_mean_int/max_mean_int
 
 mid_to_long_ratio <- med_note_durs/long_note_durs
 plot(min_max_ratio, mid_to_long_ratio)
 
-durs <- data.frame(durs, min_max_ratio, mid_to_long_ratio)
+min_max_dur_ratio <- min_mean_dur/max_mean_dur
+plot(min_max_dur_ratio, mid_to_long_ratio)
+plot(min_max_dur_ratio, min_max_ratio)
+
+durs <- data.frame(durs, min_max_ratio, mid_to_long_ratio, min_max_dur_ratio)
 
 
 
-trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio, min_max_ratio, note_number, mid_to_long_ratio, max_mean_dur, min_mean_dur, med_note_durs, long_note_durs, short_note_durs, max_note_dur, max_onset_interval_dur)
-colnames(trochee_scores) <- c("file.name", "max_min_ratio", "log_max_min_ratio", "min_max_ratio", "note_number", "mid_to_long_ratio", "max_mean_dur", "min_mean_dur", "med_note_durs", "long_note_durs", "short_note_durs", "max_note_dur", "max_onset_interval_dur")
+trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio, min_max_ratio, note_number, mid_to_long_ratio, max_mean_int, min_mean_int, med_note_durs, long_note_durs, short_note_durs, max_note_dur, max_onset_interval_dur, max_mean_dur, min_mean_dur, min_max_dur_ratio)
+colnames(trochee_scores) <- c("file.name", "max_min_ratio", "log_max_min_ratio", "min_max_ratio", "note_number", "mid_to_long_ratio", "max_mean_int", "min_mean_int", "med_note_durs", "long_note_durs", "short_note_durs", "max_note_dur", "max_onset_interval_dur", "max_mean_dur", "min_mean_dur", "min_max_dur_ratio")
 
 write.csv(trochee_scores, "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_scores.csv")
 
@@ -382,8 +216,8 @@ for (i in 1:length(trochee_scores$recording.name)){
 lab_scores <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/lab_rhythm_scores.csv")
 
 for (i in 1:length(trochee_scores$recording.name)){
-  if(trochee_scores$recording.name[i] %in% lab_scores$Name_for_scoring){
-    trochee_scores$recording.name[i] <- lab_scores$Recording.ID..if.noted.[which(lab_scores$Name_for_scoring == trochee_scores$recording.name[i])]
+  if(trochee_scores$recording.name[i] %in% lab_scores$WTSP_updated){
+    trochee_scores$recording.name[i] <- lab_scores$Recording.ID..if.noted.[which(lab_scores$WTSP_updated == trochee_scores$recording.name[i])]
   }
 }
 ##Need to check for duplicate names for birds with both score types
@@ -391,32 +225,59 @@ for (i in 1:length(trochee_scores$recording.name)){
 ## by multiple scores in our data set. Taylor deliberately pulled two songs from each recording, one that seemed
 ## doublety and one triplety
 
-the_truth <- merge(otters, trochee_scores, by.x = "recording", by.y = "recording.name", all.x = FALSE)
-##Remove problematic duplicates
-the_truth <- the_truth[-which(the_truth$file.name == "WTSP82.wav" & the_truth$Terminal.Strophe.type == "Doublet"),]
-the_truth <- the_truth[-which(the_truth$file.name == "WTSP75.wav" & the_truth$Terminal.Strophe.type == "Triplet"),]
-the_truth <- the_truth[-which(the_truth$file.name == "ML31612451_terminal_strophes_triplet.wav" & the_truth$Terminal.Strophe.type == "Doublet"),]
-the_truth <- the_truth[-which(the_truth$file.name == "WTSP59.wav" & the_truth$Terminal.Strophe.type == "Doublet"),]
-the_truth <- the_truth[-which(the_truth$file.name == "ML39355611_terminal_strophes_doublet.wav" & the_truth$Terminal.Strophe.type == "Triplet"),]
-the_truth <- the_truth[-which(the_truth$file.name == "ML94149261_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]
-the_truth <- the_truth[-which(the_truth$file.name == "WTSP66.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]
-the_truth <- the_truth[-which(the_truth$file.name == "WTSP71.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]
-fucking_duplicated_rows <- the_truth[which(the_truth$recording =="ML105954241"),]
-the_truth <- the_truth[-which(the_truth$recording =="ML105954241"),]
-the_truth <- rbind(the_truth, fucking_duplicated_rows[1,])
-the_truth <- the_truth[-which(the_truth$file.name == "ML150818621_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]
-the_truth <- the_truth[-which(the_truth$file.name == "ML154043581_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]
-the_truth <- the_truth[-which(the_truth$file.name == "ML169021_terminal_strophes.wav" & the_truth$Longitude == -73.88525),]
+the_truth <- merge(otters, trochee_scores, by.x = "recording", by.y = "recording.name", all.x = FALSE, all.y = TRUE)
+for (i in 1:length(the_truth$recording)){
+  if(the_truth$recording[i] %in% lab_scores$Recording.ID..if.noted.){
+    the_truth$Latitude[i] <- lab_scores$Latitude[which(lab_scores$Recording.ID..if.noted. == the_truth$recording[i])][1]
+    the_truth$Longitude[i] <- lab_scores$Longitude[which(lab_scores$Recording.ID..if.noted. == the_truth$recording[i])][1]
+    the_truth$Year[i] <- lab_scores$Year[which(lab_scores$Recording.ID..if.noted. == the_truth$recording[i])][1]
+  }
+}
+
+#Check dimensions mar
+# > dim(the_truth)
+# [1] 330  24
+
+##check note number in strophes is not less than 5
+# > min(the_truth$note_number)
+# [1] 5
+
+##Check for duplicates
+the_truth<- the_truth[!duplicated(the_truth),]
+##1 completely duplicated row removed
+write.csv(the_truth, "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/check_for_duplicates_after_resampling.csv")
+the_truth$file.name[which(duplicated(the_truth$file.name) == TRUE)]
+##Remove problematic duplicates generated by merge
+the_truth <- the_truth[-which(the_truth$file.name == "ML150778241_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Descending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML150818621_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Descending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML152125251_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Descending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML152956471_terminal_strophes_triplet.wav" & the_truth$Introductory.Notes..if.noted. == "Descending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML152956471_terminal_strophes_doublet.wav" & the_truth$Introductory.Notes..if.noted. == "Descending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML154043581_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Descending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML169021_terminal_strophes.wav" & the_truth$Longitude == -73.8852),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML31612451_terminal_strophes_doublet.wav" & the_truth$Terminal.Strophe.type == "Triplet"),]
+the_truth$Terminal.Strophe.type[which(the_truth$file.name == "ML31612451_terminal_strophes_doublet.wav")] <- "Doublet or Triplet"
+
+the_truth <- the_truth[-which(the_truth$file.name == "ML39355611_terminal_strophes_triplet.wav" & the_truth$Terminal.Strophe.type == "Doublet"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML39355611_terminal_strophes_doublet.wav" & the_truth$Terminal.Strophe.type == "Triplet"),] ###jay was here
+the_truth <- the_truth[-which(the_truth$file.name == "WTSP59.wav" & the_truth$Introductory.Notes..if.noted. == "Descending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML94146141_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Descending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "ML94149261_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Descending"),]
+the_truth <- the_truth[-which(the_truth$file.name == "WTSP41.wav" & the_truth$Introductory.Notes..if.noted. == "Descending"),]
+
+##Check again for duplicates
+the_truth$file.name[which(duplicated(the_truth$file.name) == TRUE)]
+# > table(the_truth$Terminal.Strophe.type)
+# 
+# Doublet Doublet or Triplet            Triplet 
+# 86                  1                195 
 
 the_truth$remainder <- the_truth$note_number %% 3
-
 
 hist(the_truth$log_max_min_ratio, breaks = 15)
 hist(the_truth$max_min_ratio, breaks = 15)
 
-# remove what turned out to be outliers in rhythm PCAs
-the_truth <- the_truth[-which(the_truth$file.name %in% c("XC141294_terminal_strophes.wav", "XC33226_terminal_strophes.wav")),]
-
+##Scale the measurements to be used in PCA
 pca_measures <- data.frame(scale(the_truth$max_note_dur), scale(the_truth$max_onset_interval_dur), scale(the_truth$min_max_ratio), scale(the_truth$mid_to_long_ratio))
 rhythm_pca <- prcomp(pca_measures)
 
@@ -449,13 +310,36 @@ ggplot(the_truth,  aes(x=Terminal.Strophe.type, y=min_max_ratio)) +
   geom_jitter(position=position_jitter(0.1), aes(color = mid_to_long_ratio)) +
   theme_cowplot()
 
+only_doub_and_trip <- the_truth$Terminal.Strophe.type == "Doublet" | the_truth$Terminal.Strophe.type == "Triplet"
+
+
 png(filename = "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/the_truth_and_nothing_but_the_truth.png", width = 7, height = 7, units = "in", res = 300)
-ggplot(the_truth, aes(x=Terminal.Strophe.type, y=max_min_ratio)) + 
+ggplot(data = subset(the_truth, only_doub_and_trip), aes(x=Terminal.Strophe.type, y=min_max_dur_ratio)) + 
   geom_jitter(position=position_jitter(0.1)) +
   xlab("Published observer score") +
-  ylab("Onset interval ratio") +
+  ylab("min:max ratio") +
   theme_cowplot() 
 dev.off()
+
+png(filename = "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/min_max_ratio_by_Otter_score_plus_mid_long_ratio_color.png", width = 7, height = 7, units = "in", res = 300)
+ggplot(data = subset(the_truth, only_doub_and_trip), aes(x=Terminal.Strophe.type, y=min_max_dur_ratio, color = mid_to_long_ratio)) + 
+  geom_jitter(position=position_jitter(0.1)) +
+  xlab("Published observer score") +
+  ylab("Trochee score") +
+  theme_cowplot() +
+  labs(color='mid:long ratio') 
+dev.off()
+
+
+
+##Plot of min-max ratio and mid-long ratio
+ggplot(the_truth, aes(x = min_max_ratio, y = mid_to_long_ratio, color = Terminal.Strophe.type)) +
+  geom_point() +
+  theme_cowplot() 
+  
+ggplot(the_truth, aes(x = mid_to_long_ratio, y = min_max_ratio, color = Terminal.Strophe.type)) +
+  geom_point() +
+  theme_cowplot() 
 
 ###PC plots
 ggplot(the_truth, aes(x=PC1, y=PC2, color = Terminal.Strophe.type)) + 
@@ -469,6 +353,8 @@ ggplot(the_truth, aes(x=PC1, y=PC3, color = Terminal.Strophe.type)) +
 ggplot(the_truth, aes(x=PC2, y=PC3, color = Terminal.Strophe.type)) + 
   geom_point() +
   theme_cowplot() 
+
+require(ggbiplot)
 
 ggbiplot(rhythm_pca,
          groups = the_truth$Terminal.Strophe.type,
@@ -487,7 +373,7 @@ ggbiplot(rhythm_pca,
          varname.size = 3,
          varname.adjust = 1)
 
-the_truth[which(the_truth$PC2< -2.9),]
+#the_truth[which(the_truth$PC2< -2.9),]
 
 ##Check very low scoring doublets
 low_doublets <- the_truth[which(the_truth$Terminal.Strophe.type == "Doublet" & the_truth$max_min_ratio < 1.2),]
@@ -516,7 +402,7 @@ the_truth_triplety <- cbind(the_truth_triplety,
 
 ggplot(the_truth_triplety, aes(x=PC1_trip, y=PC2_trip, color = Terminal.Strophe.type)) + 
   geom_point() +
-  theme_cowplot() 
+  theme_cowplot()
 
 ggplot(the_truth_triplety, aes(x=PC2_trip, y=PC3_trip, color = Terminal.Strophe.type)) + 
   geom_point() +
@@ -550,3 +436,33 @@ ggbiplot(rhythm_pca_triplety,
          varname.adjust = 1)
 
 the_truth[which(the_truth$PC2< -1 & the_truth$PC1< -1),]
+
+write.csv(the_truth, file = "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/the_truth.csv")
+
+
+##Clustering based on the rhythm measurements alone
+library(mclust)
+# mclust_measures <- data.frame(the_truth$min_max_ratio, the_truth$mid_to_long_ratio, the_truth$min_max_dur_ratio)
+# BIC <- mclustBIC(mclust_measures)
+mclust_measures <- data.frame(asin(sqrt(the_truth$min_max_dur_ratio)), asin(sqrt(the_truth$mid_to_long_ratio)))
+BIC <- mclustBIC(mclust_measures)
+
+mod1 <- Mclust(mclust_measures, x = BIC)
+mclust.options("classPlotSymbols" = c(16, 16, 16, 16, 16))
+
+png(filename = "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/clustering.png", width = 7, height = 7, units = "in", res = 300)
+plot(mod1, what = "classification", pch = 16, xlab = "trochee score", ylab = "mid:long ratio", colors = c("#37a8b7", "#FE9929", "#AE017E"), bty = "l")
+dev.off()
+
+the_truth$poetry <- mod1$classification
+##In classification, 1 = cretic, 2 = trochaic, 3 = dactyl
+the_truth$prob_assignment <- rep(NA, length(the_truth[,1]))
+for(i in 1:length(the_truth$prob_assignment)){
+  the_truth$prob_assignment[i] <- max(mod1$z[i,])
+}
+
+ggplot(the_truth, aes(x = min_max_ratio, y = mid_to_long_ratio, color = poetry)) +
+  geom_point() +
+  theme_cowplot() 
+
+write.csv(the_truth, "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/clustering_for_maps.csv")
