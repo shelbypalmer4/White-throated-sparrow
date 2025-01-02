@@ -192,6 +192,8 @@ plot(min_max_ratio, mid_to_long_ratio)
 min_max_dur_ratio <- min_mean_dur/max_mean_dur
 plot(min_max_dur_ratio, mid_to_long_ratio)
 plot(min_max_dur_ratio, min_max_ratio)
+#####################TO FLIP THE NUMERICAL ASSOCIATION OF THE MIN_MAX_RATIO WITH LEVEL OF TROCHAICNESS, IT IS ALTERED HERE TO 1 - MIN_MAX_RATIO WITH SAME NAME############
+min_max_dur_ratio <- 1-min_max_dur_ratio
 
 durs <- data.frame(durs, min_max_ratio, mid_to_long_ratio, min_max_dur_ratio)
 
@@ -277,6 +279,9 @@ the_truth$remainder <- the_truth$note_number %% 3
 hist(the_truth$log_max_min_ratio, breaks = 15)
 hist(the_truth$max_min_ratio, breaks = 15)
 
+range(the_truth$min_max_dur_ratio)
+mean(the_truth$min_max_dur_ratio)
+
 ##Scale the measurements to be used in PCA
 pca_measures <- data.frame(scale(the_truth$max_note_dur), scale(the_truth$max_onset_interval_dur), scale(the_truth$min_max_ratio), scale(the_truth$mid_to_long_ratio))
 rhythm_pca <- prcomp(pca_measures)
@@ -323,20 +328,14 @@ ggplot(data = subset(the_truth, only_doub_and_trip), aes(x=Terminal.Strophe.type
 dev.off()
 
 png(filename = "/Users/jaymcentee/Documents/GitHub/White-throated-sparrow/min_max_ratio_by_Otter_score_plus_mid_long_ratio_color.png", width = 7, height = 7, units = "in", res = 300)
-fig4a <- ggplot(data = subset(the_truth, only_doub_and_trip), aes(x=Terminal.Strophe.type, y=min_max_dur_ratio, color = mid_to_long_ratio)) + 
-  geom_jitter(position=position_jitter(0.1)) +
-  xlab("Published observer score") +
-  ylab("Trochee score") +
-  theme_cowplot() +
-  labs(color='mid:long ratio') 
-dev.off()
-
-fig4a <- ggplot(data = subset(the_truth, only_doub_and_trip), aes(x=Terminal.Strophe.type, y=min_max_dur_ratio)) + 
+ggplot(data = subset(the_truth, only_doub_and_trip), aes(x=Terminal.Strophe.type, y=min_max_dur_ratio, color = mid_to_long_ratio)) + 
   geom_jitter(position=position_jitter(0.1)) +
   xlab("Published observer score") +
   ylab("trochee score") +
   theme_cowplot() +
   labs(color='mid:long ratio')
+dev.off()
+
 
 the_truth$confusion <- rep(NA, length.out = length(the_truth[,1]))
 the_truth$confusion[which(the_truth$Terminal.Strophe.type == "Doublet" & the_truth$min_max_dur_ratio > 0.5)] <- "Non-trochaic doublet"
@@ -344,7 +343,7 @@ the_truth$confusion[which(the_truth$Terminal.Strophe.type == "Doublet" & the_tru
 the_truth$confusion[which(the_truth$Terminal.Strophe.type == "Triplet")] <- "Triplet"
 #the_truth$confusion[which(the_truth$Terminal.Strophe.type == "Triplet" & the_truth$min_max_dur_ratio > 0.5)] <- "Non-trochaic triplet"
 
-fig4b <- ggplot(data = subset(the_truth, only_doub_and_trip), aes(x=confusion, y=mid_to_long_ratio)) + 
+ggplot(data = subset(the_truth, only_doub_and_trip), aes(x=confusion, y=mid_to_long_ratio)) + 
   geom_jitter(position=position_jitter(0.1)) +
   xlab("") +
   ylab("mid:long ratio") +
@@ -352,9 +351,9 @@ fig4b <- ggplot(data = subset(the_truth, only_doub_and_trip), aes(x=confusion, y
 
 #ggsave("/Users/jaymcentee/Documents/GitHub/White-throated-sparrow/Fig4.pdf", arrangeGrob(fig4a, fig4b))
 
-png(filename = "/Users/jaymcentee/Documents/GitHub/White-throated-sparrow/Fig4.png", width = 14, height = 7, units = "in", res = 300)
-grid.arrange(fig4a, fig4b, ncol = 2)
-dev.off()
+# png(filename = "/Users/jaymcentee/Documents/GitHub/White-throated-sparrow/Fig4.png", width = 14, height = 7, units = "in", res = 300)
+# grid.arrange(fig4a, fig4b, ncol = 2)
+# dev.off()
 
 
 ##Plot of min-max ratio and mid-long ratio
@@ -475,16 +474,26 @@ BIC <- mclustBIC(mclust_measures)
 mod1 <- Mclust(mclust_measures, x = BIC)
 mclust.options("classPlotSymbols" = c(16, 16, 16, 16, 16))
 
-png(filename = "/Users/jaymcentee/Documents/GitHub/White-throated-sparrow/clustering.png", width = 7, height = 7, units = "in", res = 300)
-plot(mod1, what = "classification", pch = 16, xlab = "trochee score", ylab = "mid:long ratio", colors = c("#37a8b7", "#FE9929", "#AE017E"), bty = "l")
-dev.off()
-
 the_truth$poetry <- mod1$classification
 ##In classification, 1 = cretic, 2 = trochaic, 3 = dactyl
 the_truth$prob_assignment <- rep(NA, length(the_truth[,1]))
 for(i in 1:length(the_truth$prob_assignment)){
   the_truth$prob_assignment[i] <- max(mod1$z[i,])
 }
+
+trace(mclust2Dplot, edit=TRUE)
+##Edit mclust2Dplot by defining u as 1-u, and altering bubble() function as follows
+##u <- (1 - u)^2
+##b <- bubble(u, cex = cex * c(0.3, 1.5), alpha = c(1,1))
+
+png(filename = "/Users/jaymcentee/Documents/GitHub/White-throated-sparrow/clustering.png", width = 7, height = 7, units = "in", res = 300)
+plot(mod1, what = "uncertainty", xlab = "arcsin-transformed trochee score", ylab = "arcsin-transformed mid:long ratio", colors = c("#37a8b7", "#FE9929", "#AE017E"), bty = "l")
+dev.off()
+
+png(filename = "/Users/jaymcentee/Documents/GitHub/White-throated-sparrow/BIC_plot.png", width = 7, height = 7, units = "in", res = 300)
+plot(mod1, what = "BIC", bty = "l")
+dev.off()
+
 
 ggplot(the_truth, aes(x = min_max_ratio, y = mid_to_long_ratio, color = poetry)) +
   geom_point() +
