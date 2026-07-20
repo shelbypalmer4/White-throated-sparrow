@@ -1,0 +1,10 @@
+README file for White-throated Sparrow rhythm manuscript
+
+Most of the analyses are performed in the most recent R script that begins with "WTSP song analyses"
+
+Additionally, figures are created and additional analyses are performed with scripts called:
+map_plots_May2024_mods.R
+multinomial_Year_x_Longitude.R
+
+The sound recordings that are analyzed have been standardized to 16-bit depth. These recordings can be found
+in the repository folder called "terminal_strophe_recordings_16bit".

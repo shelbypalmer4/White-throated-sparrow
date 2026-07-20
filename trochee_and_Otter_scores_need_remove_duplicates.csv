@@ -1,0 +1,251 @@
+"","recording","Source","Year","Date","Subpopulation..if.specified.","Province.State","Latitude","Longitude","Introductory.Notes..if.noted.","Terminal.Strophe.type","Recordist","adjust.file.name","max_min_ratio","log_max_min_ratio","note_number"
+"1","ML100883","Macaulay Library",1999,"31/05/1999","","New York",43.7669,-74.8172,"Descending","Triplet","Wilbur Hershberger","ML100883_terminal_strophes.wav",1.36101499423299,0.308230740679169,6
+"2","ML102373331","Macaulay Library",2018,"5/27/18","King's","Nova Scotia",45.0794,-64.5454,"Descending","Triplet","Devin Johnstone","ML102373331_terminal_strophes.wav",1.22598870056497,0.20374762096663,9
+"3","ML103667581","Macaulay Library",2018,"6/6/18","La Haute-Gaspésie","Quebec",48.9127,-66.1234,"Ascending","Triplet","Raphaël Nussbaumer","ML103667581_terminal_strophes.wav",1.16635514018692,0.153883621473421,7
+"4","ML103860591","Macaulay Library",2018,"6/6/18","Saginaw","Michigan",43.3912,-83.9858,"Ascending","Doublet","Jason Parrish","WTSP63.wav",1.08552631578947,0.082064953054304,5
+"5","ML104303161","Macaulay Library",2018,"6/13/18","Addison","Vermont",43.9579,-73.0113,"Descending","Doublet","Roy Pilcher","ML104303161_terminal_strophes.wav",1.61044176706827,0.476508530841862,5
+"6","ML104716561","Macaulay Library",2018,"6/16/18","Hancock","Maine",44.3443,-68.0561,"Descending","Triplet","Phil Green","ML104716561_terminal_strophes.wav",1.20247568523431,0.184382502613977,6
+"7","ML104970781","Macaulay Library",2018,"5/9/18","Houghton","Michigan",46.5486,-88.9321,"Descending","Doublet","Damon Haan","ML104970781_terminal_strophes.wav",2.21581196581197,0.795618912311881,8
+"8","ML105213831","Macaulay Library",2018,"5/26/18","Hamilton","New York",43.9971,-74.7386,"Ascending","Triplet","Glen Chapman","ML105213831_terminal_strophes.wav",1.12971342383107,0.121963993331357,9
+"9","ML105680731","Macaulay Library",2018,"6/16/18","Essex","New York",43.8147,-73.5869,"ascending","Triplet","Malinda Chapman","ML105680731_terminal_strophes.wav",1.14384508990318,0.134395472864926,9
+"10","ML105954241","Macaulay Library",2018,"6/29/18","Fort MacLeod","Alberta",49.4189,-114.1181,"Descending","Doublet","Pat Lucas","ML105954241_terminal_strophes.wav",2.78527607361963,1.02434699723459,7
+"11","ML105954241","Macaulay Library",2018,"6/29/18","Fort MacLeod","Alberta",49.4189,-114.1181,"Descending","Doublet","Pat Lucas","ML105954241_terminal_strophes.wav",2.78527607361963,1.02434699723459,7
+"12","ML106300881","Macaulay Library",2018,"6/25/18","Caribou","British Columbia",51.9814,-122.6151,"Descending","Doublet","John Woods","ML106300881_terminal_strophes.wav",1.5547263681592,0.441299561117381,6
+"13","ML106441141","Macaulay Library",2018,"6/25/18","Penobscot","Maine",44.8674,-68.727,"Descending","Triplet","Louise Venne","ML106441141_terminal_strophes.wav",1.12523020257827,0.11798763923766,6
+"14","ML106497711","Macaulay Library",2018,"7/4/18","Whitehorse","Yukon",60.7342,-135.0666,"Ascending","Doublet","Cameron Eckert","ML106497711_terminal_strophes.wav",1.23740053050398,0.213012832839388,8
+"15","ML106877561","Macaulay Library",2018,"6/28/18","Vilas","Wisconsin",45.9912,-89.4603,"Ascending","Doublet","Brian Collins","ML106877561_terminal_strophes.wav",1.21055718475073,0.191080736883837,12
+"16","ML106961551","Macaulay Library",2018,"7/9/18","Middlesex","Ontario",42.972,-81.3248,"Ascending","Doublet","Laure Neish","ML106961551_terminal_strophes.wav",2.13114754098361,0.756660586282271,5
+"17","ML107292","Macaulay Library",2000,"26/03/2000","","Maryland",39.1667,-77.2083,"Ascending","Triplet","Wilbur Hershberger","ML107292_terminal_strophes.wav",1.09586776859504,0.0915465321550208,9
+"18","ML107795761","Macaulay Library",2018,"6/18/18","Hancock","Maine",44.3443,-68.0561,"Descending","Triplet","Laura Gooch","ML107795761_terminal_strophes.wav",1.0869939707149,0.0834160614032668,6
+"19","ML108297581","Macaulay Library",2018,"6/15/18","Hancock","Maine",44.364,-68.0389,"Descending","Triplet","David Kazdan","ML108297581_terminal_strophes.wav",1.34246575342466,0.294508037522181,5
+"20","ML117995","Macaulay Library",2004,"6/6/04","","New York",44.2033,-74.6619,"Ascending","Triplet","Benjamin Clock","ML117995_terminal_strophes.wav",1.00923076923077,0.00918842605440617,9
+"21","ML121581051","Macaulay Library",2018,"5/27/18","La Haute-Côte-Nord","Quebec",48.158,-69.665,"Descending","Doublet","Jocelyn Lauzon","WTSP64.wav",1.27216248506571,0.240718196591426,18
+"22","ML122289641","Macaulay Library",2018,"5/3/18","Stark","Ohio",40.9834,-81.3132,"Ascending","Doublet","Kent Miller","ML122289641_terminal_strophes.wav",2.15562913907285,0.7680826248337,7
+"23","ML122306271","Macaulay Library",2018,"5/30/18","Sept-Rivières","Quebec",50.3225,-66.7726,"Ascending","Triplet","Jocelyn Lauzon","WTSP69.wav",1.01059190031153,0.010536199111242,10
+"24","ML122576641","Macaulay Library",2018,"5/27/18","La Haute-Côte-Nord","Quebec",48.158,-69.665,"Ascending","Triplet","Jocelyn Lauzon","ML122576641_terminal_strophes.wav",1.10453648915187,0.0994257801380118,6
+"25","ML124298691","Macaulay Library",2018,"6/22/18","Brome-Missiquoi","Quebec",45.107,-72.6156,"Descending","Triplet","Jocelyn Lauzon","ML124298691_terminal_strophes.wav",1.14362416107383,0.134202308449756,9
+"26","ML136579","Macaulay Library",2011,"2/7/11","","New York",44.4818,-74.4088,"Descending","Triplet","Sean O'Brien","ML136579_terminal_strophes.wav",1.19962859795729,0.182012007186159,6
+"27","ML136588","Macaulay Library",2011,"6/7/11","","New York",37.3541,-121.9552,"Descending","Triplet","Sean O'Brien","WTSP54.wav",1.12237093690249,0.115443355763174,9
+"28","ML140282","Macaulay Library",2008,"5/7/08","","Vermont",43.5874,-73.1307,"Descending","Triplet","Hope Batcheller","ML140282_terminal_strophes.wav",1.16954022988506,0.156610705668121,9
+"29","ML143538121","Macaulay Library",2019,"3/3/19","","South Carolina",32.8118,-79.8418,"Ascending","Triplet","Takayuki Uchida","ML143538121_terminal_strophes.wav",1.3956043956044,0.333327579941742,6
+"30","ML146267","Macaulay Library",2005,"26/06/2005","","Manitoba",51.6667,-100.9167,"Descending","Doublet","Mark Robbins","ML146267_terminal_strophes.wav",2.77666666666667,1.02125116751064,7
+"31","ML149181651","Macaulay Library",2019,"4/4/19","","Ohio",40.0004,-82.0054,"Ascending","Doublet","Lori McCollister","ML149181651_terminal_strophes.wav",2.4841628959276,0.909935739991778,5
+"32","ML149676381","Macaulay Library",2019,"4/7/19","","Missouri",39.0972,-92.3515,"Descending","Doublet","Joanna Reuter","ML149676381_terminal_strophes.wav",1.09453471196455,0.0903293523838123,11
+"33","ML149927141","Macaulay Library",2019,"4/8/19","","Kentucky",38.2818,-85.5584,"Ascending","Doublet","Sunil Thirkannad","ML149927141_terminal_strophes.wav",1.79003558718861,0.582235500765993,13
+"34","ML150335931","Macaulay Library",2019,"4/11/19","","Massachusetts",42.6221,-70.8142,"UpDown","Triplet","Phil Brown","ML150335931_terminal_strophes.wav",1.19900497512438,0.181492025431579,6
+"35","ML150436551","Macaulay Library",2019,"4/10/19","","Virginia",38.7257,-77.5437,"Ascending","Triplet","Kelly Krechmer","ML150436551_terminal_strophes.wav",1.03886756238004,0.0381312375633324,12
+"36","ML150584681","Macaulay Library",2019,"4/12/19","Rockland","New York",41.0428,-73.8975,"Descending","Triplet","valerie heemstra","ML150584681_terminal_strophes.wav",1.11706881143878,0.110708121984422,6
+"37","ML150818621","Macaulay Library",2019,"4/11/19","","Pennsylvania",39.8811,-76.6873,"Ascending","Triplet","Chuck Berthoud","ML150818621_terminal_strophes.wav",1.01305057096248,0.0129661459972679,7
+"38","ML150818621","Macaulay Library",2019,"4/11/19","","Pennsylvania",39.8811,-76.6873,"Descending","Triplet","Chuck Berthoud","ML150818621_terminal_strophes.wav",1.01305057096248,0.0129661459972679,7
+"39","ML151217251","Macaulay Library",2019,"4/4/19","","Ohio",40.0004,-82.0054,"Descending","Doublet","Lori McCollister","ML151217251_terminal_strophes.wav",1.18823529411765,0.172469260350943,10
+"40","ML151217291","Macaulay Library",2019,"4/4/19","","Ohio",40.0004,-82.0054,"Ascending","Doublet","Lori McCollister","ML151217291_terminal_strophes.wav",2.64678899082569,0.973347203719011,6
+"41","ML151240401","Macaulay Library",2019,"4/15/19","New London","Connecticut",41.3543,-71.9664,"Ascending","Triplet","Will Sweet","ML151240401_terminal_strophes.wav",1.04533333333333,0.0443358138200518,6
+"42","ML151764121","Macaulay Library",2019,"4/17/19","","Michigan",42.4086,-85.382,"Descending","Doublet","Thomas Koffel","WTSP73.wav",1.07816711590297,0.0752624845005472,6
+"43","ML151846011","Macaulay Library",2019,"4/18/19","","Nebraska",42.2343,-97.022,"Descending","Doublet","Ed M. Brogie","WTSP74.wav",1.05280528052805,0.0514582972754752,9
+"44","ML152040921","Macaulay Library",2019,"4/19/19","","New York",40.5923,-73.8914,"UpDown","Triplet","Tom Preston","ML152040921_terminal_strophes.wav",1.21818181818182,0.197359434158495,6
+"45","ML152069651","Macaulay Library",2019,"4/19/19","","Vermont",43.5288,-73.213,"descending","Doublet","Joel Tilley","ML152069651_terminal_strophes.wav",1.28545006165228,0.251108899557544,12
+"46","ML152366311","Macaulay Library",2019,"4/20/19","","Vermont",43.457,-73.1619,"Ascending","Triplet","G & B","ML152366311_terminal_strophes.wav",1.14265927977839,0.133358247441854,9
+"47","ML152381611","Macaulay Library",2019,"4/20/19","","New York",42.7364,-73.6532,"Ascending","Triplet","Brad Walker","ML152381611_terminal_strophes.wav",1.01241134751773,0.0123349581579514,6
+"48","ML152426451","Macaulay Library",2019,"4/18/19","","Virginia",38.4777,-77.9429,"Ascending","Triplet","Kelly Krechmer","ML152426451_terminal_strophes.wav",1.5,0.405465108108164,10
+"49","ML152587961","Macaulay Library",2019,"4/21/19","","New Jersy",40.6951,-74.5215,"Ascending","Triplet","Jeff Ellerbusch","ML152587961_terminal_strophes.wav",1.21176470588235,0.19207773173932,6
+"50","ML153175621","Macaulay Library",2019,"4/23/19","","New York",42.8463,-78.8595,"Ascending","Doublet","Thomas Mudd","ML153175621_terminal_strophes.wav",2.07070707070707,0.727890129003818,6
+"51","ML153443091","Macaulay Library",2019,"4/24/19","","Massachusetts",42.3033,-72.3319,"Ascending","Triplet","Larry Therrien","ML153443091_terminal_strophes.wav",1.20505871725384,0.186528293766932,6
+"52","ML153561511","Macaulay Library",2019,"4/9/19","","Missouri",39.1217,-94.3485,"Descending","Doublet","Mike Beck","WTSP82.wav",1.1562412342216,0.145174428602008,12
+"53","ML153561511","Macaulay Library",2019,"4/9/19","","Missouri",39.1217,-94.3485,"Descending","Doublet","Mike Beck","WTSP75.wav",1.20036429872495,0.182625092992977,6
+"54","ML153561511","Macaulay Library",2019,"4/9/19","","Missouri",39.1217,-94.3485,"Descending","Triplet","Mike Beck","WTSP82.wav",1.1562412342216,0.145174428602008,12
+"55","ML153561511","Macaulay Library",2019,"4/9/19","","Missouri",39.1217,-94.3485,"Descending","Triplet","Mike Beck","WTSP75.wav",1.20036429872495,0.182625092992977,6
+"56","ML153826801","Macaulay Library",2019,"4/25/19","","Virginia",38.4021,-77.9116,"Ascending","Triplet","Kelly Krechmer","ML153826801_terminal_strophes.wav",1.00788643533123,0.00785549994030839,7
+"57","ML153826821","Macaulay Library",2019,"4/25/19","","Virginia",38.4021,-77.9116,"Ascending","Triplet","Kelly Krechmer","ML153826821_terminal_strophes.wav",1.17139001349528,0.158191089364263,9
+"58","ML154019221","Macaulay Library",2019,"4/26/19","","Michigan",42.2821,-85.1297,"Descending","Doublet","Gordon Green","ML154019221_terminal_strophes.wav",2.42690058479532,0.886614963728038,7
+"59","ML154043581","Macaulay Library",2019,"4/25/19","","Quebec",46.0736,-72.8447,"Ascending","Triplet","Daniel Jauvin","ML154043581_terminal_strophes.wav",1.00983606557377,0.00978800636616316,7
+"60","ML154043581","Macaulay Library",2019,"4/25/19","","Quebec",46.0736,-72.8447,"Descending","Triplet","Daniel Jauvin","ML154043581_terminal_strophes.wav",1.00983606557377,0.00978800636616316,7
+"61","ML15562","Macaulay Library",1954,"6/6/54","","Manitoba",53.8255,-101.2476,"Ascending","Triplet","Arthur Allen","ML15562_terminal_strophes.wav",1.15315315315315,0.142500062607283,6
+"62","ML15563","Macaulay Library",1954,"7/6/54","","Manitoba",53.8255,-101.2476,"Ascending","Triplet","Peter Kellogg","ML15563_terminal_strophes.wav",1.32506887052342,0.281464435840911,6
+"63","ML15564","Macaulay Library",1954,"9/6/54","","Manitoba",50.8553,-100.222,"Ascending","Triplet","Arthur Allen","ML15564_terminal_strophes.wav",1.27030303030303,0.239255478546306,6
+"64","ML15565","Macaulay Library",1953,"2/6/53","","Quebec",49.2213,-68.1504,"Ascending","Triplet","Arthur Allen","ML15565_terminal_strophes.wav",1.01736111111111,0.0172121288811203,9
+"65","ML15566","Macaulay Library",1953,"24/06/1953","","Quebec",48.9474,-66.1224,"Ascending","Triplet","Arthur Allen","WTSP42.wav",1.32475884244373,0.281230437170293,6
+"66","ML15568","Macaulay Library",1953,"26/06/1953","","Quebec",48.9474,-66.1224,"Ascending","Triplet","Arthur Allen","ML15568_terminal_strophes.wav",1.12470023980815,0.117516546647477,12
+"67","ML15570","Macaulay Library",1953,"26/06/1953","","Quebec",48.9474,-66.1224,"Ascending","Triplet","Arthur Allen","ML15570_terminal_strophes.wav",1.07649253731343,0.0737081054372982,9
+"68","ML15571","Macaulay Library",1953,"29/06/1953","","Vermont",44.5437,-72.8143,"Descending","Triplet","Arthur Allen","ML15571_terminal_strophes.wav",1.03225806451613,0.0317486983145805,9
+"69","ML15572","Macaulay Library",1952,"24/04/1952","","New York",42.444,-76.5019,"Ascending","Triplet","Arthur Allen","ML15572_terminal_strophes.wav",1.07758620689655,0.074723546195937,9
+"70","ML15573","Macaulay Library",1952,"29/04/1952","","New York",42.444,-76.5019,"Ascending","Triplet","Arthur Allen","ML15573_terminal_strophes.wav",1.08333333333333,0.0800427076735366,9
+"71","ML15574","Macaulay Library",1952,"16/05/1952","","New York",42.444,-76.5019,"Ascending","Triplet","Arthur Allen","ML15574_terminal_strophes.wav",1.38888888888889,0.328504066972036,6
+"72","ML15575","Macaulay Library",1952,"16/05/1952","","New York",42.444,-76.5019,"Ascending","Triplet","Arthur Allen","ML15575_terminal_strophes.wav",1.256038647343,0.227962837750159,6
+"73","ML15576","Macaulay Library",1952,"10/6/52","","Massachusetts",42.6376,-73.1662,"Ascending","Triplet","Peter Kellogg","ML15576_terminal_strophes.wav",1.40579710144928,0.340604473906123,6
+"74","ML15578","Macaulay Library",1951,"19/06/1951","","New York",43.9948,-73.8313,"Ascending","Triplet","Arthur Allen","ML15578_terminal_strophes.wav",1.40840840840841,0.342460278465836,6
+"75","ML15580","Macaulay Library",1951,"30/06/1951","","New York",44.4314,-74.4118,"Ascending","Triplet","Arthur Allen","ML15580_terminal_strophes.wav",1.01115241635688,0.0110906866941579,9
+"76","ML15581","Macaulay Library",1951,"20/06/1951","","New York",44.4314,-74.4118,"Descending","Triplet","Arthur Allen","ML15581_terminal_strophes.wav",1.15686274509804,0.145711811181394,6
+"77","ML15582","Macaulay Library",1955,"27/04/1955","","New York",42.444,-76.5019,"Ascending","Triplet","Peter Kellogg","ML15582_terminal_strophes.wav",1.52777777777778,0.42381424677636,6
+"78","ML15584","Macaulay Library",1957,"20/07/1957","","Quebec",48.05,-65.4833,"Descending","Triplet","Robert Robinson","ML15584_terminal_strophes.wav",1.32426303854875,0.280856107381381,6
+"79","ML15590","Macaulay Library",1962,"4/6/62","","Vermont",44.5437,-72.8143,"Ascending","Triplet","Robert C Stein","ML15590_terminal_strophes.wav",1.06942148760331,0.0671178364700592,9
+"80","ML15592","Macaulay Library",1962,"4/6/62","","Vermont",44.5437,-72.8143,"Ascending","Triplet","Robert C Stein","ML15592_terminal_strophes.wav",1.28333333333333,0.249460859631583,6
+"81","ML15593","Macaulay Library",1962,"5/6/62","","New Hampshire",44.7814,-71.1379,"Ascending","Triplet","Robert C Stein","ML15593_terminal_strophes.wav",1.48214285714286,0.393488917061448,6
+"82","ML15596","Macaulay Library",1962,"12/6/62","","Maine",44.3924,-68.3021,"Ascending","Triplet","Robert C Stein","WTSP48.wav",1.2355816226784,0.211541808755176,6
+"83","ML15598","Macaulay Library",1962,"12/6/62","","Maine",44.3924,-68.3021,"Descending","Triplet","Robert C Stein","WTSP49.wav",1.19418483904465,0.177463809559171,6
+"84","ML15599","Macaulay Library",1963,"13/06/1963","","Michigan",46.6015,-85.1933,"Ascending","Triplet","Robert C Stein","ML15599_terminal_strophes.wav",1.07556270096463,0.0728439673890486,9
+"85","ML15600","Macaulay Library",1963,"19/06/1963","","Minnesota",47.9032,-91.8671,"Ascending","Triplet","Robert C Stein","ML15600_terminal_strophes.wav",1.39495798319328,0.332864295245013,6
+"86","ML15601","Macaulay Library",1963,"20/06/1963","","Ontario",50.0978,-91.922,"Ascending","Triplet","Robert C Stein","ML15601_terminal_strophes.wav",1.37435897435897,0.31798742194711,6
+"87","ML15602","Macaulay Library",1963,"23/06/1963","","Ontario",47.8423,-83.4026,"Ascending","Triplet","Robert C Stein","ML15602_terminal_strophes.wav",1.12771739130435,0.120195582061767,12
+"88","ML15606","Macaulay Library",1963,"25/06/1963","","Ontario",43.7325,-79.7773,"Descending","Triplet","Robert C Stein","ML15606_terminal_strophes.wav",1.297845373891,0.260705484753579,6
+"89","ML15607","Macaulay Library",1963,"28/06/1963","","Ontario",51.2731,-80.64,"Ascending","Triplet","Robert C Stein","ML15607_terminal_strophes.wav",1.12249544626594,0.11555428384737,12
+"90","ML15608","Macaulay Library",1963,"30/06/1963","","Quebec",47.9791,-77.423,"Descending","Triplet","Robert C Stein","ML15608_terminal_strophes.wav",1.21598002496879,0.195550356574176,6
+"91","ML15610","Macaulay Library",1963,"1/7/63","","Quebec",48.3456,-67.0539,"Descending","Triplet","Robert C Stein","ML15610_terminal_strophes.wav",1.04475308641975,0.04378057656,18
+"92","ML15611","Macaulay Library",1963,"1/7/63","","Quebec",48.3456,-67.0539,"Descending","Triplet","Robert C Stein","WTSP50.wav",1.02256532066508,0.0223144901854045,8
+"93","ML157055401","Macaulay Library",2019,"5/8/19","","Maine",44.3078,-69.2186,"Descending","Triplet","Fyn Kynd","WTSP83.wav",1.24683544303798,0.220608695711022,9
+"94","ML158046011","Macaulay Library",2019,"5/12/19","","Quebec",45.4876,-73.8192,"Descending","Triplet","Julie Tremblay","ML158046011_terminal_strophes.wav",1.03349673202614,0.0329479380893487,12
+"95","ML160553361","Macaulay Library",2019,"5/11/19","","Alberta",53.625,-113.6573,"Descending","Doublet","Scott & Jill Tansowny","ML160553361_terminal_strophes.wav",1.1993006993007,0.181738636346087,6
+"96","ML161672591","Macaulay Library",2019,"5/24/19","","Alberta",55.4806,-114.8982,"Descending","Doublet","Scott & Jill Tansowny","ML161672591_terminal_strophes.wav",1.05247148288973,0.0511411915657504,12
+"97","ML162376291","Macaulay Library",2019,"6/2/19","","Quebec",46.6362,-73.7381,"Descending","Doublet","Suzanne Filteau","ML162376291_terminal_strophes.wav",2.31024096385542,0.837351832450768,7
+"98","ML163314261","Macaulay Library",2019,"6/8/19","","Maine",44.9344,-70.5083,"Descending","Triplet","Cheryl Ring","ML163314261_terminal_strophes.wav",1.4793875147232,0.391628160716796,6
+"99","ML163438911","Macaulay Library",2019,"6/9/19","","Nova Scotia",45.3407,-62.6664,"Descending","Triplet","Mark Brennan","ML163438911_terminal_strophes.wav",1.16483516483516,0.152579587595217,9
+"100","ML163588521","Macaulay Library",2019,"6/8/19","","New York",44.2352,-73.7092,"Descending","Triplet","Nick Tepper","ML163588521_terminal_strophes.wav",1.1752380952381,0.161470761313764,6
+"101","ML169021","Macaulay Library",2012,"7/6/12","","New York",44.51041,-73.88525,"Descending","Triplet","Matthew Medler","ML169021_terminal_strophes.wav",1.15893108298172,0.14749810010623,9
+"102","ML169021","Macaulay Library",2012,"7/6/12","","New York",44.5104,-73.8852,"Descending","Triplet","Matthew Medler","ML169021_terminal_strophes.wav",1.15893108298172,0.14749810010623,9
+"103","ML18735","Macaulay Library",1980,"15/06/1980","","Alberta",53.5428,-113.9034,"Ascending","Triplet","Oliver Hewitt","ML18735_terminal_strophes.wav",1.07814992025518,0.0752465354100432,9
+"104","ML205318","Macaulay Library",2012,"7/6/12","","Massachusetts",42.3566,-73.1796,"Ascending","Triplet","David Kazdan","WTSP55.wav",1.26456692913386,0.23472971505407,11
+"105","ML205319","Macaulay Library",2012,"7/6/12","","Massachusetts",42.3566,-73.1795,"Ascending","Triplet","Laura Gooch","ML205319_terminal_strophes.wav",1.30685920577617,0.267626705638433,6
+"106","ML219779","Macaulay Library",2009,"8/6/09","","New York",42.6658,-76.3468,"Descending","Triplet","Bob Mcguire","WTSP52.wav",1.14864864864865,0.138586163286147,12
+"107","ML219798","Macaulay Library",2009,"15/06/2009","","New York",44.485,-74.4034,"Ascending","Triplet","Bob Mcguire","ML219798_terminal_strophes.wav",1.07561728395062,0.07289471440825,9
+"108","ML219799","Macaulay Library",2009,"15/06/2009","","New York",44.485,-74.4034,"Descending","Triplet","Bob Mcguire","ML219799_terminal_strophes.wav",1.16237942122186,0.150469129419585,9
+"109","ML224605","Macaulay Library",2009,"16/06/2009","","New York",44.4805,-74.4072,"Ascending","Triplet","Bob Mcguire","ML224605_terminal_strophes.wav",1.31656184486373,0.275023675579857,6
+"110","ML224609","Macaulay Library",2009,"16/06/2009","","New York",44.4853,-74.4022,"Ascending","Triplet","Bob Mcguire","ML224609_terminal_strophes.wav",1.17234262125903,0.15900398739033,6
+"111","ML26122","Macaulay Library",1980,"23/03/1980","","New York",40.6057,-73.8713,"Ascending","Triplet","Thomas Davis","ML26122_terminal_strophes.wav",1.62154294032023,0.48337812826488,6
+"112","ML27192071","Macaulay Library",2016,"15/04/2016","","Tennessee",35.8856,-84.1201,"Ascending","Doublet","Colin Sumrall","ML27192071_terminal_strophes.wav",1.9002849002849,0.642003822449758,6
+"113","ML27522691","Macaulay Library",2016,"23/04/2016","","North Carolina",36.1726,-79.5561,"Ascending","Triplet","Martin Wall","ML27522691_terminal_strophes.wav",1.26458333333333,0.234742687157562,6
+"114","ML29804391","Macaulay Library",2012,"31/05/2012","","Vermont",44.6433,-72.6314,"Ascending","Triplet","Paul Marvin","WTSP56.wav",1.43375174337517,0.360294605415489,6
+"115","ML31612451","Macaulay Library",2016,"12/7/16","","New York",44.3095,-73.9371,"Descending","Triplet","Glen Chapman","ML31612451_terminal_strophes_triplet.wav",1.1244323342416,0.117278316521862,6
+"116","ML31612451","Macaulay Library",2016,"12/7/16","","New York",44.3095,-73.9371,"Descending","Doublet","Glen Chapman","ML31612451_terminal_strophes_triplet.wav",1.1244323342416,0.117278316521862,6
+"117","ML34904071","Macaulay Library",2016,"25/06/2016","","Vermont",43.45,-73.0364,"Descending","Doublet","Roy Pilcher","ML34904071_terminal_strophes.wav",2.00826446280992,0.697270897743807,5
+"118","ML36984","Macaulay Library",1986,"14/06/1986","","Maine",44.6166,-66.6,"Descending","Triplet","Charles Duncan","ML36984_terminal_strophes.wav",1.08603896103896,0.0825370965947092,9
+"119","ML38458241","Macaulay Library",2016,"28/10/2016","","North Carolina",36.2145,-81.6465,"Ascending","Doublet","Wilcox Family","ML38458241_terminal_strophes.wav",1.8372513562387,0.608270626616092,9
+"120","ML38701321","Macaulay Library",2016,"31/10/2016","","Maryland",39.6433,-76.3403,"Ascending","Triplet","Dominique Bayne","WTSP58.wav",2.22614107883818,0.800269628580099,9
+"121","ML39355611","Macaulay Library",2016,"8/11/16","","North Carolina",36.2144,-81.6465,"Descending","Triplet","Wilcox Family","WTSP59.wav",1.22161172161172,0.200171070170719,6
+"122","ML39355611","Macaulay Library",2016,"8/11/16","","North Carolina",36.2144,-81.6465,"Descending","Triplet","Wilcox Family","ML39355611_terminal_strophes_doublet.wav",2.5,0.916290731874155,5
+"123","ML39355611","Macaulay Library",2016,"8/11/16","","North Carolina",36.2144,-81.6465,"Descending","Doublet","Wilcox Family","WTSP59.wav",1.22161172161172,0.200171070170719,6
+"124","ML39355611","Macaulay Library",2016,"8/11/16","","North Carolina",36.2144,-81.6465,"Descending","Doublet","Wilcox Family","ML39355611_terminal_strophes_doublet.wav",2.5,0.916290731874155,5
+"125","ML39355641","Macaulay Library",2016,"8/11/16","","North Carolina",36.2144,-81.6465,"Descending","Triplet","Wilcox Family","ML39355641_terminal_strophes.wav",1.21212121212121,0.192371892647456,6
+"126","ML39901471","Macaulay Library",2015,"7/7/15","","New York",43.6843,-74.7468,"Descending","Triplet","Michael Andersen","ML39901471_terminal_strophes.wav",1.16276041666667,0.150796847728827,9
+"127","ML39908121","Macaulay Library",2015,"7/7/15","","New York",43.6733,-74.7013,"Ascending","Triplet","Michael Andersen","ML39908121_terminal_strophes.wav",1.26940639269406,0.238549383874136,6
+"128","ML41694471","Macaulay Library",2016,"3/12/16","","Tennessee",35.9511,-84.2392,"Ascending","Triplet","Colin Sumrall","ML41694471_terminal_strophes.wav",1.16977777777778,0.156813797246742,6
+"129","ML43015","Macaulay Library",1956,"12/7/56","","Quebec",46.8027,-71.3334,"Ascending","Triplet","William Gunn","WTSP44.wav",1.1688654353562,0.156033564962709,9
+"130","ML49064811","Macaulay Library",2016,"12/6/16","","Alberta",55.6359,-114.5319,"Ascending","Doublet","Laura Gooch","ML49064811_terminal_strophes.wav",1.31175468483816,0.271365695019633,11
+"131","ML51018801","Macaulay Library",2017,"12/3/17","","Virginia",37.6909,-78.8823,"Ascending","Triplet","Kelly Krechmer","ML51018801_terminal_strophes.wav",1.13904494382023,0.130190142703437,9
+"132","ML52577121","Macaulay Library",2017,"25/03/2017","","North Carolina",36.21446,-81.64652,"Descending","Triplet","Wilcox Family","ML52577121_terminal_strophes.wav",1.06289308176101,0.0609945127028415,6
+"133","ML52837721","Macaulay Library",2017,"30/03/2017","","Ohio",41.01807,-81.5193,"Descending","Triplet","Dennis Mersky","ML52837721_terminal_strophes.wav",1.25609756097561,0.228009740965382,7
+"134","ML54188011","Macaulay Library",2017,"11/4/17","","Washington",47.66387,-122.42153,"Descending","Doublet","Kevin Kincaid","ML54188011_terminal_strophes.wav",1.03328173374613,0.0327398864918031,12
+"135","ML54340501","Macaulay Library",2017,"12/4/17","","Missouri",38.36801,-91.24716,"Descending","Doublet","Jack Foreman","ML54340501_terminal_strophes.wav",1.34101382488479,0.293425913631033,7
+"136","ML54398891","Macaulay Library",2017,"13/04/2017","","British Columbia",53.25544,-123.07508,"Ascending","Doublet","Carey Bergman","WTSP60.wav",2.15800415800416,0.769183793620072,9
+"137","ML54554911","Macaulay Library",2017,"15/04/2017","","Virginia",38.6217,-77.7228,"Descending","Triplet","Kelly Krechmer","ML54554911_terminal_strophes.wav",1.89968652037618,0.64168888328447,7
+"138","ML54838341","Macaulay Library",2016,"19/06/2016","","Alberta",56.6023,-110.2448,"Descending","Doublet","Laura Gooch","ML54838341_terminal_strophes.wav",2.7420814479638,1.00871728455156,5
+"139","ML55055931","Macaulay Library",2017,"17/04/2017","","North Carolina",36.1384,-81.6723,"Ascending","Triplet","Wilcox Family","ML55055931_terminal_strophes.wav",1.23458646616541,0.210736068796574,9
+"140","ML55593151","Macaulay Library",2017,"24/04/2017","","Maine",44.2261,-69.7787,"Ascending","Triplet","Jeff Wella","ML55593151_terminal_strophes.wav",1.15775401069519,0.146481930587957,9
+"141","ML56021031","Macaulay Library",2017,"29/04/2017","","New Jersey",40.5039,-74.4958,"Descending","Triplet","Sam Wijeratne","ML56021031_terminal_strophes.wav",1.3024154589372,0.264220585772783,6
+"142","ML56104121","Macaulay Library",2017,"28/04/2017","","New York",43.3201,-77.7264,"Monotone","Doublet","Nick Kachala","WTSP62.wav",1.18831168831169,0.172533550427792,6
+"143","ML56998831","Macaulay Library",2017,"6/5/17","","Minnesota",46.7393,-92.0611,"Ascending","Doublet","John Richardson","ML56998831_terminal_strophes.wav",1.01826196473552,0.0180972177700259,8
+"144","ML66742","Macaulay Library",1951,"30/05/1951","","Ontario",45.8372,-78.3791,"Ascending","Triplet","William Gunn","ML66742_terminal_strophes.wav",1.33900709219858,0.291928363333232,6
+"145","ML66743","Macaulay Library",1951,"18/06/1951","","Ontario",45.8372,-78.3791,"Ascending","Triplet","William Gunn","WTSP41.wav",1.27148288973384,0.240183849032782,10
+"146","ML66744","Macaulay Library",1953,"18/06/1953","","Ontario",46.3679,-79.9247,"Descending","Triplet","William Gunn","WTSP43.wav",1.22341696535245,0.201647735109977,6
+"147","ML66745","Macaulay Library",1954,"19/06/1954","","Ontario",45.8372,-78.3791,"Descending","Triplet","William Gunn","ML66745_terminal_strophes.wav",1.03962264150943,0.0388578026067469,9
+"148","ML66751","Macaulay Library",1956,"10/7/56","","Quebec",46.8027,-71.3334,"Ascending","Triplet","William Gunn","WTSP45.wav",1.28272980501393,0.248990467207083,6
+"149","ML66752","Macaulay Library",1957,"18/06/1957","","Quebec",48.181,-65.8874,"Ascending","Triplet","William Gunn","ML66752_terminal_strophes.wav",1.234375,0.21056476910735,6
+"150","ML66753","Macaulay Library",1957,"4/7/57","","Ontario",47.8493,-81.3561,"Descending","Triplet","William Gunn","ML66753_terminal_strophes.wav",1.01919087136929,0.0190090491328706,8
+"151","ML66755","Macaulay Library",1957,"5/7/57","","Ontario",47.8493,-81.3561,"Ascending","Triplet","William Gunn","WTSP46.wav",1.05269922879177,0.0513575596746783,8
+"152","ML66756","Macaulay Library",1957,"8/7/57","","Ontario",47.8493,-81.3561,"Descending","Triplet","William Gunn","ML66756_terminal_strophes.wav",1.13004172461752,0.122254556482846,12
+"153","ML66757","Macaulay Library",1958,"8/5/58","","Ontario",45.8372,-78.3791,"Descending","Triplet","William Gunn","ML66757_terminal_strophes.wav",1.05163511187608,0.0503462023196844,9
+"154","ML66758","Macaulay Library",1958,"11/5/58","","Ontario",45.8372,-78.3791,"Descending","Triplet","William Gunn","ML66758_terminal_strophes.wav",1.55357142857143,0.440556427919435,6
+"155","ML66759","Macaulay Library",1958,"22/05/1958","","Ontario",51.2731,-80.64,"Ascending","Triplet","William Gunn","ML66759_terminal_strophes.wav",1.01309328968903,0.0130083135130012,9
+"156","ML66760","Macaulay Library",1958,"26/05/1958","","Ontario",51.2731,-80.64,"Ascending","Triplet","William Gunn","ML66760_terminal_strophes.wav",1.04869565217391,0.0475471559298354,9
+"157","ML66761","Macaulay Library",1958,"27/05/1958","","Ontario",51.2731,-80.64,"Descending","Triplet","William Gunn","ML66761_terminal_strophes.wav",1.06813996316759,0.0659187836065297,12
+"158","ML66764","Macaulay Library",1958,"7/7/58","","Ontario",47.8493,-81.3561,"Ascending","Triplet","William Gunn","ML66764_terminal_strophes.wav",1.0959595959596,0.0916303228459244,9
+"159","ML66765","Macaulay Library",1960,"2/6/60","","Ontario",47.8493,-81.3561,"Descending","Triplet","William Gunn","ML66765_terminal_strophes.wav",1.0169779286927,0.0168354144638624,9
+"160","ML66768","Macaulay Library",1960,"28/06/1960","","Ontario",50.0978,-91.922,"Descending","Triplet","William Gunn","ML66768_terminal_strophes.wav",1.07728337236534,0.0744424762545162,12
+"161","ML66769","Macaulay Library",1960,"30/06/1960","","Ontario",50.0978,-91.922,"Descending","Triplet","William Gunn","ML66769_terminal_strophes.wav",1.13555555555556,0.127122007439339,6
+"162","ML66770","Macaulay Library",1960,"5/7/60","","Ontario",53.7586,-90.0764,"Ascending","Triplet","William Gunn","ML66770_terminal_strophes.wav",1.29024081115336,0.254828876264594,6
+"163","ML66771","Macaulay Library",1960,"5/7/60","","Ontario",53.7586,-90.0764,"Ascending","Triplet","William Gunn","ML66771_terminal_strophes.wav",1.19030303030303,0.174207922019785,6
+"164","ML66772","Macaulay Library",1960,"6/7/60","","Ontario",50.0978,-91.922,"Ascending","Triplet","William Gunn","ML66772_terminal_strophes.wav",1.44939271255061,0.371144649772723,6
+"165","ML66773","Macaulay Library",1960,"6/7/60","","Ontario",50.0978,-91.922,"Descending","Triplet","William Gunn","WTSP47.wav",1.17113095238095,0.157969907894254,9
+"166","ML66774","Macaulay Library",1960,"6/7/60","","Ontario",49.4333,-94.0138,"Ascending","Triplet","William Gunn","ML66774_terminal_strophes.wav",1.38866930171278,0.328345951705678,6
+"167","ML66776","Macaulay Library",1960,"13/07/1960","","New York",44.3659,-73.9026,"Ascending","Triplet","William Gunn","ML66776_terminal_strophes.wav",1.05226480836237,0.0509448016152492,9
+"168","ML66777","Macaulay Library",1960,"13/07/1960","","New York",44.3659,-73.9026,"Ascending","Triplet","William Gunn","ML66777_terminal_strophes.wav",1.47679324894515,0.389873013348328,6
+"169","ML66778","Macaulay Library",1960,"14/07/1960","","New York",44.3659,-73.9026,"Ascending","Triplet","William Gunn","ML66778_terminal_strophes.wav",1.3997113997114,0.336266072307525,6
+"170","ML66779","Macaulay Library",1960,"14/07/1960","","New York",44.3659,-73.9026,"Ascending","Triplet","William Gunn","ML66779_terminal_strophes.wav",1.3834808259587,0.324602661065829,6
+"171","ML66780","Macaulay Library",1960,"14/07/1960","","New York",44.3659,-73.9026,"Ascending","Triplet","William Gunn","ML66780_terminal_strophes.wav",1.04643449419569,0.0453886658140275,9
+"172","ML66783","Macaulay Library",1962,"10/6/62","","British Columbia",53.9171,-122.7497,"Ascending","Triplet","William Gunn","ML66783_terminal_strophes.wav",1.0936329588015,0.0895051438680328,6
+"173","ML66786","Macaulay Library",1962,"10/6/62","","Alberta",55.1699,-118.7986,"Ascending","Triplet","William Gunn","ML66786_terminal_strophes.wav",1.3531914893617,0.302465868636018,6
+"174","ML66788","Macaulay Library",1963,"22/06/1963","","Ontario",45.8372,-78.3791,"Descending","Triplet","William Gunn","ML66788_terminal_strophes.wav",1.0171875,0.0170414658548521,9
+"175","ML66789","Macaulay Library",1963,"23/06/1963","","Ontario",45.8372,-78.3791,"Ascending","Triplet","William Gunn","ML66789_terminal_strophes.wav",1.34421768707483,0.295812198535031,6
+"176","ML66791","Macaulay Library",1971,"15/06/1971","","Ontario",45.8372,-78.3791,"Ascending","Triplet","William Gunn","ML66791_terminal_strophes.wav",1.26410256410256,0.234362434918998,6
+"177","ML66792","Macaulay Library",1971,"16/06/1971","","Ontario",45.8372,-78.3791,"Descending","Triplet","Christopher Gunn","ML66792_terminal_strophes.wav",1.01990950226244,0.0197139000879226,15
+"178","ML66793","Macaulay Library",1977,"21/05/1977","","Alberta",50.2227,-111.7687,"Ascending","Triplet","William Gunn","ML66793_terminal_strophes.wav",1.1175468483816,0.111135969115993,9
+"179","ML73982","Macaulay Library",1992,"3/6/92","","Michigan",46.6274,-85.0374,"Ascending","Triplet","Geoffrey Keller","ML73982_terminal_strophes.wav",1.34082397003745,0.29328432800045,6
+"180","ML73984","Macaulay Library",1992,"3/6/92","","Michigan",46.6274,-85.0374,"Ascending","Triplet","Geoffrey Keller","ML73984_terminal_strophes.wav",1.43466666666667,0.360932534191374,6
+"181","ML73990","Macaulay Library",1992,"4/6/92","","Michigan",46.6274,-85.0374,"Descending","Triplet","Geoffrey Keller","ML73990_terminal_strophes.wav",1.15094339622642,0.14058195062119,9
+"182","ML77095","Macaulay Library",1996,"11/6/96","","New York",43.7897,-74.2128,"Ascending","Triplet","Curtis Marantz","ML77095_terminal_strophes.wav",1.17202572347267,0.158733639269479,9
+"183","ML84752","Macaulay Library",1997,"3/4/97","","Maryland",39.4166,-77.2083,"Ascending","Triplet","Wilbur Hershberger","ML84752_terminal_strophes.wav",1.17377049180328,0.160221209793288,6
+"184","ML93491201","Macaulay Library",2018,"4/8/18","Westchester","New York",41.1751,-73.8719,"UpDown","Triplet","valerie heemstra","ML93491201_terminal_strophes.wav",1.01235741444867,0.0122816848458702,6
+"185","ML93553411","Macaulay Library",2018,"4/8/18","Milwaukee","Wisconsin",43.1306,-87.9347,"Descending","Doublet","Gustav Holtz","ML93553411_terminal_strophes.wav",1.01542776998598,0.0153099719714207,11
+"186","ML93819141","Macaulay Library",2018,"4/10/18","Hampshire","Massachusetts",42.3174,-72.6503,"Ascending","Triplet","Mary McKitrick","WTSP70.wav",1.17090539165819,0.157777288574716,17
+"187","ML93834681","Macaulay Library",2018,"4/10/18","York","South Carolina",35.1052,-81.2694,"Ascending","Triplet","Steven Biggers","ML93834681_terminal_strophes.wav",1.14178403755869,0.132591984382587,6
+"188","ML94149261","Macaulay Library",2018,"4/12/18","Westchester","New York",41.1098,-73.8352,"Ascending","Triplet","valerie heemstra","ML94149261_terminal_strophes.wav",2.43555555555556,0.890174884743596,5
+"189","ML94149261","Macaulay Library",2018,"4/12/18","Westchester","New York",41.1098,-73.8352,"Descending","Triplet","valerie heemstra","ML94149261_terminal_strophes.wav",2.43555555555556,0.890174884743596,5
+"190","ML94266321","Macaulay Library",2018,"4/13/18","Kendall","Illinois",41.6685,-88.5256,"Ascending","Doublet","Charles Shields","WTSP66.wav",1.38991389913899,0.329241802158576,6
+"191","ML94266321","Macaulay Library",2018,"4/13/18","Kendall","Illinois",41.6685,-88.5256,"Descending","Doublet","Charles Shields","WTSP66.wav",1.38991389913899,0.329241802158576,6
+"192","ML95228051","Macaulay Library",2018,"4/18/18","Cape May","New Jersey",38.9623,-74.9395,"Ascending","Triplet","Tom Johnson","WTSP71.wav",1.01471652593486,0.0146092886932496,12
+"193","ML95228051","Macaulay Library",2018,"4/18/18","Cape May","New Jersey",38.9623,-74.9395,"Descending","Triplet","Tom Johnson","WTSP71.wav",1.01471652593486,0.0146092886932496,12
+"194","ML95963851","Macaulay Library",2018,"4/22/18","Delaware","Pennsylvania",39.9592,-75.4506,"Descending","Triplet","David Eberly","ML95963851_terminal_strophes.wav",1.22837706511176,0.205693838872753,6
+"195","ML97718781","Macaulay Library",2018,"5/2/18","Québec City","Quebec",46.8377,-71.2122,"Ascending","Triplet","Guillaume Charette","ML97718781_terminal_strophes.wav",1.710407239819,0.536731494101835,8
+"196","ML97782401","Macaulay Library",2018,"4/30/18","Ottawa","Michigan",42.9459,-85.8806,"Descending","Doublet","Lisa Casler","ML97782401_terminal_strophes.wav",2.32248520710059,0.84263782229939,7
+"197","ML98806","Macaulay Library",1992,"1/6/92","","Michigan",46.6274,-85.0374,"Ascending","Triplet","Geoffrey Keller","ML98806_terminal_strophes.wav",1.3184634448575,0.276467001631641,6
+"198","ML98808","Macaulay Library",1992,"1/6/92","","Michigan",46.6274,-85.0374,"Descending","Triplet","Geoffrey Keller","WTSP51.wav",2.03345280764636,0.709735238643845,8
+"199","ML98816","Macaulay Library",1992,"1/6/92","","Michigan",46.6274,-85.0374,"Ascending","Triplet","Geoffrey Keller","ML98816_terminal_strophes.wav",1.24561403508772,0.219628609206765,6
+"200","XC137567","Xeno Canto",2013,"1/6/13","","Quebec",47.8534,-70.42,"","Triplet","Martin St-Michel","XC137567_terminal_strophes.wav",1.07162534435262,0.0691765093535949,9
+"201","XC141294","Xeno Canto",2013,"2/7/13","","Illinois",41.8859,-87.6176,"","Doublet","C Lubecke","XC141294_terminal_strophes.wav",1.19550561797753,0.178569207175404,10
+"202","XC142150","Xeno Canto",2013,"10/7/13","","Georgia",34.9478,-85.0346,"","Triplet","David Hollie","XC142150_terminal_strophes.wav",1.34625668449198,0.297327914744085,11
+"203","XC14297","Xeno Canto",2007,"12/6/07","","Minnesota",48.056,-90.5243,"","Doublet","Andrew Spencer","XC14297_terminal_strophes.wav",2.27467811158798,0.821838552980467,5
+"204","XC14298","Xeno Canto",2007,"12/6/07","","Minnesota",48.056,-90.5243,"","Doublet","Andrew Spencer","XC14298_terminal_strophes.wav",2.60502838605028,0.957443571902308,8
+"205","XC144431","Xeno Canto",2013,"30/07/2013","","British Columbia",53.8832,-122.793,"","Doublet","Patches Flores","WTSP88.wav",1.07511045655376,0.0724234065837415,11
+"206","XC147689","Xeno Canto",2013,"1/6/13","","Alberta",56.7264,-111.3803,"","Doublet","Dugan Maynard","XC147689_terminal_strophes.wav",1.98087431693989,0.683538321453308,6
+"207","XC154441","Xeno Canto",2013,"17/06/2013","","Alberta",56.7264,-111.3803,"","Doublet","Dugan Maynard","XC154441_terminal_strophes.wav",2.42978723404255,0.887803695511851,5
+"208","XC16937","Xeno Canto",2007,"24/04/2007","","Michigan",42.0778,-83.1995,"","Doublet","Allen Chartier","XC16937_terminal_strophes.wav",1.37135278514589,0.315797687060419,7
+"209","XC185150","Xeno Canto",2014,"8/6/14","","Quebec",47.677,-70.8267,"","Triplet","Martin St-Michel","XC185150_terminal_strophes.wav",1.17451523545706,0.160855496899077,6
+"210","XC188416","Xeno Canto",2014,"13/06/2014","","British Columbia",55.5267,-120.0314,"","Doublet","Richard Webster","WTSP91.wav",1.01733102253033,0.0171825533199965,9
+"211","XC188449","Xeno Canto",2014,"14/06/2014","","British Columbia",55.5267,-120.0314,"","Doublet","Richard Webster","XC188449_terminal_strophes.wav",2.3155737704918,0.839657505853239,5
+"212","XC188828","Xeno Canto",2014,"15/06/2014","","British Columbia",58.9758,-123.1714,"","Doublet","Richard Webster","XC188828_terminal_strophes.wav",1.25577689243028,0.227754418851941,10
+"213","XC189064","Xeno Canto",2014,"15/06/2014","","British Columbia",59.0988,-123.4621,"","Doublet","Richard Webster","XC189064_terminal_strophes.wav",2.43085106382979,0.888241428064255,7
+"214","XC189065","Xeno Canto",2014,"15/06/2014","","British Columbia",59.0988,-123.4621,"","Doublet","Richard Webster","XC189065_terminal_strophes.wav",2.46875,0.903711949667296,7
+"215","XC189812","Xeno Canto",2014,"17/06/2014","","British Columbia",56.327,-120.9521,"","Doublet","Richard Webster","XC189812_terminal_strophes.wav",2.26119402985075,0.815893005558457,5
+"216","XC190047","Xeno Canto",2014,"18/06/2014","","British Columbia",56.327,-120.9521,"","Doublet","Richard Webster","XC190047_terminal_strophes.wav",1.64566929133858,0.49814716550622,6
+"217","XC190052","Xeno Canto",2014,"18/06/2014","","British Columbia",56.327,-120.9521,"","Doublet","Richard Webster","XC190052_terminal_strophes.wav",1.00680272108844,0.00677968698537899,6
+"218","XC191897","Xeno Canto",2014,"13/07/2014","","Quebec",47.677,-70.8267,"","Triplet","Martin St-Michel","XC191897_terminal_strophes.wav",1.24664602683179,0.220456766603994,6
+"219","XC210426","Xeno Canto",2015,"16/01/2015","","California",37.4049,-121.9192,"","Doublet","Pete Denten","XC210426_terminal_strophes.wav",2.06367041198502,0.724486150752665,5
+"220","XC236559","Xeno Canto",2015,"18/04/2015","","Ontario",44.3211,-78.3264,"","Doublet","Iain","XC236559_terminal_strophes.wav",1.36918604651163,0.31421643664302,8
+"221","XC248010","Xeno Canto",2015,"31/05/2015","","New York",43.6735,-74.6933,"","Triplet","Dan Lane","XC248010_terminal_strophes.wav",1.18100890207715,0.166369074932076,6
+"222","XC248011","Xeno Canto",2015,"31/05/2015","","New York",43.6735,-74.6933,"","Triplet","Dan Lane","XC248011_terminal_strophes.wav",1.21041666666667,0.190964652949974,6
+"223","XC248012","Xeno Canto",2015,"31/05/2015","","New York",43.6735,-74.6933,"","Triplet","Dan Lane","XC248012_terminal_strophes.wav",1.16366366366366,0.151573358812958,9
+"224","XC296909","Xeno Canto",2012,"22/02/2012","","Maine",44.8501,-67.1944,"","Triplet","Paul Marvin","XC296909_terminal_strophes.wav",1.07849133537207,0.0755631528528818,6
+"225","XC296910","Xeno Canto",2012,"24/05/2012","","Maine",44.4729,-67.5789,"","Triplet","Paul Marvin","XC296910_terminal_strophes.wav",1.22289156626506,0.201218190685245,6
+"226","XC297603","Xeno Canto",2011,"27/05/2011","","Minnesota",47.1675,-92.7162,"","Doublet","Paul Marvin","XC297603_terminal_strophes.wav",2.4393063583815,0.891713719538232,7
+"227","XC297606","Xeno Canto",2012,"29/05/2012","","New York",44.3659,-73.9026,"","Triplet","Paul Marvin","XC297606_terminal_strophes.wav",1.08326253186066,0.0799773503322511,15
+"228","XC298776","Xeno Canto",2015,"11/6/15","","Newfoundland",48.1788,-57.7439,"","Triplet","Matthew Halley","XC298776_terminal_strophes.wav",1.17069701280228,0.157599308866405,9
+"229","XC310232","Xeno Canto",2016,"31/03/2016","","Georgia",31.9237,-81.0559,"","Triplet","Russ Wigh","XC310232_terminal_strophes.wav",1.27495291902072,0.242909251670336,6
+"230","XC312855","Xeno Canto",2016,"13/04/2016","","Delaware",39.1742,-75.5424,"","Triplet","Jerald R","XC312855_terminal_strophes.wav",1.1029207232267,0.0979618639138013,9
+"231","XC322417","Xeno Canto",2016,"18/06/2016","","British Columbia",52.1563,-122.1969,"","Doublet","Phil Ranson","XC322417_terminal_strophes.wav",1.38489871086556,0.325627004015905,9
+"232","XC322428","Xeno Canto",2016,"18/06/2016","","British Columbia",52.1563,-122.1969,"","Doublet","Phil Ranson","XC322428_terminal_strophes.wav",1.08238491591643,0.079166862001678,14
+"233","XC329802","Xeno Canto",2016,"28/06/2016","","Saskatchewan",52.9333,-107.0927,"","Doublet","John Patterson","XC329802_terminal_strophes.wav",1.37946428571429,0.321695225042705,7
+"234","XC329835","Xeno Canto",2016,"25/07/2016","","Saskatchewan",52.9296,-107.1103,"","Doublet","John Patterson","XC329835_terminal_strophes.wav",2.16859504132231,0.774079511473193,10
+"235","XC329836","Xeno Canto",2016,"25/07/2016","","Saskatchewan",52.929,-107.1378,"","Doublet","John Patterson","XC329836_terminal_strophes.wav",2.21325648414986,0.794464953200813,8
+"236","XC329880","Xeno Canto",2016,"25/07/2016","","Saskatchewan",52.9295,-107.1798,"","Doublet","John Patterson","XC329880_terminal_strophes.wav",1.14097496706192,0.131883131166805,11
+"237","XC329881","Xeno Canto",2016,"25/07/2016","","Saskatchewan",53.5743,-105.7646,"","Doublet","John Patterson","XC329881_terminal_strophes.wav",1.83073684210526,0.604718531772359,10
+"238","XC33226","Xeno Canto",2009,"19/04/2009","","Washington",48.3787,-122.4487,"","Doublet","Tayler Brooks","XC33226_terminal_strophes.wav",1.08704883227176,0.0834665310230902,7
+"239","XC342662","Xeno Canto",2016,"13/07/2016","","British Columbia",53.9588,-122.8276,"","Doublet","Doug Wilson","XC342662_terminal_strophes.wav",1.36899563318777,0.314077356518736,7
+"240","XC342664","Xeno Canto",2016,"10/7/16","","British Columbia",53.9171,-122.7497,"","Doublet","Mari Wood","XC342664_terminal_strophes.wav",1.01551724137931,0.0153980801111212,9
+"241","XC363526","Xeno Canto",2017,"4/8/17","","Wake County",35.9235,-78.5993,"Ascending","Triplet","Brian Murphy","XC363526_terminal_strophes.wav",1.12916666666667,0.121479897537709,6
+"242","XC373803","Xeno Canto",2017,"31/05/2017","","Alberta",54.6628,-110.9826,"Descending","Doublet","Patrick Turgeon","XC373803_terminal_strophes.wav",1.28439803439804,0.250290152866148,8
+"243","XC424319","Xeno Canto",2018,"7/2/18","Penobscot County","Maine",45.8629,-68.6745,"Ascending","Triplet","Lance A.M. Benner","XC424319_terminal_strophes.wav",1.15363511659808,0.14291792796429,9
+"244","XC467600","Xeno Canto",2019,"4/9/19","","New York",40.7824,-73.963,"","Triplet","Giuseppe Speranza","XC467600_terminal_strophes.wav",1.23404255319149,0.210295408836361,6
+"245","XC52450","Xeno Canto",2010,"25/05/2010","","New Hampshire",44.367,-71.527,"","Triplet","Andrew Spencer","XC52450_terminal_strophes.wav",1.12224157955865,0.1153280954739,10
+"246","XC59166","Xeno Canto",2010,"10/5/10","","Maine",46.7678,-68.6009,"","Triplet","Tayler Brooks","WTSP86.wav",1.22,0.198850858745165,6
+"247","XC77875","Xeno Canto",2011,"14/05/2011","","Minnesota",47.795,-92.079,"","Doublet","Jonathon Jongsma","XC77875_terminl_strophes.wav",2.48630136986301,0.910796212556515,8
+"248","XC83546","Xeno Canto",2008,"26/05/2008","","Ontario",45.919,-77.583,"","Triplet","Jelmer Poelstra","XC83546_terminal_strophes.wav",1.22171945701357,0.200259257480621,9
+"249","XC89189","Xeno Canto",2011,"26/10/2011","","Tennessee",35.9439,-83.6889,"","Triplet","Mike Nelson","XC89189_terminal_strophes.wav",1.19886363636364,0.181374138437915,6
+"250","XC89683","Xeno Canto",2011,"2/11/11","","Tennessee",35.6028,-84.1228,"","Triplet","Mike Nelson","WTSP87.wav",1.08644859813084,0.0829142100055593,7

@@ -1,0 +1,248 @@
+updateR()
+y
+n <- 5
+n
+?read.csv
+colfunc(20)
+?colfunc
+??colfun
+??rasterImage
+install.packages('graphics')
+install.packages("grDevices")
+setwd("/Users/Shared/WTSP/MEEC_poster")
+library(seewave)library(tuneR)
+a<-readWave("ML98816_terminal_strophes_padded2.wav")
+b1<-fir(a,        from = 2000,        to = 5000,        bandpass = TRUE,       output="Wave")#### doublet ####d<-readWave("ML146267_terminal_strophes.wav")e1<-fir(d,         from = 3500,         to = 5000,         bandpass = TRUE,        output="Wave")
+timer_b1 <- timer(b1,            #dmin = 0.02,            envt = "hil",            msmooth=c(512, 90),            threshold = 10) # can add plot = FALSE when done checking
+timer_b1 <- timer(b1,            #dmin = 0.02,            envt = "hil",            msmooth=c(512, 90),            threshold = 10,#
+            bty = "l") # can add plot = FALSE when done checking
+timer_b1 <- timer(b1,            #dmin = 0.02,            envt = "hil",            msmooth=c(512, 90),            threshold = 25,#
+            bty = "l") # can add plot = FALSE when done checking
+png(filename = "triplet_amplitude_envelope_example.png", width = 7, height = 7, unit = "in", res = 300)
+timer_b1 <- timer(b1,            #dmin = 0.02,            envt = "hil",            msmooth=c(512, 90),            threshold = 25,#
+            bty = "l") # can add plot = FALSE when done checking
+dev.off()
+timer_e1 <- timer(e1,                  #dmin = 0.02,                  envt = "hil",                  msmooth=c(512, 90),                  threshold = 25,#
+                  bty = "l") # can add plot = FALSE when done checking
+png(filename = "doublet_amplitude_envelope_example.png", width = 7, height = 7, unit = "in", res = 300)timer_e1 <- timer(e1,                  #dmin = 0.02,                  envt = "hil",                  msmooth=c(512, 90),                  threshold = 25,#
+                  bty = "l") # can add plot = FALSE when done checking#
+dev.off()
+setwd("/Users/Shared/WTSP/")source("timer_hack.R")library(seewave)library(tuneR)
+adjust<-read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/WTSP_params_16feb23.csv")adjust$new_threshold[which(is.na(adjust$new_threshold))] <- 25adjust <- adjust[which(adjust$threshold_25!="no"),]setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/terminal strophe recordings/")note_starts <- list()#for (i in 1:length(usables)) {for (i in 1:length(adjust$file.name)) {  a<-readWave(adjust$file.name[i])  # if sampling rate is not 48000, resample to 48000  if (a@samp.rate!=48000) {    a<-resamp(a,              g=48000,              output="Wave")  }  a1<-fir(a,          from=2000,          to=6000,          bandpass=T,          output="Wave") # initial filter  b<-fir(a1,         from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,         to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,         bandpass=T,         output="Wave")  k <- timer(b,             dmin = 0.02,             envt = "hil",             msmooth=c(512, 90),             threshold = as.numeric(adjust$new_threshold[i]),             plot=F)  note_starts[[i]] <- k$s.start}note_number <- rep(NA, length.out = length(note_starts))for(i in 1:length(note_number)){  note_number[i] <- length(note_starts[[i]])}odd_intervals <- list()for (i in 1:length(note_starts)){  if(length(note_starts[[i]]) %% 2 == 0){    odd_notes <- seq(from = 1, to = length(note_starts[[i]]), by = 2)    diffs <- c()    for (j in 1:length(odd_notes)){      diffs <- append(diffs, note_starts[[i]][odd_notes[j]+1]-note_starts[[i]][odd_notes[j]])    }    odd_intervals[[i]] <- diffs  }  else{    odd_notes <- seq(from = 1, to = length(note_starts[[i]])-1, by = 2)    diffs <- c()    for (j in 1:length(odd_notes)){      diffs <- append(diffs, note_starts[[i]][odd_notes[j]+1]-note_starts[[i]][odd_notes[j]])    }    odd_intervals[[i]] <- diffs  }}even_intervals <- list()for (i in 1:length(note_starts)){  if(length(note_starts[[i]]) %% 2 == 0){    even_notes <- seq(from = 2, to = length(note_starts[[i]])-1, by = 2)    diffs <- c()    for (j in 1:length(even_notes)){      diffs <- append(diffs, note_starts[[i]][even_notes[j]+1]-note_starts[[i]][even_notes[j]])    }    even_intervals[[i]] <- diffs  }  else{    even_notes <- seq(from = 2, to = length(note_starts[[i]]), by = 2)    diffs <- c()    for (j in 1:length(even_notes)){      diffs <- append(diffs, note_starts[[i]][even_notes[j]+1]-note_starts[[i]][even_notes[j]])    }    even_intervals[[i]] <- diffs  }}max_mean_dur <- rep(NA, length.out = length(odd_intervals))min_mean_dur <- rep(NA, length.out = length(odd_intervals))for(i in 1:length(max_mean_dur)){  max_mean_dur[i] <- max(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))  min_mean_dur[i] <- min(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))}durs <- data.frame(max_mean_dur, min_mean_dur)
+library(ggplot2)library(cowplot)
+png(filename = "min duration by max duration.png", )ggplot(durs, aes(x=max_mean_dur, y=min_mean_dur)) +   geom_point(size = 2) +  theme_cowplot() +  xlab("Greater onset interval mean") +  ylab("Lesser onset interval mean")dev.off()
+getwd()
+setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/")library(ggplot2)library(cowplot)png(filename = "min duration by max duration.png", width = 10, height = 8, units = "in", res = 300)ggplot(durs, aes(x=max_mean_dur, y=min_mean_dur)) +   geom_point(size = 2) +  theme_cowplot() +  xlab("Greater onset interval mean") +  ylab("Lesser onset interval mean") +#
+  xlim(0,.35) +#
+  ylim(0,.35)dev.off()
+png(filename = "min duration by max duration.png", width = 10, height = 8, units = "in", res = 300)ggplot(durs, aes(x=max_mean_dur, y=min_mean_dur)) +   geom_point(size = 2) +  theme_cowplot() +  xlab("Greater onset interval mean") +  ylab("Lesser onset interval mean") +#
+  xlim(0.08,.35) +#
+  ylim(0.08,.35)dev.off()
+png(filename = "min duration by max duration.png", width = 10, height = 8, units = "in", res = 300)ggplot(durs, aes(x=max_mean_dur, y=min_mean_dur)) +   geom_point(size = 2) +  theme_cowplot() +  xlab("Greater onset interval mean") +  ylab("Lesser onset interval mean") +#
+  xlim(0.08,.35) +#
+  ylim(0.08,.25)dev.off()
+png(filename = "min duration by max duration.png", width = 10, height = 8, units = "in", res = 300)ggplot(durs, aes(x=max_mean_dur, y=min_mean_dur)) +   geom_point(size = 3) +  theme_cowplot() +  xlab("Greater onset interval mean") +  ylab("Lesser onset interval mean") +#
+  xlim(0.08,.35) +#
+  ylim(0.08,.25)dev.off()
+png(filename = "min duration by max duration.png", width = 12, height = 8, units = "in", res = 300)ggplot(durs, aes(x=max_mean_dur, y=min_mean_dur)) +   geom_point(size = 3) +  theme_cowplot() +  xlab("Greater onset interval mean") +  ylab("Lesser onset interval mean") +#
+  xlim(0.08,.35) +#
+  ylim(0.08,.25)dev.off()
+list()
+ls()
+head(adjust)
+adjust$file.name[which(max_mean_dur < 0.1)]
+setwd("/Users/Shared/WTSP/")source("timer_hack.R")library(seewave)library(tuneR)# First, we need to remove the recordings that obviously have undetectable signal periods# make a new folder in the working directory named "figures"# onespec<-function(x) {#   a<-readWave(x)#   # if sampling rate is not 48000, resample to 48000#   if (a@samp.rate!=48000) {#     resamp(a,#            g=48000,#            output="Wave")#   }#   b<-fir(a,#          from=2000,#          to=6000,#          bandpass=T,#          output="Wave")#   png(filename = paste("figures/", x, ".png", sep = ""))#   c<-spectro(b,#              wl = 512,#              ovlp = 95,#              collevels = seq(-42,0,6),#              #flim = c(0, 10),#              osc = F,#              scale = F,#              colgrid = "gray",#              cexlab = 0.8,#              cexaxis = 0.7)#   dev.off()# }# # lapply(list.files(pattern = ".wav"), onespec)#
+########### write a function that resamples all files to 48000 Hz, bandpass filters each file, and makes a spectrogram with timer() intervals overlaid. lapply applies the function over all wav files in the working directory# make a new folder in the working directory named "figures2"# timespec<-function(x) {#   a<-readWave(x)#   # if sampling rate is not 48000, resample to 48000#   if (a@samp.rate!=48000) {#     a<-resamp(a,#               g=48000,#               output="Wave")#   }#   a1<-fir(a,#           from=2000,#           to=6000,#           bandpass=T,#           output="Wave") # initial filter#   b<-fir(a1,#          from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,#          to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,#          bandpass=T,#          output="Wave") # customized filter#   png(filename = paste("/Users/Shared/WTSP/resamp_25_specs/", x, ".png", sep = ""))#   c<-spectro(b,#              wl = 512,#              ovlp = 95,#              collevels = seq(-42,0,6),#              flim = c(0, 7),#              osc = F,#              scale = F,#              colgrid = "gray",#              cexlab = 0.8,#              cexaxis = 0.7)#   par(new = T)#   try(expr=timer(b,#                  dmin = 0.02,#                  envt = "hil",#                  msmooth=c(512, 90),#                  threshold = 25), #       silent=F)#   dev.off()# }# lapply(list.files(pattern = ".wav"), timespec)#
+####### messing around with just 1 recording# setwd("C:/Users/Shelby Palmer/Desktop/The House Always Wins/White-Throated-Sparrow/terminal strophe recordings")# hm <- readWave("WTSP13.wav")# #hm <- readWave("ML34904071_terminal_strophes.wav")# #hm <- readWave("XC147689_terminal_strophes.wav")# hm2<-fir(hm,#          from=(mean(dfreq(hm, plot=F)[,2])*1000)-500,#          to=(mean(dfreq(hm, plot=F)[,2])*1000)+500,#          bandpass=T,#          output="Wave")# j <- spectro(hm2,#              wl = 512,#              ovlp = 95,#              collevels = seq(-42,0,6),#              #flim = c(0, 10),#              osc = F,#              scale = F,#              colgrid = "gray",#              cexlab = 0.8,#              cexaxis = 0.7,#              flim = c(0,7))# par(new=T)# k <- timer(hm2,#            #dmin = 0.02,#            envt = "hil",#            msmooth=c(512, 90),#            threshold = 10) # can add plot = FALSE when done checking# l <- cutw(wave = hm2, from = k$s.start[1], to = k$s.end[1], output = "Wave")# wave1 <- env(wave = l, msmooth = c(1024,90), envt = "hil", norm = TRUE, #              plot = TRUE)localMinima <- function(x) {  # Use -Inf instead if x is numeric (non-integer)  y <- diff(c(Inf, x)) > 0L  rle(y)$lengths  y <- cumsum(rle(y)$lengths)  y <- y[seq.int(1L, length(y), 2L)]  if (x[[1]] == x[[2]]) {    y <- y[-1]  }  y}# times_at_minima <- localMinima(wave1)# amps_at_minima <- c(wave1[times_at_minima[2:(length(times_at_minima)-1)]])# min(amps_at_minima)#### looping over a working directory to find local minima #####
+############## Scoring rhythms #################adjust<-read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/WTSP_params_16feb23.csv")adjust$new_threshold[which(is.na(adjust$new_threshold))] <- 25adjust <- adjust[which(adjust$threshold_25!="no"),]#
+adjust <- adjust[-which(adjust$file.name == "WTSP63.wav")]#
+setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/terminal strophe recordings/")note_starts <- list()#for (i in 1:length(usables)) {for (i in 1:length(adjust$file.name)) {  a<-readWave(adjust$file.name[i])  # if sampling rate is not 48000, resample to 48000  if (a@samp.rate!=48000) {    a<-resamp(a,              g=48000,              output="Wave")  }  a1<-fir(a,          from=2000,          to=6000,          bandpass=T,          output="Wave") # initial filter  b<-fir(a1,         from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,         to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,         bandpass=T,         output="Wave")  k <- timer(b,             dmin = 0.02,             envt = "hil",             msmooth=c(512, 90),             threshold = as.numeric(adjust$new_threshold[i]),             plot=F)  note_starts[[i]] <- k$s.start}note_number <- rep(NA, length.out = length(note_starts))for(i in 1:length(note_number)){  note_number[i] <- length(note_starts[[i]])}odd_intervals <- list()for (i in 1:length(note_starts)){  if(length(note_starts[[i]]) %% 2 == 0){    odd_notes <- seq(from = 1, to = length(note_starts[[i]]), by = 2)    diffs <- c()    for (j in 1:length(odd_notes)){      diffs <- append(diffs, note_starts[[i]][odd_notes[j]+1]-note_starts[[i]][odd_notes[j]])    }    odd_intervals[[i]] <- diffs  }  else{    odd_notes <- seq(from = 1, to = length(note_starts[[i]])-1, by = 2)    diffs <- c()    for (j in 1:length(odd_notes)){      diffs <- append(diffs, note_starts[[i]][odd_notes[j]+1]-note_starts[[i]][odd_notes[j]])    }    odd_intervals[[i]] <- diffs  }}even_intervals <- list()for (i in 1:length(note_starts)){  if(length(note_starts[[i]]) %% 2 == 0){    even_notes <- seq(from = 2, to = length(note_starts[[i]])-1, by = 2)    diffs <- c()    for (j in 1:length(even_notes)){      diffs <- append(diffs, note_starts[[i]][even_notes[j]+1]-note_starts[[i]][even_notes[j]])    }    even_intervals[[i]] <- diffs  }  else{    even_notes <- seq(from = 2, to = length(note_starts[[i]]), by = 2)    diffs <- c()    for (j in 1:length(even_notes)){      diffs <- append(diffs, note_starts[[i]][even_notes[j]+1]-note_starts[[i]][even_notes[j]])    }    even_intervals[[i]] <- diffs  }}max_mean_dur <- rep(NA, length.out = length(odd_intervals))min_mean_dur <- rep(NA, length.out = length(odd_intervals))for(i in 1:length(max_mean_dur)){  max_mean_dur[i] <- max(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))  min_mean_dur[i] <- min(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))}durs <- data.frame(max_mean_dur, min_mean_dur)
+adjust<-read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/WTSP_params_16feb23.csv")
+adjust$new_threshold[which(is.na(adjust$new_threshold))] <- 25adjust <- adjust[which(adjust$threshold_25!="no"),]
+dim(adjust)
+setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/terminal strophe recordings/")note_starts <- list()#for (i in 1:length(usables)) {for (i in 1:length(adjust$file.name)) {  a<-readWave(adjust$file.name[i])  # if sampling rate is not 48000, resample to 48000  if (a@samp.rate!=48000) {    a<-resamp(a,              g=48000,              output="Wave")  }  a1<-fir(a,          from=2000,          to=6000,          bandpass=T,          output="Wave") # initial filter  b<-fir(a1,         from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,         to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,         bandpass=T,         output="Wave")  k <- timer(b,             dmin = 0.02,             envt = "hil",             msmooth=c(512, 90),             threshold = as.numeric(adjust$new_threshold[i]),             plot=F)  note_starts[[i]] <- k$s.start}note_number <- rep(NA, length.out = length(note_starts))for(i in 1:length(note_number)){  note_number[i] <- length(note_starts[[i]])}odd_intervals <- list()for (i in 1:length(note_starts)){  if(length(note_starts[[i]]) %% 2 == 0){    odd_notes <- seq(from = 1, to = length(note_starts[[i]]), by = 2)    diffs <- c()    for (j in 1:length(odd_notes)){      diffs <- append(diffs, note_starts[[i]][odd_notes[j]+1]-note_starts[[i]][odd_notes[j]])    }    odd_intervals[[i]] <- diffs  }  else{    odd_notes <- seq(from = 1, to = length(note_starts[[i]])-1, by = 2)    diffs <- c()    for (j in 1:length(odd_notes)){      diffs <- append(diffs, note_starts[[i]][odd_notes[j]+1]-note_starts[[i]][odd_notes[j]])    }    odd_intervals[[i]] <- diffs  }}even_intervals <- list()for (i in 1:length(note_starts)){  if(length(note_starts[[i]]) %% 2 == 0){    even_notes <- seq(from = 2, to = length(note_starts[[i]])-1, by = 2)    diffs <- c()    for (j in 1:length(even_notes)){      diffs <- append(diffs, note_starts[[i]][even_notes[j]+1]-note_starts[[i]][even_notes[j]])    }    even_intervals[[i]] <- diffs  }  else{    even_notes <- seq(from = 2, to = length(note_starts[[i]]), by = 2)    diffs <- c()    for (j in 1:length(even_notes)){      diffs <- append(diffs, note_starts[[i]][even_notes[j]+1]-note_starts[[i]][even_notes[j]])    }    even_intervals[[i]] <- diffs  }}max_mean_dur <- rep(NA, length.out = length(odd_intervals))min_mean_dur <- rep(NA, length.out = length(odd_intervals))for(i in 1:length(max_mean_dur)){  max_mean_dur[i] <- max(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))  min_mean_dur[i] <- min(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))}durs <- data.frame(max_mean_dur, min_mean_dur)
+setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/")library(ggplot2)library(cowplot)png(filename = "min duration by max duration.png", width = 12, height = 8, units = "in", res = 300)ggplot(durs, aes(x=max_mean_dur, y=min_mean_dur)) +   geom_point(size = 3) +  theme_cowplot() +  xlab("Greater onset interval mean") +  ylab("Lesser onset interval mean") +#
+  xlim(0.08,.35) +#
+  ylim(0.08,.25)dev.off()
+getwd()
+png(filename = "min duration by max duration.png", width = 12, height = 8, units = "in", res = 300)ggplot(durs, aes(x=max_mean_dur, y=min_mean_dur)) +   geom_point(size = 3) +  theme_cowplot() +  xlab("Greater onset interval mean") +  ylab("Lesser onset interval mean") +#
+  xlim(0.1,.35) +#
+  ylim(0.09,.25)dev.off()
+png(filename = "triplet_example_spectro.png", width = 7, height = 7, res = 300, units = "in")#
+c1<-spectro(b1,             wl = 512,             ovlp = 95,            collevels = c(-30,-14,-12,-10,-8,-6,-4,-2,0),             flim = c(0, 8),            osc = F,             scale = F,             grid = F,             cexlab = 0.8,             cexaxis = 1.1,            palette = reverse.heat.colors,            tlab = NULL,            flab = NULL,            norm = TRUE,            bty = "l")#
+dev.off()
+png(filename = "triplet_example_spectro.png", width = 7, height = 7, res = 300, units = "in")#
+c1<-spectro(b1,             wl = 512,             ovlp = 95,            collevels = c(-30,-14,-12,-10,-8,-6,-4,-2,0),             flim = c(0, 8),            osc = F,             scale = F,             grid = F,             cexlab = 0.8,             cexaxis = 1.1,            palette = reverse.heat.colors,            tlab = NULL,            flab = NULL,            norm = TRUE,            bty = "l")#
+par(las = 0)#
+mtext(text = "Frequency (kHz)", side = 2, outer = TRUE, line = 0.3, padj = 1, cex = 1)#
+mtext(text = "Time (s)", side = 1, outer = TRUE, line = 0, padj = 1, cex = 1)#
+dev.off()
+getwd()
+png(filename = "triplet_example_spectro.png", width = 7, height = 7, res = 300, units = "in")#
+c1<-spectro(b1,             wl = 512,             ovlp = 95,            collevels = c(-30,-14,-12,-10,-8,-6,-4,-2,0),             flim = c(0, 8),            osc = F,             scale = F,             grid = F,             cexlab = 0.8,             cexaxis = 1.1,            palette = reverse.heat.colors,            tlab = NULL,            flab = NULL,            norm = TRUE,            bty = "l")#
+# par(las = 0)#
+# mtext(text = "Frequency (kHz)", side = 2, outer = TRUE, line = 0.3, padj = 1, cex = 1)#
+# mtext(text = "Time (s)", side = 1, outer = TRUE, line = 0, padj = 1, cex = 1)#
+dev.off()
+png(filename = "doublet_example_spectro.png", width = 7, height = 7, res = 300, units = "in")            f1<-spectro(e1,             wl = 512,             ovlp = 95,            collevels = c(-30,-14,-12,-10,-8,-6,-4,-2,0),            flim = c(0, 8),            osc = F,             scale = F,             grid = F,             cexlab = 0.8,             cexaxis = 1.1,            palette = reverse.heat.colors,            tlab = NULL,            flab = NULL,            norm = TRUE,            bty = "l")#
+# par(las = 0)#
+# mtext(text = "Frequency (kHz)", side = 2, outer = TRUE, line = 0.3, padj = 1, cex = 1)#
+# mtext(text = "Time (s)", side = 1, outer = TRUE, line = 0, padj = 1, cex = 1)            #
+dev.off()
+setwd("/Users/Shared/WTSP/MEEC_poster")
+png(filename = "triplet_amplitude_envelope_example.png", width = 7, height = 7, unit = "in", res = 300)timer_b1 <- timer(b1,            #dmin = 0.02,            envt = "hil",            msmooth=c(512, 90),            threshold = 25,#
+            bty = "l",#
+            xlab = "",#
+            ylab = "") # can add plot = FALSE when done checking#
+dev.off()
+png(filename = "doublet_amplitude_envelope_example.png", width = 7, height = 7, unit = "in", res = 300)timer_e1 <- timer(e1,                  #dmin = 0.02,                  envt = "hil",                  msmooth=c(512, 90),                  threshold = 25,#
+                  bty = "l",#
+            xlab = "",#
+            ylab = "") # can add plot = FALSE when done checking#
+dev.off()
+setwd("/Users/Shared/WTSP/")#
+#
+source("timer_hack.R")#
+#
+library(seewave)#
+library(tuneR)
+adjust<-read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/WTSP_params_16feb23.csv")
+dim(adjust)
+adjust$new_threshold[which(is.na(adjust$new_threshold))] <- 25
+adjust <- adjust[which(adjust$threshold_25!="no"),]
+dim(adjust)
+ML104284141 %in% adjust$file.name
+length(adjust$file.name)
+"ML104284141" %in% adjust$file.name
+head(adjust)
+"ML104284141_terminal_strophes.wav" %in% adjust$file.name
+adjust<-read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/WTSP_params_16feb23.csv")#
+adjust$new_threshold[which(is.na(adjust$new_threshold))] <- 25#
+#
+adjust <- adjust[which(adjust$threshold_25!="no"),]#
+#
+setwd("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/terminal strophe recordings/")#
+note_starts <- list()#
+#for (i in 1:length(usables)) {#
+for (i in 1:length(adjust$file.name)) {#
+  a<-readWave(adjust$file.name[i])#
+  # if sampling rate is not 48000, resample to 48000#
+  if (a@samp.rate!=48000) {#
+    a<-resamp(a,#
+              g=48000,#
+              output="Wave")#
+  }#
+  a1<-fir(a,#
+          from=2000,#
+          to=6000,#
+          bandpass=T,#
+          output="Wave") # initial filter#
+  b<-fir(a1,#
+         from=(mean(dfreq(a1, plot=F)[,2])*1000)-500,#
+         to=(mean(dfreq(a1, plot=F)[,2])*1000)+500,#
+         bandpass=T,#
+         output="Wave")#
+  k <- timer(b,#
+             dmin = 0.02,#
+             envt = "hil",#
+             msmooth=c(512, 90),#
+             threshold = as.numeric(adjust$new_threshold[i]),#
+             plot=F)#
+  note_starts[[i]] <- k$s.start#
+}#
+#
+note_number <- rep(NA, length.out = length(note_starts))#
+for(i in 1:length(note_number)){#
+  note_number[i] <- length(note_starts[[i]])#
+}#
+#
+odd_intervals <- list()#
+for (i in 1:length(note_starts)){#
+  if(length(note_starts[[i]]) %% 2 == 0){#
+    odd_notes <- seq(from = 1, to = length(note_starts[[i]]), by = 2)#
+    diffs <- c()#
+    for (j in 1:length(odd_notes)){#
+      diffs <- append(diffs, note_starts[[i]][odd_notes[j]+1]-note_starts[[i]][odd_notes[j]])#
+    }#
+    odd_intervals[[i]] <- diffs#
+  }#
+  else{#
+    odd_notes <- seq(from = 1, to = length(note_starts[[i]])-1, by = 2)#
+    diffs <- c()#
+    for (j in 1:length(odd_notes)){#
+      diffs <- append(diffs, note_starts[[i]][odd_notes[j]+1]-note_starts[[i]][odd_notes[j]])#
+    }#
+    odd_intervals[[i]] <- diffs#
+  }#
+}#
+#
+even_intervals <- list()#
+for (i in 1:length(note_starts)){#
+  if(length(note_starts[[i]]) %% 2 == 0){#
+    even_notes <- seq(from = 2, to = length(note_starts[[i]])-1, by = 2)#
+    diffs <- c()#
+    for (j in 1:length(even_notes)){#
+      diffs <- append(diffs, note_starts[[i]][even_notes[j]+1]-note_starts[[i]][even_notes[j]])#
+    }#
+    even_intervals[[i]] <- diffs#
+  }#
+  else{#
+    even_notes <- seq(from = 2, to = length(note_starts[[i]]), by = 2)#
+    diffs <- c()#
+    for (j in 1:length(even_notes)){#
+      diffs <- append(diffs, note_starts[[i]][even_notes[j]+1]-note_starts[[i]][even_notes[j]])#
+    }#
+    even_intervals[[i]] <- diffs#
+  }#
+}#
+#
+max_mean_dur <- rep(NA, length.out = length(odd_intervals))#
+min_mean_dur <- rep(NA, length.out = length(odd_intervals))#
+#
+for(i in 1:length(max_mean_dur)){#
+  max_mean_dur[i] <- max(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))#
+  min_mean_dur[i] <- min(mean(odd_intervals[[i]]), mean(even_intervals[[i]]))#
+}#
+#
+durs <- data.frame(max_mean_dur, min_mean_dur)
+max_min_ratio <- max_mean_dur/min_mean_dur#
+log_max_min_ratio <- log(max_min_ratio)#
+trochee_scores <- data.frame(adjust$file.name, max_min_ratio, log_max_min_ratio, note_number)
+write.csv(trochee_scores, "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/trochee_scores.csv")
+otters <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/Otter_et_al_list_of_all_recordings.csv")#
+colnames(otters)[2] <- "recording"
+trochee_scores$recording.name <- rep(NA)#
+for (i in 1:length(trochee_scores$recording.name)){ #
+  trochee_scores$recording.name[i] <- unlist(strsplit(trochee_scores$adjust.file.name[i], split = "_"))[1]#
+}#
+for (i in 1:length(trochee_scores$recording.name)){ #
+  trochee_scores$recording.name[i] <- unlist(strsplit(trochee_scores$recording.name[i], split = "[.]"))[1]#
+}#
+#
+lab_scores <- read.csv("/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/lab_rhythm_scores.csv")
+for (i in 1:length(trochee_scores$recording.name)){#
+  if(trochee_scores$recording.name[i] %in% lab_scores$Name_for_scoring){#
+    trochee_scores$recording.name[i] <- lab_scores$Recording.ID..if.noted.[which(lab_scores$Name_for_scoring == trochee_scores$recording.name[i])]#
+  }#
+}
+the_truth <- merge(otters, trochee_scores, by.x = "recording", by.y = "recording.name", all.x = FALSE)#
+##Remove problematic duplicates#
+the_truth <- the_truth[-which(the_truth$adjust.file.name == "WTSP82.wav" & the_truth$Terminal.Strophe.type == "Doublet"),]#
+the_truth <- the_truth[-which(the_truth$adjust.file.name == "WTSP75.wav" & the_truth$Terminal.Strophe.type == "Triplet"),]#
+the_truth <- the_truth[-which(the_truth$adjust.file.name == "ML31612451_terminal_strophes_triplet.wav" & the_truth$Terminal.Strophe.type == "Doublet"),]#
+the_truth <- the_truth[-which(the_truth$adjust.file.name == "WTSP59.wav" & the_truth$Terminal.Strophe.type == "Doublet"),]#
+the_truth <- the_truth[-which(the_truth$adjust.file.name == "ML39355611_terminal_strophes_doublet.wav" & the_truth$Terminal.Strophe.type == "Triplet"),]#
+the_truth <- the_truth[-which(the_truth$adjust.file.name == "ML94149261_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]#
+the_truth <- the_truth[-which(the_truth$adjust.file.name == "WTSP66.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]#
+the_truth <- the_truth[-which(the_truth$adjust.file.name == "WTSP71.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]#
+fucking_duplicated_rows <- the_truth[which(the_truth$recording =="ML105954241"),]#
+the_truth <- the_truth[-which(the_truth$recording =="ML105954241"),]#
+the_truth <- rbind(the_truth, fucking_duplicated_rows[1,])#
+the_truth <- the_truth[-which(the_truth$adjust.file.name == "ML150818621_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]#
+the_truth <- the_truth[-which(the_truth$adjust.file.name == "ML154043581_terminal_strophes.wav" & the_truth$Introductory.Notes..if.noted. == "Ascending"),]#
+the_truth <- the_truth[-which(the_truth$adjust.file.name == "ML169021_terminal_strophes.wav" & the_truth$Longitude == -73.88525),]
+the_truth$remainder <- the_truth$note_number %% 3
+hist(the_truth$log_max_min_ratio, breaks = 15)#
+hist(the_truth$max_min_ratio, breaks = 15)
+low_doublets <- the_truth[which(the_truth$Terminal.Strophe.type == "Doublet" & the_truth$max_min_ratio < 1.2),]
+write.csv(low_doublets, file = "/Users/mcentee_lab_2/Documents/GitHub/White-throated-sparrow/doublet_problems.csv")
